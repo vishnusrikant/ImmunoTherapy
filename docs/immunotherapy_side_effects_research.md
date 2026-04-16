@@ -128,11 +128,11 @@ Published research has identified these features as predictive of irAE severity:
 | Aspect | Detail |
 |--------|--------|
 | **What** | Post-marketing adverse event reports submitted to FDA |
-| **Size** | Millions of reports; we pulled 1,000 for this project (expandable) |
+| **Size** | Millions of reports; we pulled **42,469 unique reports (124,982 adverse event rows)** |
 | **Access** | Free — [open.fda.gov API](https://open.fda.gov/data/faers/) or [quarterly downloads](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) |
-| **Strengths** | Real patient data; large scale; demographics + adverse events + outcomes; easy API access |
+| **Strengths** | Real patient data; large scale; demographics + adverse events + outcomes + cancer indication; easy API access |
 | **Limitations** | No CTCAE grades (must derive severity from seriousness flags); no lab values; no autoimmune history; voluntary reporting (underreporting bias) |
-| **Our data** | `datasets/faers/` — 1,204 checkpoint inhibitor rows + 2,094 CAR-T rows |
+| **Our data** | `datasets/faers/` — 62,106 checkpoint inhibitor rows (25,000 reports, 5 drugs) + 62,876 CAR-T rows (17,469 reports, 6 products). Severity split: 35% Mild / 30% Medium / 35% Severe |
 
 ### Supplementary Dataset: ImmPort
 
