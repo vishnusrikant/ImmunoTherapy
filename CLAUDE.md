@@ -73,6 +73,15 @@ Severity label derived from `seriousness_death` / `seriousness_life_threatening`
 - **No adverse-event columns** — use for pre-treatment feature enrichment, keep FAERS for severity labels
 - Downloaded via public cBioPortal REST API (no auth). Scripts in `scripts/cbio_download.py` + `scripts/cbio_consolidate.py`
 
+### Supplementary: Chowell 2021 pan-cancer ICI cohort (1,479 patients with NLR + albumin + CBC)
+- `datasets/chowell_2021/chowell_all.csv` — 1,479 rows × 29 cols, **100% coverage** on NLR, Albumin, Platelets, HGB, BMI, Age, Sex, TMB, MSI, Drug_class, Cancer_Type, Response, OS/PFS
+- Cohorts: 1,184 multi-institution training + 295 MSK held-out test
+- Source: Supplementary Data 1 of Chowell et al. *Nature Biotechnology* 2021 (DOI 10.1038/s41587-021-01070-8)
+- **No irAE labels** — outcomes are tumor response and survival, NOT side-effect severity
+- **No direct join to cBioPortal** — MSK uses different de-identification (integer SAMPLE_ID vs `P-0000###`)
+- Use for (1) pre-treatment feature enrichment, (2) feature-effect validation against published biomarkers, (3) optional sidecar response model. **Do not train the severity classifier on this.**
+- Downloaded via `scripts/chowell_download.py` (public Nature supplementary, no auth)
+
 ### Reference Tables (in `datasets/reference/`)
 - `ctcae_severity_grades.csv` — CTCAE 1-5 → Mild/Medium/Severe mapping
 - `immunotherapy_drugs.csv` — 11 drugs (generic, brand, target, approval year)
@@ -155,10 +164,30 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 - Google Colab notebook for InspiritAI presentation
 - Optional: pull ClinicalTrials.gov v2 API for per-trial MedDRA AE rates as model-evaluation benchmarks
 
-## Data Sources Explored and Rejected (2026-04-15)
+## Data Sources Explored and Rejected (2026-04-15 / 04-16)
 
 - **GEO (Gene Expression Omnibus)** — zero AE coverage; flagship GSE91061 cohort is already in cBioPortal (`mel_iatlas_riaz_nivolumab_2017`). Heavy bioinformatics overhead for marginal feature gain.
 - **irAExplorer** — aggregates ClinicalTrials.gov data but authors explicitly state no patient-level granularity; no API, no download. If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly.
-- **VigiBase (WHO)** — raw data requires Data Use Agreement; only aggregate access via VigiAccess.
+- **VigiBase / VigiAccess (WHO)** — VigiAccess public site is search-only (no CSV, no API). VigiBase Extract requires fee + DUA + WHO approval, and still excludes narratives/medical history/labs. Duplicates FAERS format without adding the clinical features we actually lack.
+- **SCORPIO (Nat Med 2024)** — 9,745 patients with rich CBC + CMP + NLR, but institutional-only. No public download.
+- **LORIS (Nat Cancer 2024) raw data** — 2,881 patients across 8 cohorts; reproducibility scripts on GitHub (`rootchang/LORIS`) + Zenodo, but MSK1/MSK2 raw data is institutional-only. The Chowell 2021 subset is publicly downloadable and is what we pulled.
+- **UK Biobank (autoimmune history + CRP)** — has the right features (ICD-10 autoimmune codes, CRP, NLR) but requires formal institutional application. Out of scope for a student project timeline.
 
 See `.claude/skills/expand-data/SKILL.md` for detailed evaluation notes.
+
+## Public-Data Feature Gap (Acknowledged Limitation)
+
+Three clinically validated irAE-severity predictors from the literature are **not obtainable at patient level from any public dataset with paired irAE labels**:
+
+| Feature | Evidence | Public patient-level source? |
+|---------|----------|------------------------------|
+| **CRP** (C-reactive protein) | Nat Med 2024 ICI response predictor; elevated CRP associated with severe irAEs | None with irAE labels |
+| **IL-6** (Interleukin-6) | Predicts severe CRS/ICANS in CAR-T (Bone Marrow Transplant 2025) | None — always prospective institutional collection |
+| **Autoimmune history** | OR 2.09 for Grade 3+ irAEs (Frontiers Immunology 2025, n=3,795) | UK Biobank has ICD codes but requires DUA |
+
+**This is documented as a known limitation of the model** rather than hidden. The project's approach:
+1. Train the FAERS severity model on what IS available (demographics, drug, indication, outcome flags).
+2. Use Chowell 2021 (NLR + albumin) for cross-validation of feature effects on tumor response.
+3. Clearly state in the InspiritAI presentation that CRP / IL-6 / autoimmune-history features would require institutional data access (UK Biobank, All of Us, prospective cohort studies) — a legitimate future-work statement.
+
+Model performance should be interpreted accordingly: an irAE severity model trained only on FAERS is an honest prototype, not a clinical tool.

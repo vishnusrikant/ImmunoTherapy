@@ -22,6 +22,12 @@ datasets/
 │   ├── all_patients_consolidated.csv        (cross-study harmonized table)
 │   └── {7 study folders}      (mel_dfci_2019, blca_iatlas_imvigor210_2017, rcc_iatlas_immotion150_2018,
 │                               nsclc_pd1_msk_2018, mel_iatlas_liu_2019, mel_iatlas_riaz_nivolumab_2017, mel_ucla_2016)
+├── chowell_2021/              <- Chowell 2021 Nat Biotech pan-cancer ICI cohort (1,479 patients, NLR + albumin + CBC)
+│   ├── README.md
+│   ├── chowell_all.csv                      (1,479 rows × 29 cols, 100% lab coverage)
+│   ├── chowell_training.csv                 (1,184 rows — multi-institution training)
+│   ├── chowell_test_msk.csv                 (295 rows — MSK held-out test)
+│   └── supplementary_source.xlsx            (original Nat Biotech Supp Data 1)
 └── reference/                 <- Reference/lookup tables
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -163,6 +169,41 @@ Downloaded via the public [cBioPortal REST API](https://www.cbioportal.org/api) 
 - **LDH / ECOG / metastasis-site detail is concentrated in `mel_dfci_2019`** — treat as optional features with missingness indicators for cross-study models.
 - **Response vocabulary mixes binary (`TRUE`/`FALSE`) and RECIST categories** — normalize before modeling.
 - See [`cbioportal/README.md`](cbioportal/README.md) for full details.
+
+## Chowell 2021 Pan-Cancer ICI Cohort (Baseline Blood Labs)
+
+Downloaded via `scripts/chowell_download.py` on 2026-04-16 from Supplementary Data 1 of:
+
+> Chowell et al. "Improved prediction of immune checkpoint blockade efficacy across multiple cancer types." *Nature Biotechnology* 2021. [10.1038/s41587-021-01070-8](https://www.nature.com/articles/s41587-021-01070-8)
+
+**1,479 patients** (1,184 training + 295 MSK test) × **29 features** with **100% coverage on every clinical/lab field** — no missingness.
+
+| Key feature | Coverage | Notes |
+|-------------|---------:|-------|
+| `NLR` | 100% | Pretreatment neutrophil-to-lymphocyte ratio |
+| `Albumin` | 100% | g/dL — key inflammation marker |
+| `Platelets`, `HGB` | 100% | Complete Blood Count components |
+| `BMI`, `Age`, `Sex` | 100% | Exact (not bucketed) |
+| `TMB`, `MSI`, `FCNA`, `HED`, `HLA_LOH` | 100% | Genomic features |
+| `Drug_class` | 100% | 1,221 PD1/PDL1 · 253 Combo · 5 CTLA4 |
+| `Cancer_Type` | 100% | 538 NSCLC · 186 Melanoma · 755 Other |
+| `Response`, `OS_Months`, `PFS_Months` | 100% | Tumor outcomes (not irAEs) |
+
+### Critical: outcomes are response/survival, not irAE severity
+
+Chowell does **not** contain CTCAE grades or irAE severity labels. This cohort fills the *pre-treatment feature* gap (NLR + albumin + CBC) but does **not** by itself enable training a severity classifier. FAERS remains the severity-label source.
+
+### Public-data feature gap (documented, not yet closable)
+
+Even with Chowell + FAERS combined, three clinically validated predictors from the literature are **not obtainable** from any public dataset at patient level with paired irAE labels:
+
+| Feature | Public source? | Why unavailable |
+|---------|----------------|-----------------|
+| **CRP** | None with irAE labels | Studied in many institutional cohorts but none release patient-level data |
+| **IL-6** | None | Always prospective collection under DUA |
+| **Autoimmune history** | UK Biobank (ICD codes) | Requires formal institutional application — not in FAERS/ImmPort/cBioPortal |
+
+This gap is a legitimate research finding and is called out in the model's limitations rather than hidden. See `docs/immunotherapy_side_effects_research.md` and [`chowell_2021/README.md`](chowell_2021/README.md) for details.
 
 ## Reference Data
 

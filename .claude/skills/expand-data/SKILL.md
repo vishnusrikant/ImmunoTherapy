@@ -90,6 +90,38 @@ Edit `datasets/reference/immunotherapy_drugs.csv` and re-run the openFDA pull sc
 
 **Reality check:** ImmPort is mostly allergy/vaccine/transplant studies. Only ~3 usable cancer immunotherapy studies with clinical data. Not a scalable source.
 
+## Chowell 2021 Pan-Cancer ICI Cohort (downloaded 2026-04-16) — useful
+
+**Already downloaded.** Pulled from Supplementary Data 1 of Chowell et al. *Nat Biotech* 2021 (DOI 10.1038/s41587-021-01070-8) via `scripts/chowell_download.py`.
+
+- `datasets/chowell_2021/chowell_all.csv` — 1,479 patients × 29 cols, **100% feature coverage**
+- Fields: NLR, Albumin, Platelets, HGB, BMI, exact Age, Sex, TMB, MSI, Drug_class, Cancer_Type, Response, OS/PFS
+- Split: 1,184 training (multi-institution) + 295 MSK test
+
+**Appropriate uses:**
+- Cross-study validation of NLR / albumin / age / drug-class effects
+- Pre-treatment feature enrichment when our model predicts response alongside severity
+- Feature-distribution sanity check vs FAERS + cBioPortal
+
+**Do NOT use for training the severity classifier.** This cohort has response + survival outcomes, not irAE severity. Our FAERS-derived Mild/Medium/Severe labels remain the training target.
+
+**Do NOT try to join on patient ID to cBioPortal.** MSK uses different de-identification schemes (Chowell has integer `SAMPLE_ID` like `8384`; cBioPortal `nsclc_pd1_msk_2018` has `P-0000###`).
+
+### Candidate extensions to the Chowell pull (not yet done)
+
+- **Valero et al. 2021 Nat Comm** — 1,714 MSK ICI patients with NLR + TMB + **ECOG PS** (Chowell doesn't have ECOG). Supp data at [10.1038/s41467-021-20935-9](https://www.nature.com/articles/s41467-021-20935-9). Overlaps with Chowell test set — deduplicate on SAMPLE_ID if merging.
+- **LORIS Zenodo release** — `zenodo.org/records/11186449`. Repo has scripts + some cohort data; raw MSK1/MSK2 is institutional.
+
+## The Core Public-Data Feature Gap (confirmed 2026-04-16)
+
+Three validated irAE-severity predictors are **not obtainable at patient level from any public dataset with paired irAE labels**:
+
+- **CRP** — SCORPIO (Nat Med 2024) uses it, but dataset is institutional-only
+- **IL-6** — always prospective collection under institutional DUA
+- **Autoimmune history** — UK Biobank has ICD codes but requires formal application + affiliation
+
+**Do NOT keep re-exploring these.** Confirmed across FAERS, ImmPort, cBioPortal, Chowell, Valero, LORIS, GEO, irAExplorer, ClinicalTrials.gov, VigiBase. If the user asks, the honest answer is: documented in the project's limitations section; future work needs UK Biobank / All of Us / prospective trial access.
+
 ## TCGA / cBioPortal — Cancer Genomics
 
 **Already downloaded** (2026-04-15): 7 immunotherapy studies, 1,218 patients — see `datasets/cbioportal/` and `scripts/cbio_download.py`.
@@ -170,11 +202,23 @@ Example: NCT02362594 (adjuvant pembrolizumab melanoma) returned 148 serious AEs,
 - Their 71,087-patient figure is a sum across 343 trials, not individual records
 - If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly (see above) — same data, our format
 
-## VigiBase (WHO) — Global AE Data
+## VigiBase (WHO) — NOT useful (checked 2026-04-16)
 
-28M+ global adverse event reports. Public access is limited (aggregate only):
-- https://www.vigiaccess.org/
-- Not scrapable; would need data use agreement for raw data
+56M+ global adverse event reports / ~40M unique cases (as of Dec 31, 2024), managed by WHO Uppsala Monitoring Centre.
+
+**VigiAccess public site (https://www.vigiaccess.org/)**
+- Web UI, search by substance only, returns aggregate AE counts
+- **No CSV export, no bulk download, no public API** for the site itself
+- Cannot train a model from it
+
+**VigiBase Extract (the real dataset)**
+- Flat text files for local analysis — requires application + Data Use Agreement
+- **Fee-based** for researchers / universities / pharma. Free only to WHO Programme member organisations (national pharmacovigilance centres).
+- "Strict evaluation process" — no guaranteed approval, timeline not designed for student projects
+- **Even if approved, the extract excludes** narratives, medical history, and lab tests (stated in `who_vigibase_data_access_conditions.pdf`) — the exact patient-level detail we actually lack
+- Contact: https://who-umc.org/contact-information/ · Docs: https://who-umc.org/vigibase-data-access/
+
+**Verdict: SKIP for this project.** VigiBase is spontaneous-report format like FAERS — it would duplicate what we already have (413K rows, 15 drugs) without adding the clinical variables that FAERS lacks. The approval + fee process is not proportional to an InspiritAI student project.
 
 ## Do Not
 
@@ -186,7 +230,10 @@ Example: NCT02362594 (adjuvant pembrolizumab melanoma) returned 148 serious AEs,
 ## Priority Order for Next Expansion
 
 If user asks "what's the best next data source?":
-1. **FAERS quarterly dumps** — largest scale-up, easiest, same format we already process
+1. **FAERS quarterly dumps (extend to 2020-2023)** — largest scale-up, easiest, same format we already process
 2. **ClinicalTrials.gov AE tables** — validated benchmark rates for sanity-checking the model
-3. **cBioPortal** — if user wants to add genomic features (TMB, mutation signatures)
-4. **New ImmPort studies** — diminishing returns beyond SDY1733
+3. **Valero 2021 Nat Comm supplementary** — adds ECOG PS to the Chowell features (both MSK, need dedup)
+4. **cBioPortal** — already broad; adding more studies has diminishing returns
+5. **New ImmPort studies** — diminishing returns beyond SDY1733
+
+**Do NOT pursue (already evaluated, dead-end):** GEO, irAExplorer, VigiBase/VigiAccess, UK Biobank/SCORPIO/LORIS raw data (all institutional-only).

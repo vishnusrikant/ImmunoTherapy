@@ -16,10 +16,12 @@ Build a **classification model** that takes a patient's profile as input and pre
 |--------------------------|---------------------|
 | Cancer type | **Mild** — Grade 1-2, outpatient management |
 | Age, Gender, BMI | **Medium** — Grade 3, hospitalization needed |
-| Previous autoimmune conditions | **Severe** — Grade 4-5, life-threatening or fatal |
-| Family history of autoimmunity | |
-| Inflammatory markers (NLR, CRP, IL-6) | |
+| Previous autoimmune conditions * | **Severe** — Grade 4-5, life-threatening or fatal |
+| Family history of autoimmunity * | |
+| Inflammatory markers (NLR, CRP*, IL-6*) | |
 | Prior / simultaneous treatments | |
+
+\* **Feature availability note:** NLR (+ Albumin, Platelets, HGB) is available from the Chowell 2021 cohort (1,479 ICI patients, 100% coverage). **CRP, IL-6, autoimmune history, and family history** are clinically validated predictors that are **not obtainable at patient level** from any public dataset with paired irAE labels — they require institutional DUA access (UK Biobank, SCORPIO, prospective trials). This is acknowledged in the model's documented limitations.
 
 ### Key Findings from Research
 
@@ -44,7 +46,7 @@ Build a **classification model** that takes a patient's profile as input and pre
 
 ## Datasets
 
-**413,161 real patient adverse event rows** from FDA FAERS (124,982 via openFDA API + **288,179 from the 2024-2025 Quarterly Data Extract dumps**) + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + reference tables.
+**413,161 real patient adverse event rows** from FDA FAERS (124,982 via openFDA API + **288,179 from the 2024-2025 Quarterly Data Extract dumps**) + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + **1,479 pan-cancer ICI patients** from Chowell 2021 Nat Biotech (NLR, Albumin, Platelets, HGB, BMI, TMB — 100% coverage) + reference tables.
 
 ```
 datasets/
@@ -61,6 +63,10 @@ datasets/
 ├── cbioportal/                                         <- 7 immunotherapy studies (melanoma / bladder / RCC / NSCLC)
 │   ├── all_patients_consolidated.csv                   (1,218 patients × 29 harmonized columns — LDH, ECOG, TMB, OS/PFS)
 │   └── {7 study folders}                               (mel_dfci_2019, blca_iatlas_imvigor210_2017, etc.)
+├── chowell_2021/                                       <- Chowell 2021 Nat Biotech pan-cancer ICI cohort
+│   ├── chowell_all.csv                                 (1,479 patients × 29 cols — NLR, Albumin, Platelets, HGB, BMI, TMB, Response, OS/PFS)
+│   ├── chowell_training.csv                            (1,184 multi-institution)
+│   └── chowell_test_msk.csv                            (295 MSK held-out)
 └── reference/
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -86,10 +92,12 @@ See [`datasets/README.md`](datasets/README.md) for field descriptions, data qual
 |---------|-------------|--------|
 | **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — 86 patients across 3 studies in `datasets/immport/` |
 | **TCGA / cBioPortal** | Cancer genomics + pre-treatment clinical features + survival outcomes | **Downloaded** — 7 immunotherapy studies (1,218 patients) in `datasets/cbioportal/` |
+| **Chowell 2021 (Nat Biotech)** | Pan-cancer ICI: NLR + Albumin + Platelets + HGB + BMI + TMB + outcomes | **Downloaded 2026-04-16** — 1,479 patients in `datasets/chowell_2021/` (100% lab coverage) |
 | **GEO (GSE91061 et al.)** | Gene expression / RNA-seq from ICI-treated patients | **Explored — skipped.** Zero AE coverage; same Riaz cohort already in cBioPortal |
 | **irAExplorer** | Aggregate ICI AE rates across 343 trials (71,087 patients) | **Explored — no download.** Per-trial aggregates only, no API |
 | **ClinicalTrials.gov v2 API** | Per-trial MedDRA-coded AE tables (JSON) | Available — candidate for benchmark/validation data (aggregate, not patient-level) |
 | **FDA FAERS Quarterly Dumps** | Millions of adverse event reports without API cap | **Downloaded** — 2024 Q1 through 2025 Q4 (8 quarters) in `datasets/faers_quarterly/` |
+| **UK Biobank / SCORPIO / LORIS raw** | CRP, IL-6, autoimmune ICD codes | **Not accessible** — institutional DUA / formal application required |
 
 See [`.claude/skills/expand-data/SKILL.md`](.claude/skills/expand-data/SKILL.md) for full source-by-source notes including what was evaluated and why.
 

@@ -108,16 +108,23 @@ Published research has identified these features as predictive of irAE severity:
 
 ### Feature Mapping to Our Model Inputs
 
-| Your README Feature | Mapped Clinical Feature | Available in FAERS? | Available in ImmPort/TCGA? |
-|--------------------|-----------------------|--------------------|-----------------------------|
-| Type of Cancer | Cancer type / indication | Partial (from drug indication) | Yes |
-| Age | Patient onset age | Yes (91% coverage) | Yes |
-| Gender | Patient sex | Yes | Yes |
-| BMI | Derived from weight/height | Weight only (60%) | Varies by study |
-| Previous Autoimmune Conditions | Pre-existing autoimmune disease | No | Yes (medical history) |
-| Family History of Autoimmunity | Family autoimmune history | No | Varies |
-| Health Markers | NLR, CRP, IL-6, LDH, D-dimer | No | Yes (lab results) |
-| Prior Treatments | Concomitant medications, prior therapies | Partial | Yes |
+| Your README Feature | Mapped Clinical Feature | Available in FAERS? | Available in our other sources? |
+|--------------------|-----------------------|--------------------|------------------------------|
+| Type of Cancer | Cancer type / indication | Partial (from drug indication) | Yes (ImmPort, cBioPortal, Chowell) |
+| Age | Patient onset age | Yes (74-76% coverage) | Yes (Chowell 100% exact, cBioPortal buckets) |
+| Gender | Patient sex | Yes | Yes (all) |
+| BMI | Derived from weight/height | Weight only (40-43%) | **Chowell 2021: 100%** |
+| NLR (Neutrophil-Lymphocyte Ratio) | Pre-treatment inflammation marker | No | **Chowell 2021: 100% (1,479 patients)** |
+| Albumin | Serum albumin | No | **Chowell 2021: 100%** |
+| Platelets, HGB | CBC components | No | **Chowell 2021: 100%** |
+| CRP | C-Reactive Protein | No | **NOT IN PUBLIC DATA** (see Section 5 gap) |
+| IL-6 | Interleukin-6 | No | **NOT IN PUBLIC DATA** |
+| Previous Autoimmune Conditions | Pre-existing autoimmune disease | No | **NOT IN PUBLIC DATA** (UK Biobank has it behind DUA) |
+| Family History of Autoimmunity | Family autoimmune history | No | **NOT IN ANY PUBLIC DATA** |
+| LDH, ECOG, TMB | Pre-treatment severity markers | No | cBioPortal (partial) + Chowell (TMB 100%) |
+| Prior Treatments | Concomitant medications, prior therapies | Partial | ImmPort + cBioPortal + Chowell (Chemo_before_IO) |
+
+**The bottom four rows (CRP, IL-6, autoimmune history, family history) are the core public-data gap in this project** — see Section 5.
 
 ---
 
@@ -158,6 +165,18 @@ Published research has identified these features as predictive of irAE severity:
 | **Limitations** | **No adverse-event columns** — response-prediction cohorts, not toxicity; LDH/ECOG/metastasis detail concentrated in `mel_dfci_2019` only |
 | **Our data** | `datasets/cbioportal/all_patients_consolidated.csv` — **1,218 patients × 29 harmonized columns** across 7 ICI studies (347 bladder IMvigor210, 263 RCC IMmotion150, 240 NSCLC MSK, 368 melanoma across 4 studies). 100% drug/cancer coverage, 81% TMB, 71% response, 63% PFS |
 
+### Supplementary Dataset: Chowell 2021 Pan-Cancer ICI Cohort *(downloaded 2026-04-16)*
+
+| Aspect | Detail |
+|--------|--------|
+| **What** | Supplementary Data 1 from Chowell et al. *Nature Biotechnology* 2021 — pan-cancer ICB-treated cohort used to train a 16-feature Random Forest (`RF16_prob` in the file) |
+| **Citation** | Chowell et al. "Improved prediction of immune checkpoint blockade efficacy across multiple cancer types." *Nat Biotech* 2021. [DOI 10.1038/s41587-021-01070-8](https://www.nature.com/articles/s41587-021-01070-8) |
+| **Size** | **1,479 patients** (1,184 training, multi-institution + 295 MSK held-out test) |
+| **Access** | Free public — direct xlsx download from Nature supplementary, no auth. Script: `scripts/chowell_download.py` |
+| **Strengths** | **100% feature coverage on every clinical + lab field:** NLR, Albumin, Platelets, HGB, BMI, exact Age, Sex, TMB, MSI, FCNA, HED, HLA_LOH, Cancer_Type, Drug_class, Response, OS/PFS |
+| **Limitations** | **No irAE labels** — outcomes are tumor response (28% responders) and survival, not side-effect severity. Does NOT join to cBioPortal (MSK uses different de-identification schemes). Dominantly PD1/PDL1 (1,221), with only 253 Combo and 5 CTLA4. |
+| **Our use** | Cross-study validation of feature effects (NLR → outcome, albumin → outcome), optional response-sidecar model. **Not used to train the severity classifier** — that's FAERS-only. |
+
 ### Supplementary Dataset: GEO (Gene Expression Omnibus) — *explored, skipped*
 
 | Aspect | Detail |
@@ -185,6 +204,32 @@ Published research has identified these features as predictive of irAE severity:
 - [irae.tanlab.org](https://irae.tanlab.org/) presents 71,087-patient ICI AE stats aggregated from ClinicalTrials.gov, but **the authors explicitly state** the data is *"not reported at the individual level, but rather as an aggregate per clinical trial record."*
 - No API, no CSV, no bulk download. GitHub repo contains only their R parsing script.
 - If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly — same data, our format.
+
+### Explored and rejected: VigiBase / VigiAccess (WHO) *(2026-04-16)*
+
+- [vigiaccess.org](https://www.vigiaccess.org/) — search-only web UI, no CSV/API for the public site
+- VigiBase Extract (56M+ reports, ~40M unique cases) — **fee-based for academic researchers**, requires Data Use Agreement and WHO approval ("strict evaluation process")
+- Even if approved, the extract **excludes narratives, medical history, and lab tests** — removing what would otherwise differentiate it from FAERS
+- Same spontaneous-reporting format as FAERS; duplicates our data without adding NLR/CRP/IL-6/autoimmune history
+- **Decision: skip** — approval process incompatible with InspiritAI timeline, and feature set wouldn't close our core gap
+
+### The public-data feature gap *(documented 2026-04-16)*
+
+Three clinically validated irAE-severity predictors from the literature are **not obtainable at patient level from any public dataset with paired irAE labels**:
+
+| Feature | Literature evidence | Why we can't get it |
+|---------|---------------------|---------------------|
+| **CRP (C-reactive protein)** | Elevated CRP correlates with severe irAEs; baseline + dynamic change both predictive (Nat Med 2024 SCORPIO, multiple institutional cohorts) | SCORPIO (9,745 pts, CMP+CBC incl. CRP-like markers) is institutional-only; no supplementary download |
+| **IL-6 (Interleukin-6)** | Predicts severe CRS/ICANS in CAR-T by day 3 post-infusion (Bone Marrow Transplant 2025) | Always prospective collection under institutional DUA; never released at patient level |
+| **Autoimmune history** | OR 2.09 for Grade 3+ irAEs (Frontiers Immunology 2025, n=3,795) | Requires ICD-10 coded history — exists in UK Biobank but behind formal application + affiliation requirement; not in FAERS/ImmPort/cBioPortal/Chowell |
+| **Family history of autoimmunity** | Consistent but smaller effect in several studies | Not in any public oncology dataset at all |
+
+This gap is genuine, not a failure of exploration. We investigated: FAERS, ImmPort, cBioPortal (7 ICI studies), Chowell 2021, Valero 2021, LORIS, SCORPIO (not public), GEO, irAExplorer, ClinicalTrials.gov, VigiBase. The features above are recorded in institutional EHRs and prospective trials but are not part of any dataset that also ships with patient-level irAE severity grades.
+
+**Implication for this project:**
+1. Train the severity model on the features we DO have (FAERS demographics + drug/class + indication + seriousness flags). This is an honest prototype.
+2. Cross-validate the feature effects we can test (age, sex, drug class, NLR) against Chowell 2021 to show the learned effects align with published biomarker literature.
+3. In the InspiritAI presentation, explicitly state that CRP/IL-6/autoimmune-history features would require UK Biobank or All of Us access — a legitimate "future work" item, not a handwave.
 
 ---
 
@@ -271,6 +316,10 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 - [FDA FAERS — openFDA API](https://open.fda.gov/data/faers/)
 - [ImmPort — Shared Immunology Data](https://www.immport.org/shared/)
 - [cBioPortal — Cancer Genomics REST API](https://www.cbioportal.org/api)
+- [Chowell et al. — Nature Biotechnology 2021 pan-cancer ICI cohort](https://www.nature.com/articles/s41587-021-01070-8)
+- [Valero et al. — Nature Communications 2021 NLR + TMB MSK cohort](https://www.nature.com/articles/s41467-021-20935-9)
+- [LORIS — Nature Cancer 2024 (clinical + genomic ICB response model)](https://www.nature.com/articles/s43018-024-00772-7)
+- [SCORPIO — Nature Medicine 2024 (routine blood tests for ICI prediction)](https://www.nature.com/articles/s41591-024-03398-5)
 - [ClinicalTrials.gov v2 JSON API](https://clinicaltrials.gov/api/v2/studies)
 - [NCBI GEO — E-Utilities API](https://www.ncbi.nlm.nih.gov/geo/info/geo_paccess.html) *(explored, skipped — no AE data)*
 - [irAExplorer — Pan-cancer ICI AE portal (Tan Lab)](https://irae.tanlab.org/) *(explored, no patient-level download)*
@@ -278,4 +327,4 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 
 ---
 
-*Research conducted April 15, 2026 — ImmunoTherapy Side Effects AI Project (InspiritAI)*
+*Research conducted April 15-16, 2026 — ImmunoTherapy Side Effects AI Project (InspiritAI)*

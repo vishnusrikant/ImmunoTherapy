@@ -115,6 +115,30 @@ If user wants to use ImmPort SDY1733:
 - **Note**: Only 10 patients actually received anti-PD-1 — too small for training, but useful as a case-study validation
 - Use for **qualitative sanity check**, not quantitative benchmarking
 
+## Step 6b — Chowell 2021 Cross-Validation (Optional, Recommended)
+
+`datasets/chowell_2021/chowell_all.csv` — 1,479 ICI patients with **NLR + Albumin + Platelets + HGB + BMI + TMB** at 100% coverage.
+
+**This cohort has response/survival outcomes, NOT irAE labels** — so do NOT train the severity classifier on it. Use it to:
+
+1. **Validate learned feature effects.** Fit a simple logistic regression on Chowell with features `[Age, Sex, Drug_class, NLR, Albumin, TMB] → Response`. Confirm effects directionally match our FAERS severity model (e.g., higher NLR → worse outcome in both).
+2. **Optional response sidecar model.** Present a separate "will the drug work" predictor alongside severity. Good literature baselines exist: Chowell's own RF16 is in the `RF16_prob` column (AUC ~0.74).
+3. **Feature-distribution comparison.** Do our FAERS patients look like the real ICI population? Compare age/cancer/drug-class histograms.
+
+Do NOT join on `SAMPLE_ID` ↔ `patient_id` — MSK uses different de-identification schemes between Chowell and cBioPortal.
+
+## Step 6c — Honest Limitations Slide (Required for InspiritAI Deliverable)
+
+The model will NOT have access to three clinically validated irAE predictors from the literature:
+
+| Missing feature | Why | Where it would come from |
+|-----------------|-----|--------------------------|
+| **CRP** | No public dataset ships it with irAE labels | UK Biobank, SCORPIO (institutional), prospective trials |
+| **IL-6** | Always prospective institutional collection | UK Biobank proteomics, CAR-T trial biobanks |
+| **Autoimmune history (ICD codes)** | Requires EHR access under DUA | UK Biobank, All of Us, institutional EHR |
+
+**State this explicitly on the limitations slide.** It frames the model honestly and makes the "future work" section concrete. Do not bury or minimize this gap.
+
 ## Step 7 — Deliverable
 
 For InspiritAI presentation, produce:
