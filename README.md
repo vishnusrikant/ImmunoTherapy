@@ -44,19 +44,27 @@ Build a **classification model** that takes a patient's profile as input and pre
 
 ## Datasets
 
-Real patient adverse event data from the FDA FAERS database + reference tables.
+**124,982 real patient adverse event rows** from the FDA FAERS database + reference tables.
 
 ```
 datasets/
 ├── faers/
-│   ├── checkpoint_inhibitor_adverse_events.csv   (1,204 rows — 5 drugs)
-│   └── cart_therapy_adverse_events.csv           (2,094 rows — 5 CAR-T products)
+│   ├── checkpoint_inhibitor_adverse_events.csv   (62,106 rows — 25,000 reports, 5 drugs)
+│   └── cart_therapy_adverse_events.csv           (62,876 rows — 17,469 reports, 6 CAR-T products)
 └── reference/
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
     ├── common_iraes_by_therapy.csv      (21 adverse events with incidence rates)
     └── predictive_features.csv          (19 validated predictive patient features)
 ```
+
+### Severity Distribution (derived from FAERS seriousness flags)
+
+| | Checkpoint Inhibitors | CAR-T | Combined |
+|---|---|---|---|
+| **Mild** | 19,696 (32%) | 23,564 (37%) | 43,260 (35%) |
+| **Medium** | 21,346 (34%) | 16,082 (26%) | 37,428 (30%) |
+| **Severe** | 21,064 (34%) | 23,230 (37%) | 44,294 (35%) |
 
 See [`datasets/README.md`](datasets/README.md) for field descriptions, data quality stats, and how to expand the dataset.
 

@@ -6,8 +6,8 @@
 datasets/
 ├── README.md                  <- This file
 ├── faers/                     <- FDA Adverse Event Reporting System (real patient data)
-│   ├── checkpoint_inhibitor_adverse_events.csv   (1,204 rows — 500 reports, 5 drugs)
-│   └── cart_therapy_adverse_events.csv           (2,094 rows — 500 reports, 5 drugs)
+│   ├── checkpoint_inhibitor_adverse_events.csv   (62,106 rows — 25,000 reports, 5 drugs)
+│   └── cart_therapy_adverse_events.csv           (62,876 rows — 17,469 unique reports, 6 products)
 └── reference/                 <- Reference/lookup tables
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -17,23 +17,38 @@ datasets/
 
 ## FAERS Data (Real Patient Reports)
 
-Pulled from the [FDA Adverse Event Reporting System](https://open.fda.gov/data/faers/) via the openFDA API on April 15, 2026.
+**124,982 total adverse event rows** pulled from the [FDA Adverse Event Reporting System](https://open.fda.gov/data/faers/) via the openFDA API on April 15, 2026.
 
 ### Checkpoint Inhibitors (`checkpoint_inhibitor_adverse_events.csv`)
 
-- **500 adverse event reports** across 5 drugs (100 per drug)
-- **1,204 individual adverse event rows** (one row per reaction per report)
-- Drugs: Pembrolizumab, Nivolumab, Atezolizumab, Durvalumab, Ipilimumab
-- 91% of records have patient age; 60% have weight
-- Top reactions: Pyrexia, Diarrhoea, Colitis, Fatigue, Pneumonitis
+- **25,000 adverse event reports** across 5 drugs (5,000 per drug)
+- **62,106 individual adverse event rows** (one row per reaction per report)
+- 74% have patient age; 40% have weight; 88% have cancer indication
+- **Derived severity split: Mild 19,696 / Medium 21,346 / Severe 21,064** (well-balanced)
+
+| Drug | Rows | Target |
+|------|------|--------|
+| Pembrolizumab (Keytruda) | 14,028 | PD-1 |
+| Durvalumab (Imfinzi) | 12,244 | PD-L1 |
+| Nivolumab (Opdivo) | 12,104 | PD-1 |
+| Ipilimumab (Yervoy) | 12,098 | CTLA-4 |
+| Atezolizumab (Tecentriq) | 11,632 | PD-L1 |
 
 ### CAR-T Therapies (`cart_therapy_adverse_events.csv`)
 
-- **500 adverse event reports** across 5 products (100 per product)
-- **2,094 individual adverse event rows**
-- Products: Yescarta, Kymriah, Tecartus, Breyanzi, Abecma
-- 82% of records have patient age; 55% have weight
-- Top reactions: Cytokine Release Syndrome, Pyrexia, Neurotoxicity, Encephalopathy, Hypotension
+- **17,469 unique reports** (deduplicated across generic/brand name queries) across 6 products
+- **62,876 individual adverse event rows**
+- 76% have patient age; 43% have weight; 95% have cancer indication
+- **Derived severity split: Mild 23,564 / Medium 16,082 / Severe 23,230**
+
+| Product | Rows | Target |
+|---------|------|--------|
+| Tisagenlecleucel (Kymriah) | 23,311 | CD19 |
+| Axicabtagene ciloleucel (Yescarta) | 19,099 | CD19 |
+| Ciltacabtagene autoleucel (Carvykti) | 8,980 | BCMA |
+| Brexucabtagene autoleucel (Tecartus) | 5,630 | CD19 |
+| Idecabtagene vicleucel (Abecma) | 3,689 | BCMA |
+| Lisocabtagene maraleucel (Breyanzi) | 2,167 | CD19 |
 
 ### FAERS Fields
 
@@ -45,6 +60,7 @@ Pulled from the [FDA Adverse Event Reporting System](https://open.fda.gov/data/f
 | `patient_age_unit` | Age unit (801=Year, 802=Month, 803=Day) |
 | `patient_sex` | Male / Female / Unknown |
 | `patient_weight_kg` | Patient weight in kg |
+| `indication` | Cancer type / condition the drug was prescribed for |
 | `reaction` | Adverse event (MedDRA preferred term) |
 | `reaction_outcome` | Recovered / Recovering / Not Recovered / Fatal / Unknown |
 | `serious` | Serious / Non-Serious |
@@ -64,6 +80,14 @@ FAERS does not include CTCAE grades directly. Severity can be derived from the s
 | **Mild** | Non-Serious OR (Serious + Recovered + no hospitalization/death/life-threatening) |
 | **Medium** | Serious + Hospitalization (but not life-threatening or fatal) |
 | **Severe** | Life-threatening OR Fatal OR Disabling |
+
+### Severity Distribution
+
+| | Checkpoint Inhibitors | CAR-T | Combined |
+|---|---|---|---|
+| **Mild** | 19,696 (32%) | 23,564 (37%) | 43,260 (35%) |
+| **Medium** | 21,346 (34%) | 16,082 (26%) | 37,428 (30%) |
+| **Severe** | 21,064 (34%) | 23,230 (37%) | 44,294 (35%) |
 
 ## Reference Data
 
@@ -91,18 +115,10 @@ These datasets contain richer patient-level data but require free account regist
 | **ClinicalTrials.gov** | [clinicaltrials.gov](https://clinicaltrials.gov/) | Trial results with adverse event rates by therapy | Free search |
 | **VigiBase (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 28M+ global adverse event reports | Free (limited public access) |
 
-## How to Expand the FAERS Data
+## How to Expand the FAERS Data Further
 
-The openFDA API limits responses to 100 records per query. To fetch more data:
+The current dataset uses 5,000 reports per drug (the openFDA API max skip is 25,000). For even more data, download the full FAERS quarterly data dumps (millions of records):
 
-```python
-import urllib.request, json
-
-# Paginate: use skip parameter (max skip=25000)
-for skip in range(0, 1000, 100):
-    url = f'https://api.fda.gov/drug/event.json?search=patient.drug.openfda.generic_name:"PEMBROLIZUMAB"&limit=100&skip={skip}'
-    # ... fetch and parse
-```
-
-For the full FAERS quarterly data dumps (millions of records), download from:
 [fda.gov/drugs/fdas-adverse-event-reporting-system-faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers)
+
+The quarterly dumps are available as CSV files organized by tables (DEMO, DRUG, REAC, OUTC, THER) that can be joined on `primaryid`.
