@@ -1,0 +1,30 @@
+[
+  {
+    "studyAccession": "SDY1733",
+    "actualCompletionDate": null,
+    "actualEnrollment": 56,
+    "actualStartDate": "2017-06-01",
+    "ageUnit": "Years",
+    "briefDescription": "We exploit CyTOF and identify specific immune signatures in (PBMCs from the early-stage HCC patients and dynamic immune signatures to assess the responsiveness of anti-PD-1 advanced HCC patients .",
+    "briefTitle": "Single-Cell immune signature for detecting early-stage HCC and early assessing PD-1 immunotherapy efficacy",
+    "clinicalTrial": "N",
+    "description": "We exploit single-cell mass cytometry and identify stage-specific immune signatures in peripheral blood mononuclear cells (PBMCs) from the early-stage HCC patients. We also reveal dynamic single-cell immune signatures of PBMCs to directly assess the final responsiveness of anti-PD-1 monotherapy treated advanced HCC patients one year later.",
+    "dclId": 2,
+    "doi": "10.21430/M3HN665KSB",
+    "endpoints": "not a clinical trial",
+    "genderIncluded": "Female, Male",
+    "hypothesis": "Single-cell immune signatures could provide promising non-invasive approaches for clinical early detection of HCC and early assessment and prediction of anti-PD-1 immunotherapy efficacy in advanced HCC patients.",
+    "initialDataReleaseDate": "2023-08-25",
+    "initialDataReleaseVersion": "DR49",
+    "interventionAgent": "anti-PD-1 antibodies",
+    "latestDataReleaseDate": "2025-10-30",
+    "latestDataReleaseVersion": "DR58",
+    "maximumAge": "  79.00",
+    "minimumAge": "  27.00",
+    "objectives": "to find single-cell immune signatures that provide for early detection of HCC and early prediction of anti-PD-1 immunotherapy efficacy in advanced HCC patients.",
+    "officialTitle": "Single-Cell immune signature for detecting early-stage HCC and early assessing PD-1 immunotherapy efficacy",
+    "sharedStudy": "Y",
+    "sponsoringOrganization": "Natural Science Foundation of Zhejiang Province",
+    "targetEnrollment": 50
+  }
+]

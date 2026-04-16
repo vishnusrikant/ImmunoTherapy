@@ -44,13 +44,17 @@ Build a **classification model** that takes a patient's profile as input and pre
 
 ## Datasets
 
-**124,982 real patient adverse event rows** from the FDA FAERS database + reference tables.
+**124,982 real patient adverse event rows** from FDA FAERS + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + reference tables.
 
 ```
 datasets/
-├── faers/
-│   ├── checkpoint_inhibitor_adverse_events.csv   (62,106 rows — 25,000 reports, 5 drugs)
-│   └── cart_therapy_adverse_events.csv           (62,876 rows — 17,469 reports, 6 CAR-T products)
+├── faers/                                              <- FDA post-marketing data (large, good for training)
+│   ├── checkpoint_inhibitor_adverse_events.csv         (62,106 rows — 25,000 reports, 5 drugs)
+│   └── cart_therapy_adverse_events.csv                 (62,876 rows — 17,469 reports, 6 CAR-T products)
+├── immport/                                            <- NIH clinical trial data (small, rich features)
+│   ├── SDY1733/                                        (56 HCC patients, 10 on anti-PD-1 + BCLC stage, cirrhosis, HBV/HCV, AFP)
+│   ├── SDY1597/                                        (30 breast cancer + controls, TNM stages)
+│   └── SDY1658/                                        (16 GBM tumor samples)
 └── reference/
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -68,11 +72,11 @@ datasets/
 
 See [`datasets/README.md`](datasets/README.md) for field descriptions, data quality stats, and how to expand the dataset.
 
-### Additional Datasets (require free registration)
+### Additional Datasets
 
-| Dataset | What It Has | URL |
-|---------|-------------|-----|
-| **ImmPort** | Patient-level trial data with lab values & medical history | [immport.org](https://www.immport.org/shared/) |
+| Dataset | What It Has | Status |
+|---------|-------------|--------|
+| **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — see `datasets/immport/` |
 | **TCGA / cBioPortal** | Cancer genomics + clinical data (10,000+ patients) | [cbioportal.org](https://www.cbioportal.org/) |
 | **GEO (GSE91061)** | Gene expression for melanoma patients on anti-PD-1 | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/) |
 | **ClinicalTrials.gov** | Completed trial results with adverse event rates | [clinicaltrials.gov](https://clinicaltrials.gov/) |

@@ -1,0 +1,6 @@
+criterionAccession,criterionCategory,criterion
+CRIT10168,Inclusion,Stage I -IIIA non-metastatic breast cancer
+CRIT10169,Inclusion,History of chemotherapy treatment (either neoadjuvant or adjuvant chemotherapy)
+CRIT10170,Inclusion,Age 45-60 years old when receiving chemotherapy
+CRIT10171,Inclusion,1-6 years post chemotherapy treatment at blood draw
+CRIT10172,Exclusion,recurring cancer

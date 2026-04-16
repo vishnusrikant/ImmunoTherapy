@@ -1,0 +1,5 @@
+armAccession,studyAccession,description,name,typeReported,typePreferred
+ARM5562,SDY1733,hepatic hemangioma patients,HH,placebo comparator,Placebo Comparator Arm
+ARM5563,SDY1733,HCC patients classified as Barcelona Clinic Liver Cancer Stage A,BCLC-A,experimental,Experimental Arm
+ARM5564,SDY1733,HCC patients classified as Barcelona Clinic Liver Cancer Stage Cwho had not previously been treated with systemic therapies,BCLC-C HCCun,experimental,Experimental Arm
+ARM5565,SDY1733,HCC patients classified as Barcelona Clinic Liver Cancer Stage Cwho had previously been treated with systemic therapies,BCLC-C HCCtr,experimental,Experimental Arm

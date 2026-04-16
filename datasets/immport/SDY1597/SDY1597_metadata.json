@@ -1,0 +1,30 @@
+[
+  {
+    "studyAccession": "SDY1597",
+    "actualCompletionDate": null,
+    "actualEnrollment": 30,
+    "actualStartDate": "2015-05-14",
+    "ageUnit": "Years",
+    "briefDescription": "Adjuvant chemotherapy in breast cancer patients causes immune cell depletion at an age when the regenerative capacity is compromised. Successful regeneration requires the recovery of both quantity and quality of immune cell subsets. Although immune cell numbers rebound within a year post-treatment, it is unclear whether overall compositional diversity is recovered. We investigated the regeneration of immune cell complexity by comparing peripheral blood mononuclear cells from breast cancer patients ranging from one to five years post-chemotherapy with those of age-matched healthy controls using mass cytometry and T cell receptor sequencing. These data revealed universal changes in patients' CD4 T cells that persisted for years and consisted of expansion of TH17-like CD4 memory populations with incomplete recovery of CD4 naive T cells. Conversely, CD8 T cells fully recovered within a year. Mechanisms of T cell regeneration however were unbiased as CD4 and CD8 T cell receptor diversity remained high. Likewise, TEMRAs were not expanded indicating that regeneration was not driven by recognition of latent viruses. These data suggest that while CD8 T cell immunity is successfully regenerated, the CD4 compartment may be irreversibly impacted. Moreover, the bias of CD4 memory towards inflammatory effector cells may impact responses to vaccination and infection.",
+    "briefTitle": "Immune Cell Repertoires in Breast Cancer Patients after Adjuvant Chemotherapy",
+    "clinicalTrial": "N",
+    "description": "Adjuvant chemotherapy in breast cancer patients causes immune cell depletion at an age when the regenerative capacity is compromised. Successful regeneration requires the recovery of both quantity and quality of immune cell subsets. Although immune cell numbers rebound within a year post-treatment, it is unclear whether overall compositional diversity is recovered. We investigated the regeneration of immune cell complexity by comparing peripheral blood mononuclear cells from breast cancer patients ranging from one to five years post-chemotherapy with those of age-matched healthy controls using mass cytometry and T cell receptor sequencing. These data revealed universal changes in patients' CD4 T cells that persisted for years and consisted of expansion of TH17-like CD4 memory populations with incomplete recovery of CD4 naive T cells. Conversely, CD8 T cells fully recovered within a year. Mechanisms of T cell regeneration however were unbiased as CD4 and CD8 T cell receptor diversity remained high. Likewise, TEMRAs were not expanded indicating that regeneration was not driven by recognition of latent viruses. These data suggest that while CD8 T cell immunity is successfully regenerated, the CD4 compartment may be irreversibly impacted. Moreover, the bias of CD4 memory towards inflammatory effector cells may impact responses to vaccination and infection.",
+    "dclId": 2,
+    "doi": "10.21430/M3FVW3Z3TN",
+    "endpoints": "Mass Cytometry",
+    "genderIncluded": "Female",
+    "hypothesis": "Immune cell repertoires in breast cancer patients after adjuvant chemotherapy is distinct from that of age-matched healthy controls",
+    "initialDataReleaseDate": "2020-04-16",
+    "initialDataReleaseVersion": "DR34",
+    "interventionAgent": "n/a",
+    "latestDataReleaseDate": "2025-10-30",
+    "latestDataReleaseVersion": "DR58",
+    "maximumAge": "  63.00",
+    "minimumAge": "  47.00",
+    "objectives": "Determine the quantitative and qualitative differences between peripheral blood mononuclear cells from breast cancer patients one or more years post-chemotherapy with that of age-matched healthy controls",
+    "officialTitle": "Immune Cell Repertoires in Breast Cancer Patients after Adjuvant Chemotherapy",
+    "sharedStudy": "Y",
+    "sponsoringOrganization": "NIH",
+    "targetEnrollment": 30
+  }
+]

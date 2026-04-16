@@ -1,0 +1,41 @@
+{
+  "SDY1733": {
+    "demographic": 56,
+    "adverseEvent": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1733/SDY1733_adverseEvent.csv'",
+    "assessment": 112,
+    "labtest": 112,
+    "intervention": 112,
+    "condition": 2,
+    "inclusionExclusion": 1,
+    "immuneExposure": 56,
+    "arm": 4,
+    "biosample": 211,
+    "plannedVisit": 12
+  },
+  "SDY1597": {
+    "demographic": 30,
+    "adverseEvent": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1597/SDY1597_adverseEvent.csv'",
+    "assessment": 30,
+    "labtest": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1597/SDY1597_labtest.csv'",
+    "intervention": 45,
+    "condition": 1,
+    "inclusionExclusion": 5,
+    "immuneExposure": 30,
+    "arm": 2,
+    "biosample": 30,
+    "plannedVisit": 1
+  },
+  "SDY1658": {
+    "demographic": 16,
+    "adverseEvent": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1658/SDY1658_adverseEvent.csv'",
+    "assessment": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1658/SDY1658_assessment.csv'",
+    "labtest": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1658/SDY1658_labtest.csv'",
+    "intervention": "ERR: [Errno 2] No such file or directory: '/home/vishnusrikant/ImmunoTherapy/datasets/immport/SDY1658/SDY1658_intervention.csv'",
+    "condition": 2,
+    "inclusionExclusion": 1,
+    "immuneExposure": 16,
+    "arm": 2,
+    "biosample": 11,
+    "plannedVisit": 1
+  }
+}

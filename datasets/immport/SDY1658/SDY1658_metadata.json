@@ -1,0 +1,30 @@
+[
+  {
+    "studyAccession": "SDY1658",
+    "actualCompletionDate": null,
+    "actualEnrollment": 16,
+    "actualStartDate": "2010-03-18",
+    "ageUnit": "Years",
+    "briefDescription": "Immunotherapy has emerged as a promising approach to treat cancer, however, its efficacy in highly malignant brain-tumors, glioblastomas (GBM), is limited. We generated distinct imageable syngeneic mouse GBM-tumor models and utilized RNA-sequencing, CyTOF and correlative immunohistochemistry to assess immune-profiles in these models. We identified immunologically-inert and active syngeneic tumor types and show that inert tumors have an immune-suppressive phenotype with numerous exhausted CD8 T cells, resident macrophages and fewer eosinophils and SiglecF+ macrophages. To mimic the clinical settings of first line of GBM-treatment, we show that tumor-resection invigorates an anti-tumor response via increasing T cells, activated microglia and SiglecF+ macrophages and decrease in resident macrophages. A comparative CyTOF analysis of resected-tumor samples from GBM patients and mouse GBM-tumors showed stark similarities in one of the mouse GBM-tumors tested. These findings guide informed choices for use of GBM models for immunotherapeutic interventions and offer a potential to facilitate immune-therapies in GBM patients.",
+    "briefTitle": "A comparative CyTOF analysis of resected-tumor samples from human GBM patients and mouse GBM-tumors (see companion study SDY1637)",
+    "clinicalTrial": "N",
+    "description": "Immunotherapy has emerged as a promising approach to treat cancer, however, its efficacy in highly malignant brain-tumors, glioblastomas (GBM), is limited. We generated distinct imageable syngeneic mouse GBM-tumor models and utilized RNA-sequencing, CyTOF and correlative immunohistochemistry to assess immune-profiles in these models. We identified immunologically-inert and active syngeneic tumor types and show that inert tumors have an immune-suppressive phenotype with numerous exhausted CD8 T cells, resident macrophages and fewer eosinophils and SiglecF+ macrophages. To mimic the clinical settings of first line of GBM-treatment, we show that tumor-resection invigorates an anti-tumor response via increasing T cells, activated microglia and SiglecF+ macrophages and decrease in resident macrophages. A comparative CyTOF analysis of resected-tumor samples from GBM patients and mouse GBM-tumors showed stark similarities in one of the mouse GBM-tumors tested. These findings guide informed choices for use of GBM models for immunotherapeutic interventions and offer a potential to facilitate immune-therapies in GBM patients.",
+    "dclId": 2,
+    "doi": "10.21430/M3QCK8H0YH",
+    "endpoints": "CyToF",
+    "genderIncluded": "Female, Male, Unknown",
+    "hypothesis": "In this study, we sought to characterize currently available limited pool of diverse mouse GBM lines with pathological techniques, i.e. H&E staining, IHC, and RNA seq. Comprehensive immune profiling was done with CyTOF. Clinically, initial treatment for GBM patients is often resection, which as an intervention is immunogenic resulting in an increase in TIICs in mouse GBM models22,23. To test the influence of resection on immune response, we performed immune profiling of tumors by CyTOF on pre- and post- resected tumors. Finally, we performed CyTOF on intraoperative tumor tissue obtained from GBM patients and compared it to our mouse GBM tumor models to identify similarities between patient and mouse models with respect to immune phenotypes.",
+    "initialDataReleaseDate": "2020-07-31",
+    "initialDataReleaseVersion": "DR35",
+    "interventionAgent": "NA",
+    "latestDataReleaseDate": "2025-10-30",
+    "latestDataReleaseVersion": "DR58",
+    "maximumAge": "  85.29",
+    "minimumAge": "  18.00",
+    "objectives": "We sought to extensively characterize the differences between the commonly used syngeneic mouse GBM models by pathological characterization, RNA seq analysis and immune phenotyping of tumors grown intracranially.",
+    "officialTitle": "A comparative CyTOF analysis of resected-tumor samples from human GBM patients and mouse GBM-tumors (see companion study SDY1637)",
+    "sharedStudy": "Y",
+    "sponsoringOrganization": "NCI",
+    "targetEnrollment": null
+  }
+]
