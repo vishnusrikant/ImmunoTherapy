@@ -1,0 +1,1205 @@
+drug_name,drug_class,patient_age,patient_age_unit,patient_sex,patient_weight_kg,reaction,reaction_outcome,serious,seriousness_death,seriousness_hospitalization,seriousness_life_threatening,seriousness_disabling,report_date,country
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,78.9,Cardiomyopathy,Fatal,Serious,1,1,,,20161208,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Female,69.9,Hypothyroidism,Not Recovered,Serious,,1,,,20141104,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Female,69.9,Adrenal insufficiency,Not Recovered,Serious,,1,,,20141104,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Male,73,Tumour lysis syndrome,Recovered,Serious,,1,,,20150708,ES
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Male,73,Renal failure,Recovered,Serious,,1,,,20150708,ES
+PEMBROLIZUMAB,Checkpoint Inhibitor,64,801,Female,73.1,Type 1 diabetes mellitus,Not Recovered,Serious,,,1,,20150805,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,39,801,Female,89,Metabolic disorder,Recovered,Serious,,1,,,20150317,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,39,801,Female,89,Oesophagitis,Recovered,Serious,,1,,,20150317,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,81.6,Colitis,Recovered,Serious,,1,,,20141031,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,81.6,Colitis,Recovered,Serious,,1,,,20141031,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,91,Generalised oedema,Recovered,Serious,,1,,,20150707,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,Hypothyroidism,Not Recovered,Non-Serious,,,,,20150409,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,Fatigue,Not Recovered,Non-Serious,,,,,20150409,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,Diarrhoea,Recovered,Non-Serious,,,,,20150409,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,Pruritus,Recovering,Non-Serious,,,,,20150409,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,90,Adrenal insufficiency,Recovered,Serious,,1,,,20160215,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,90,Peripheral motor neuropathy,Recovered,Serious,,1,,,20160215,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,65,801,Male,73,Hypopituitarism,Not Recovered,Serious,,1,,,20160215,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,65,801,Male,73,Gastrointestinal disorder,Not Recovered,Serious,,1,,,20160215,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,105.1,Drug-induced liver injury,Recovered,Serious,,1,1,1,20160129,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,105.1,Drug-induced liver injury,Recovered,Serious,,1,1,1,20160129,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,105.1,Guillain-Barre syndrome,Recovered with Sequelae,Serious,,1,1,1,20160129,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,89,Autoimmune hepatitis,Recovering,Serious,,1,,,20190312,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,89,Iritis,Recovered,Serious,,1,,,20190312,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,71,Autoimmune haemolytic anaemia,Recovering,Serious,1,1,,,20150714,IT
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,71,Malignant neoplasm progression,Fatal,Serious,1,1,,,20150714,IT
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,Pneumonitis,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,Pyrexia,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Male,88.6,Hypopituitarism,Recovered with Sequelae,Serious,,1,,,20160215,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,121.2,Osteolysis,Recovered,Serious,,1,,,20150720,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,121.2,Lichenoid keratosis,Not Recovered,Serious,,1,,,20150720,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,42.5,Fatigue,Unknown,Serious,,1,,,20150302,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,42.5,Somnolence,Unknown,Serious,,1,,,20150302,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,42.5,Eyelid oedema,Unknown,Serious,,1,,,20150302,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,55,801,Female,50.2,Headache,Recovered,Serious,,1,,,20150730,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,55,801,Female,50.2,Meningitis aseptic,Recovered,Serious,,1,,,20150730,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,80,Pneumonitis chemical,Not Recovered,Serious,,1,,,20151008,DK
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,70,Autoimmune haemolytic anaemia,Recovered,Serious,,1,,,20150915,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,43,801,Male,64.8,Hepatic function abnormal,Recovering,Serious,,1,,,20141203,ES
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20141022,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,Fatigue,Not Recovered,Non-Serious,,,,,20141022,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,60.2,Death,Fatal,Serious,1,,,,20150205,KR
+PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Female,59.6,Dehydration,Recovered,Serious,,1,,,20141029,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Female,59.6,Large intestine perforation,Recovered,Serious,,1,,,20141029,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,Arthralgia,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,Rash,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,Alanine aminotransferase increased,Not Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,59,801,Male,106,Muscle necrosis,Recovered,Serious,,1,,,20150128,ES
+PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,94,Small intestinal perforation,Recovered,Serious,,1,,,20160616,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,94,Colitis,Recovered,Serious,,1,,,20160616,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,Sepsis,Recovered,Serious,,1,,,20150316,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,Hyponatraemia,Recovered,Serious,,1,,,20150316,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,Rash,Recovered,Serious,,1,,,20150316,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Rash,Not Recovered,Non-Serious,,,,,20140926,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Pruritus,Not Recovered,Non-Serious,,,,,20140926,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,87.3,Dyspnoea,Recovered,Serious,,1,,,20140917,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,Interstitial lung disease,Fatal,Serious,1,1,,,20150813,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,Pneumonia aspiration,Not Recovered,Serious,1,1,,,20150813,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,Pneumonia aspiration,Not Recovered,Serious,1,1,,,20150813,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,50,801,Male,124,Aspartate aminotransferase increased,Recovering,Serious,,,,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,75,801,Male,58.3,Lung infiltration,Recovered,Serious,,1,1,,20140925,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,75,801,Male,58.3,Cholecystitis,Recovering,Serious,,1,1,,20140925,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,57,Sepsis,Fatal,Serious,1,1,,,20150716,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,57,Pneumonitis,Recovered,Serious,1,1,,,20150716,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,Thrombosis,Not Recovered,Serious,,,,,20150127,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,Thrombocytopenia,Not Recovered,Serious,,,,,20150127,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,Dehydration,Recovered,Serious,,1,,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,Decreased appetite,Recovered,Serious,,1,,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,Diarrhoea,Recovered,Serious,,1,,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,Acute kidney injury,Recovered,Serious,,1,,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,44,801,Male,,Arthralgia,Recovering,Non-Serious,,,,,20150120,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,Asthenia,Not Recovered,Serious,1,1,1,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,Liver function test abnormal,Not Recovered,Serious,1,1,1,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,Occult blood positive,Not Recovered,Serious,1,1,1,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,Disease progression,Fatal,Serious,1,1,1,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,Anaemia,Not Recovered,Serious,1,1,1,,20141021,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,55.3,Haemorrhagic stroke,Fatal,Serious,1,1,,,20150320,CO
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,55.3,Facial bones fracture,Recovered,Serious,1,1,,,20150320,CO
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,55.3,Escherichia bacteraemia,Recovered,Serious,1,1,,,20150320,CO
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,70,Pulmonary embolism,Recovered,Serious,,1,1,,20170710,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,70,Squamous cell carcinoma,Recovered,Serious,,1,1,,20170710,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,70,Squamous cell carcinoma,Recovered,Serious,,1,1,,20170710,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,68,Hepatic failure,Not Recovered,Serious,1,1,,,20140919,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,68,Malignant neoplasm progression,Fatal,Serious,1,1,,,20140919,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,70,Adrenal insufficiency,Not Recovered,Serious,,1,1,,20160617,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,103.2,Pneumonia,Fatal,Serious,1,1,1,,20160129,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,103.2,Lower respiratory tract infection,Recovered,Serious,1,1,1,,20160129,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Male,73,Tubulointerstitial nephritis,Recovered,Serious,,1,,,20150316,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,,Diarrhoea,Recovering,Non-Serious,,,,,20141001,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Male,,Pyrexia,Recovered,Non-Serious,,,,,20150203,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,65.7,Alanine aminotransferase increased,Recovering,Serious,,1,,,20140929,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,65.7,Aspartate aminotransferase increased,Recovering,Serious,,1,,,20140929,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Male,91,Generalised oedema,Not Recovered,Serious,,1,,,20150310,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Male,91,Hypoalbuminaemia,Not Recovered,Serious,,1,,,20150310,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Male,91,Diarrhoea,Not Recovered,Serious,,1,,,20150310,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,65,801,Male,,Haemoptysis,Recovered,Serious,,1,,,20151111,IT
+PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,47.7,Hepatitis,Recovered,Serious,,1,1,,20141107,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,47.7,Pneumonia,Recovered,Serious,,1,1,,20141107,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,73.5,Abscess neck,Recovered,Serious,,1,,,20150624,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Female,60,Anaemia,Unknown,Serious,,1,,,20140926,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Female,60,Hepatitis,Unknown,Serious,,1,,,20140926,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Female,60,Thrombocytopenia,Unknown,Serious,,1,,,20140926,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Male,52.7,Interstitial lung disease,Recovering,Serious,,1,,,20150430,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Male,52.7,Infection,Recovered,Serious,,1,,,20150430,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Rectal haemorrhage,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Nausea,Not Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Colitis,Not Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Fatigue,Not Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Rash,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Diarrhoea haemorrhagic,Not Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Abdominal pain,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Nausea,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Fatigue,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,36,801,Female,,Haemorrhage,Recovered,Serious,,1,,1,20150217,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Alanine aminotransferase increased,Recovering,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Headache,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Nausea,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Hypotension,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Tachycardia,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Aspartate aminotransferase increased,Recovering,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Dizziness,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Hot flush,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Pain,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Arthralgia,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,27,801,Male,,Feeling cold,Recovered,Non-Serious,,,,,20141003,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,46.5,Pneumonia,Recovered,Serious,,1,,,20150716,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,46.5,Chronic obstructive pulmonary disease,Recovered,Serious,,1,,,20150716,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,64.2,Pathological fracture,Not Recovered,Serious,,1,,,20141112,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,64.2,Pleural effusion,Recovering,Serious,,1,,,20141112,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,64.2,Thoracic vertebral fracture,Not Recovered,Serious,,1,,,20141112,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,64.2,Lymphangitis,Not Recovered,Serious,,1,,,20141112,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,81,801,Female,,Adrenal insufficiency,Recovered,Serious,,1,,,20141121,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Pyrexia,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Diarrhoea,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Diarrhoea,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Vomiting,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Nausea,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Colitis,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Nausea,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Diarrhoea,Recovering,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Pyrexia,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,Vomiting,Unknown,Serious,,1,,,20141103,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Female,89.34,Infusion related reaction,Recovered,Non-Serious,,,,,20140922,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,,Dyspnoea,Recovered with Sequelae,Serious,1,1,,,20140922,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,,Death,Fatal,Serious,1,1,,,20140922,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,79,801,Female,64.4,Rectal cancer,Not Recovered,Serious,,1,,,20150806,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,79,801,Female,64.4,Cholangitis,Not Recovered,Serious,,1,,,20150806,NL
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Male,,Nausea,Recovered,Serious,,1,,,20141006,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Male,,Abdominal pain,Recovered,Serious,,1,,,20141006,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Male,,Vomiting,Recovered,Serious,,1,,,20141006,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Male,,Pyrexia,Recovered,Serious,,1,,,20141006,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Fatigue,Unknown,Serious,,1,,,20140915,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Diverticulitis,Recovered,Serious,,1,,,20140915,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Leukocytosis,Recovered,Serious,,1,,,20140915,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Pyrexia,Recovered,Serious,,1,,,20140915,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Central nervous system neoplasm,Recovering,Serious,,1,,,20140915,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,39,801,Male,,Pneumonia,Unknown,Serious,,1,,,20140915,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,62,801,Male,66,Pneumonitis,Recovered with Sequelae,Serious,,1,,,20150120,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,62,801,Male,66,Malignant neoplasm progression,Recovered with Sequelae,Serious,,1,,,20150120,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,62,801,Male,66,Dyspnoea,Recovered,Serious,,1,,,20150120,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Female,67.2,Pleural effusion,Recovered,Serious,,1,,,20141117,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Female,67.2,Hyponatraemia,Recovered,Serious,,1,,,20141117,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Female,67.2,Adrenal insufficiency,Recovering,Serious,,1,,,20141117,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Female,67.2,Cardiac failure congestive,Recovered,Serious,,1,,,20141117,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Female,67.2,Hypothyroidism,Recovering,Serious,,1,,,20141117,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.7,Autoimmune pancreatitis,Recovered with Sequelae,Serious,,1,,,20150114,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,66,801,Male,,Hepatotoxicity,Recovering,Serious,,1,,,20141020,GB
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,72,Gastritis,Recovered with Sequelae,Serious,,1,,,20150630,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Female,72,Gastrooesophageal reflux disease,Recovered,Serious,,1,,,20150630,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Female,81.8,Tumour lysis syndrome,Not Recovered,Serious,,1,1,,20150710,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,,,Male,67,Hepatitis cholestatic,Recovered,Serious,1,1,,,20151229,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,,,Male,67,Malignant neoplasm progression,Fatal,Serious,1,1,,,20151229,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,64,801,Female,49.1,Diarrhoea,Recovered,Serious,,1,,,20141009,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,64,801,Female,49.1,Urinary retention,Recovered,Serious,,1,,,20141009,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,64,801,Female,49.1,Arthritis,Recovering,Serious,,1,,,20141009,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,64,801,Female,49.1,Intestinal obstruction,Recovered,Serious,,1,,,20141009,CA
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,,Seizure,Recovered with Sequelae,Serious,1,1,,,20150529,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,,Malignant neoplasm progression,Fatal,Serious,1,1,,,20150529,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,115,Confusional state,Not Recovered,Serious,,1,,,20150717,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,115,Fall,Recovered,Serious,,1,,,20150717,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,,,Unknown,,Urticaria,Unknown,Non-Serious,,,,,20140916,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,,,Unknown,,Dyspnoea,Unknown,Non-Serious,,,,,20140916,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,,,Unknown,,Rash generalised,Unknown,Non-Serious,,,,,20140916,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,Pneumonitis,Fatal,Serious,1,1,,,20150522,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,Pneumonitis,Recovered,Serious,1,1,,,20150522,BE
+PEMBROLIZUMAB,Checkpoint Inhibitor,84,801,Male,90.5,Syncope,Recovered,Serious,,1,,,20150414,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,84,801,Male,90.5,Blood creatine phosphokinase increased,Recovering,Serious,,1,,,20150414,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Female,49.9,Muscular weakness,Recovered,Serious,,1,,,20150920,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,40,801,Female,49.9,Dysuria,Unknown,Serious,,1,,,20150920,TW
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,114.8,Rash,Not Recovered,Serious,,1,1,,20140919,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,114.8,Cellulitis,Recovered,Serious,,1,1,,20140919,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,114.8,Hyperbilirubinaemia,Not Recovered,Serious,,1,1,,20140919,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,42,801,Female,,Myoclonus,Not Recovered,Serious,,1,,,20141023,DE
+PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Female,98,Thrombocytopenia,Not Recovered,Serious,,1,,,20141022,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Female,98,Thrombocytopenia,Recovered,Serious,,1,,,20141022,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,42,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20141029,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,42,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20141029,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,42,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20141029,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Anaemia,Not Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Nasopharyngitis,Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Pain,Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Dyspnoea,Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Headache,Not Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Vision blurred,Not Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,46,801,Female,,Cough,Recovered,Non-Serious,,,,,20141107,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,,Nausea,Recovered,Serious,,1,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,,Abdominal pain,Recovered,Serious,,1,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,,Vomiting,Recovered,Serious,,1,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,79,801,Male,,Fatigue,Not Recovered,Non-Serious,,,,,20150218,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,79,801,Male,,Fatigue,Recovered,Non-Serious,,,,,20150218,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,79,801,Male,,Vomiting,Recovered,Non-Serious,,,,,20150218,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,93.15,Sinusitis,Not Recovered,Serious,,,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,86,801,Male,71,Pneumonia,Recovered,Serious,,1,,,20150701,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,86,801,Male,71,Diarrhoea,Recovered,Serious,,1,,,20150701,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,86,801,Male,71,Pneumonia,Recovered,Serious,,1,,,20150701,IL
+PEMBROLIZUMAB,Checkpoint Inhibitor,80,801,Male,66,Lung infection,Fatal,Serious,1,1,1,,20140924,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,80,801,Male,66,Pulmonary embolism,Not Recovered,Serious,1,1,1,,20140924,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,100,Colitis,Not Recovered,Serious,,1,,,20150703,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,100,Hypokalaemia,Recovered,Serious,,1,,,20150703,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,100,Colitis,Recovered,Serious,,1,,,20150703,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,80,801,Male,70,Atrial fibrillation,Recovered,Serious,,1,,,20160905,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,80,801,Male,70,Hepatitis,Recovered,Serious,,1,,,20160905,FR
+PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,91.16,Autoimmune hepatitis,Recovered,Serious,,1,,,20141121,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,55,801,Male,,Anaemia,Not Recovered,Non-Serious,,,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,83.2,Vasculitis,Recovered,Serious,,1,,,20150518,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,83.2,Viral infection,Recovered,Serious,,1,,,20150518,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,83.2,Lower respiratory tract infection,Recovered,Serious,,1,,,20150518,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,83.2,Hypophysitis,Recovered,Serious,,1,,,20150518,AU
+PEMBROLIZUMAB,Checkpoint Inhibitor,55,801,Male,,Dehydration,Recovered,Serious,,1,,,20140918,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,66,801,Female,,Central nervous system lesion,Recovered with Sequelae,Serious,,,,,20140919,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,66,801,Female,,Fatigue,Not Recovered,Serious,,,,,20140919,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,54.5,Diverticulitis,Recovered,Serious,,1,,,20150730,JP
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,50.2,Nausea,Recovered,Serious,,1,,,20141017,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,50.2,Vomiting,Recovered,Serious,,1,,,20141017,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,50.2,Drug withdrawal maintenance therapy,Recovered,Serious,,1,,,20141017,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,50.2,Nausea,Recovered,Serious,,1,,,20141017,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Female,59.6,Adrenal insufficiency,Recovered,Serious,,1,,,20150920,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,81,801,Male,75.8,Pleural effusion,Recovering,Serious,,1,,,20140923,US
+PEMBROLIZUMAB,Checkpoint Inhibitor,81,801,Male,75.8,Lung infection,Recovering,Serious,,1,,,20140923,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Male,119.2,Adrenal insufficiency,Recovered with Sequelae,Serious,,1,,,20140722,US
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Intestinal perforation,Recovered,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Ileus paralytic,Unknown,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pneumonitis,Unknown,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Lung infiltration,Unknown,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Renal failure,Unknown,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pneumothorax,Recovered,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pulmonary embolism,Unknown,Serious,,1,1,,20140314,NO
+NIVOLUMAB,Checkpoint Inhibitor,59,801,Female,77.1,Colitis,Recovered,Serious,,1,,,20190426,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,168,Necrotising fasciitis,Recovered,Serious,,1,1,,20141225,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,168,Septic shock,Recovered,Serious,,1,1,,20141225,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,168,Adrenal insufficiency,Recovered,Serious,,1,1,,20141225,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Female,101,Pyrexia,Recovered,Serious,,1,,,20150824,US
+NIVOLUMAB,Checkpoint Inhibitor,87,801,Male,,Hypotension,Recovered,Serious,,1,,,20140321,US
+NIVOLUMAB,Checkpoint Inhibitor,87,801,Male,,Incorrect dose administered,Unknown,Serious,,1,,,20140321,US
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Hypertension,Recovered,Serious,,1,,,20150123,BE
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Constipation,Recovered,Serious,,1,,,20150123,BE
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Paraparesis,Not Recovered,Serious,,1,,,20150123,BE
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,82.1,VIIth nerve paralysis,Recovered,Serious,,1,,,20150123,BE
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,108,Gastritis,Recovered,Serious,,1,,,20140327,BE
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,108,Diarrhoea,Recovered,Serious,,1,,,20140327,BE
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,62,Fatigue,Recovered,Serious,,1,,,20200717,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,62,Drug-induced liver injury,Recovered,Serious,,1,,,20200717,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,62,Dysphagia,Recovered,Serious,,1,,,20200717,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,62,Pyrexia,Recovered,Serious,,1,,,20200717,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,62,Confusional state,Recovered,Serious,,1,,,20200717,US
+NIVOLUMAB,Checkpoint Inhibitor,56,801,Male,125.9,Pyrexia,Recovered,Serious,,1,,,20140504,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Female,68,Colitis,Recovered with Sequelae,Serious,,1,,,20170201,FI
+NIVOLUMAB,Checkpoint Inhibitor,33,801,Male,86.5,Pulmonary embolism,Recovered,Serious,,1,1,,20150130,DE
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,,Abdominal pain,Recovered,Serious,,1,,,20140421,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Female,,Lipase increased,Recovered with Sequelae,Serious,,,,,20140912,US
+NIVOLUMAB,Checkpoint Inhibitor,74,801,Female,59.9,Pneumonitis,Not Recovered,Serious,,1,,,20150514,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Male,87,Myocardial infarction,Fatal,Serious,1,1,,,20170314,US
+NIVOLUMAB,Checkpoint Inhibitor,56,801,Male,92.1,Hyperthyroidism,Recovered,Serious,,1,,,20140610,US
+NIVOLUMAB,Checkpoint Inhibitor,26,801,Female,55.78,Pyrexia,Recovered,Serious,,1,,,20140813,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,74,Dyspnoea,Not Recovered,Serious,1,1,,,20210310,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,74,Pneumonitis,Fatal,Serious,1,1,,,20210310,US
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Male,94.5,Pemphigoid,Recovered with Sequelae,Serious,,1,,,20140502,AU
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Male,94.5,Transaminases increased,Unknown,Serious,,1,,,20140502,AU
+NIVOLUMAB,Checkpoint Inhibitor,53,801,Male,161.45,Diplopia,Recovered,Serious,,1,,,20140909,US
+NIVOLUMAB,Checkpoint Inhibitor,44,801,Female,89.7,Diabetic ketoacidosis,Recovered,Serious,,1,,,20140515,US
+NIVOLUMAB,Checkpoint Inhibitor,44,801,Female,89.7,Pancreatitis,Recovering,Serious,,1,,,20140515,US
+NIVOLUMAB,Checkpoint Inhibitor,44,801,Female,89.7,Hyperglycaemia,Recovered,Serious,,1,,,20140515,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,,Rash generalised,Unknown,Non-Serious,,,,,20140425,
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,83,Lung infection,Recovered,Serious,,1,,,20160129,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,83,Hypoxia,Recovered,Serious,,1,,,20160129,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,83,Chills,Recovered,Serious,,1,,,20160129,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,83,Pyrexia,Recovered,Serious,,1,,,20160129,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,83,Tumour flare,Recovered,Serious,,1,,,20160129,US
+NIVOLUMAB,Checkpoint Inhibitor,31,801,Male,,Headache,Unknown,Serious,,1,,,20140821,US
+NIVOLUMAB,Checkpoint Inhibitor,31,801,Male,,Sinusitis,Unknown,Serious,,1,,,20140821,US
+NIVOLUMAB,Checkpoint Inhibitor,31,801,Male,,Pneumonia,Recovered,Serious,,1,,,20140821,US
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,97.9,Blood creatinine increased,Recovered with Sequelae,Serious,,1,,,20150406,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,,Hypercalcaemia,Recovered,Serious,,1,,,20140528,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,117.41,Pyrexia,Recovered,Serious,,1,,,20170516,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,117.41,Colitis,Recovered,Serious,,1,,,20170516,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,117.41,Enterocolitis infectious,Recovered,Serious,,1,,,20170516,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,89.5,Dyspnoea,Recovered,Serious,,1,,,20160425,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,89.5,Transaminases increased,Recovered,Serious,,1,,,20160425,US
+NIVOLUMAB,Checkpoint Inhibitor,57,801,Female,77,Confusional state,Recovered,Serious,,1,,,20161212,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,78.9,Cardiomyopathy,Fatal,Serious,1,1,,,20161208,DE
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Upper gastrointestinal haemorrhage,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Gastritis erosive,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Erosive duodenitis,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Pyrexia,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Lower gastrointestinal haemorrhage,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,80.54,Anaemia,Recovered,Serious,,1,,,20140715,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Sepsis,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Confusional state,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Lethargy,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Hypocalcaemia,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Alanine aminotransferase increased,Not Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Sinus tachycardia,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Malignant neoplasm progression,Fatal,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Cholecystitis,Not Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Dermatitis bullous,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Hypomagnesaemia,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Hypotension,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Aspartate aminotransferase increased,Not Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Pyrexia,Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Hyperthyroidism,Not Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,54.6,Blood bilirubin increased,Not Recovered,Serious,1,1,,,20160125,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,168.7,Pyrexia,Recovered,Serious,,1,,,20140820,US
+NIVOLUMAB,Checkpoint Inhibitor,72,801,Female,53,Pyrexia,Recovered,Serious,,1,,,20150305,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,168,Hypotension,Recovered,Serious,,1,,,20150525,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,,Ileus paralytic,Recovering,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,,Diarrhoea,Unknown,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,,Colitis,Recovering,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,,Abdominal pain,Unknown,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,,Hyperglycaemia,Unknown,Serious,,1,,,20140703,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,,Alanine aminotransferase increased,Unknown,Serious,,1,,,20140703,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,,Renal failure acute,Recovering,Serious,,1,,,20140703,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Unknown,,Pyrexia,Unknown,Serious,,1,,,20140814,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Unknown,,Myalgia,Unknown,Serious,,1,,,20140814,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Unknown,,Fatigue,Unknown,Serious,,1,,,20140814,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Unknown,,Headache,Unknown,Serious,,1,,,20140814,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Unknown,,Nausea,Unknown,Serious,,1,,,20140814,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,89.5,Hypotension,Recovered,Serious,,1,,,20140722,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Female,89.5,Pyrexia,Recovered,Serious,,1,,,20140722,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,92.7,Encephalopathy,Not Recovered,Serious,1,1,,,20150413,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,92.7,Rash,Recovered,Serious,1,1,,,20150413,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,92.7,Malignant neoplasm progression,Fatal,Serious,1,1,,,20150413,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,92.7,Pyrexia,Unknown,Serious,1,1,,,20150413,US
+NIVOLUMAB,Checkpoint Inhibitor,42,801,Female,80.4,Diarrhoea,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,42,801,Female,80.4,Decreased appetite,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,42,801,Female,80.4,Hypothyroidism,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,50,801,Female,79.6,Cardiac failure,Recovered,Serious,,1,,,20140828,US
+NIVOLUMAB,Checkpoint Inhibitor,50,801,Female,79.6,Adrenal insufficiency,Not Recovered,Serious,,1,,,20140828,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,55,Biliary tract infection,Recovered,Serious,,1,,,20171014,GB
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,55,Alanine aminotransferase increased,Recovered with Sequelae,Serious,,1,,,20171014,GB
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,55,Ascites,Not Recovered,Serious,,1,,,20171014,GB
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,55,Thrombocytopenia,Recovered,Serious,,1,,,20171014,GB
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Male,55,Hyperbilirubinaemia,Recovered,Serious,,1,,,20171014,GB
+NIVOLUMAB,Checkpoint Inhibitor,47,801,Female,53.88,Headache,Recovered,Serious,,1,,,20171003,US
+NIVOLUMAB,Checkpoint Inhibitor,47,801,Female,53.88,Hypotension,Recovered,Serious,,1,,,20171003,US
+NIVOLUMAB,Checkpoint Inhibitor,47,801,Female,53.88,Nausea,Recovered,Serious,,1,,,20171003,US
+NIVOLUMAB,Checkpoint Inhibitor,47,801,Female,53.88,Diarrhoea,Recovered,Serious,,1,,,20171003,US
+NIVOLUMAB,Checkpoint Inhibitor,47,801,Female,53.88,Vomiting,Recovered,Serious,,1,,,20171003,US
+NIVOLUMAB,Checkpoint Inhibitor,81,801,Female,,Rash,Not Recovered,Serious,1,1,,,20150814,US
+NIVOLUMAB,Checkpoint Inhibitor,81,801,Female,,Pulmonary haemorrhage,Fatal,Serious,1,1,,,20150814,US
+NIVOLUMAB,Checkpoint Inhibitor,81,801,Female,,Hypotension,Recovered,Serious,1,1,,,20150814,US
+NIVOLUMAB,Checkpoint Inhibitor,81,801,Female,,Acute kidney injury,Recovered,Serious,1,1,,,20150814,US
+NIVOLUMAB,Checkpoint Inhibitor,81,801,Female,,Dyspnoea,Not Recovered,Serious,1,1,,,20150814,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,83.3,Pleural effusion,Unknown,Serious,1,1,,,20140908,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,83.3,Confusional state,Unknown,Serious,1,1,,,20140908,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,83.3,Death,Fatal,Serious,1,1,,,20140908,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,83.3,Non-small cell lung cancer metastatic,Recovered,Serious,1,1,,,20140908,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,83.3,Dizziness,Recovered,Serious,1,1,,,20140908,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,84.8,Encephalitis,Recovered,Serious,,1,,,20141005,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,84.8,Hyponatraemia,Recovering,Serious,,1,,,20141005,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,,Headache,Recovered,Serious,,1,,,20150625,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,,Hyperglycaemia,Recovered,Serious,,1,,,20150625,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,,Hemiparesis,Recovered,Serious,,1,,,20150625,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,,Vomiting,Recovered,Serious,,1,,,20150625,US
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,98,Hyponatraemia,Recovered with Sequelae,Serious,,1,,,20141107,US
+NIVOLUMAB,Checkpoint Inhibitor,90,801,Female,,Diarrhoea,Recovered,Serious,,1,,,20190927,US
+NIVOLUMAB,Checkpoint Inhibitor,90,801,Female,,Vomiting,Recovered,Serious,,1,,,20190927,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,76.2,Pulmonary embolism,Fatal,Serious,1,1,1,,20150201,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,100.7,Blood creatinine increased,Recovered,Serious,,1,,,20141008,US
+NIVOLUMAB,Checkpoint Inhibitor,72,801,Male,,Embolism,Unknown,Serious,,1,,,20150522,US
+NIVOLUMAB,Checkpoint Inhibitor,72,801,Male,,Dyspnoea,Unknown,Serious,,1,,,20150522,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,80.4,Dysphagia,Recovered,Serious,,1,,,20141114,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,80.4,Oesophageal fistula,Recovered,Serious,,1,,,20141114,US
+NIVOLUMAB,Checkpoint Inhibitor,55,801,Male,80.4,Dehydration,Recovered,Serious,,1,,,20141114,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,91.8,Atrioventricular block complete,Recovered,Serious,1,1,,,20170331,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,91.8,Myasthenia gravis,Fatal,Serious,1,1,,,20170331,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,91.8,Duodenal ulcer haemorrhage,Unknown,Serious,1,1,,,20170331,US
+NIVOLUMAB,Checkpoint Inhibitor,70,801,Male,91.8,Sepsis,Unknown,Serious,1,1,,,20170331,US
+NIVOLUMAB,Checkpoint Inhibitor,42,801,Female,80.4,Lipase increased,Recovered,Serious,,,,,20141226,US
+NIVOLUMAB,Checkpoint Inhibitor,67,801,Male,,Pneumonitis,Recovered,Serious,,1,1,,20160210,US
+NIVOLUMAB,Checkpoint Inhibitor,67,801,Male,,Malignant neoplasm progression,Recovered,Serious,,1,1,,20160210,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,,Malignant neoplasm progression,Fatal,Serious,1,1,1,,20200320,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,,Atrioventricular block,Unknown,Serious,1,1,1,,20200320,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,,Dehydration,Unknown,Serious,1,1,1,,20200320,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,,Respiratory failure,Recovered,Serious,1,1,1,,20200320,US
+NIVOLUMAB,Checkpoint Inhibitor,76,801,Male,,Pneumonitis,Fatal,Serious,1,1,1,,20200320,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,83.8,Epididymitis,Recovered,Serious,,1,,,20140915,US
+NIVOLUMAB,Checkpoint Inhibitor,73,801,Male,83.8,Pneumonitis,Recovered,Serious,,1,,,20140915,US
+NIVOLUMAB,Checkpoint Inhibitor,52,801,Male,70,Pyrexia,Recovered,Serious,,1,,,20170206,BE
+NIVOLUMAB,Checkpoint Inhibitor,36,801,Female,64.1,Neutropenia,Not Recovered,Serious,,1,,,20140827,US
+NIVOLUMAB,Checkpoint Inhibitor,36,801,Female,64.1,Pyrexia,Not Recovered,Serious,,1,,,20140827,US
+NIVOLUMAB,Checkpoint Inhibitor,57,801,Female,64.2,Myasthenic syndrome,Not Recovered,Serious,1,1,,,20140829,GB
+NIVOLUMAB,Checkpoint Inhibitor,57,801,Female,64.2,Hypopituitarism,Unknown,Serious,1,1,,,20140829,GB
+NIVOLUMAB,Checkpoint Inhibitor,57,801,Female,64.2,Malignant neoplasm progression,Fatal,Serious,1,1,,,20140829,GB
+NIVOLUMAB,Checkpoint Inhibitor,52,801,Male,,Cough,Recovered,Serious,,1,,,20141104,IE
+NIVOLUMAB,Checkpoint Inhibitor,52,801,Male,,Bronchitis,Recovered,Serious,,1,,,20141104,IE
+NIVOLUMAB,Checkpoint Inhibitor,35,801,Female,58.5,Colitis,Recovered,Serious,,1,,,20150204,ES
+NIVOLUMAB,Checkpoint Inhibitor,35,801,Female,58.5,Bacteraemia,Recovered,Serious,,1,,,20150204,ES
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Male,63,Colitis,Recovered,Serious,,1,,,20150123,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Female,67,Gastritis,Recovered,Serious,,1,,,20151113,ES
+NIVOLUMAB,Checkpoint Inhibitor,53,801,Male,102,Hyperglycaemia,Recovered with Sequelae,Serious,,1,,,20150313,IE
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Adrenal insufficiency,Recovered,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Dehydration,Recovered,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Fatigue,Recovered,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Hypotension,Recovered,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Syncope,Recovered,Serious,,1,,,20141014,US
+NIVOLUMAB,Checkpoint Inhibitor,67,801,Female,,Facial nerve disorder,Recovered,Serious,,1,,,20140926,US
+NIVOLUMAB,Checkpoint Inhibitor,65,801,Male,89,Hyperthyroidism,Recovered,Serious,,,,,20150331,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Male,,Pyrexia,Recovered,Serious,,1,,,20150305,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Male,,Rash,Recovered,Serious,,1,,,20150305,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,77,Dehydration,Recovered,Serious,,1,,,20150513,US
+NIVOLUMAB,Checkpoint Inhibitor,61,801,Male,77,Autoimmune colitis,Recovered,Serious,,1,,,20150513,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Female,66,Muscular weakness,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Female,66,Colitis,Recovered with Sequelae,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Female,66,Hypopituitarism,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,69,801,Female,66,Hyponatraemia,Recovered,Serious,,1,,,20151029,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Hypoxia,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Pulmonary oedema,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Pneumonitis,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Pulmonary embolism,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Aspartate aminotransferase increased,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Alanine aminotransferase increased,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,71,801,Male,92.7,Dyspnoea,Recovered with Sequelae,Serious,,1,,,20180802,US
+NIVOLUMAB,Checkpoint Inhibitor,48,801,Male,99.3,Colitis,Not Recovered,Serious,,1,,,20150210,NL
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Male,80,Pyrexia,Recovered,Serious,,1,,,20141113,NL
+NIVOLUMAB,Checkpoint Inhibitor,40,801,Male,76,Pyrexia,Recovered,Serious,,1,,,20141226,IT
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Adrenocortical insufficiency acute,Fatal,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Blood creatinine increased,Unknown,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Hypopituitarism,Fatal,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Hypercalcaemia,Recovered,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Pneumonia aspiration,Recovered,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Confusional state,Recovering,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,101,Dehydration,Recovering,Serious,1,1,,,20180416,US
+NIVOLUMAB,Checkpoint Inhibitor,77,801,Female,62.7,Hepatitis,Recovered,Serious,,1,,,20150515,US
+NIVOLUMAB,Checkpoint Inhibitor,77,801,Female,62.7,Pyrexia,Recovered,Serious,,1,,,20150515,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Female,,Adrenal insufficiency,Recovered,Serious,,1,,,20210811,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Female,,Autoimmune hepatitis,Recovered,Serious,,1,,,20210811,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Female,,Hypophysitis,Recovered,Serious,,1,,,20210811,US
+NIVOLUMAB,Checkpoint Inhibitor,60,801,Female,,Pneumonitis,Recovered,Serious,,1,,,20210811,US
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,,Pyrexia,Recovered,Serious,,1,,,20150120,US
+NIVOLUMAB,Checkpoint Inhibitor,62,801,Male,,Pneumonitis,Recovered,Serious,,1,,,20150120,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,74.8,Febrile neutropenia,Recovered,Serious,,1,,,20141015,US
+NIVOLUMAB,Checkpoint Inhibitor,53,801,Male,102.3,Diarrhoea,Recovered,Serious,,1,,,20141021,IE
+NIVOLUMAB,Checkpoint Inhibitor,53,801,Male,102.3,Escherichia infection,Recovered,Serious,,1,,,20141021,IE
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,59.1,Malignant neoplasm progression,Fatal,Serious,1,1,,,20141024,US
+NIVOLUMAB,Checkpoint Inhibitor,68,801,Female,59.1,Cardiomyopathy,Recovering,Serious,1,1,,,20141024,US
+NIVOLUMAB,Checkpoint Inhibitor,67,801,Male,,Pleural effusion,Recovered,Serious,,1,,,20141226,US
+NIVOLUMAB,Checkpoint Inhibitor,65,801,Female,59,Malignant neoplasm progression,Fatal,Serious,1,1,,,20150909,US
+NIVOLUMAB,Checkpoint Inhibitor,65,801,Female,59,Vomiting,Recovered,Serious,1,1,,,20150909,US
+NIVOLUMAB,Checkpoint Inhibitor,65,801,Female,59,Nausea,Recovered,Serious,1,1,,,20150909,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Female,79,Malignant neoplasm progression,Fatal,Serious,1,1,,,20151107,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Female,79,Acute respiratory failure,Fatal,Serious,1,1,,,20151107,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Female,79,Hepatic enzyme increased,Not Recovered,Serious,1,1,,,20151107,US
+NIVOLUMAB,Checkpoint Inhibitor,59,801,Male,,Secondary adrenocortical insufficiency,Not Recovered,Serious,,,,,20141030,US
+NIVOLUMAB,Checkpoint Inhibitor,59,801,Male,,Anaemia,Not Recovered,Serious,,,,,20141030,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,,Diabetes mellitus,Not Recovered,Serious,,1,,,20150324,US
+NIVOLUMAB,Checkpoint Inhibitor,54,801,Male,,Hypercalcaemia,Recovering,Serious,,1,,,20141031,US
+NIVOLUMAB,Checkpoint Inhibitor,,,Unknown,64.2,Diarrhoea,Recovered,Serious,,1,,,20190210,US
+NIVOLUMAB,Checkpoint Inhibitor,66,801,Male,95,Pyrexia,Recovered,Serious,,1,,,20180108,BE
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,,Diarrhoea,Recovered,Serious,,1,,,20150216,US
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,,Colitis,Recovered with Sequelae,Serious,,1,,,20150216,US
+NIVOLUMAB,Checkpoint Inhibitor,51,801,Male,,Pyrexia,Recovered,Serious,,1,,,20150216,US
+NIVOLUMAB,Checkpoint Inhibitor,39,801,Male,,Pyrexia,Recovered,Serious,,1,,,20141123,US
+NIVOLUMAB,Checkpoint Inhibitor,45,801,Male,76,Diabetic ketoacidosis,Recovered,Serious,,1,,,20180730,US
+NIVOLUMAB,Checkpoint Inhibitor,75,801,Female,65.3,Cystitis,Recovering,Serious,,1,,,20141126,US
+NIVOLUMAB,Checkpoint Inhibitor,75,801,Female,65.3,Transaminases increased,Recovered,Serious,,1,,,20141126,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Colitis,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Vomiting,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Polydipsia,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Enterocolitis,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Nausea,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Gastritis,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,41,801,Male,90,Dehydration,Recovered,Serious,,1,,,20160322,US
+NIVOLUMAB,Checkpoint Inhibitor,63,801,Male,99,Pyrexia,Recovered,Serious,,1,,,20150217,US
+NIVOLUMAB,Checkpoint Inhibitor,64,801,Male,72.3,Blood creatinine increased,Recovered,Serious,,1,,,20170131,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,79.5,Fall,Not Recovered,Serious,,1,,,20161214,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,79.5,Syncope,Not Recovered,Serious,,1,,,20161214,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,79.5,Upper gastrointestinal haemorrhage,Not Recovered,Serious,,1,,,20161214,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,37,801,Female,55.8,Pneumoperitoneum,Not Recovered,Serious,,1,,,20171003,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,31,801,Female,64.7,Alanine aminotransferase increased,Recovered,Serious,,1,,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,31,801,Female,64.7,Diarrhoea,Recovered,Serious,,1,,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,67,801,Female,,Pneumonia mycoplasmal,Recovered,Serious,,1,,,20151106,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,59,801,Male,105.78,Neuropathic arthropathy,Recovering,Serious,,1,,,20171122,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,59,801,Male,105.78,Haematuria,Recovered,Serious,,1,,,20171122,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,59,801,Male,105.78,Staphylococcal infection,Recovered,Serious,,1,,,20171122,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,42,801,Male,101.1,Cellulitis,Not Recovered,Serious,,1,,,20160728,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,96.25,Hyperglycaemia,Not Recovered,Serious,1,1,,,20190916,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,96.25,Asthenia,Not Recovered,Serious,1,1,,,20190916,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,96.25,Mental status changes,Recovered,Serious,1,1,,,20190916,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,96.25,Autoimmune hepatitis,Fatal,Serious,1,1,,,20190916,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,41.51,Autoimmune hepatitis,Fatal,Serious,1,1,,,20160209,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,41.51,Mental status changes,Unknown,Serious,1,1,,,20160209,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,41.51,Asthenia,Unknown,Serious,1,1,,,20160209,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,41.51,Transaminases increased,Unknown,Serious,1,1,,,20160209,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,39,801,Female,72.6,Neutrophil count decreased,Recovered,Serious,,,,,20161018,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,39,801,Female,72.6,Neutrophil count decreased,Recovered,Serious,,,,,20161018,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,56,801,Female,,Neutropenia,Recovered,Serious,,,,,20150831,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,53,801,Male,83.1,Diverticulitis,Recovered,Serious,,1,,,20170621,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Male,83.4,Seizure,Recovered,Serious,,1,1,,20160812,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,78,801,Male,72.1,Systemic inflammatory response syndrome,Recovered,Serious,,1,1,1,20170830,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,72,801,Male,81.37,Hypercalcaemia,Recovered,Serious,,,1,,20180917,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,72,801,Male,81.37,Hypophosphataemia,Recovered,Serious,,,1,,20180917,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,72,801,Male,81.37,Hyperthyroidism,Recovered,Serious,,,1,,20180917,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,72,801,Male,81.37,Immune-mediated hepatitis,Recovered,Serious,,,1,,20180917,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,46,801,Female,55.8,Anaemia,Recovered,Serious,,1,,,20151211,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,63,801,Male,63.2,Cerebrovascular accident,Recovered with Sequelae,Serious,,1,,,20160331,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Male,75,Pneumonia,Recovered,Serious,,1,,,20180307,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Male,75,Pneumonia pneumococcal,Recovered,Serious,,1,,,20180307,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,82,801,Male,101.6,Diverticulitis,Recovered,Serious,,1,1,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,82,801,Male,101.6,Gait disturbance,Recovering,Serious,,1,1,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,82,801,Male,101.6,Sepsis,Recovered,Serious,,1,1,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,82,801,Male,101.6,Clostridium difficile infection,Recovered,Serious,,1,1,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,82,801,Male,101.6,Tremor,Recovered,Serious,,1,1,,20170828,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,40,801,Female,62.9,Pleural effusion,Recovered,Serious,,1,,,20180814,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,59,801,Female,,Infection,Recovered,Serious,,1,,,20170801,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,59,801,Female,,Pyrexia,Not Recovered,Serious,,1,,,20170801,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,83,801,Male,94.9,Pulmonary embolism,Recovered,Serious,,1,,,20171222,CA
+ATEZOLIZUMAB,Checkpoint Inhibitor,63,801,Male,,Hyperglycaemia,Unknown,Serious,,1,1,,20160826,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,65.5,Renal impairment,Recovered with Sequelae,Serious,,1,,,20180312,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,60,801,Male,85.9,Pyrexia,Recovered,Serious,,1,,,20160826,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,60,801,Male,85.9,Seizure,Recovered with Sequelae,Serious,,1,,,20160826,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,66,801,Male,65.6,Dyspnoea,Not Recovered,Serious,1,1,,,20171031,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,66,801,Male,65.6,Pneumonitis,Recovered,Serious,1,1,,,20171031,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,57,801,Female,51.2,Asthenia,Not Recovered,Serious,,1,1,,20161118,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Anaemia,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Cardiac failure,Recovered,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Bacterial infection,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Cardiac disorder,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Ejection fraction abnormal,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Haemorrhage,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Dyspnoea,Recovered,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Seizure,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Pulmonary oedema,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Rash,Recovered,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Swelling,Not Recovered,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,,Peripheral swelling,Unknown,Serious,,1,1,,20151223,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,55,801,Female,109.7,Autoimmune hepatitis,Recovered,Serious,,1,,,20170713,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,42,801,Male,77,Anaemia,Recovered,Serious,,1,,,20160622,UA
+ATEZOLIZUMAB,Checkpoint Inhibitor,60,801,Male,49,Pyopneumothorax,Recovered,Serious,,1,,,20170508,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,68,801,Male,83.3,Acute kidney injury,Not Recovered,Serious,,1,,,20170911,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,68,801,Male,68.6,Aortic dissection,Fatal,Serious,1,,,,20170727,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,81,801,Male,77.6,Acute kidney injury,Fatal,Serious,1,1,,,20161010,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,,,Female,,Large intestinal obstruction,Recovered,Serious,,1,,,20160211,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,,,Female,,Off label use,Unknown,Serious,,1,,,20160211,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,65,801,Female,,Supraventricular tachycardia,Recovered,Serious,,1,1,,20160323,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,65,801,Female,,Supraventricular tachycardia,Recovered,Serious,,1,1,,20160323,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,65,801,Female,,Post procedural complication,Not Recovered,Serious,,1,1,,20160323,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,76,801,Male,51.9,Systemic immune activation,Recovered,Serious,,,1,,20160809,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,76,801,Male,51.9,Pneumonia,Recovered,Serious,,,1,,20160809,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Female,60.5,Pleuritic pain,Recovered with Sequelae,Serious,,1,,,20160404,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Female,60.5,Rectal haemorrhage,Unknown,Serious,,1,,,20160404,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Female,60.5,Dyspnoea,Recovered with Sequelae,Serious,,1,,,20160404,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,42.7,Encephalitis,Recovered,Serious,,1,,,20170703,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,62,801,Male,64.5,Cholangitis,Recovered,Serious,,1,,,20160427,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Female,56,Influenza like illness,Recovered,Serious,,1,,,20181102,DK
+ATEZOLIZUMAB,Checkpoint Inhibitor,40,801,Female,,Type 1 diabetes mellitus,Unknown,Serious,,,,,20160229,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,45,801,Female,63,Pericardial effusion,Not Recovered,Serious,,1,,,20160301,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,67,801,Female,62.1,Sepsis,Not Recovered,Serious,,1,1,,20180301,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,67,801,Female,62.1,Back pain,Not Recovered,Serious,,1,1,,20180301,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,43,801,Female,57.5,Dyspnoea,Recovered,Serious,,1,,,20170228,CA
+ATEZOLIZUMAB,Checkpoint Inhibitor,68,801,Male,63.8,Acute kidney injury,Not Recovered,Serious,,1,,,20160315,TR
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Male,54.1,Stevens-Johnson syndrome,Not Recovered,Serious,,1,1,,20181005,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Male,54.1,Ileal perforation,Recovered,Serious,,1,1,,20181005,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,55,801,Female,,Small intestine ulcer,Recovered,Serious,,1,,,20180306,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,58,801,Female,,Hyponatraemia,Recovered,Serious,,1,,,20160405,BE
+ATEZOLIZUMAB,Checkpoint Inhibitor,58,801,Female,,Hypokalaemia,Recovered,Serious,,1,,,20160405,BE
+ATEZOLIZUMAB,Checkpoint Inhibitor,26,801,Male,,Pleural effusion,Not Recovered,Serious,,1,,,20180122,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,26,801,Male,,Lower respiratory tract infection,Not Recovered,Serious,,1,,,20180122,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Male,75.4,Pruritus,Recovered,Non-Serious,,,,,20160617,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Female,,Hypoxia,Not Recovered,Serious,,1,,,20160330,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,70,801,Male,59,Duodenal ulcer,Recovering,Serious,,1,,,20170612,DE
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,47.7,Acute kidney injury,Recovered,Serious,,1,,,20170529,CA
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Aspartate aminotransferase increased,Recovered,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Autoimmune hepatitis,Recovered,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Blood alkaline phosphatase increased,Recovered,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Bilirubin conjugated increased,Recovering,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Alanine aminotransferase increased,Recovered with Sequelae,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,83.2,Blood bilirubin increased,Recovering,Serious,,1,,,20200129,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,57,801,Male,,Death,Fatal,Serious,1,,,,20160527,PT
+ATEZOLIZUMAB,Checkpoint Inhibitor,55,801,Male,93.4,Blood creatine phosphokinase increased,Recovered,Serious,,1,,,20160615,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,55,801,Male,93.4,Aspartate aminotransferase increased,Recovered,Serious,,1,,,20160615,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,55,801,Male,93.4,Diarrhoea,Recovered,Serious,,1,,,20160615,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,73,801,Female,100,Hyperthermia,Recovered,Serious,,1,,,20190213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,62,801,Female,,Pneumonia,Recovered,Serious,,1,,,20160429,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,76,801,Male,62,Interstitial lung disease,Recovering,Serious,,,,,20200511,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,64.4,Autoimmune hepatitis,Recovered,Serious,,1,,,20171012,CA
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Hypomagnesaemia,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Rectal haemorrhage,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Febrile neutropenia,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Rectal haemorrhage,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Hypocalcaemia,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Malaise,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,,Hyponatraemia,Recovered,Serious,,1,,,20170207,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Female,,Respiratory distress,Not Recovered,Serious,,1,1,,20160520,DE
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Female,,Infective exacerbation of chronic obstructive airways disease,Recovering,Serious,,1,1,,20160520,DE
+ATEZOLIZUMAB,Checkpoint Inhibitor,78,801,Male,72,Hypotension,Recovered,Serious,,1,,,20171024,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,,Influenza like illness,Not Recovered,Serious,,1,,,20160525,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,71,801,Female,,Febrile neutropenia,Recovered,Serious,,1,,,20160525,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,76,801,Male,103.3,Pneumonia,Recovered,Serious,,1,,,20170117,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,66,801,Male,101,Acute kidney injury,Recovered,Serious,1,1,1,,20170614,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,66,801,Male,101,Capillary leak syndrome,Recovering,Serious,1,1,1,,20170614,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,92,Colitis,Recovered,Serious,,1,,,20160608,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,55.4,Bronchitis,Recovered,Serious,,1,,,20170918,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,75,801,Male,55.4,Enterocolitis infectious,Recovered,Serious,,1,,,20170918,SG
+ATEZOLIZUMAB,Checkpoint Inhibitor,,,Unknown,,Pneumonitis,Fatal,Serious,1,,,,20160525,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,87.7,Colitis,Recovered with Sequelae,Serious,,1,,,20160809,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,87.7,Anaemia,Recovered with Sequelae,Serious,,1,,,20160809,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,60,801,Male,89,Epistaxis,Recovered,Serious,,1,,,20180129,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,14,801,Female,39.5,Cardio-respiratory arrest,Fatal,Serious,1,1,,,20161115,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,14,801,Female,39.5,Superior vena cava syndrome,Not Recovered,Serious,1,1,,,20161115,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,77,801,Female,58,Pneumonia,Recovered,Serious,,1,,,20170721,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,77,801,Female,58,Transaminases increased,Recovered,Serious,,1,,,20170721,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,77,801,Female,58,Pancreatitis,Recovered,Serious,,1,,,20170721,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,29,801,Female,46.2,Thrombocytopenia,Recovered,Serious,,1,,,20190318,NO
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Female,58,Febrile neutropenia,Recovered,Serious,,1,,,20180302,AU
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Female,58,Diarrhoea,Recovered,Serious,,1,,,20180302,AU
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Female,58,Vomiting,Recovered,Serious,,1,,,20180302,AU
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Female,58,Nausea,Recovered,Serious,,1,,,20180302,AU
+ATEZOLIZUMAB,Checkpoint Inhibitor,77,801,Male,92,Cholestasis,Not Recovered,Serious,,1,,,20160622,DE
+ATEZOLIZUMAB,Checkpoint Inhibitor,51,801,Female,66.28,Adverse drug reaction,Not Recovered,Serious,,,,,20170630,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,73,801,Female,35.3,Pneumonia,Recovered,Serious,,1,,,20160622,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Male,75.9,Systemic inflammatory response syndrome,Recovered,Serious,,1,,,20160804,AU
+ATEZOLIZUMAB,Checkpoint Inhibitor,47,801,Female,93.7,Pulmonary embolism,Recovered,Serious,,,,,20160804,GB
+ATEZOLIZUMAB,Checkpoint Inhibitor,13,801,Male,40.1,Cholestasis,Recovered,Serious,,1,,,20160526,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,13,801,Male,40.1,Pancreatitis,Recovered,Serious,,1,,,20160526,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,13,801,Male,40.1,Transaminases increased,Recovered,Serious,,1,,,20160526,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,62,801,Male,64,Tachycardia,Recovered,Serious,,,,,20160815,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,41,801,Female,59,Hepatic enzyme increased,Not Recovered,Serious,,1,,,20160603,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,81,801,Male,111,Diabetes mellitus,Recovered,Serious,,1,,,20171011,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,81,801,Male,111,Autoimmune colitis,Not Recovered,Serious,,1,,,20171011,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,56,801,Male,61.1,Pneumonia,Not Recovered,Serious,1,1,,,20171103,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,56,801,Male,61.1,Haemoptysis,Fatal,Serious,1,1,,,20171103,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,63,801,Female,54.65,Hepatomegaly,Recovering,Serious,,1,,,20170927,JP
+ATEZOLIZUMAB,Checkpoint Inhibitor,64,801,Male,65,Vision blurred,Recovered,Serious,,1,,,20160620,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Female,61,Infectious pleural effusion,Recovering,Serious,1,1,1,,20171106,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,61,801,Female,61,Haemoptysis,Fatal,Serious,1,1,1,,20171106,ES
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Hypomagnesaemia,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Febrile neutropenia,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Malaise,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Hypocalcaemia,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Rectal haemorrhage,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Rectal haemorrhage,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,69,801,Male,82.8,Hyponatraemia,Recovered,Serious,,1,,,20170131,NL
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Subileus,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Subileus,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Abdominal pain,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Escherichia pyelonephritis,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Gastrointestinal disorder,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,50,801,Female,56,Enteritis,Recovered,Serious,,1,,,20170213,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,70,801,Male,83,Cognitive disorder,Not Recovered,Serious,,1,,1,20160815,IT
+ATEZOLIZUMAB,Checkpoint Inhibitor,74,801,Male,65,Bronchitis,Recovered,Serious,,1,,,20161102,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,45,801,Male,75.4,Pericardial effusion,Recovered,Serious,,1,,,20160708,TW
+ATEZOLIZUMAB,Checkpoint Inhibitor,44,801,Male,,Anaemia,Recovered,Serious,,1,,,20160530,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,44,801,Male,,Anaemia,Not Recovered,Serious,,1,,,20160530,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,70,801,Male,86,Subdural haemorrhage,Recovering,Serious,,1,,,20160913,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,70,801,Male,86,Sepsis,Recovered,Serious,,1,,,20160913,FR
+ATEZOLIZUMAB,Checkpoint Inhibitor,70,801,Male,54,Anaemia,Not Recovered,Serious,,1,,,20180307,DE
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,46.5,Aspartate aminotransferase increased,Recovered,Serious,,,,,20180508,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,46.5,Alanine aminotransferase increased,Recovered,Serious,,,,,20180508,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,46.5,Neutrophil count decreased,Recovered,Serious,,,,,20180508,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,46.5,Blood alkaline phosphatase increased,Recovered,Serious,,,,,20180508,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,79,801,Female,46.5,White blood cell count decreased,Recovered,Serious,,,,,20180508,US
+ATEZOLIZUMAB,Checkpoint Inhibitor,53,801,Female,86,Acute kidney injury,Recovered,Serious,,1,,,20170926,PL
+ATEZOLIZUMAB,Checkpoint Inhibitor,53,801,Female,86,Urosepsis,Recovered,Serious,,1,,,20170926,PL
+ATEZOLIZUMAB,Checkpoint Inhibitor,57,801,Female,45,Colitis ischaemic,Recovered,Serious,,1,,,20160926,KR
+ATEZOLIZUMAB,Checkpoint Inhibitor,74,801,Female,45.8,Large intestinal obstruction,Recovered,Serious,,1,,,20180507,US
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,72.19,Bone pain,Recovered with Sequelae,Serious,,1,,,20160803,US
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,72.19,Platelet count decreased,Recovered with Sequelae,Serious,,1,,,20160803,US
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,72.19,Epistaxis,Recovered with Sequelae,Serious,,1,,,20160803,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Blood creatinine increased,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Fatigue,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Acute kidney injury,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Hypoalbuminaemia,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Dyspnoea,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,77,801,Male,,Oedema peripheral,Unknown,Serious,,1,,,20160830,US
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Cardiac failure,Unknown,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Myocarditis,Unknown,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Diarrhoea,Not Recovered,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Nausea,Recovering,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Hyperthyroidism,Unknown,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Febrile neutropenia,Unknown,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Vomiting,Recovering,Serious,,1,1,,20170810,CA
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Metastatic neoplasm,Unknown,Serious,1,,,,20160927,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Malignant neoplasm progression,Unknown,Serious,1,,,,20160929,US
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,65.4,Packed red blood cell transfusion,Unknown,Serious,,1,,,20170912,US
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,65.4,Anaemia,Recovered,Serious,,1,,,20170912,US
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,65.4,Occult blood positive,Unknown,Serious,,1,,,20170912,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Cellulitis streptococcal,Recovered,Serious,,1,,,20170501,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Oedema peripheral,Recovered,Serious,,1,,,20170501,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Tumour lysis syndrome,Recovered,Serious,,1,,,20161018,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Muscle twitching,Recovered,Serious,,1,,,20161018,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Memory impairment,Recovered,Serious,,1,,,20161018,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Hallucination,Recovered,Serious,,1,,,20161018,US
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Hepatitis,Recovered,Serious,,1,,,20170208,GB
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,101.4,Dyspnoea,Recovered,Serious,,1,,,20170321,GB
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,101.4,Pulmonary embolism,Recovered,Serious,,1,,,20170321,GB
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,101.4,Pneumonia,Recovered,Serious,,1,,,20170321,GB
+DURVALUMAB,Checkpoint Inhibitor,75,801,Male,81.5,Hepatitis,Recovered,Serious,,1,,,20170215,GB
+DURVALUMAB,Checkpoint Inhibitor,76,801,Male,81.5,Hepatitis,Recovered,Serious,,1,,,20170301,GB
+DURVALUMAB,Checkpoint Inhibitor,61,801,Male,,Mental status changes,Recovered,Serious,,1,,,20170405,US
+DURVALUMAB,Checkpoint Inhibitor,53,801,Male,,Acute kidney injury,Recovered,Serious,,1,,,20170630,DE
+DURVALUMAB,Checkpoint Inhibitor,53,801,Male,,Hepatitis,Recovered,Serious,,1,,,20170630,DE
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Hepatitis,Unknown,Serious,,,,,20170426,CA
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Myasthenia gravis,Unknown,Non-Serious,,,,,20170508,US
+DURVALUMAB,Checkpoint Inhibitor,68,801,Female,,Small intestinal obstruction,Not Recovered,Serious,,1,,,20170509,CA
+DURVALUMAB,Checkpoint Inhibitor,70,801,Female,,Pruritus,Unknown,Serious,,,,,20170616,CA
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Hypocalcaemia,Recovered,Serious,,1,,,20200416,CA
+DURVALUMAB,Checkpoint Inhibitor,67,801,Male,,Colitis,Recovered,Serious,,1,,,20170525,CA
+DURVALUMAB,Checkpoint Inhibitor,62,801,Male,,Haemorrhage intracranial,Recovered,Serious,,1,,,20210511,CA
+DURVALUMAB,Checkpoint Inhibitor,71,801,Female,,Respiratory failure,Fatal,Serious,1,,,,20170523,CA
+DURVALUMAB,Checkpoint Inhibitor,15617,804,Female,73.3,Hypotension,Recovered,Serious,,1,,,20170523,SA
+DURVALUMAB,Checkpoint Inhibitor,15617,804,Female,73.3,Headache,Recovered,Serious,,1,,,20170523,SA
+DURVALUMAB,Checkpoint Inhibitor,15617,804,Female,73.3,Fatigue,Recovered,Serious,,1,,,20170523,SA
+DURVALUMAB,Checkpoint Inhibitor,15617,804,Female,73.3,Diarrhoea,Recovered,Serious,,1,,,20170523,SA
+DURVALUMAB,Checkpoint Inhibitor,55,801,Female,,Immune-mediated hepatitis,Not Recovered,Serious,,1,,,20170802,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Anaemia,Not Recovered,Serious,,1,,,20170614,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Pulmonary haemorrhage,Recovered,Serious,,1,,,20170614,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Platelet count decreased,Recovered,Serious,,1,,,20170614,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Pneumonitis,Not Recovered,Serious,,1,,,20170614,CA
+DURVALUMAB,Checkpoint Inhibitor,56,801,Female,,Device related infection,Recovered,Serious,,1,,,20170609,CA
+DURVALUMAB,Checkpoint Inhibitor,733,802,Female,63.6,Respiratory tract infection,Not Recovered,Serious,,1,,,20190524,ES
+DURVALUMAB,Checkpoint Inhibitor,731,802,Female,68.2,Bronchospasm,Recovered,Serious,,1,,,20170613,ES
+DURVALUMAB,Checkpoint Inhibitor,62,801,Female,,Ascites,Not Recovered,Serious,,1,,,20170630,FR
+DURVALUMAB,Checkpoint Inhibitor,21420,804,Female,54,Cholestasis,Not Recovered,Serious,,1,,,20170620,ES
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Vomiting,Recovered,Serious,,1,,,20180207,CA
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Biliary tract infection,Recovered,Serious,,1,,,20180207,CA
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Pyrexia,Recovered,Serious,,1,,,20180207,CA
+DURVALUMAB,Checkpoint Inhibitor,60,801,Male,,Febrile neutropenia,Recovered,Serious,,,1,,20170628,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Diarrhoea,Unknown,Serious,,1,,,20170623,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Platelet count decreased,Recovered,Serious,,1,,,20170623,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Febrile neutropenia,Unknown,Serious,,1,,,20170623,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Colitis,Unknown,Serious,,1,,,20170623,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypothyroidism,Not Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Platelet count decreased,Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Diarrhoea,Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypotension,Not Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypokalaemia,Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypopituitarism,Not Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypophosphataemia,Not Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Hypocalcaemia,Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,Anaemia,Not Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,68,801,Male,,White blood cell count decreased,Recovered,Serious,,1,,,20170626,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Diarrhoea,Unknown,Serious,,1,,,20170629,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Febrile neutropenia,Unknown,Serious,,1,,,20170629,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Platelet count decreased,Recovered,Serious,,1,,,20170629,CA
+DURVALUMAB,Checkpoint Inhibitor,48,801,Female,,Colitis,Unknown,Serious,,1,,,20170629,CA
+DURVALUMAB,Checkpoint Inhibitor,37,801,Female,,Small intestinal obstruction,Unknown,Serious,1,1,1,,20180809,CA
+DURVALUMAB,Checkpoint Inhibitor,37,801,Female,,Hypokalaemia,Unknown,Serious,1,1,1,,20180809,CA
+DURVALUMAB,Checkpoint Inhibitor,37,801,Female,,Aspiration,Fatal,Serious,1,1,1,,20180809,CA
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Pyrexia,Recovered,Serious,,1,,,20170913,CA
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Biliary tract infection,Recovered,Serious,,1,,,20170913,CA
+DURVALUMAB,Checkpoint Inhibitor,29,801,Female,,Vomiting,Recovered,Serious,,1,,,20170913,CA
+DURVALUMAB,Checkpoint Inhibitor,57,801,Female,,Embolism,Not Recovered,Serious,,,,,20170719,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Aspartate aminotransferase increased,Recovered,Serious,,1,1,,20210625,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Alanine aminotransferase increased,Recovered,Serious,,1,1,,20210625,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Supraventricular tachycardia,Unknown,Serious,,1,1,,20210625,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Myositis,Unknown,Serious,,1,1,,20210625,CA
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Sepsis,Fatal,Serious,1,,,,20170721,CA
+DURVALUMAB,Checkpoint Inhibitor,57,801,Female,,Embolism,Not Recovered,Serious,,,,,20170724,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Male,,Haemorrhage intracranial,Not Recovered,Serious,,,,,20170727,CA
+DURVALUMAB,Checkpoint Inhibitor,76,801,Female,,Rhabdomyolysis,Recovered,Serious,,1,,,20170818,CA
+DURVALUMAB,Checkpoint Inhibitor,76,801,Female,,Troponin T increased,Not Recovered,Serious,,1,,,20170818,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Colitis,Recovered with Sequelae,Serious,,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Metastases to pelvis,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Metastases to abdominal cavity,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Cerebral infarction,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Malignant neoplasm progression,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Central nervous system lesion,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Metastases to central nervous system,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,56.7,Metastatic neoplasm,Unknown,Serious,1,1,,,20170725,US
+DURVALUMAB,Checkpoint Inhibitor,67,801,Male,,Lower gastrointestinal haemorrhage,Unknown,Serious,,1,,,20170728,CA
+DURVALUMAB,Checkpoint Inhibitor,24534,804,Female,,Chest pain,Not Recovered,Serious,,1,,,20180502,AU
+DURVALUMAB,Checkpoint Inhibitor,,,Female,,Lung disorder,Unknown,Non-Serious,,,,,20170727,US
+DURVALUMAB,Checkpoint Inhibitor,58,801,Female,,Sudden death,Fatal,Serious,1,,,,20170728,CA
+DURVALUMAB,Checkpoint Inhibitor,,,Male,,Pneumonitis,Unknown,Serious,,1,,,20170728,US
+DURVALUMAB,Checkpoint Inhibitor,24982,804,Male,,Cerebral infarction,Not Recovered,Serious,1,1,1,,20171027,CN
+DURVALUMAB,Checkpoint Inhibitor,24982,804,Male,,Thrombocytopenia,Recovering,Serious,1,1,1,,20171027,CN
+DURVALUMAB,Checkpoint Inhibitor,24982,804,Male,,Vomiting,Recovered,Serious,1,1,1,,20171027,CN
+DURVALUMAB,Checkpoint Inhibitor,,,Male,,Death,Fatal,Serious,1,,,,20170730,US
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Disease progression,Fatal,Serious,1,,,,20170801,US
+DURVALUMAB,Checkpoint Inhibitor,84,801,Male,104,Pulmonary oedema,Not Recovered,Serious,,1,,,20170802,GB
+DURVALUMAB,Checkpoint Inhibitor,,,Female,,Death,Fatal,Serious,1,,,,20170803,US
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Malignant neoplasm progression,Unknown,Serious,,,,,20170803,US
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Malignant neoplasm progression,Unknown,Serious,,,,,20170803,US
+DURVALUMAB,Checkpoint Inhibitor,20613,804,Male,,Alveolitis,Recovering,Non-Serious,2,2,2,2,20230929,
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Hyperthyroidism,Unknown,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Diarrhoea,Not Recovered,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Nephritis,Unknown,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Cardiac failure,Unknown,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Myocarditis,Unknown,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Nausea,Recovering,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Vomiting,Recovering,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,74,801,Female,,Febrile neutropenia,Unknown,Serious,,1,1,,20180423,CA
+DURVALUMAB,Checkpoint Inhibitor,53,801,Male,,Platelet count decreased,Recovered,Serious,,1,,,20170901,US
+DURVALUMAB,Checkpoint Inhibitor,53,801,Male,,Non-cardiac chest pain,Recovered,Serious,,1,,,20170901,US
+DURVALUMAB,Checkpoint Inhibitor,53,801,Male,,Anaemia,Recovered,Serious,,1,,,20170901,US
+DURVALUMAB,Checkpoint Inhibitor,76,801,Female,,Constipation,Unknown,Serious,,1,,,20171002,CA
+DURVALUMAB,Checkpoint Inhibitor,76,801,Female,,Enterocolitis,Recovered,Serious,,1,,,20171002,CA
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20170908,US
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Disease progression,Unknown,Serious,1,,,,20170908,US
+DURVALUMAB,Checkpoint Inhibitor,,,Male,,Death,Fatal,Serious,1,,,,20170810,US
+DURVALUMAB,Checkpoint Inhibitor,24246,804,Male,,Pancytopenia,Not Recovered,Serious,1,1,1,,20190405,ES
+DURVALUMAB,Checkpoint Inhibitor,24246,804,Male,,Septic shock,Fatal,Serious,1,1,1,,20190405,ES
+DURVALUMAB,Checkpoint Inhibitor,64,801,Female,,Anaemia,Unknown,Serious,1,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,64,801,Female,,Aspartate aminotransferase increased,Not Recovered,Serious,1,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,64,801,Female,,Alanine aminotransferase increased,Not Recovered,Serious,1,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,64,801,Female,,Malignant neoplasm progression,Fatal,Serious,1,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,64,801,Female,,Blood bilirubin increased,Not Recovered,Serious,1,1,,,20171016,CA
+DURVALUMAB,Checkpoint Inhibitor,31,801,Female,80.7,Lipase increased,Not Recovered,Non-Serious,,,,,20170817,US
+DURVALUMAB,Checkpoint Inhibitor,31,801,Female,80.7,Amylase increased,Not Recovered,Non-Serious,,,,,20170817,US
+DURVALUMAB,Checkpoint Inhibitor,60,801,Female,,Alanine aminotransferase increased,Unknown,Serious,,,,,20190215,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Malignant neoplasm progression,Not Recovered,Serious,,1,,,20180101,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Pulmonary haemorrhage,Recovered,Serious,,1,,,20180101,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Pericardial effusion,Recovered with Sequelae,Serious,,1,,,20180101,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Embolism,Recovered with Sequelae,Serious,,1,,,20180101,CA
+DURVALUMAB,Checkpoint Inhibitor,69,801,Male,,Sepsis,Fatal,Serious,1,,1,,20170824,CA
+DURVALUMAB,Checkpoint Inhibitor,69,801,Male,,Dehydration,Recovered,Serious,,1,,,20180131,CA
+DURVALUMAB,Checkpoint Inhibitor,69,801,Male,,Hypotension,Recovered,Serious,,1,,,20180131,CA
+DURVALUMAB,Checkpoint Inhibitor,46,801,Female,,Lipase increased,Unknown,Serious,,,,,20170824,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Female,,Chronic inflammatory demyelinating polyradiculoneuropathy,Recovered with Sequelae,Serious,,1,,,20171108,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Female,,Malignant neoplasm progression,Recovered with Sequelae,Serious,,1,,,20171108,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Colitis,Not Recovered,Serious,1,1,,,20171116,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Sepsis,Fatal,Serious,1,1,,,20171116,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Blood creatinine increased,Recovered,Serious,,1,,,20180918,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Haematuria,Recovered,Serious,,1,,,20180918,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,,Anaemia,Recovered,Serious,,1,,,20180918,CA
+DURVALUMAB,Checkpoint Inhibitor,69,801,Male,,Dehydration,Not Recovered,Serious,,1,,,20170908,CA
+DURVALUMAB,Checkpoint Inhibitor,69,801,Male,,Hypotension,Not Recovered,Serious,,1,,,20170908,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Sepsis,Fatal,Serious,1,1,,,20171122,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Colitis,Not Recovered,Serious,1,1,,,20171122,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Male,,Vomiting,Recovered,Serious,,1,,,20170831,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Male,,Diarrhoea,Recovered,Serious,,1,,,20170831,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Urinary tract infection,Not Recovered,Serious,,1,,,20171213,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Female,,Hepatic infection,Not Recovered,Serious,,1,,,20171213,CA
+DURVALUMAB,Checkpoint Inhibitor,20570,804,Male,,Mucosal inflammation,Recovered,Serious,,1,,,20180710,FR
+DURVALUMAB,Checkpoint Inhibitor,20570,804,Male,,Febrile neutropenia,Recovered,Serious,,1,,,20180710,FR
+DURVALUMAB,Checkpoint Inhibitor,23191,804,Female,,Neutropenia,Recovered,Serious,,1,1,,20171025,IL
+DURVALUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20170905,US
+DURVALUMAB,Checkpoint Inhibitor,64,801,Male,82.6,Post-traumatic stress disorder,Unknown,Serious,,,,,20180309,US
+DURVALUMAB,Checkpoint Inhibitor,64,801,Male,82.6,Seizure,Recovered,Serious,,,,,20180309,US
+DURVALUMAB,Checkpoint Inhibitor,64,801,Male,82.6,Adverse event,Unknown,Serious,,,,,20180309,US
+DURVALUMAB,Checkpoint Inhibitor,64,801,Male,82.6,Malignant neoplasm progression,Unknown,Serious,,,,,20180309,US
+DURVALUMAB,Checkpoint Inhibitor,24214,804,Female,,Vaginal haemorrhage,Recovered,Serious,,1,,,20171017,US
+DURVALUMAB,Checkpoint Inhibitor,24214,804,Female,,Dizziness,Recovered,Serious,,1,,,20171017,US
+DURVALUMAB,Checkpoint Inhibitor,24214,804,Female,,Vomiting,Recovered,Serious,,1,,,20171017,US
+DURVALUMAB,Checkpoint Inhibitor,57,801,Male,,Immune-mediated hepatitis,Recovered,Serious,,,,,20171108,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Abdominal pain,Not Recovered,Serious,1,1,1,,20191107,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Large intestine perforation,Fatal,Serious,1,1,1,,20191107,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Sepsis,Not Recovered,Serious,1,1,1,,20191107,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Atrial fibrillation,Recovered,Serious,,1,,,20170908,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Product use in unapproved indication,Unknown,Serious,,1,,,20170908,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Pyrexia,Recovered,Serious,,1,,,20170908,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Off label use,Unknown,Serious,,1,,,20170908,DK
+DURVALUMAB,Checkpoint Inhibitor,57,801,Female,57.1,Rash maculo-papular,Not Recovered,Serious,,,,,20170908,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,94.5,Dyspnoea,Unknown,Serious,,1,,,20170912,US
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Gastrointestinal pain,Not Recovered,Serious,,1,,,20170918,CA
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Pneumonia,Recovered,Serious,,1,,,20180108,CA
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,94.5,Dyspnoea,Unknown,Serious,,1,,,20170918,US
+DURVALUMAB,Checkpoint Inhibitor,73,801,Male,94.5,Pleural effusion,Unknown,Serious,,1,,,20170918,US
+DURVALUMAB,Checkpoint Inhibitor,18631,804,Male,,Haemoptysis,Recovered with Sequelae,Serious,,1,,,20171003,FR
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Atrial fibrillation,Recovered,Serious,,1,,,20170918,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Pyrexia,Recovered,Serious,,1,,,20170918,DK
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Pneumonia,Recovered,Serious,,1,,,20171108,CA
+DURVALUMAB,Checkpoint Inhibitor,63,801,Female,,Delirium,Unknown,Serious,,1,,,20170921,US
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Colitis,Not Recovered,Serious,,1,,,20180625,CA
+DURVALUMAB,Checkpoint Inhibitor,66,801,Female,,Dehydration,Recovered,Serious,,1,,,20180625,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Product use in unapproved indication,Unknown,Serious,,1,,,20170921,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Off label use,Unknown,Serious,,1,,,20170921,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Atrial fibrillation,Recovered,Serious,,1,,,20170921,DK
+DURVALUMAB,Checkpoint Inhibitor,65,801,Female,92.2,Pyrexia,Recovered,Serious,,1,,,20170921,DK
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Gastrointestinal pain,Not Recovered,Serious,,1,,,20171114,CA
+DURVALUMAB,Checkpoint Inhibitor,71,801,Male,,Colitis,Not Recovered,Serious,,1,,,20171114,CA
+DURVALUMAB,Checkpoint Inhibitor,72,801,Male,,Pneumonia,Recovered,Serious,,1,,,20171113,CA
+DURVALUMAB,Checkpoint Inhibitor,65,801,Male,,Gastrointestinal perforation,Fatal,Serious,1,,,,20171105,CA
+IPILIMUMAB,Checkpoint Inhibitor,60,801,Male,119.2,Adrenal insufficiency,Recovered with Sequelae,Serious,,1,,,20140722,US
+IPILIMUMAB,Checkpoint Inhibitor,56,801,Male,,Metastases to central nervous system,Unknown,Serious,,1,,,20141205,US
+IPILIMUMAB,Checkpoint Inhibitor,75,801,Female,,Death,Fatal,Serious,1,,,,20140314,US
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,,Febrile neutropenia,Recovered,Serious,,1,,,20180330,KR
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Intestinal perforation,Recovered,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Ileus paralytic,Unknown,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pneumonitis,Unknown,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Lung infiltration,Unknown,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Renal failure,Unknown,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pneumothorax,Recovered,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Female,72.9,Pulmonary embolism,Unknown,Serious,,1,1,,20140314,NO
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Loss of consciousness,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Diarrhoea,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Vomiting,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Chills,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Abdominal pain upper,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,56.69,Muscle spasms,Unknown,Serious,,,,,20140317,US
+IPILIMUMAB,Checkpoint Inhibitor,59,801,Female,77.1,Colitis,Recovered,Serious,,1,,,20190426,US
+IPILIMUMAB,Checkpoint Inhibitor,53,801,Male,,VIIth nerve paralysis,Recovered,Serious,,1,,,20150622,JP
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Death,Fatal,Serious,1,,,,20140318,US
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,,Malignant neoplasm progression,Fatal,Serious,1,,,,20140930,CA
+IPILIMUMAB,Checkpoint Inhibitor,56,801,Male,104,Hypertension,Not Recovered,Serious,,,,,20140318,US
+IPILIMUMAB,Checkpoint Inhibitor,76,801,Male,,Colitis,Recovered,Serious,,1,,,20150624,ES
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,85,Dehydration,Not Recovered,Serious,,1,,,20160310,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,85,Nausea,Not Recovered,Serious,,1,,,20160310,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,85,Tumour pain,Not Recovered,Serious,,1,,,20160310,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,85,Fatigue,Not Recovered,Serious,,1,,,20160310,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,85,Retching,Not Recovered,Serious,,1,,,20160310,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Non-Hodgkin^s lymphoma,Not Recovered,Serious,,,,,20140319,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,107.3,Lipase increased,Not Recovered,Serious,,1,,,20140319,US
+IPILIMUMAB,Checkpoint Inhibitor,66,801,Male,168,Necrotising fasciitis,Recovered,Serious,,1,1,,20141225,US
+IPILIMUMAB,Checkpoint Inhibitor,66,801,Male,168,Septic shock,Recovered,Serious,,1,1,,20141225,US
+IPILIMUMAB,Checkpoint Inhibitor,66,801,Male,168,Adrenal insufficiency,Recovered,Serious,,1,1,,20141225,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,,Death,Fatal,Serious,1,,,,20140319,PE
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,,Hypotension,Unknown,Serious,1,,,,20140319,PE
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,,Skin disorder,Unknown,Serious,1,,,,20140319,PE
+IPILIMUMAB,Checkpoint Inhibitor,47,801,Female,54,Colitis,Recovered,Serious,,1,,,20140416,FR
+IPILIMUMAB,Checkpoint Inhibitor,47,801,Female,54,Pyrexia,Recovered,Serious,,1,,,20140416,FR
+IPILIMUMAB,Checkpoint Inhibitor,47,801,Female,54,Haemorrhoids,Recovered,Serious,,1,,,20140416,FR
+IPILIMUMAB,Checkpoint Inhibitor,47,801,Female,54,Pericarditis,Recovered,Serious,,1,,,20140416,FR
+IPILIMUMAB,Checkpoint Inhibitor,48,801,Male,89,Respiratory tract inflammation,Not Recovered,Serious,,,,,20140320,DE
+IPILIMUMAB,Checkpoint Inhibitor,68,801,Male,,Malignant neoplasm progression,Fatal,Serious,1,1,,,20140320,US
+IPILIMUMAB,Checkpoint Inhibitor,68,801,Male,,Pyrexia,Recovered,Serious,1,1,,,20140320,US
+IPILIMUMAB,Checkpoint Inhibitor,68,801,Male,,Fatigue,Recovered,Serious,1,1,,,20140320,US
+IPILIMUMAB,Checkpoint Inhibitor,69,801,Female,101,Pyrexia,Recovered,Serious,,1,,,20150824,US
+IPILIMUMAB,Checkpoint Inhibitor,79,801,Male,,Pneumonia aspiration,Fatal,Serious,1,1,,,20140429,CN
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Male,93.4,Alanine aminotransferase increased,Recovered,Serious,,,,,20140321,US
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Male,93.4,Aspartate aminotransferase increased,Recovered,Serious,,,,,20140321,US
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Male,93.4,Lipase increased,Recovered,Serious,,,,,20140321,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Hypertension,Recovered,Serious,,1,,,20150123,BE
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Constipation,Recovered,Serious,,1,,,20150123,BE
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,82.1,Paraparesis,Not Recovered,Serious,,1,,,20150123,BE
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,82.1,VIIth nerve paralysis,Recovered,Serious,,1,,,20150123,BE
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Male,91.9,Febrile neutropenia,Recovering,Serious,,1,,,20140424,US
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Male,91.9,Pneumonitis,Recovering,Serious,,1,,,20140424,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,104,Colitis,Not Recovered,Serious,,,,,20140822,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,104,Hypertension,Not Recovered,Serious,,,,,20140822,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20140505,IT
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Malignant neoplasm progression,Unknown,Serious,1,,,,20140505,IT
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,80.03,Hepatic haematoma,Not Recovered,Serious,,1,,,20140324,US
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,80.03,Transaminases increased,Not Recovered,Serious,,1,,,20140324,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Interstitial lung disease,Recovered,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Respiratory failure,Recovered,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Dehydration,Unknown,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Renal failure acute,Unknown,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Autoimmune hepatitis,Not Recovered,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Male,113,Blood bilirubin increased,Unknown,Serious,,1,,,20140613,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Death,Fatal,Serious,1,1,,,20140325,GB
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Abdominal pain upper,Unknown,Serious,1,1,,,20140325,GB
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Muscle spasms,Unknown,Serious,1,1,,,20140325,GB
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Enterocolitis,Unknown,Serious,,,,,20140325,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Amnesia,Unknown,Serious,,,,,20140325,US
+IPILIMUMAB,Checkpoint Inhibitor,46,801,Male,98,Meningitis aseptic,Unknown,Serious,,1,1,,20140324,
+IPILIMUMAB,Checkpoint Inhibitor,46,801,Male,98,Rash pruritic,Unknown,Serious,,1,1,,20140324,
+IPILIMUMAB,Checkpoint Inhibitor,46,801,Male,98,Diarrhoea,Unknown,Serious,,1,1,,20140324,
+IPILIMUMAB,Checkpoint Inhibitor,50,801,Female,,Nausea,Unknown,Serious,,1,,,20140325,AU
+IPILIMUMAB,Checkpoint Inhibitor,50,801,Female,,Vomiting,Unknown,Serious,,1,,,20140325,AU
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Visual impairment,Unknown,Serious,,1,,,20140422,CZ
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Dizziness,Unknown,Serious,,1,,,20140422,CZ
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Nystagmus,Unknown,Serious,,1,,,20140422,CZ
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Loss of consciousness,Unknown,Serious,,1,,,20140422,CZ
+IPILIMUMAB,Checkpoint Inhibitor,6,800,Male,,Malignant neoplasm progression,Fatal,Serious,1,1,,,20140326,IT
+IPILIMUMAB,Checkpoint Inhibitor,6,800,Male,,Cardiac failure,Unknown,Serious,1,1,,,20140326,IT
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,,Vomiting,Recovered,Serious,,1,,,20140819,GB
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,,Diarrhoea,Recovered,Serious,,1,,,20140819,GB
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Female,,Colitis,Unknown,Serious,,,,,20140326,US
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Female,,VIIth nerve paralysis,Unknown,Serious,,,,,20140326,US
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Female,,Deafness unilateral,Unknown,Serious,,,,,20140326,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Death,Fatal,Serious,1,,,,20140326,US
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,,Acute kidney injury,Recovered,Serious,,1,,,20150624,BE
+IPILIMUMAB,Checkpoint Inhibitor,76,801,Female,,Thyroid disorder,Unknown,Serious,,1,,,20140327,DE
+IPILIMUMAB,Checkpoint Inhibitor,76,801,Female,,Hypothalamo-pituitary disorder,Unknown,Serious,,1,,,20140327,DE
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,60.6,Diarrhoea,Recovered,Serious,,1,,,20140327,US
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,60.6,Vomiting,Recovered,Serious,,1,,,20140327,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Hydronephrosis,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Dehydration,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Oedema peripheral,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Feeling of despair,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Disorientation,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Peripheral swelling,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Ill-defined disorder,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Hypophagia,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Infection,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Confusional state,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Tremor,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Venous thrombosis,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Pain,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Splenomegaly,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Sepsis,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Immune system disorder,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Delusion,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Hospice care,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Chills,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Dyspnoea,Recovered,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Fungal skin infection,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Adverse drug reaction,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Gene mutation identification test positive,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Oxygen supplementation,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Death,Fatal,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Septic shock,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Pyrexia,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Pancytopenia,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Metastatic neoplasm,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,52,801,Male,107.3,Hyponatraemia,Unknown,Serious,1,1,,,20140703,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Female,58,Hypophysitis,Recovered,Serious,,1,,,20150908,US
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,73.7,Multi-organ failure,Fatal,Serious,1,1,,,20140414,AU
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Male,108,Gastritis,Recovered,Serious,,1,,,20140327,BE
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Male,108,Diarrhoea,Recovered,Serious,,1,,,20140327,BE
+IPILIMUMAB,Checkpoint Inhibitor,38,801,Male,,Death,Fatal,Serious,1,,,,20140328,AR
+IPILIMUMAB,Checkpoint Inhibitor,37,801,Male,,Vomiting,Recovering,Serious,,1,,,20140328,AR
+IPILIMUMAB,Checkpoint Inhibitor,37,801,Male,,Liver disorder,Recovering,Serious,,1,,,20140328,AR
+IPILIMUMAB,Checkpoint Inhibitor,37,801,Male,,Gallbladder disorder,Recovering,Serious,,1,,,20140328,AR
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Female,59.9,Blood creatine increased,Recovered,Serious,,1,,,20141012,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,62,Fatigue,Recovered,Serious,,1,,,20200717,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,62,Drug-induced liver injury,Recovered,Serious,,1,,,20200717,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,62,Dysphagia,Recovered,Serious,,1,,,20200717,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,62,Pyrexia,Recovered,Serious,,1,,,20200717,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,62,Confusional state,Recovered,Serious,,1,,,20200717,US
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Male,,Colitis,Recovered with Sequelae,Serious,,1,1,,20141212,GB
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Male,,Intestinal perforation,Recovered with Sequelae,Serious,,1,1,,20141212,GB
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Male,,Diarrhoea,Recovered,Serious,,1,1,,20141212,GB
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Male,,Rectal haemorrhage,Recovered,Serious,,1,1,,20141212,GB
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Haematochezia,Unknown,Serious,,1,,,20140328,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,International normalised ratio increased,Unknown,Serious,,1,,,20140328,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,58.4,Pyrexia,Recovering,Serious,1,1,,,20141021,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,58.4,Hyponatraemia,Recovering,Serious,1,1,,,20141021,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,58.4,Platelet count decreased,Recovering,Serious,1,1,,,20141021,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,58.4,Malignant neoplasm progression,Fatal,Serious,1,1,,,20141021,US
+IPILIMUMAB,Checkpoint Inhibitor,56,801,Male,125.9,Pyrexia,Recovered,Serious,,1,,,20140504,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Diarrhoea,Unknown,Serious,,1,,,20140331,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Dehydration,Unknown,Serious,,1,,,20140331,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Diverticulitis,Unknown,Serious,,1,,,20140331,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Female,,Loss of consciousness,Unknown,Serious,,1,,,20140331,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,101,Pneumonitis,Recovered,Serious,,1,,,20170310,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,101,Dyspnoea,Recovered,Serious,,1,,,20170310,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,General physical health deterioration,Unknown,Serious,,,,,20140331,DE
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Diarrhoea haemorrhagic,Unknown,Serious,,,,,20140331,DE
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Weight decreased,Unknown,Serious,,,,,20140331,DE
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,,Staphylococcal bacteraemia,Unknown,Serious,,,,,20140331,DE
+IPILIMUMAB,Checkpoint Inhibitor,75,801,Female,,Metabolic disorder,Recovered,Serious,,1,,,20150519,NL
+IPILIMUMAB,Checkpoint Inhibitor,75,801,Female,,Diarrhoea,Recovered,Serious,,1,,,20150519,NL
+IPILIMUMAB,Checkpoint Inhibitor,75,801,Female,,Nausea,Recovered,Serious,,1,,,20150519,NL
+IPILIMUMAB,Checkpoint Inhibitor,75,801,Female,,Pancytopenia,Recovered,Serious,,1,,,20150519,NL
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Female,68,Colitis,Recovered with Sequelae,Serious,,1,,,20170201,FI
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Ventricular tachycardia,Fatal,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Torsade de pointes,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Electrocardiogram QT prolonged,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Atrial fibrillation,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Colitis,Recovered,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Anaemia,Recovering,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Pneumonia,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Deep vein thrombosis,Recovering,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Cognitive disorder,Recovering,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Muscular weakness,Recovering,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Hypokalaemia,Recovering,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Dyspnoea,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Hypoxia,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,62,801,Male,98,Schizophrenia,Unknown,Serious,1,1,2,2,20230808,US
+IPILIMUMAB,Checkpoint Inhibitor,64,801,Male,,Death,Fatal,Serious,1,,,,20141204,AR
+IPILIMUMAB,Checkpoint Inhibitor,7,800,Male,,Vertigo,Recovering,Serious,,1,,,20140401,FI
+IPILIMUMAB,Checkpoint Inhibitor,33,801,Male,86.5,Pulmonary embolism,Recovered,Serious,,1,1,,20150130,DE
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20140401,BE
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Male,,Death,Fatal,Serious,1,,,,20140401,AR
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,,Pneumonia,Not Recovered,Serious,,1,,,20160707,DE
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,,Hypothyroidism,Not Recovered,Serious,,1,,,20160712,GB
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,,Hypopituitarism,Not Recovered,Serious,,1,,,20160712,GB
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,,Visual impairment,Recovered,Serious,,1,,,20160712,GB
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,,Hypophysitis,Not Recovered,Serious,,1,,,20160712,GB
+IPILIMUMAB,Checkpoint Inhibitor,49,801,Female,,Gastroenteritis viral,Recovered,Serious,,1,,,20160712,GB
+IPILIMUMAB,Checkpoint Inhibitor,41,801,Female,,Gastritis,Recovered,Serious,,1,,,20171213,AT
+IPILIMUMAB,Checkpoint Inhibitor,41,801,Female,,Gastrointestinal infection,Recovered,Serious,,1,,,20171213,AT
+IPILIMUMAB,Checkpoint Inhibitor,41,801,Female,,Hypophysitis,Recovered,Serious,,1,,,20171213,AT
+IPILIMUMAB,Checkpoint Inhibitor,69,801,Male,,Abdominal pain,Recovered,Serious,,1,,,20140421,US
+IPILIMUMAB,Checkpoint Inhibitor,72,801,Male,,Inappropriate antidiuretic hormone secretion,Unknown,Serious,,1,,,20140424,GB
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Male,106.5,Peripheral sensory neuropathy,Recovering,Serious,,1,,,20140707,US
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Male,106.5,Vomiting,Recovering,Serious,,1,,,20140707,US
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Male,106.5,Pulmonary mass,Unknown,Serious,,1,,,20140707,US
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Male,106.5,Peripheral motor neuropathy,Recovering,Serious,,1,,,20140707,US
+IPILIMUMAB,Checkpoint Inhibitor,54,801,Male,106.5,Dehydration,Recovering,Serious,,1,,,20140707,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20140403,BE
+IPILIMUMAB,Checkpoint Inhibitor,81,801,Male,83.6,Neoplasm progression,Fatal,Serious,1,1,,,20140825,US
+IPILIMUMAB,Checkpoint Inhibitor,81,801,Male,83.6,Adrenal insufficiency,Recovering,Serious,1,1,,,20140825,US
+IPILIMUMAB,Checkpoint Inhibitor,81,801,Male,83.6,Upper gastrointestinal haemorrhage,Not Recovered,Serious,1,1,,,20140825,US
+IPILIMUMAB,Checkpoint Inhibitor,81,801,Male,83.6,Small intestinal obstruction,Not Recovered,Serious,1,1,,,20140825,US
+IPILIMUMAB,Checkpoint Inhibitor,81,801,Male,83.6,Anaemia,Not Recovered,Serious,1,1,,,20140825,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Female,,Lipase increased,Recovered with Sequelae,Serious,,,,,20140912,US
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,,Adverse event,Unknown,Serious,,1,,,20140404,AR
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,,Respiratory disorder,Unknown,Serious,,1,,,20140404,AR
+IPILIMUMAB,Checkpoint Inhibitor,61,801,Male,,Metastases to liver,Unknown,Serious,,1,,,20140404,AR
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,Urinary tract infection,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,White blood cell count increased,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,Pyrexia,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,Constipation,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,Groin pain,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,77,801,Female,69.4,Nausea,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,73,801,Female,,Sepsis,Unknown,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,73,801,Female,,Leukocytosis,Unknown,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Death,Fatal,Serious,1,,,,20140404,GB
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Pruritus,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Fatigue,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Dyspnoea,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Blood pressure increased,Not Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Nausea,Recovered with Sequelae,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Rash maculo-papular,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,91.7,Decreased appetite,Recovered,Serious,,1,,,20140404,US
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Female,59.9,Pneumonitis,Not Recovered,Serious,,1,,,20150514,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Myocardial infarction,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Aspartate aminotransferase increased,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Alanine aminotransferase increased,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Rhinorrhoea,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Cough,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Vomiting,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Pneumonia,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Anxiety,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Blood alkaline phosphatase increased,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Transaminases increased,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Alanine aminotransferase increased,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Dyspnoea,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Sinus congestion,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Malaise,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Headache,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Blood bilirubin increased,Not Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Hepatic steatosis,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Aspartate aminotransferase increased,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Nausea,Not Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Dizziness,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Alanine aminotransferase increased,Not Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Syncope,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Hypotension,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Metastatic malignant melanoma,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Enterocolitis,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Aspartate aminotransferase increased,Not Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Abdominal pain,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Lung disorder,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Adrenal insufficiency,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Sinus tachycardia,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Pulmonary oedema,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Angina unstable,Unknown,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Cholecystitis,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Male,104.8,Fatigue,Recovered,Serious,,1,,,20171013,US
+IPILIMUMAB,Checkpoint Inhibitor,68,801,Male,87,Myocardial infarction,Fatal,Serious,1,1,,,20170314,US
+IPILIMUMAB,Checkpoint Inhibitor,50,801,Female,,Haemolytic uraemic syndrome,Unknown,Serious,,,,,20140424,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,161.3,Dyspnoea,Not Recovered,Serious,,1,,,20140407,US
+IPILIMUMAB,Checkpoint Inhibitor,57,801,Male,161.3,Supraventricular tachycardia,Not Recovered,Serious,,1,,,20140407,US
+IPILIMUMAB,Checkpoint Inhibitor,78,801,Male,,Exfoliative rash,Recovered with Sequelae,Serious,,1,,,20140507,AU
+IPILIMUMAB,Checkpoint Inhibitor,78,801,Male,,Dyspnoea,Recovered,Serious,,1,,,20140507,AU
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,105.2,Diarrhoea,Recovered,Serious,,1,,,20140418,US
+IPILIMUMAB,Checkpoint Inhibitor,71,801,Male,105.2,Pulmonary embolism,Unknown,Serious,,1,,,20140418,US
+IPILIMUMAB,Checkpoint Inhibitor,66,801,Female,72.2,Colitis,Recovered with Sequelae,Serious,,1,,,20140408,US
+IPILIMUMAB,Checkpoint Inhibitor,45,801,Female,68.7,Colitis,Recovered,Serious,,1,,,20140523,US
+IPILIMUMAB,Checkpoint Inhibitor,45,801,Female,68.7,Intestinal perforation,Recovered,Serious,,1,,,20140523,US
+IPILIMUMAB,Checkpoint Inhibitor,60,801,Male,,Peritoneal haemorrhage,Unknown,Serious,,1,,,20150723,US
+IPILIMUMAB,Checkpoint Inhibitor,60,801,Male,,Abdominal pain,Recovered,Serious,,1,,,20150723,US
+IPILIMUMAB,Checkpoint Inhibitor,53,801,Male,102.6,Marrow hyperplasia,Not Recovered,Serious,,,,,20140918,US
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,85.73,Erythema,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,85.73,Oedema,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,85.73,Unresponsive to stimuli,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,85.73,Pyrexia,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,63,801,Male,85.73,Heart rate increased,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Pyrexia,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Abdominal pain,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Abdominal distension,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Early satiety,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Haematochezia,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Proctalgia,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Colitis,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,58,801,Female,83.3,Intestinal perforation,Unknown,Serious,,1,1,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Autoimmune disorder,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Pyrexia,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Nausea,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Fatigue,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Hyperthyroidism,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Vomiting,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Diarrhoea,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Thyroiditis,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,43,801,Male,98.7,Adrenal insufficiency,Unknown,Serious,,1,,,20140409,
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Headache,Unknown,Serious,,1,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Pyrexia,Unknown,Serious,,1,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,,,Unknown,,Viral infection,Unknown,Serious,,1,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Female,,Colitis,Unknown,Serious,,,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Female,,Haemorrhage,Unknown,Serious,,,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Female,,Diarrhoea,Unknown,Serious,,,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,51,801,Female,,Vomiting,Unknown,Serious,,,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,70,801,Female,,Acute febrile neutrophilic dermatosis,Recovering,Serious,,,,,20140410,US
+IPILIMUMAB,Checkpoint Inhibitor,28,801,Male,80,Diarrhoea,Recovered,Serious,,1,,,20140428,RU
+IPILIMUMAB,Checkpoint Inhibitor,28,801,Male,80,Haematochezia,Unknown,Serious,,1,,,20140428,RU
+IPILIMUMAB,Checkpoint Inhibitor,28,801,Male,80,Rash,Unknown,Serious,,1,,,20140428,RU
+IPILIMUMAB,Checkpoint Inhibitor,74,801,Male,,Small intestinal obstruction,Recovered,Serious,,1,,,20140522,AU
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,90,Diarrhoea,Unknown,Serious,,1,,,20140410,
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,90,Intestinal perforation,Unknown,Serious,,1,,,20140410,
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,90,No therapeutic response,Unknown,Serious,,1,,,20140410,
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,105,Lupus-like syndrome,Recovered,Serious,,1,,,20140505,DE
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,105,Hypophysitis,Recovered,Serious,,1,,,20140505,DE
+IPILIMUMAB,Checkpoint Inhibitor,65,801,Male,105,Malignant neoplasm progression,Unknown,Serious,,1,,,20140505,DE
+IPILIMUMAB,Checkpoint Inhibitor,41,801,Female,,Death,Fatal,Serious,1,,,,20140411,AR

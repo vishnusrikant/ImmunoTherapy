@@ -1,0 +1,12 @@
+generic_name,brand_name,drug_class,therapy_type,target,fda_approved_year,approved_indications
+Pembrolizumab,Keytruda,Checkpoint Inhibitor,PD-1 Inhibitor,PD-1,2014,"Melanoma, NSCLC, HNSCC, Hodgkin lymphoma, Urothelial, MSI-H cancers, others"
+Nivolumab,Opdivo,Checkpoint Inhibitor,PD-1 Inhibitor,PD-1,2014,"Melanoma, NSCLC, RCC, Hodgkin lymphoma, HNSCC, Urothelial, HCC, others"
+Atezolizumab,Tecentriq,Checkpoint Inhibitor,PD-L1 Inhibitor,PD-L1,2016,"Urothelial, NSCLC, TNBC, SCLC, HCC"
+Durvalumab,Imfinzi,Checkpoint Inhibitor,PD-L1 Inhibitor,PD-L1,2017,"NSCLC (Stage III), SCLC, Biliary tract cancer"
+Ipilimumab,Yervoy,Checkpoint Inhibitor,CTLA-4 Inhibitor,CTLA-4,2011,"Melanoma, RCC (combo), NSCLC (combo), MSI-H CRC, HCC, Mesothelioma"
+Axicabtagene ciloleucel,Yescarta,CAR-T,CD19-directed CAR-T,CD19,2017,"Large B-cell lymphoma (DLBCL, PMBCL, TFL)"
+Tisagenlecleucel,Kymriah,CAR-T,CD19-directed CAR-T,CD19,2017,"B-cell ALL (pediatric/young adult), DLBCL"
+Brexucabtagene autoleucel,Tecartus,CAR-T,CD19-directed CAR-T,CD19,2020,"Mantle cell lymphoma, B-cell ALL (adult)"
+Lisocabtagene maraleucel,Breyanzi,CAR-T,CD19-directed CAR-T,CD19,2021,"Large B-cell lymphoma"
+Idecabtagene vicleucel,Abecma,CAR-T,BCMA-directed CAR-T,BCMA,2021,"Multiple myeloma"
+Ciltacabtagene autoleucel,Carvykti,CAR-T,BCMA-directed CAR-T,BCMA,2022,"Multiple myeloma"

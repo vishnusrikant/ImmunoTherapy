@@ -1,0 +1,22 @@
+therapy_type,adverse_event,medical_term,organ_system,incidence_any_grade_pct,incidence_grade3plus_pct,notes
+PD-1/PD-L1 Inhibitor,Skin rash/itching,Dermatitis,Dermatologic,30-40,1-3,Most common irAE; usually Grade 1-2
+PD-1/PD-L1 Inhibitor,Diarrhea/colitis,Colitis,Gastrointestinal,10-20,1-5,More common with CTLA-4 combo
+PD-1/PD-L1 Inhibitor,Thyroid dysfunction,Thyroiditis,Endocrine,5-20,0.5-2,Hypothyroidism more common than hyperthyroidism
+PD-1/PD-L1 Inhibitor,Liver inflammation,Hepatitis,Hepatic,5-10,1-5,Monitor ALT/AST regularly
+PD-1/PD-L1 Inhibitor,Lung inflammation,Pneumonitis,Pulmonary,3-10,1-3,Can be life-threatening; monitor for cough/dyspnea
+PD-1/PD-L1 Inhibitor,Fatigue,Fatigue,Constitutional,20-40,2-5,Very common; often Grade 1-2
+PD-1/PD-L1 Inhibitor,Joint pain,Arthralgia,Musculoskeletal,5-15,1-2,Can be persistent
+PD-1/PD-L1 Inhibitor,Adrenal insufficiency,Adrenal insufficiency,Endocrine,1-5,1-2,May require lifelong hormone replacement
+PD-1/PD-L1 Inhibitor,Kidney inflammation,Nephritis,Renal,1-5,0.5-2,Monitor creatinine
+PD-1/PD-L1 Inhibitor,Heart inflammation,Myocarditis,Cardiac,0.5-1.5,0.5-1,Rare but high mortality (25-50%)
+CTLA-4 Inhibitor,Diarrhea/colitis,Colitis,Gastrointestinal,30-50,7-15,Much higher than PD-1; dose-dependent
+CTLA-4 Inhibitor,Skin rash,Dermatitis,Dermatologic,40-50,2-5,Higher incidence than PD-1
+CTLA-4 Inhibitor,Liver inflammation,Hepatitis,Hepatic,5-15,3-10,Higher grade 3+ than PD-1
+CTLA-4 Inhibitor,Pituitary inflammation,Hypophysitis,Endocrine,5-10,2-5,Distinctive to CTLA-4 inhibitors
+CAR-T,Cytokine release syndrome,CRS,Systemic/Immune,50-93,10-25,Hallmark CAR-T toxicity; IL-6 driven; onset day 1-14
+CAR-T,Neurotoxicity,ICANS,Neurologic,15-69,5-15,Often follows CRS; confusion tremor seizures
+CAR-T,Fever,Pyrexia,Constitutional,70-90,5-10,Usually accompanies CRS
+CAR-T,Low blood pressure,Hypotension,Cardiovascular,20-40,5-15,Often part of CRS
+CAR-T,Low blood counts,Cytopenias,Hematologic,30-60,20-40,Neutropenia thrombocytopenia anemia; can be prolonged
+CAR-T,Infection,Infection,Infectious,20-40,10-20,Due to immunosuppression and cytopenias
+CAR-T,Kidney injury,Acute kidney injury,Renal,5-15,2-5,Often secondary to CRS

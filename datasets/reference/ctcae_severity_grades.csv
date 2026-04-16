@@ -1,0 +1,6 @@
+grade,severity_label,model_label,description,clinical_action
+1,Mild,Mild,Asymptomatic or mild symptoms; clinical or diagnostic observations only; intervention not indicated,Continue immunotherapy with close monitoring
+2,Moderate,Mild,Moderate symptoms; minimal local or noninvasive intervention indicated; limiting age-appropriate activities,Hold immunotherapy; oral corticosteroids (0.5-1 mg/kg)
+3,Severe,Medium,Severe or medically significant but not immediately life-threatening; hospitalization indicated,Discontinue immunotherapy; IV corticosteroids (1-2 mg/kg); hospitalization
+4,Life-threatening,Severe,Life-threatening consequences; urgent intervention indicated,Permanently discontinue immunotherapy; high-dose IV corticosteroids; ICU
+5,Death,Severe,Death related to adverse event,N/A

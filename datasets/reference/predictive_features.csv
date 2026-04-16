@@ -1,0 +1,20 @@
+feature,category,data_type,evidence_strength,effect_on_severity,source
+Age >= 60,Demographics,Numeric,Strong,OR 1.49 for Grade 3+ irAEs,Frontiers in Immunology 2025
+Female sex,Demographics,Binary,Moderate,Higher irAE incidence overall,Frontiers in Immunology 2025
+BMI,Demographics,Numeric,Moderate,Predictive of irAE severity,Frontiers in Immunology 2025
+Pre-existing autoimmune disease,Medical History,Binary,Strong,OR 2.09 for Grade 3+ irAEs,Frontiers in Immunology 2025
+Family history of autoimmunity,Medical History,Binary,Emerging,Associated with higher irAE risk,Multiple studies
+Cancer type,Disease,Categorical,Strong,irAE profiles vary significantly by cancer,npj Precision Oncology 2021
+Tumor mutation burden (TMB),Genomic,Numeric,Moderate,Higher TMB correlates with both response and irAEs,cBioPortal studies
+Combination therapy (PD-1 + CTLA-4),Treatment,Binary,Strong,Significantly higher irAE rates (90% vs 70%),ASCO Guidelines
+Prior treatments count,Treatment,Numeric,Moderate,More prior therapies = different irAE profile,Multiple studies
+Baseline NLR (neutrophil-to-lymphocyte ratio),Lab Marker,Numeric,Moderate,Higher NLR associated with worse irAEs,Frontiers in Immunology 2025
+Baseline CRP (C-reactive protein),Lab Marker,Numeric,Moderate,Elevated CRP predicts severe irAEs,Multiple studies
+Baseline LDH,Lab Marker,Numeric,Moderate,Post-treatment LDH predicts severity,Frontiers in Immunology 2025
+Prognostic Nutritional Index (PNI),Lab Marker,Numeric,Moderate,Baseline PNI predicts irAE severity,Frontiers in Immunology 2025
+IL-6 level (day 3 post CAR-T),Lab Marker,Numeric,Strong,Early IL-6 peak predicts severe CRS/ICANS,Bone Marrow Transplantation 2025
+D-dimer (pre-infusion),Lab Marker,Numeric,Moderate,Part of ICANS prediction model (AUC=0.83),Bone Marrow Transplantation 2025
+CAR-T product type,Treatment,Categorical,Strong,ICANS: Yescarta 33% vs Kymriah 22% vs Breyanzi 16%,ASH Blood 2024
+Reticulocyte count,Lab Marker,Numeric,Moderate,Low count at infusion = ICANS risk,Multiple studies
+Antibiotic use,Medical History,Binary,Moderate,Associated with higher irAE incidence,Frontiers in Immunology 2025
+Cirrhosis/liver disease,Medical History,Binary,Moderate,Independent risk factor for irAEs,Frontiers in Immunology 2025
