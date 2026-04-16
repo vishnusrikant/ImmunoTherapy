@@ -94,20 +94,56 @@ Candidate studies not yet pulled (discovered during exploration):
 - `skcm_dfci_2015` — melanoma combo (110)
 - `nsclc_mskcc_2018` — NSCLC anti-PD-1/PD-L1 (75)
 
-## GEO — Gene Expression
+## GEO — Gene Expression (Low Priority — explored 2026-04-15)
 
-`GSE91061` — melanoma patients on anti-PD-1, responders vs non-responders.
-- Accessible via: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061
-- Small sample sizes; requires bioinformatics skills
-- Better suited for response prediction than severity prediction
+NCBI Gene Expression Omnibus stores RNA-seq / microarray data, NOT clinical data.
 
-## ClinicalTrials.gov — Aggregate AE Rates
+**Access (free, no auth):**
+- E-Utilities API: `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/` (esearch / esummary / efetch, `db=gds`)
+- FTP: `ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE*/` (SOFT / SeriesMatrix / MINiML / supplementary)
+- Python: `GEOparse` package
 
-For validated benchmark rates:
-- Search: https://clinicaltrials.gov/search?term=pembrolizumab
-- Pull "Adverse Events" tab from each trial's Results section
-- Aggregate rates, not patient-level
-- Good for comparing model predictions to real-world trial rates
+**Verdict: SKIP for severity prediction.** Confirmed via direct API queries:
+- `checkpoint inhibitor toxicity`: **0** GSE results
+- `immune related adverse event`: 8 results, none with CTCAE/AE labels
+- `cytokine release syndrome CAR-T`: **0** results
+
+GEO does not track irAEs. Features would be gene expression values (requires heavy bioinformatics), not standard clinical variables. Cannot merge with FAERS.
+
+**GSE91061** (Riaz et al. Cell 2017, melanoma anti-PD-1, 65 patients, 109 RNA-seq samples) is the flagship ICI study — but it's **the same cohort we already have from cBioPortal** as `mel_iatlas_riaz_nivolumab_2017`, just with added expression.
+
+**If user insists on GEO:** use `GEOparse` to pull GSE91061, compute a TIL / IFN-γ signature score per patient, join back to the cBioPortal Riaz cohort on sample ID. Experimental, marginal payoff.
+
+**Better alternatives discovered during exploration:**
+- **irAExplorer** — pan-cancer database, 71,087 ICI patients × 293 harmonized irAE categories. Purpose-built for this project. Check access next.
+- **VigiBase (WHO)** — ~150K ICI AEs 2008-2023, complements FAERS; access may require DUA.
+
+## ClinicalTrials.gov — Aggregate AE Rates (Recommended next source)
+
+**Modern v2 JSON API, no auth required** (verified 2026-04-15):
+- `https://clinicaltrials.gov/api/v2/studies?query.intr=pembrolizumab&pageSize=100`
+- `https://clinicaltrials.gov/api/v2/studies/{NCT_ID}` — full study record
+
+Trials with `hasResults=true` expose a rich `resultsSection.adverseEventsModule`:
+
+```
+adverseEventsModule:
+  eventGroups: [{id, title, deathsNumAffected, seriousNumAffected, seriousNumAtRisk, ...}]
+  seriousEvents: [{term, organSystem, sourceVocabulary=MedDRA, stats: [{groupId, numEvents, numAffected, numAtRisk}]}]
+  otherEvents:   [...]
+```
+
+Example: NCT02362594 (adjuvant pembrolizumab melanoma) returned 148 serious AEs, 25 deaths / 514 pembro-arm patients.
+
+**How to use:** Pull all ICI trials with results → build benchmark table of irAE rates by drug × cancer × MedDRA term. Useful for **model evaluation** (comparing FAERS-trained predictions to real trial rates), not for training (data is aggregate, not patient-level).
+
+### irAExplorer (checked 2026-04-15) — NOT useful
+
+- https://irae.tanlab.org/ aggregates ClinicalTrials.gov into a viz portal
+- **No patient-level data** — authors explicitly state: *"granularity of adverse event incidence was not reported at the individual level… This prevents further comorbidity analysis."*
+- **No API, no CSV download** — only the interactive website + an R parsing script on GitHub
+- Their 71,087-patient figure is a sum across 343 trials, not individual records
+- If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly (see above) — same data, our format
 
 ## VigiBase (WHO) — Global AE Data
 

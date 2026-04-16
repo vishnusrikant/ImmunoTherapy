@@ -174,11 +174,14 @@ These datasets contain richer patient-level data but require free account regist
 
 | Dataset | URL | What It Has | Status |
 |---------|-----|-------------|--------|
-| **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments | **Downloaded** (see `immport/` above) |
-| **TCGA via cBioPortal** | [cbioportal.org](https://www.cbioportal.org/) | Cancer genomics + clinical data (age, gender, stage, mutations, treatment) for 10,000+ patients | **Downloaded** (7 immunotherapy studies, see `cbioportal/` above) |
-| **GEO (GSE91061)** | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061) | Gene expression for melanoma patients on anti-PD-1 (responders vs non-responders) | Free download |
-| **ClinicalTrials.gov** | [clinicaltrials.gov](https://clinicaltrials.gov/) | Trial results with adverse event rates by therapy | Free search |
-| **VigiBase (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 28M+ global adverse event reports | Free (limited public access) |
+| **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments | **Downloaded** — 86 patients, 3 studies (see `immport/`) |
+| **TCGA via cBioPortal** | [cbioportal.org/api](https://www.cbioportal.org/api) | Cancer genomics + clinical data (10,000+ patients across 33 cancer types) | **Downloaded** — 7 ICI studies, 1,218 patients (see `cbioportal/`) |
+| **GEO (GSE91061)** | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061) | Gene expression / RNA-seq for ICI-treated patients | **Explored 2026-04-15 — skipped.** No AE coverage; GSE91061 is the same cohort as cBioPortal `mel_iatlas_riaz_nivolumab_2017` |
+| **irAExplorer** | [irae.tanlab.org](https://irae.tanlab.org/) | Aggregated ICI AE rates from 343 trials (71,087 patients) | **Explored 2026-04-15 — no download.** Authors aggregate per-trial only; no patient-level data, no API |
+| **ClinicalTrials.gov v2 API** | [clinicaltrials.gov/api/v2/studies](https://clinicaltrials.gov/api/v2/studies) | Per-trial MedDRA-coded AE tables (JSON, no auth) | **Verified 2026-04-15** — candidate for benchmark/evaluation data (aggregate, not patient-level) |
+| **VigiBase (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 28M+ global adverse event reports (~150K ICI reports 2008-2023) | Free aggregate access only; raw data requires DUA |
+
+See [`.claude/skills/expand-data/SKILL.md`](../.claude/skills/expand-data/SKILL.md) for exploration notes, decision rationale, and candidate studies for each source.
 
 ## How to Expand the FAERS Data Further
 

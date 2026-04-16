@@ -79,11 +79,14 @@ See [`datasets/README.md`](datasets/README.md) for field descriptions, data qual
 
 | Dataset | What It Has | Status |
 |---------|-------------|--------|
-| **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — see `datasets/immport/` |
-| **TCGA / cBioPortal** | Cancer genomics + clinical data (10,000+ patients) | **Downloaded** — 7 immunotherapy studies (1,218 patients) in `datasets/cbioportal/` |
-| **GEO (GSE91061)** | Gene expression for melanoma patients on anti-PD-1 | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/) |
-| **ClinicalTrials.gov** | Completed trial results with adverse event rates | [clinicaltrials.gov](https://clinicaltrials.gov/) |
-| **FDA FAERS (full)** | Millions of adverse event reports (quarterly dumps) | [fda.gov/faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) |
+| **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — 86 patients across 3 studies in `datasets/immport/` |
+| **TCGA / cBioPortal** | Cancer genomics + pre-treatment clinical features + survival outcomes | **Downloaded** — 7 immunotherapy studies (1,218 patients) in `datasets/cbioportal/` |
+| **GEO (GSE91061 et al.)** | Gene expression / RNA-seq from ICI-treated patients | **Explored — skipped.** Zero AE coverage; same Riaz cohort already in cBioPortal |
+| **irAExplorer** | Aggregate ICI AE rates across 343 trials (71,087 patients) | **Explored — no download.** Per-trial aggregates only, no API |
+| **ClinicalTrials.gov v2 API** | Per-trial MedDRA-coded AE tables (JSON) | Available — candidate for benchmark/validation data (aggregate, not patient-level) |
+| **FDA FAERS (full)** | Millions of adverse event reports (quarterly dumps) | Available — [fda.gov/faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) for further scale-up |
+
+See [`.claude/skills/expand-data/SKILL.md`](.claude/skills/expand-data/SKILL.md) for full source-by-source notes including what was evaluated and why.
 
 ---
 

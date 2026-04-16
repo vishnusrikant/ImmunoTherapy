@@ -24,8 +24,9 @@ Read these files, in this order:
 3. `docs/immunotherapy_side_effects_research.md` — 8-section research doc
 4. `datasets/README.md` — dataset index and field descriptions
 5. `datasets/immport/README.md` — ImmPort download details
-6. `datasets/reference/predictive_features.csv` — 19 validated features
-7. `datasets/reference/ctcae_severity_grades.csv` — severity mapping
+6. `datasets/cbioportal/README.md` — cBioPortal consolidated patient table
+7. `datasets/reference/predictive_features.csv` — 19 validated features
+8. `datasets/reference/ctcae_severity_grades.csv` — severity mapping
 
 ### Step 2: Check current state
 
@@ -38,14 +39,14 @@ git log --oneline -10
 git status
 
 # Dataset row counts
-wc -l datasets/faers/*.csv datasets/immport/SDY*/SDY*_patients_consolidated.csv
+wc -l datasets/faers/*.csv datasets/immport/SDY*/SDY*_patients_consolidated.csv datasets/cbioportal/all_patients_consolidated.csv
 ```
 
 ### Step 3: Confirm with the user
 
 Summarize in ≤5 bullets:
 - What project this is (immunotherapy severity classifier)
-- What data we have (FAERS 124,982 rows + ImmPort 86 patients)
+- What data we have (FAERS 124,982 rows + ImmPort 86 patients + cBioPortal 1,218 patients)
 - Last meaningful progress (latest commits)
 - What phase we're in (data collection done? model built?)
 - Propose 2-3 next steps with short rationale
@@ -66,6 +67,7 @@ Summarize in ≤5 bullets:
 
 - Do not rebuild datasets unless the user asks — the FAERS pull is expensive
 - Do not re-fetch ImmPort data — credentials are not stored in the repo
+- Do not re-explore GEO or irAExplorer — already evaluated and rejected (see `expand-data` skill for rationale)
 - Do not introduce synthetic data — the project standard is real data only
 - Do not replace the user's original README feature list — extend around it
 

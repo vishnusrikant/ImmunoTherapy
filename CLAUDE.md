@@ -140,8 +140,16 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 
 ## Future Work
 
-- Train and benchmark Random Forest + XGBoost on FAERS
+- Train and benchmark Random Forest + XGBoost on FAERS (next milestone — invoke `build-model` skill)
 - Feature-engineer cirrhosis / stage from ImmPort SDY1733
+- Feature-engineer TMB / LDH / ECOG / metastasis flags from cBioPortal consolidated table
 - Google Colab notebook for InspiritAI presentation
-- Add ClinicalTrials.gov aggregate adverse event rates as reference benchmarks
-- Explore GEO (GSE91061) gene expression for melanoma PD-1 responders
+- Optional: pull ClinicalTrials.gov v2 API for per-trial MedDRA AE rates as model-evaluation benchmarks
+
+## Data Sources Explored and Rejected (2026-04-15)
+
+- **GEO (Gene Expression Omnibus)** — zero AE coverage; flagship GSE91061 cohort is already in cBioPortal (`mel_iatlas_riaz_nivolumab_2017`). Heavy bioinformatics overhead for marginal feature gain.
+- **irAExplorer** — aggregates ClinicalTrials.gov data but authors explicitly state no patient-level granularity; no API, no download. If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly.
+- **VigiBase (WHO)** — raw data requires Data Use Agreement; only aggregate access via VigiAccess.
+
+See `.claude/skills/expand-data/SKILL.md` for detailed evaluation notes.

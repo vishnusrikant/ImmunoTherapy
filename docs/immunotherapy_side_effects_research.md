@@ -134,44 +134,55 @@ Published research has identified these features as predictive of irAE severity:
 | **Limitations** | No CTCAE grades (must derive severity from seriousness flags); no lab values; no autoimmune history; voluntary reporting (underreporting bias) |
 | **Our data** | `datasets/faers/` — 62,106 checkpoint inhibitor rows (25,000 reports, 5 drugs) + 62,876 CAR-T rows (17,469 reports, 6 products). Severity split: 35% Mild / 30% Medium / 35% Severe |
 
-### Supplementary Dataset: ImmPort
+### Supplementary Dataset: ImmPort *(downloaded 2026-04-15)*
 
 | Aspect | Detail |
 |--------|--------|
 | **What** | Patient-level clinical trial data from NIH/NIAID-funded studies |
 | **Size** | 145+ clinical trials with individual-level data |
 | **Access** | Free registration — [immport.org/shared](https://www.immport.org/shared/) |
-| **Strengths** | Rich patient-level data: demographics, medical history, adverse events, lab results (flow cytometry, ELISA) |
-| **Limitations** | Requires registration; data formats vary across studies; not all studies are immunotherapy-specific |
+| **Strengths** | Rich patient-level data: demographics, medical history, lab results (flow cytometry, ELISA) |
+| **Limitations** | Requires registration; data formats vary across studies; not all studies are immunotherapy-specific; `adverseEvent` endpoint returned empty for all 3 studies we pulled |
+| **Our data** | `datasets/immport/` — **86 patients** across 3 studies. Primary: SDY1733 (56 HCC, 10 on anti-PD-1 — BCLC stage, cirrhosis, HBV/HCV, AFP). Comparators: SDY1597 (30 breast cancer, TNM) + SDY1658 (16 GBM tumor samples) |
 
-### Supplementary Dataset: TCGA / cBioPortal
+### Supplementary Dataset: TCGA / cBioPortal *(downloaded 2026-04-15)*
 
 | Aspect | Detail |
 |--------|--------|
 | **What** | Cancer genomics + clinical data across 33 cancer types |
-| **Size** | 10,000+ patients |
-| **Access** | Free — [cbioportal.org](https://www.cbioportal.org/) |
-| **Strengths** | Cancer type, mutations (TMB), demographics, treatment, survival |
-| **Limitations** | Limited adverse event data; focused on genomics rather than side effects |
+| **Size** | 10,000+ patients across the full portal |
+| **Access** | Free public REST API — [cbioportal.org/api](https://www.cbioportal.org/api) (no auth required) |
+| **Strengths** | Pre-treatment clinical features FAERS lacks: LDH, ECOG, TMB, metastasis sites, steroid use, prior therapy lines + survival outcomes (OS/PFS) |
+| **Limitations** | **No adverse-event columns** — response-prediction cohorts, not toxicity; LDH/ECOG/metastasis detail concentrated in `mel_dfci_2019` only |
+| **Our data** | `datasets/cbioportal/all_patients_consolidated.csv` — **1,218 patients × 29 harmonized columns** across 7 ICI studies (347 bladder IMvigor210, 263 RCC IMmotion150, 240 NSCLC MSK, 368 melanoma across 4 studies). 100% drug/cancer coverage, 81% TMB, 71% response, 63% PFS |
 
-### Supplementary Dataset: GEO (Gene Expression Omnibus)
+### Supplementary Dataset: GEO (Gene Expression Omnibus) — *explored, skipped*
 
 | Aspect | Detail |
 |--------|--------|
-| **What** | Gene expression data from immunotherapy-treated patients |
-| **Key dataset** | GSE91061 — melanoma patients on anti-PD-1 (responders vs non-responders) |
-| **Access** | Free — [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/) |
+| **What** | Gene expression data (RNA-seq, microarray) from immunotherapy-treated patients |
+| **Key dataset** | GSE91061 — Riaz et al. melanoma anti-PD-1 (65 patients, 109 RNA-seq samples) |
+| **Access** | Free — E-Utilities API + FTP ([ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/)), no auth |
 | **Strengths** | Molecular-level features; well-curated; published studies |
-| **Limitations** | Small sample sizes; requires bioinformatics skills; focused on response rather than side effects |
+| **Limitations** | **Zero AE coverage** — direct API queries for `checkpoint inhibitor toxicity`, `CRS CAR-T`, `irAE` returned 0 results. Gene expression requires heavy bioinformatics preprocessing. GSE91061 is the **same Riaz cohort we already have from cBioPortal** with expression added on. |
+| **Decision (2026-04-15)** | **Skip.** Doesn't answer the severity-prediction question; marginal feature gain for large bioinformatics overhead |
 
-### Supplementary Dataset: ClinicalTrials.gov
+### Supplementary Dataset: ClinicalTrials.gov — *verified, available for benchmarks*
 
 | Aspect | Detail |
 |--------|--------|
-| **What** | Results from completed clinical trials including adverse event tables |
-| **Access** | Free — [clinicaltrials.gov](https://clinicaltrials.gov/) |
-| **Strengths** | Structured adverse event data by therapy; aggregate rates |
-| **Limitations** | Aggregate data (not patient-level); manual extraction needed |
+| **What** | Trial-level structured adverse event tables with MedDRA-coded events |
+| **Access** | Free v2 JSON API, no auth — `https://clinicaltrials.gov/api/v2/studies/{NCT_ID}` |
+| **Data format** | `resultsSection.adverseEventsModule.seriousEvents` — per-AE, per-arm `numEvents` / `numAffected` / `numAtRisk` |
+| **Strengths** | MedDRA-coded serious + other AEs; death counts per arm; covers every trial with posted results |
+| **Limitations** | **Aggregate per trial, not patient-level** — cannot be used as training data for a patient model. Same limitation forced the published [irAExplorer](https://irae.tanlab.org/) (71,087 patients across 343 trials) to aggregate. |
+| **Proposed use** | Pull ICI trials → build benchmark table of irAE rates by drug × cancer × AE → **validate model predictions** against real trial rates (not training) |
+
+### Explored and rejected: irAExplorer *(2026-04-15)*
+
+- [irae.tanlab.org](https://irae.tanlab.org/) presents 71,087-patient ICI AE stats aggregated from ClinicalTrials.gov, but **the authors explicitly state** the data is *"not reported at the individual level, but rather as an aggregate per clinical trial record."*
+- No API, no CSV, no bulk download. GitHub repo contains only their R parsing script.
+- If we want what irAExplorer provides, pull ClinicalTrials.gov v2 API directly — same data, our format.
 
 ---
 
@@ -257,7 +268,10 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 - [ASH Blood — CRS and ICANS Incidence Across CAR-T Products (2024)](https://ashpublications.org/blood/article/146/Supplement%201/8012/552391/)
 - [FDA FAERS — openFDA API](https://open.fda.gov/data/faers/)
 - [ImmPort — Shared Immunology Data](https://www.immport.org/shared/)
-- [cBioPortal — Cancer Genomics](https://www.cbioportal.org/)
+- [cBioPortal — Cancer Genomics REST API](https://www.cbioportal.org/api)
+- [ClinicalTrials.gov v2 JSON API](https://clinicaltrials.gov/api/v2/studies)
+- [NCBI GEO — E-Utilities API](https://www.ncbi.nlm.nih.gov/geo/info/geo_paccess.html) *(explored, skipped — no AE data)*
+- [irAExplorer — Pan-cancer ICI AE portal (Tan Lab)](https://irae.tanlab.org/) *(explored, no patient-level download)*
 - [VigiAccess — WHO Global Adverse Event Database](https://www.vigiaccess.org/)
 
 ---
