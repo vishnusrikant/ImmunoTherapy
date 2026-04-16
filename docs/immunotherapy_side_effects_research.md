@@ -123,16 +123,18 @@ Published research has identified these features as predictive of irAE severity:
 
 ## 5. Available Public Datasets
 
-### Primary Dataset: FDA FAERS
+### Primary Dataset: FDA FAERS *(expanded 2026-04-15)*
 
 | Aspect | Detail |
 |--------|--------|
 | **What** | Post-marketing adverse event reports submitted to FDA |
-| **Size** | Millions of reports; we pulled **42,469 unique reports (124,982 adverse event rows)** |
-| **Access** | Free — [open.fda.gov API](https://open.fda.gov/data/faers/) or [quarterly downloads](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) |
+| **Size** | Millions of reports; we pulled **136,086 unique reports (413,161 adverse event rows)** across two passes |
+| **Access** | Free — [openFDA API](https://open.fda.gov/data/faers/) (capped at ~5K reports/drug) + [Quarterly Data Extract dumps](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html) (uncapped) |
 | **Strengths** | Real patient data; large scale; demographics + adverse events + outcomes + cancer indication; easy API access |
 | **Limitations** | No CTCAE grades (must derive severity from seriousness flags); no lab values; no autoimmune history; voluntary reporting (underreporting bias) |
-| **Our data** | `datasets/faers/` — 62,106 checkpoint inhibitor rows (25,000 reports, 5 drugs) + 62,876 CAR-T rows (17,469 reports, 6 products). Severity split: 35% Mild / 30% Medium / 35% Severe |
+| **Our data, Pass 1 — openFDA API** | `datasets/faers/` — 62,106 checkpoint rows (25,000 reports, 5 drugs) + 62,876 CAR-T rows (17,469 reports, 6 products) |
+| **Our data, Pass 2 — Quarterly dumps 2024-2025** | `datasets/faers_quarterly/` — 253,366 checkpoint rows (82,507 reports, **9 drugs** incl. new Cemiplimab/Dostarlimab/Tremelimumab/Relatlimab) + 34,813 CAR-T rows (11,110 reports, 6 products). Covers 2024 Q1 - 2025 Q4. |
+| **Combined severity split** | 40% Mild / 30% Medium / 30% Severe |
 
 ### Supplementary Dataset: ImmPort *(downloaded 2026-04-15)*
 

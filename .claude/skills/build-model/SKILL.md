@@ -25,7 +25,9 @@ Before writing code, confirm with the user:
 
 ## Step 2 — Feature Engineering from FAERS
 
-The severity label is not directly in FAERS — derive it:
+**Preferred training source: `datasets/faers_quarterly/`** (2024-2025 quarterly dumps, 288K rows, 93K reports, 15 drugs, pre-computed `severity` column). The older openFDA-API pull at `datasets/faers/` (125K rows, 11 drugs) is available for cross-validation or merge-and-dedupe on `primaryid`.
+
+The severity label is not directly in FAERS — derive it (quarterly data has this pre-computed in the `severity` column):
 
 ```python
 def derive_severity(row):

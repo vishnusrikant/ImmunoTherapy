@@ -44,13 +44,16 @@ Build a **classification model** that takes a patient's profile as input and pre
 
 ## Datasets
 
-**124,982 real patient adverse event rows** from FDA FAERS + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + reference tables.
+**413,161 real patient adverse event rows** from FDA FAERS (124,982 via openFDA API + **288,179 from the 2024-2025 Quarterly Data Extract dumps**) + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + reference tables.
 
 ```
 datasets/
-├── faers/                                              <- FDA post-marketing data (large, good for training)
+├── faers/                                              <- FDA post-marketing data via openFDA API (initial pull)
 │   ├── checkpoint_inhibitor_adverse_events.csv         (62,106 rows — 25,000 reports, 5 drugs)
 │   └── cart_therapy_adverse_events.csv                 (62,876 rows — 17,469 reports, 6 CAR-T products)
+├── faers_quarterly/                                    <- FDA Quarterly Data Extract dumps, 2024-2025 (full)
+│   ├── checkpoint_inhibitor_adverse_events_2024_2025.csv   (253,366 rows — 82,507 reports, 9 drugs)
+│   └── cart_therapy_adverse_events_2024_2025.csv           (34,813 rows — 11,110 reports, 6 CAR-T products)
 ├── immport/                                            <- NIH clinical trial data (small, rich features)
 │   ├── SDY1733/                                        (56 HCC patients, 10 on anti-PD-1 + BCLC stage, cirrhosis, HBV/HCV, AFP)
 │   ├── SDY1597/                                        (30 breast cancer + controls, TNM stages)
@@ -67,11 +70,13 @@ datasets/
 
 ### Severity Distribution (derived from FAERS seriousness flags)
 
+Combined across both FAERS sources (openFDA API + 2024-2025 quarterly dumps):
+
 | | Checkpoint Inhibitors | CAR-T | Combined |
 |---|---|---|---|
-| **Mild** | 19,696 (32%) | 23,564 (37%) | 43,260 (35%) |
-| **Medium** | 21,346 (34%) | 16,082 (26%) | 37,428 (30%) |
-| **Severe** | 21,064 (34%) | 23,230 (37%) | 44,294 (35%) |
+| **Mild** | 125,325 (40%) | 38,373 (39%) | 163,698 (40%) |
+| **Medium** | 100,981 (32%) | 23,854 (24%) | 124,835 (30%) |
+| **Severe** | 89,166 (28%) | 35,462 (36%) | 124,628 (30%) |
 
 See [`datasets/README.md`](datasets/README.md) for field descriptions, data quality stats, and how to expand the dataset.
 
@@ -84,7 +89,7 @@ See [`datasets/README.md`](datasets/README.md) for field descriptions, data qual
 | **GEO (GSE91061 et al.)** | Gene expression / RNA-seq from ICI-treated patients | **Explored — skipped.** Zero AE coverage; same Riaz cohort already in cBioPortal |
 | **irAExplorer** | Aggregate ICI AE rates across 343 trials (71,087 patients) | **Explored — no download.** Per-trial aggregates only, no API |
 | **ClinicalTrials.gov v2 API** | Per-trial MedDRA-coded AE tables (JSON) | Available — candidate for benchmark/validation data (aggregate, not patient-level) |
-| **FDA FAERS (full)** | Millions of adverse event reports (quarterly dumps) | Available — [fda.gov/faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) for further scale-up |
+| **FDA FAERS Quarterly Dumps** | Millions of adverse event reports without API cap | **Downloaded** — 2024 Q1 through 2025 Q4 (8 quarters) in `datasets/faers_quarterly/` |
 
 See [`.claude/skills/expand-data/SKILL.md`](.claude/skills/expand-data/SKILL.md) for full source-by-source notes including what was evaluated and why.
 

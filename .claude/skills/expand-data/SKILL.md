@@ -16,16 +16,41 @@ Guide for safely adding more data to the ImmunoTherapy project.
 
 ## FAERS — Expand Further
 
-Current state: 5,000 reports per drug via openFDA API (API max `skip=25000`).
+Current state:
+- openFDA API: 124,982 rows / 42,469 reports / 11 drugs (`datasets/faers/`)
+- Quarterly dumps 2024-2025: 288,179 rows / 93,617 reports / 15 drugs (`datasets/faers_quarterly/`)
 
-### To add more FAERS data:
+### To pull older quarterly data (2004-2023):
 
-1. **Quarterly dumps** have millions of records. Download from:
-   https://fda.gov/drugs/fdas-adverse-event-reporting-system-faers
-2. Data comes as pipe-delimited files: `DEMO`, `DRUG`, `REAC`, `OUTC`, `THER`, `INDI`, `RPSR`
-3. Join on `primaryid` + `caseid`
-4. Filter `DRUG` on our 11 immunotherapy drug names (see `datasets/reference/immunotherapy_drugs.csv`)
-5. Merge with `REAC` (reactions) and `OUTC` (outcomes) for severity labels
+Infrastructure already exists — just edit + re-run:
+
+1. Open `scripts/faers_quarterly_pull.py`
+2. Extend the `QUARTERS` list (e.g., add `('2023', '1') ... ('2023', '4')`)
+3. Run `python3 scripts/faers_quarterly_pull.py`
+4. The script skips already-downloaded zips in `/tmp/faers_quarterly/`
+5. Output goes to `datasets/faers_quarterly/` — may want to rename outputs per time range
+
+URL pattern: `https://fis.fda.gov/content/Exports/faers_ascii_{yyyy}q{n}.zip` — ~65 MB per quarter.
+Available from 2004 Q1 at [fis.fda.gov/extensions/FPD-QDE-FAERS](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html).
+
+### File format (for reference)
+
+Each quarterly zip contains 7 pipe-delimited ASCII tables, joined on `primaryid`:
+- `DEMO` — demographics (age, sex, weight, country, event date)
+- `DRUG` — drug records (drugname, prod_ai, role_cod; filter to PS/SS for attribution)
+- `REAC` — reactions (MedDRA preferred term)
+- `OUTC` — outcomes (DE/LT/HO/DS/CA/RI/OT codes)
+- `INDI` — indications (what the drug was given for)
+- `THER` — therapy start/stop dates
+- `RPSR` — report source
+
+### Outcome → severity mapping
+
+- `DE` (Died) → Severe
+- `LT` (Life-Threatening) → Severe
+- `DS` (Disability) → Severe
+- `HO` (Hospitalization, if not also DE/LT/DS) → Medium
+- Everything else → Mild
 
 ### To add new immunotherapy drugs:
 

@@ -43,12 +43,21 @@ Immunotherapy side effects (irAEs) affect 70-90% of checkpoint-inhibitor patient
 
 ## Datasets (in `datasets/`)
 
-### Primary: FDA FAERS (124,982 rows)
+### Primary: FDA FAERS (413,161 rows total)
+
+**Via openFDA API (initial pull, 2026-04-15):**
 - `datasets/faers/checkpoint_inhibitor_adverse_events.csv` — 62,106 rows, 25,000 reports, 5 drugs
 - `datasets/faers/cart_therapy_adverse_events.csv` — 62,876 rows, 17,469 reports, 6 products
-- Pulled via openFDA API on 2026-04-15
-- Severity label derived from `seriousness_death` / `seriousness_life_threatening` / `seriousness_disabling` / `seriousness_hospitalization` flags
-- Split: ~35% Mild / 30% Medium / 35% Severe (well-balanced)
+- Capped at `skip=25000` (~5,000 reports per drug) by the API
+
+**Via FDA Quarterly Data Extract dumps (2026-04-15, covers 2024 Q1 - 2025 Q4):**
+- `datasets/faers_quarterly/checkpoint_inhibitor_adverse_events_2024_2025.csv` — 253,366 rows, 82,507 reports, 9 drugs (adds Cemiplimab, Dostarlimab, Tremelimumab, Relatlimab)
+- `datasets/faers_quarterly/cart_therapy_adverse_events_2024_2025.csv` — 34,813 rows, 11,110 reports, 6 products
+- No API cap; pulled + joined directly from pipe-delimited DEMO / DRUG / REAC / OUTC / INDI tables
+- Schema superset of openFDA version: adds `primaryid`, `caseid`, `source_year_quarter`, pre-computed `severity` label
+- Pull script: `scripts/faers_quarterly_pull.py`
+
+Severity label derived from `seriousness_death` / `seriousness_life_threatening` / `seriousness_disabling` / `seriousness_hospitalization` flags. Combined split (both sources): 40% Mild / 30% Medium / 30% Severe.
 
 ### Supplementary: NIH ImmPort (86 patients)
 - `datasets/immport/SDY1733/` — **56 HCC patients, 10 on anti-PD-1** (Nivolumab, Camrelizumab). Has BCLC stage, cirrhosis, HBV/HCV, AFP. **Consolidated file**: `SDY1733_patients_consolidated.csv`

@@ -5,9 +5,13 @@
 ```
 datasets/
 ├── README.md                  <- This file
-├── faers/                     <- FDA Adverse Event Reporting System (real patient data, post-marketing)
+├── faers/                     <- FDA Adverse Event Reporting System via openFDA API (initial pull, 2026-04-15)
 │   ├── checkpoint_inhibitor_adverse_events.csv   (62,106 rows — 25,000 reports, 5 drugs)
 │   └── cart_therapy_adverse_events.csv           (62,876 rows — 17,469 unique reports, 6 products)
+├── faers_quarterly/           <- FDA FAERS Quarterly Data Extract dumps, 2024-2025 (no API cap)
+│   ├── README.md
+│   ├── checkpoint_inhibitor_adverse_events_2024_2025.csv   (253,366 rows — 82,507 reports, 9 drugs)
+│   └── cart_therapy_adverse_events_2024_2025.csv           (34,813 rows — 11,110 reports, 6 products)
 ├── immport/                   <- NIH ImmPort clinical trial data (patient-level with cancer stage + comorbidities)
 │   ├── README.md
 │   ├── SDY1733/               (56 HCC patients, 10 on anti-PD-1 — BCLC stage, cirrhosis, HBV/HCV, AFP)
@@ -27,7 +31,13 @@ datasets/
 
 ## FAERS Data (Real Patient Reports)
 
-**124,982 total adverse event rows** pulled from the [FDA Adverse Event Reporting System](https://open.fda.gov/data/faers/) via the openFDA API on April 15, 2026.
+**413,161 total adverse event rows** pulled from the [FDA Adverse Event Reporting System](https://open.fda.gov/data/faers/) in two passes:
+1. **openFDA API** — 124,982 rows across 42,469 reports, 11 drugs (2026-04-15, `datasets/faers/`)
+2. **Quarterly Data Extract dumps** — 288,179 rows across 93,617 reports covering 2024 Q1 through 2025 Q4, 15 drugs including newer agents Cemiplimab, Dostarlimab, Tremelimumab, Relatlimab (2026-04-15, `datasets/faers_quarterly/` — see [its README](faers_quarterly/README.md) for full details)
+
+The openFDA API caps at `skip=25000` (~5,000 reports/drug). The quarterly dumps have no cap. Both sources feed from the same FDA database, so rows can be deduped by `primaryid` if combined.
+
+### openFDA API pull (below) covers all-time cumulative data up to the pull date
 
 ### Checkpoint Inhibitors (`checkpoint_inhibitor_adverse_events.csv`)
 
@@ -185,8 +195,11 @@ See [`.claude/skills/expand-data/SKILL.md`](../.claude/skills/expand-data/SKILL.
 
 ## How to Expand the FAERS Data Further
 
-The current dataset uses 5,000 reports per drug (the openFDA API max skip is 25,000). For even more data, download the full FAERS quarterly data dumps (millions of records):
+**Already done (2026-04-15):** Quarterly dumps for 2024 Q1 - 2025 Q4 — see [`datasets/faers_quarterly/`](faers_quarterly/).
 
-[fda.gov/drugs/fdas-adverse-event-reporting-system-faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers)
+**To add older years (2020-2023 or further back):**
+1. Edit the `QUARTERS` list in `scripts/faers_quarterly_pull.py` to include the desired year/quarter pairs
+2. Re-run `python3 scripts/faers_quarterly_pull.py`
+3. The script skips already-downloaded quarterly zips in `/tmp/faers_quarterly/`
 
-The quarterly dumps are available as CSV files organized by tables (DEMO, DRUG, REAC, OUTC, THER) that can be joined on `primaryid`.
+Quarterly dumps are available back to **2004 Q1** at [fis.fda.gov/extensions/FPD-QDE-FAERS](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html) as 7 pipe-delimited ASCII tables (DEMO, DRUG, REAC, OUTC, INDI, THER, RPSR) joined on `primaryid`.
