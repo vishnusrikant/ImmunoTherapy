@@ -273,11 +273,14 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 
 ### Recommended Approach
 
-1. Start with **FAERS data** (largest, easiest to access)
-2. Engineer severity labels from seriousness flags
-3. Train **Random Forest** as primary model (interpretable, good performance)
+1. Start with **FAERS data** (largest, easiest to access — 413,161 rows across 15 drugs from openFDA API + 2024-2025 quarterly dumps)
+2. Engineer severity labels from seriousness flags (death/LT/disability → Severe; hospitalization-only → Medium; else → Mild)
+3. Train **Random Forest** as primary model (interpretable, good performance, built-in feature importance)
 4. Use **XGBoost** as comparison model
-5. If time allows, enrich with **ImmPort** data for lab values / medical history
+5. Enrich with **ImmPort SDY1733** for cirrhosis / stage / AFP case-study validation (10 anti-PD-1 patients — qualitative sanity check only)
+6. Enrich with **cBioPortal** (TMB / LDH / ECOG / metastasis) — 1,218 ICI patients across 7 studies
+7. **Cross-validate learned feature effects on Chowell 2021** (1,479 patients with NLR + Albumin + CBC + BMI at 100% coverage) — fit a simple response model and confirm effect directions match the FAERS severity model. Do NOT train the severity classifier on Chowell (no irAE labels).
+8. **Honest limitations slide (required)** — document the public-data feature gap: CRP, IL-6, autoimmune history are not obtainable at patient level from any public dataset with paired irAE labels. Frame as future work requiring UK Biobank / All of Us / prospective trial access.
 
 ---
 

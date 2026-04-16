@@ -100,14 +100,14 @@ This study is a **high-quality small validation cohort** that can be used to:
 
 ## How to Use This Data Alongside FAERS
 
-| Aspect | FAERS (124,982 rows) | ImmPort (86 patients) |
+| Aspect | FAERS (413,161 rows) | ImmPort (86 patients) |
 |--------|---------------------|------------------------|
 | Sample size | Very large | Very small |
 | Labeled severity | Derived from seriousness flags | Not directly labeled (no AE data) |
 | Cancer stage | Missing | Yes (SDY1733 BCLC, SDY1597 TNM) |
 | Pre-existing conditions | Missing | Yes (cirrhosis, HBV/HCV) |
 | Lab values | Missing | Partial (AFP) |
-| Cohort diversity | Global, 11+ drugs | Limited (mostly Chinese HCC + US breast cancer) |
+| Cohort diversity | Global, 15 drugs | Limited (mostly Chinese HCC + US breast cancer) |
 
 **Recommended use:**
 1. **Primary training** → FAERS

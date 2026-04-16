@@ -110,10 +110,10 @@ Full analysis in [`docs/immunotherapy_side_effects_research.md`](docs/immunother
 1. What is cancer immunotherapy (checkpoint inhibitors vs CAR-T)
 2. Side effects — what happens and why (irAEs, CRS, ICANS)
 3. Severity grading (CTCAE scale → Mild/Medium/Severe mapping)
-4. What patient features predict severity (19 validated features)
-5. Available public datasets (FAERS, ImmPort, TCGA, GEO, ClinicalTrials.gov)
+4. What patient features predict severity (19 validated features, with public-data availability notes)
+5. Available public datasets (FAERS, ImmPort, cBioPortal, Chowell 2021, GEO, ClinicalTrials.gov, VigiBase) and documented public-data feature gap (CRP / IL-6 / autoimmune history)
 6. Existing ML models and prior art (AUC up to 0.99)
-7. Proposed model design (Random Forest + XGBoost)
+7. Proposed model design (Random Forest + XGBoost; Chowell cross-validation; honest limitations slide)
 8. Medical terms glossary
 
 ---

@@ -109,11 +109,23 @@ FAERS does not include CTCAE grades directly. Severity can be derived from the s
 
 ### Severity Distribution
 
-| | Checkpoint Inhibitors | CAR-T | Combined |
+**openFDA API pull only (124,982 rows):**
+
+| | Checkpoint Inhibitors | CAR-T | Combined (openFDA) |
 |---|---|---|---|
 | **Mild** | 19,696 (32%) | 23,564 (37%) | 43,260 (35%) |
 | **Medium** | 21,346 (34%) | 16,082 (26%) | 37,428 (30%) |
 | **Severe** | 21,064 (34%) | 23,230 (37%) | 44,294 (35%) |
+
+**Combined both sources (openFDA + 2024-2025 quarterly dumps, 413,161 rows):**
+
+| | Checkpoint Inhibitors | CAR-T | Combined |
+|---|---|---|---|
+| **Mild** | 125,325 (40%) | 38,373 (39%) | 163,698 (40%) |
+| **Medium** | 100,981 (32%) | 23,854 (24%) | 124,835 (30%) |
+| **Severe** | 89,166 (28%) | 35,462 (36%) | 124,628 (30%) |
+
+Both severity splits are naturally well-balanced — no class-weight tricks required during modeling.
 
 ## ImmPort Data (NIH Clinical Trials, Patient-Level)
 
@@ -140,7 +152,7 @@ Downloaded via authenticated ImmPort API on April 15, 2026. Primary purpose: sup
 
 - **No adverse event data** — ImmPort's `adverseEvent` endpoint returned empty for all three studies
 - **No CTCAE severity grading** in the data
-- **Small sample** — 86 patients total vs 124,982 rows in FAERS
+- **Small sample** — 86 patients total vs 413,161 rows in FAERS
 - See [`immport/README.md`](immport/README.md) for full details
 
 ## cBioPortal Data (Cancer Genomics + Clinical Trials)
@@ -219,18 +231,22 @@ Reference table of 11 immunotherapy drugs covering both checkpoint inhibitors (P
 ### `predictive_features.csv`
 19 patient features validated in published studies as predictive of immunotherapy side effect severity, with evidence strength ratings and source citations.
 
-## Additional Datasets (Require Registration)
+## Additional Datasets
 
-These datasets contain richer patient-level data but require free account registration:
+Sources we evaluated beyond FAERS / ImmPort / cBioPortal / Chowell. Some are downloaded, some are rejected with notes.
 
 | Dataset | URL | What It Has | Status |
 |---------|-----|-------------|--------|
-| **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments | **Downloaded** — 86 patients, 3 studies (see `immport/`) |
-| **TCGA via cBioPortal** | [cbioportal.org/api](https://www.cbioportal.org/api) | Cancer genomics + clinical data (10,000+ patients across 33 cancer types) | **Downloaded** — 7 ICI studies, 1,218 patients (see `cbioportal/`) |
+| **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments (free registration) | **Downloaded** — 86 patients, 3 studies (see `immport/`) |
+| **TCGA via cBioPortal** | [cbioportal.org/api](https://www.cbioportal.org/api) | Cancer genomics + clinical data (10,000+ patients across 33 cancer types, no auth) | **Downloaded** — 7 ICI studies, 1,218 patients (see `cbioportal/`) |
+| **Chowell 2021 (Nat Biotech)** | [doi.org/10.1038/s41587-021-01070-8](https://www.nature.com/articles/s41587-021-01070-8) | 1,479 pan-cancer ICI patients with NLR + Albumin + Platelets + HGB + BMI + TMB + response/survival (no auth — Supp Data 1) | **Downloaded 2026-04-16** — 1,479 patients, 100% coverage on all labs (see `chowell_2021/`) |
+| **FDA FAERS Quarterly Dumps** | [fis.fda.gov/extensions/FPD-QDE-FAERS](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html) | Raw pipe-delimited FAERS tables by quarter (no API cap, no auth) | **Downloaded** — 2024 Q1 through 2025 Q4 (see `faers_quarterly/`) |
 | **GEO (GSE91061)** | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061) | Gene expression / RNA-seq for ICI-treated patients | **Explored 2026-04-15 — skipped.** No AE coverage; GSE91061 is the same cohort as cBioPortal `mel_iatlas_riaz_nivolumab_2017` |
 | **irAExplorer** | [irae.tanlab.org](https://irae.tanlab.org/) | Aggregated ICI AE rates from 343 trials (71,087 patients) | **Explored 2026-04-15 — no download.** Authors aggregate per-trial only; no patient-level data, no API |
 | **ClinicalTrials.gov v2 API** | [clinicaltrials.gov/api/v2/studies](https://clinicaltrials.gov/api/v2/studies) | Per-trial MedDRA-coded AE tables (JSON, no auth) | **Verified 2026-04-15** — candidate for benchmark/evaluation data (aggregate, not patient-level) |
-| **VigiBase (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 28M+ global adverse event reports (~150K ICI reports 2008-2023) | Free aggregate access only; raw data requires DUA |
+| **VigiBase / VigiAccess (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 56M+ global AE reports / ~40M unique cases (as of Dec 2024) | **Rejected 2026-04-16.** VigiAccess web UI is search-only (no CSV / no API). VigiBase Extract requires fee + formal DUA + WHO approval, and still excludes narratives, medical history, and lab values — duplicates FAERS format without adding the features we lack |
+| **Valero 2021 (Nat Comm)** | [doi.org/10.1038/s41467-021-20935-9](https://www.nature.com/articles/s41467-021-20935-9) | 1,714 MSK ICI patients with NLR + TMB + ECOG PS | **Candidate for next pull** — overlaps with Chowell MSK test set; dedup on SAMPLE_ID required if merging |
+| **SCORPIO / LORIS raw / UK Biobank** | institutional | CRP + IL-6 + autoimmune ICD codes (the exact features FAERS lacks) | **Not accessible** — SCORPIO is institutional-only; LORIS MSK raw is institutional; UK Biobank requires formal application + affiliation. Documented as limitation; out of scope for a student project |
 
 See [`.claude/skills/expand-data/SKILL.md`](../.claude/skills/expand-data/SKILL.md) for exploration notes, decision rationale, and candidate studies for each source.
 

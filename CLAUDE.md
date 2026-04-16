@@ -28,18 +28,22 @@ Immunotherapy side effects (irAEs) affect 70-90% of checkpoint-inhibitor patient
 
 | Feature | Source |
 |---------|--------|
-| Cancer type | FAERS `indication`, ImmPort `condition` |
-| Age | FAERS `patient_age` (74-76% coverage), ImmPort demographic |
-| Gender | Both |
-| BMI | Derived from weight (FAERS 40-43% coverage) |
-| Pre-existing autoimmune conditions | ImmPort only (partial) |
-| Family history of autoimmunity | Not in public datasets — would need survey |
-| Inflammatory markers (NLR, CRP, IL-6) | Not in FAERS; not in downloaded ImmPort studies |
-| Prior / simultaneous treatments | FAERS partial; ImmPort `intervention` (SDY1733 has this) |
-| Cancer stage | ImmPort SDY1733 (BCLC A/C), SDY1597 (TNM) |
+| Cancer type | FAERS `indication`, ImmPort `condition`, cBioPortal, Chowell `Cancer_Type` |
+| Age | FAERS `patient_age` (74-76% coverage), ImmPort demographic, Chowell (100% exact age) |
+| Gender | FAERS, ImmPort, cBioPortal, Chowell (100%) |
+| BMI | FAERS derived from weight (40-43% coverage); Chowell 2021 has BMI at 100% coverage |
+| Pre-existing autoimmune conditions | ImmPort only (partial) — **not in FAERS / cBioPortal / Chowell** (see Feature Gap below) |
+| Family history of autoimmunity | Not in any public dataset — would need survey (see Feature Gap below) |
+| Inflammatory markers: NLR | **Chowell 2021 (100% coverage)** — use for cross-study validation of effects |
+| Inflammatory markers: Albumin, Platelets, HGB | **Chowell 2021 (100% coverage)** |
+| Inflammatory markers: CRP, IL-6 | **Not obtainable** at patient level from any public dataset with paired irAE labels (see Feature Gap below) |
+| Prior / simultaneous treatments | FAERS partial; ImmPort `intervention` (SDY1733 has this); Chowell `Chemo_before_IO` |
+| Cancer stage | ImmPort SDY1733 (BCLC A/C), SDY1597 (TNM), Chowell `Stage` + `Stage at IO start` |
 | Cirrhosis / comorbidity | ImmPort SDY1733 |
 | HBV/HCV infection | ImmPort SDY1733 |
 | Tumor markers (AFP) | ImmPort SDY1733 |
+| Tumor Mutation Burden (TMB) | cBioPortal (81%), Chowell (100%) |
+| Microsatellite Instability (MSI) | Chowell (100%) |
 
 ## Datasets (in `datasets/`)
 
@@ -97,12 +101,21 @@ ImmunoTherapy/
 ├── .claude/
 │   └── skills/
 │       ├── resume-research/SKILL.md             <- Load context when resuming the project
-│       └── build-model/SKILL.md                 <- Build the classification model (next phase)
+│       ├── build-model/SKILL.md                 <- Build the classification model (next phase)
+│       └── expand-data/SKILL.md                 <- Add more data (FAERS quarters, new sources)
 ├── datasets/
 │   ├── README.md
-│   ├── faers/                                   <- FDA adverse event reports (primary training data)
+│   ├── faers/                                   <- FDA adverse event reports via openFDA API
+│   ├── faers_quarterly/                         <- FDA Quarterly Data Extract dumps (2024-2025)
 │   ├── immport/                                 <- NIH clinical trial data (features FAERS lacks)
+│   ├── cbioportal/                              <- 7 cBioPortal immunotherapy studies (1,218 patients)
+│   ├── chowell_2021/                            <- Chowell 2021 Nat Biotech ICI cohort (1,479 patients, NLR/CBC)
 │   └── reference/                               <- CTCAE mapping, drug table, predictive features
+├── scripts/
+│   ├── faers_quarterly_pull.py                  <- Pull + parse FAERS quarterly dumps
+│   ├── cbio_download.py                         <- cBioPortal REST API puller
+│   ├── cbio_consolidate.py                      <- Build all_patients_consolidated.csv
+│   └── chowell_download.py                      <- Fetch + parse Chowell 2021 Supplementary Data 1
 └── docs/
     └── immunotherapy_side_effects_research.md   <- 8-section research document
 ```
@@ -135,7 +148,7 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 - **Real patient data only** — no synthetic data generation
 - **Cite every claim** with peer-reviewed source or regulatory document
 - **Interpretable over opaque** — for InspiritAI, favor models whose decisions can be explained
-- **Date-stamp research** — current conventions assume 2026-04-15 baseline
+- **Date-stamp research** — current conventions assume 2026-04-15 baseline; Chowell 2021 + public-data-gap documentation added 2026-04-16
 - **Preserve user's README structure** — the user wrote the original feature list; enhancements go around it, not over it
 
 ## Key Terminology
@@ -161,8 +174,11 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 - Train and benchmark Random Forest + XGBoost on FAERS (next milestone — invoke `build-model` skill)
 - Feature-engineer cirrhosis / stage from ImmPort SDY1733
 - Feature-engineer TMB / LDH / ECOG / metastasis flags from cBioPortal consolidated table
+- **Cross-validate learned feature effects on Chowell 2021 cohort** — fit a simple response model on NLR/Albumin/TMB/Age and check effect directions match our FAERS severity model
+- **Optional response sidecar model** — train a tumor-response classifier on Chowell alongside the severity classifier (complementary clinical question)
 - Google Colab notebook for InspiritAI presentation
 - Optional: pull ClinicalTrials.gov v2 API for per-trial MedDRA AE rates as model-evaluation benchmarks
+- **Access-gated features** — CRP / IL-6 / autoimmune-history would require institutional data access (UK Biobank, All of Us, prospective trial biobanks, SCORPIO). Acknowledged as out-of-scope for a student project; framed as honest future work rather than a capability of this model.
 
 ## Data Sources Explored and Rejected (2026-04-15 / 04-16)
 
