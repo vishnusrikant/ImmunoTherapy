@@ -67,15 +67,32 @@ Edit `datasets/reference/immunotherapy_drugs.csv` and re-run the openFDA pull sc
 
 ## TCGA / cBioPortal — Cancer Genomics
 
+**Already downloaded** (2026-04-15): 7 immunotherapy studies, 1,218 patients — see `datasets/cbioportal/` and `scripts/cbio_download.py`.
+
 10,000+ patients across 33 cancer types. Accessible without registration:
 - Web: https://www.cbioportal.org/
+- REST API: https://www.cbioportal.org/api (we use this — see `scripts/cbio_download.py` for the pattern)
 - R package: `cBioPortalData`
 - Python: `bravado` + cBioPortal Swagger API
 
 **Useful for:**
 - Cancer type + stage + TMB (tumor mutation burden)
-- Demographic + treatment + survival
-- **Not useful for:** adverse events, irAEs
+- Pre-treatment features: LDH, ECOG, metastasis sites, steroids, prior therapies
+- Demographic + treatment + survival (OS/PFS)
+- **Not useful for:** adverse events, irAEs (no AE columns in any cBioPortal study)
+
+### To add more cBioPortal studies:
+
+1. Find candidate studies at https://www.cbioportal.org/datasets (filter for immunotherapy cohorts)
+2. Add the study ID to the `STUDIES` list in `scripts/cbio_download.py`
+3. Re-run `python3 scripts/cbio_download.py`
+4. Re-run `python3 scripts/cbio_consolidate.py` to rebuild `all_patients_consolidated.csv`
+5. If the new study uses drug names not in `DRUG_MAP` in `cbio_consolidate.py`, extend the map
+
+Candidate studies not yet pulled (discovered during exploration):
+- `skcm_mskcc_2014` — melanoma ipilimumab (64)
+- `skcm_dfci_2015` — melanoma combo (110)
+- `nsclc_mskcc_2018` — NSCLC anti-PD-1/PD-L1 (75)
 
 ## GEO — Gene Expression
 

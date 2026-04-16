@@ -1,0 +1,34 @@
+displayName,description,datatype,patientAttribute,priority,clinicalAttributeId,studyId
+Biopsy Site,Site where sample was collected from.,STRING,False,1,BIOPSY_SITE,blca_iatlas_imvigor210_2017
+Cancer Tissue,Original tumor tissue.,STRING,False,1,CANCER_TISSUE,blca_iatlas_imvigor210_2017
+Cancer Type,Cancer Type,STRING,False,1,CANCER_TYPE,blca_iatlas_imvigor210_2017
+Cancer Type Detailed,Cancer Type Detailed,STRING,False,1,CANCER_TYPE_DETAILED,blca_iatlas_imvigor210_2017
+Clinical Benefit,Patients have clinical benefit when mRECIST response is different than Progressive Disease.,STRING,True,4,CLINICAL_BENEFIT,blca_iatlas_imvigor210_2017
+Clinical Stage,Clinical stage of cancer.,STRING,True,4,CLINICAL_STAGE,blca_iatlas_imvigor210_2017
+CTA/Self-Antigen Count,"Non-mutated self-antigens that may be abnormally expressed in tumors. A major subset includes cancer-testis antigens (CTAs), typically restricted to germline tissues but reactivated in cancers.",NUMBER,False,2,CTA_SELF_NEOANTIGEN,blca_iatlas_imvigor210_2017
+ERV Neoantigen Count,"Arise from aberrant expression of endogenous retroviruses (ERVs), normally silenced genomic elements reactivated in tumors.",NUMBER,False,0,ERV_NEOANTIGEN,blca_iatlas_imvigor210_2017
+Fusion Neoantigen Count,"Generated when structural variants (e.g., translocations, deletions, inversions) join distant genomic loci, producing novel fusion proteins or transcripts.",NUMBER,False,2,FUSION_NEOANTIGEN,blca_iatlas_imvigor210_2017
+ICI Pathway,Pathway that is being targeted by the ICI treatment.,STRING,True,3,ICI_PATHWAY,blca_iatlas_imvigor210_2017
+ICI Drug,"Drug used for the treatment. Combination therapies, where more than one drug is administered, are represented by the name of both drugs.",STRING,True,3,ICI_RX,blca_iatlas_imvigor210_2017
+ICI Drug Target,What is the target of the ICI drug.,STRING,True,3,ICI_TARGET,blca_iatlas_imvigor210_2017
+InDel Neoantigen Count,"Arise from somatic insertion or deletion mutations that create frameshifts or altered coding sequences, leading to tumor-specific peptides.",NUMBER,False,1,INDEL_NEOANTIGEN,blca_iatlas_imvigor210_2017
+Metastasized,Indicates whether the cancer is metastatic or not.,STRING,False,1,METASTASIZED,blca_iatlas_imvigor210_2017
+Mutation Count,Mutation Count,NUMBER,False,30,MUTATION_COUNT,blca_iatlas_imvigor210_2017
+Oncotree Code,Oncotree Code,STRING,False,1,ONCOTREE_CODE,blca_iatlas_imvigor210_2017
+Overall Survival (Months),Overall Survival (Months) from start of treatment,NUMBER,True,6,OS_MONTHS,blca_iatlas_imvigor210_2017
+Overall Survival Status,Overall Survival Status from Start of treatment,STRING,True,6,OS_STATUS,blca_iatlas_imvigor210_2017
+Progression,Progressors are defined as patients with mRECIST of Progressive Disease.,STRING,True,5,PROGRESSION,blca_iatlas_imvigor210_2017
+Responder,"Responders are defined as patients with mRECIST of Partial Response or Complete Response, whereas Non-Responders are those with Progressive Disease or Stable Disease.",STRING,True,4,RESPONDER,blca_iatlas_imvigor210_2017
+Response,Response to treatment following modified Response Evaluation Criteria in Solid Tumors (mRECIST) guidelines.,STRING,False,1,RESPONSE,blca_iatlas_imvigor210_2017
+Number of Samples Per Patient,Number of Samples Per Patient,STRING,True,1,SAMPLE_COUNT,blca_iatlas_imvigor210_2017
+Sample Treatment,The time of sample collection in relation to the ICI treatment time. Most of the datasets collected samples Pre treatment.,STRING,False,5,SAMPLE_TREATMENT,blca_iatlas_imvigor210_2017
+Sample Type,Sample Type,STRING,False,5,SAMPLE_TYPE,blca_iatlas_imvigor210_2017
+Sex,Sex,STRING,True,6,SEX,blca_iatlas_imvigor210_2017
+SNV Neoantigen Count,Produced by somatic single-nucleotide variants that change amino acids directly or indirectly through downstream coding effects.,NUMBER,False,2,SNV_NEOANTIGEN,blca_iatlas_imvigor210_2017
+Somatic Status,Somatic Status,STRING,False,1,SOMATIC_STATUS,blca_iatlas_imvigor210_2017
+Specimen Preservation Type,Indicates whether the sample is FFPE or not.,STRING,False,1,SPECIMEN_PRESERVATION_TYPE,blca_iatlas_imvigor210_2017
+Splice Neoantigen Count,"Generated from abnormal splicing events such as intron retention, exon skipping, or mis-splice site usage, producing tumor-specific transcripts.",NUMBER,False,1,SPLICE_NEOANTIGEN,blca_iatlas_imvigor210_2017
+Tide No Benefits,TIDE prediction of benefit to ICI treatment.,STRING,False,4,TIDE_NO_BENEFITS,blca_iatlas_imvigor210_2017
+Tide Responder,TIDE prediction of response to ICI treatment.,STRING,False,4,TIDE_RESPONDER,blca_iatlas_imvigor210_2017
+TMB (nonsynonymous),TMB (nonsynonymous),NUMBER,False,2,TMB_NONSYNONYMOUS,blca_iatlas_imvigor210_2017
+Viral Neoantigen Count,"Derived from proteins encoded by oncogenic viruses (e.g., HPV, EBV, HTLV-1, HCV) that contribute to cancer development in infected tissues.",NUMBER,False,1,VIRUS_NEOANTIGEN,blca_iatlas_imvigor210_2017

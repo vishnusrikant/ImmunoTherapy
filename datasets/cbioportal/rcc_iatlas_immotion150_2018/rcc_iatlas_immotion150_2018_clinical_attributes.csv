@@ -1,0 +1,33 @@
+displayName,description,datatype,patientAttribute,priority,clinicalAttributeId,studyId
+Cancer Tissue,Original tumor tissue.,STRING,False,1,CANCER_TISSUE,rcc_iatlas_immotion150_2018
+Cancer Type,Cancer Type,STRING,False,1,CANCER_TYPE,rcc_iatlas_immotion150_2018
+Cancer Type Detailed,Cancer Type Detailed,STRING,False,1,CANCER_TYPE_DETAILED,rcc_iatlas_immotion150_2018
+Clinical Benefit,Patients have clinical benefit when mRECIST response is different than Progressive Disease.,STRING,True,1,CLINICAL_BENEFIT,rcc_iatlas_immotion150_2018
+Clinical Stage,Clinical stage of cancer.,STRING,True,1,CLINICAL_STAGE,rcc_iatlas_immotion150_2018
+CTA/Self-Antigen Count,"Non-mutated self-antigens that may be abnormally expressed in tumors. A major subset includes cancer-testis antigens (CTAs), typically restricted to germline tissues but reactivated in cancers.",NUMBER,False,2,CTA_SELF_NEOANTIGEN,rcc_iatlas_immotion150_2018
+ERV Neoantigen Count,"Arise from aberrant expression of endogenous retroviruses (ERVs), normally silenced genomic elements reactivated in tumors.",NUMBER,False,0,ERV_NEOANTIGEN,rcc_iatlas_immotion150_2018
+Fusion Neoantigen Count,"Generated when structural variants (e.g., translocations, deletions, inversions) join distant genomic loci, producing novel fusion proteins or transcripts.",NUMBER,False,2,FUSION_NEOANTIGEN,rcc_iatlas_immotion150_2018
+ICI Pathway,Pathway that is being targeted by the ICI treatment.,STRING,True,4,ICI_PATHWAY,rcc_iatlas_immotion150_2018
+ICI Drug,"Drug used for the treatment. Combination therapies, where more than one drug is administered, are represented by the name of both drugs.",STRING,True,4,ICI_RX,rcc_iatlas_immotion150_2018
+ICI Drug Target,What is the target of the ICI drug.,STRING,True,4,ICI_TARGET,rcc_iatlas_immotion150_2018
+Immune Subtype,"Immune Subtype described in Thorsson et al, 2018 e computed using the Immune Subtype Classifier tool (https://github.com/CRI-iAtlas/ImmuneSubtypeClassifier)",STRING,False,2,IMMUNE_SUBTYPE,rcc_iatlas_immotion150_2018
+InDel Neoantigen Count,"Arise from somatic insertion or deletion mutations that create frameshifts or altered coding sequences, leading to tumor-specific peptides.",NUMBER,False,1,INDEL_NEOANTIGEN,rcc_iatlas_immotion150_2018
+Metastasized,Indicates whether the cancer is metastatic or not.,STRING,False,1,METASTASIZED,rcc_iatlas_immotion150_2018
+Mutation Count,Mutation Count,NUMBER,False,30,MUTATION_COUNT,rcc_iatlas_immotion150_2018
+Non ICI Rx,"Which non ICI drugs did a patient get during the study. Combination therapies, where more than one procedure occurs, are represented by the name of both treatments.",STRING,False,4,NON_ICI_RX,rcc_iatlas_immotion150_2018
+Oncotree Code,Oncotree Code,STRING,False,1,ONCOTREE_CODE,rcc_iatlas_immotion150_2018
+Progression-Free (Months),Progression-Free (Months) from start of treatment,NUMBER,True,6,PFS_MONTHS,rcc_iatlas_immotion150_2018
+Progression-Free Status,Progression-Free Status from Start of treatment,STRING,True,6,PFS_STATUS,rcc_iatlas_immotion150_2018
+Progression,Progressors are defined as patients with mRECIST of Progressive Disease.,STRING,True,3,PROGRESSION,rcc_iatlas_immotion150_2018
+Responder,"Responders are defined as patients with mRECIST of Partial Response or Complete Response, whereas Non-Responders are those with Progressive Disease or Stable Disease.",STRING,True,3,RESPONDER,rcc_iatlas_immotion150_2018
+Response,Response to treatment following modified Response Evaluation Criteria in Solid Tumors (mRECIST) guidelines.,STRING,False,3,RESPONSE,rcc_iatlas_immotion150_2018
+Number of Samples Per Patient,Number of Samples Per Patient,STRING,True,1,SAMPLE_COUNT,rcc_iatlas_immotion150_2018
+Sample Treatment,The time of sample collection in relation to the ICI treatment time. Most of the datasets collected samples Pre treatment.,STRING,False,5,SAMPLE_TREATMENT,rcc_iatlas_immotion150_2018
+Sample Type,Sample Type,STRING,False,5,SAMPLE_TYPE,rcc_iatlas_immotion150_2018
+SNV Neoantigen Count,Produced by somatic single-nucleotide variants that change amino acids directly or indirectly through downstream coding effects.,NUMBER,False,2,SNV_NEOANTIGEN,rcc_iatlas_immotion150_2018
+Somatic Status,Somatic Status,STRING,False,1,SOMATIC_STATUS,rcc_iatlas_immotion150_2018
+Splice Neoantigen Count,"Generated from abnormal splicing events such as intron retention, exon skipping, or mis-splice site usage, producing tumor-specific transcripts.",NUMBER,False,1,SPLICE_NEOANTIGEN,rcc_iatlas_immotion150_2018
+Tide No Benefits,TIDE prediction of benefit to ICI treatment.,STRING,False,3,TIDE_NO_BENEFITS,rcc_iatlas_immotion150_2018
+Tide Responder,TIDE prediction of response to ICI treatment.,STRING,False,3,TIDE_RESPONDER,rcc_iatlas_immotion150_2018
+TMB (nonsynonymous),TMB (nonsynonymous),NUMBER,False,1,TMB_NONSYNONYMOUS,rcc_iatlas_immotion150_2018
+Viral Neoantigen Count,"Derived from proteins encoded by oncogenic viruses (e.g., HPV, EBV, HTLV-1, HCV) that contribute to cancer development in infected tissues.",NUMBER,False,0,VIRUS_NEOANTIGEN,rcc_iatlas_immotion150_2018

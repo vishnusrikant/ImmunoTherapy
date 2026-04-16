@@ -1,0 +1,1219 @@
+study_id,study_label,patient_id,age_or_group,sex,cancer_type,io_drug_raw,io_drug_canonical,io_drug_target,num_prior_therapies,prior_ctla4,prior_mapk,tx_start_ldh,ldh_elevated,tx_start_ecog,steroids_gt_10mg_daily,met_brain,met_liver_visceral,met_lung,met_bone,met_ln,met_cut_subq,m_stage,tmb_nonsynonymous,response,os_months,os_status,pfs_months,pfs_status
+mel_dfci_2019,Melanoma (DFCI 2019),Patient1,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,,,1,No,No,Yes,Yes,Yes,No,Yes,M1c,0.666666666667,Progressive Disease,9.433333333,1:DECEASED,3.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient10,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,Yes,2186,Yes,1,Yes,No,Yes,Yes,Yes,Yes,Yes,M1c,2.36666666667,Partial Response,37.96666667,1:DECEASED,5.633333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient100,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,313,Yes,1,No,No,No,No,No,Yes,Yes,M1c,4.2,Partial Response,31.26666667,1:DECEASED,30.73333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient102,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,212,Yes,0,Yes,No,No,No,No,Yes,No,M1c,8.2,Mixed Response,26.16666667,0:LIVING,5.866666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient104,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,270,Yes,0,No,No,No,No,No,Yes,No,M1c,3.2,Partial Response,26.3,0:LIVING,26.3,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient105,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,301,Yes,0,Yes,Yes,Yes,No,No,Yes,No,M1c,4.2,Mixed Response,17.36666667,1:DECEASED,12.6,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient106,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,No,Yes,403,Yes,0,No,No,No,No,No,No,Yes,M1c,8.23333333333,Complete Response,26,0:LIVING,26,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient107,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,254,Yes,0,No,No,No,No,No,Yes,Yes,M1c,5.3,Partial Response,1.566666667,1:DECEASED,1.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient108,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,246,Yes,0,No,No,No,No,No,Yes,No,M1c,1.46666666667,Progressive Disease,5.5,1:DECEASED,2.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient11,,Female,Melanoma,MK 3475,mk 3475,Unknown,7,Yes,Yes,336,Yes,1,No,No,Yes,No,No,Yes,Yes,M1c,5.66666666667,Progressive Disease,5.333333333,1:DECEASED,2.833333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient110,,Female,Melanoma,pembrolizumab,Pembrolizumab,PD-1,0,No,No,341,Yes,1,Yes,Yes,No,Yes,No,Yes,Yes,M1c,33.5,Progressive Disease,16.86666667,0:LIVING,3.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient112,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,212,No,0,No,No,Yes,No,No,No,No,M1c,8.03333333333,Progressive Disease,17.36666667,1:DECEASED,3.033333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient116,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,No,No,313,Yes,0,No,No,Yes,Yes,No,Yes,Yes,M1c,7.66666666667,Progressive Disease,3.933333333,1:DECEASED,2.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient117,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,275,Yes,0,No,No,No,No,No,No,Yes,M1c,1.13333333333,Progressive Disease,9.833333333,1:DECEASED,3.333333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient118,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,161,No,1,No,No,Yes,Yes,No,Yes,Yes,M1c,7.36666666667,Partial Response,43.86666667,0:LIVING,43.86666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient119,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,117,No,0,No,No,Yes,Yes,Yes,Yes,No,M1c,2.7,Progressive Disease,8.666666667,1:DECEASED,2.466666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient120,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,195,No,0,No,No,Yes,No,No,No,No,M1c,36.1666666667,Complete Response,43.7,0:LIVING,43.7,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient121,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,225,No,1,Yes,No,Yes,Yes,No,Yes,Yes,M1c,25.5666666667,Partial Response,43.53333333,0:LIVING,40.93333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient125,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,Yes,248,No,x,Yes,No,Yes,No,No,Yes,Yes,M1c,1.86666666667,Complete Response,32.6,0:LIVING,32.6,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient126,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,172,No,0,No,No,No,Yes,Yes,Yes,Yes,M1c,21.6666666667,Partial Response,33.06666667,0:LIVING,24.73333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient127,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,125,No,1,No,No,Yes,No,No,No,Yes,M1c,13.7333333333,Complete Response,28.86666667,0:LIVING,28.86666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient13,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,970,Yes,1,No,No,Yes,No,No,No,Yes,M1c,19.6,Progressive Disease,1.933333333,1:DECEASED,1.466666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient130,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,695,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,9.4,Progressive Disease,6.4,1:DECEASED,4.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient131,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,232,No,0,No,No,No,Yes,No,Yes,No,M1b,10.3333333333,Partial Response,27.76666667,0:LIVING,27.76666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient132,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,192,No,0,No,No,No,Yes,No,No,No,M1b,21.0,Complete Response,24.63333333,0:LIVING,12.96666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient133,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,313,Yes,0,No,No,No,Yes,No,No,No,M1c,11.3666666667,Progressive Disease,12.33333333,1:DECEASED,2.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient134,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,172,No,0,No,No,No,Yes,No,No,No,M1b,10.9333333333,Progressive Disease,19.66666667,1:DECEASED,2.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient135,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,287,Yes,0,No,No,No,Yes,No,Yes,No,M1c,12.8,Complete Response,20.93333333,0:LIVING,20.93333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient136,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,212,No,0,No,No,No,Yes,No,No,No,M1b,19.0333333333,Progressive Disease,23.26666667,0:LIVING,2.066666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient137,,Female,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,216,No,1,No,No,No,Yes,No,Yes,No,M1c,28.6,Complete Response,25.73333333,0:LIVING,25.73333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient14,,Female,Melanoma,MK 3475,mk 3475,Unknown,0,No,No,191,No,0,Yes,No,No,Yes,No,No,Yes,M1b,1.0,Progressive Disease,6.2,1:DECEASED,2.533333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient140,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,0,No,No,125,No,1,No,No,No,Yes,No,No,No,M1b,69.2,Progressive Disease,11.7,1:DECEASED,2.233333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient141,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,242,Yes,0,No,No,No,Yes,No,No,Yes,M1c,2.03333333333,Partial Response,29.16666667,0:LIVING,29.16666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient142,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,181,No,0,No,No,No,No,No,No,Yes,M1a,1.63333333333,Stable Disease,33.2,0:LIVING,33.2,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient143,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,236,Yes,0,No,No,No,No,No,Yes,Yes,IIIC,11.1,Progressive Disease,21,0:LIVING,5.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient144,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,255,Yes,0,No,No,Yes,No,Yes,Yes,Yes,M1c,27.4333333333,Partial Response,22.06666667,0:LIVING,22.06666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient145,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,308,Yes,0,No,No,Yes,Yes,Yes,Yes,Yes,M1c,9.7,Complete Response,27.76666667,0:LIVING,27.76666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient146,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,330,Yes,0,No,No,Yes,Yes,No,No,Yes,M1c,12.4,Complete Response,20.4,0:LIVING,20.4,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient147,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,278,Yes,0,No,Yes,Yes,Yes,No,No,Yes,M1c,18.1,Complete Response,32,0:LIVING,32,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient148,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,199,No,0,No,No,No,No,No,Yes,Yes,M1a,10.8333333333,Partial Response,26.4,0:LIVING,26.4,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient149,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,0,No,No,218,No,1,No,No,Yes,Yes,Yes,Yes,No,M1c,7.33333333333,Stable Disease,16.56666667,1:DECEASED,7,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient15,,Female,Melanoma,MK 3475,mk 3475,Unknown,3,Yes,Yes,225,No,0,Yes,No,No,Yes,Yes,Yes,Yes,M1c,6.0,Partial Response,4.966666667,1:DECEASED,3.5,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient150,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,0,No,No,150,No,0,No,No,No,Yes,Yes,No,No,M1c,0.8,Partial Response,22.83333333,0:LIVING,22.83333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient154,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,188,No,0,No,No,No,No,No,No,Yes,IIIC,2.36666666667,Stable Disease,21.16666667,0:LIVING,8.366666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient155,,Male,Melanoma,pembrolizumab,Pembrolizumab,PD-1,0,No,No,229,No,0,No,No,No,No,No,No,Yes,IIIC,8.46666666667,Progressive Disease,15.83333333,0:LIVING,3.766666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient156,,Male,Melanoma,pembrolizumab,Pembrolizumab,PD-1,0,No,No,450,Yes,0,No,Yes,No,Yes,No,Yes,Yes,M1c,6.73333333333,Progressive Disease,2.9,1:DECEASED,2.666666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient157,,Male,Melanoma,pembrolizumab,Pembrolizumab,PD-1,0,No,No,155,No,1,No,No,No,Yes,No,Yes,No,M1c,14.6666666667,Progressive Disease,4.766666667,0:LIVING,2.766666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient158,,Male,Melanoma,pembrolizumab,Pembrolizumab,PD-1,1,No,Yes,457,Yes,1,No,No,Yes,No,No,Yes,No,M1c,76.6333333333,Partial Response,6.466666667,0:LIVING,5.4,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient159,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,242,No,1,No,No,Yes,No,Yes,Yes,No,M1c,1.63333333333,Stable Disease,9.6,0:LIVING,7.2,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient162,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,464,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,52.2333333333,Progressive Disease,6.7,1:DECEASED,1.766666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient163,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,3,Yes,Yes,253,Yes,1,No,No,No,No,Yes,Yes,Yes,M1c,6.73333333333,Progressive Disease,5.766666667,1:DECEASED,1.6,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient165,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,335,Yes,0,No,No,No,No,No,Yes,Yes,M1c,21.4666666667,Progressive Disease,2.5,0:LIVING,0.433333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient166,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,840,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,M1c,0.333333333333,Partial Response,6.833333333,1:DECEASED,6.833333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient167,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,499,Yes,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,M1c,1.4,Progressive Disease,9.4,1:DECEASED,1.9,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient168,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,No,Yes,334,Yes,0,Yes,No,No,No,No,Yes,No,M1c,1.06666666667,Partial Response,20.76666667,0:LIVING,19.33333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient169,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,372,Yes,0,No,No,No,No,No,Yes,Yes,M1c,45.8,Partial Response,18.1,0:LIVING,18.1,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient17,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,192,No,0,No,No,Yes,Yes,Yes,Yes,No,M1c,12.2,Stable Disease,22.86666667,1:DECEASED,6.733333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient170,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,181,No,0,No,No,No,No,No,No,Yes,IIIC,1.9,Stable Disease,11.56666667,0:LIVING,11.56666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient172,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,189,No,0,No,No,No,No,No,No,Yes,IIIC,22.6666666667,Stable Disease,9.066666667,0:LIVING,9.066666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient173,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,236,No,0,No,No,Yes,Yes,No,No,No,M1c,2.4,Progressive Disease,1.4,1:DECEASED,0.533333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient179,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,173,No,0,No,No,No,Yes,No,No,No,M1b,15.9333333333,Partial Response,21.76666667,0:LIVING,11.2,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient18,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,217,No,0,No,No,No,No,No,No,Yes,IIIC,11.4,Progressive Disease,4.333333333,1:DECEASED,2.866666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient180,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,No,Yes,272,Yes,1,No,Yes,Yes,Yes,Yes,Yes,Yes,M1c,19.3666666667,Stable Disease,12.66666667,1:DECEASED,11.43333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient181,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,249,Yes,0,No,No,No,Yes,No,No,Yes,M1c,9.16666666667,Complete Response,15.86666667,0:LIVING,15.86666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient182,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,237,Yes,0,No,No,Yes,No,No,Yes,Yes,M1c,5.73333333333,Progressive Disease,24.93333333,1:DECEASED,2.8,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient183,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,No,No,220,No,1,No,No,No,No,No,Yes,Yes,M1c,10.9,Progressive Disease,19.06666667,1:DECEASED,2.8,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient184,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,187,No,0,No,Yes,No,No,No,No,No,M1c,66.1,Complete Response,17.1,0:LIVING,12.4,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient185,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,391,Yes,0,No,No,Yes,Yes,No,No,No,M1c,5.26666666667,Stable Disease,6.766666667,0:LIVING,6.766666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient187,,Female,Melanoma,Pembro,Pembrolizumab,PD-1,3,Yes,Yes,193,No,0,No,No,No,No,No,No,Yes,M1a,4.43333333333,Complete Response,20.56666667,0:LIVING,20.56666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient188,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,1,No,No,184,No,1,No,No,No,Yes,No,No,No,M1a,0.733333333333,Progressive Disease,2.466666667,1:DECEASED,0.766666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient189,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,275,Yes,1,No,No,No,No,No,Yes,No,M1c,1.66666666667,Partial Response,23.93333333,0:LIVING,13.53333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient191,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,217,No,1,No,No,No,Yes,No,Yes,No,M1b,140.633333333,Partial Response,21.93333333,0:LIVING,21.93333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient192,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,Yes,314,Yes,0,No,Yes,Yes,Yes,No,Yes,No,M1c,15.2333333333,Partial Response,9.666666667,0:LIVING,8.3,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient193,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,229,No,0,No,No,No,No,No,No,Yes,IIIC,19.2,Stable Disease,21.96666667,0:LIVING,15.86666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient195,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,203,No,1,No,No,No,Yes,Yes,Yes,Yes,M1c,65.5,Partial Response,29.83333333,0:LIVING,29.83333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient196,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,No,Yes,196,No,2,Yes,Yes,No,No,No,No,Yes,M1c,57.7666666667,Progressive Disease,2.7,1:DECEASED,2.7,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient197,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,295,Yes,1,No,Yes,No,Yes,No,No,No,M1c,2.0,Partial Response,32,0:LIVING,2.966666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient20,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,214,No,0,Yes,Yes,Yes,Yes,Yes,Yes,Yes,M1c,13.0,Progressive Disease,8.066666667,1:DECEASED,2.8,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient200,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,No,No,448,Yes,0,No,Yes,No,No,Yes,Yes,No,M1c,24.3,Progressive Disease,17.06666667,1:DECEASED,3.6,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient201,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,178,No,1,No,No,No,No,No,Yes,Yes,IIIC,2.0,Progressive Disease,5.566666667,1:DECEASED,2.3,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient203,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,224,No,1,No,No,Yes,Yes,No,Yes,Yes,M1b,2.36666666667,Progressive Disease,20.86666667,1:DECEASED,3.3,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient204,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,198,No,0,No,No,No,No,No,Yes,Yes,M1a,58.8666666667,Complete Response,27.3,0:LIVING,21,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient205,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,215,Yes,0,No,No,Yes,Yes,Yes,Yes,No,M1c,18.9,Progressive Disease,13.06666667,1:DECEASED,6.333333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient206,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,178,No,1,No,No,Yes,Yes,No,No,No,M1c,180.3,Progressive Disease,3,1:DECEASED,1.4,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient21,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,179,No,0,Yes,No,Yes,Yes,No,Yes,No,M1c,3.46666666667,Partial Response,30.2,0:LIVING,30.2,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient22,,Male,Melanoma,nivolumab,Nivolumab,PD-1,1,Yes,No,304,Yes,1,Yes,No,No,No,No,Yes,Yes,M1c,1.9,Progressive Disease,8.433333333,1:DECEASED,3.033333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient23,,Male,Melanoma,nivolumab,Nivolumab,PD-1,0,No,No,,,0,No,No,No,No,No,Yes,Yes,IIIC,4.36666666667,Progressive Disease,32.5,0:LIVING,2.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient24,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,2,Yes,No,334,Yes,1,Yes,No,Yes,Yes,No,Yes,Yes,M1c,9.23333333333,Progressive Disease,4.566666667,1:DECEASED,1.033333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient25,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,956,Yes,0,No,No,Yes,Yes,Yes,Yes,Yes,M1c,10.9,Partial Response,36.53333333,0:LIVING,25.06666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient27,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,276,No,0,No,No,No,No,No,Yes,Yes,M1a,7.33333333333,Progressive Disease,14.36666667,1:DECEASED,3.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient30,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,7,Yes,Yes,609,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,5.33333333333,Stable Disease,7.1,1:DECEASED,4.433333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient31,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,,,0,No,No,No,Yes,Yes,Yes,Yes,M1c,5.53333333333,Progressive Disease,14.2,1:DECEASED,2.833333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient32,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,Yes,2419,Yes,0,No,No,Yes,Yes,No,No,Yes,M1c,9.03333333333,Progressive Disease,1.766666667,1:DECEASED,1.633333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient33,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,317,No,0,No,No,Yes,Yes,No,Yes,Yes,M1c,0.3,Partial Response,55.96666667,0:LIVING,55.96666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient34,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,409,No,0,No,No,No,Yes,No,No,Yes,M1b,0.6,Partial Response,56.36666667,0:LIVING,8,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient35,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,2,Yes,No,216,No,0,No,No,Yes,No,No,Yes,Yes,M1c,1.3,Stable Disease,32.26666667,1:DECEASED,6.033333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient36,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,282,Yes,1,No,No,No,Yes,No,No,No,M1c,6.03333333333,Progressive Disease,15.03333333,1:DECEASED,2.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient37,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,335,Yes,0,No,No,Yes,Yes,Yes,Yes,Yes,M1c,1.33333333333,Progressive Disease,9.166666667,1:DECEASED,2.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient38,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,2,Yes,Yes,376,Yes,0,No,No,No,Yes,Yes,Yes,Yes,M1c,1.26666666667,Progressive Disease,11.43333333,1:DECEASED,3.266666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient39,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,222,No,1,No,No,No,No,No,Yes,Yes,M1a,0.366666666667,Stable Disease,31.23333333,0:LIVING,31.23333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient4,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,149,No,0,No,No,Yes,Yes,No,Yes,Yes,M1c,12.7666666667,Complete Response,20,1:DECEASED,19.13333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient40,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,No,No,378,Yes,0,No,No,Yes,No,No,Yes,No,M1c,202.833333333,Progressive Disease,15.6,1:DECEASED,2.1,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient41,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,2,Yes,No,172,No,0,No,No,No,Yes,No,No,No,M1b,328.166666667,Partial Response,56.16666667,0:LIVING,3.533333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient42,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,296,Yes,0,No,No,No,No,No,No,Yes,M1c,16.8666666667,Complete Response,34.23333333,0:LIVING,34.23333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient43,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,280,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,2.8,Partial Response,30.83333333,0:LIVING,25,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient44,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,326,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,2.16666666667,Partial Response,30.73333333,0:LIVING,30.73333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient45,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,3,Yes,No,278,Yes,0,No,No,Yes,Yes,No,Yes,No,M1c,9.56666666667,Partial Response,55.53333333,0:LIVING,55.53333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient46,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,292,Yes,0,No,No,No,Yes,No,No,No,M1c,27.8666666667,Stable Disease,29.86666667,0:LIVING,29.86666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient47,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,340,Yes,0,No,No,No,Yes,Yes,Yes,Yes,M1c,25.2666666667,Progressive Disease,31.23333333,0:LIVING,2.466666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient48,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,No,No,670,Yes,1,No,No,No,Yes,Yes,Yes,Yes,M1c,0.933333333333,Progressive Disease,1.766666667,1:DECEASED,1.666666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient49,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,4,Yes,Yes,237,No,0,No,No,Yes,Yes,No,Yes,Yes,M1c,53.8333333333,Partial Response,54.5,0:LIVING,9.333333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient50,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,746,Yes,0,Yes,No,Yes,Yes,Yes,Yes,Yes,M1c,6.56666666667,Mixed Response,5.833333333,1:DECEASED,3.5,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient51,,Male,Melanoma,Nivo,Nivolumab,PD-1,0,No,No,185,No,0,No,No,No,Yes,No,No,No,M1b,37.7333333333,Partial Response,51.56666667,0:LIVING,15.7,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient54,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,3,Yes,Yes,255,Yes,0,No,No,No,Yes,Yes,Yes,Yes,M1c,9.56666666667,Mixed Response,33.9,1:DECEASED,14.3,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient55,,Male,Melanoma,Nivo,Nivolumab,PD-1,0,No,No,182,No,0,No,No,Yes,Yes,No,Yes,No,M1c,15.9666666667,Partial Response,50.1,0:LIVING,50.1,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient56,,Male,Melanoma,Nivo,Nivolumab,PD-1,1,Yes,No,359,Yes,0,No,No,Yes,No,Yes,No,No,M1c,0.566666666667,Progressive Disease,4.066666667,1:DECEASED,2.366666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient58,,Male,Melanoma,Nivo,Nivolumab,PD-1,1,Yes,No,528,Yes,1,No,No,No,Yes,No,Yes,Yes,M1c,3.06666666667,Progressive Disease,10.1,1:DECEASED,2.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient59,,Male,Melanoma,Nivo,Nivolumab,PD-1,1,Yes,No,260,Yes,1,No,No,Yes,Yes,No,Yes,No,M1c,10.5,Progressive Disease,6.366666667,1:DECEASED,2.733333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient6,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,177,No,0,No,No,No,Yes,No,Yes,Yes,M1b,31.0,Stable Disease,22.9,1:DECEASED,4.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient60,,Male,Melanoma,Nivo,Nivolumab,PD-1,1,Yes,No,245,No,0,No,No,No,No,No,Yes,Yes,M1b,13.0333333333,Stable Disease,22.06666667,1:DECEASED,5.833333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient61,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,204,No,0,No,No,No,No,Yes,Yes,Yes,M1c,70.4333333333,Stable Disease,32.9,0:LIVING,32.9,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient62,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,191,No,0,No,No,Yes,Yes,No,Yes,Yes,M1c,208.166666667,Partial Response,33.36666667,0:LIVING,33.36666667,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient63,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,259,Yes,1,No,No,Yes,Yes,Yes,Yes,Yes,M1c,2.9,Progressive Disease,5.933333333,1:DECEASED,2.966666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient67,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,244,No,0,No,No,Yes,No,Yes,Yes,Yes,M1c,2.43333333333,Progressive Disease,4.533333333,1:DECEASED,3.133333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient7,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,263,Yes,0,No,No,Yes,Yes,No,Yes,Yes,M1c,2.53333333333,Stable Disease,8.966666667,1:DECEASED,7.233333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient72,,Male,Melanoma,nivolumab,Nivolumab,PD-1,2,Yes,No,216,No,0,No,No,No,No,No,No,Yes,M1a,4.03333333333,Progressive Disease,13.16666667,0:LIVING,2.233333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient73,,Male,Melanoma,nivolumab,Nivolumab,PD-1,2,Yes,No,279,Yes,1,No,No,No,No,No,Yes,Yes,M1c,3.0,Progressive Disease,28.2,1:DECEASED,2.833333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient75,,Male,Melanoma,nivolumab,Nivolumab,PD-1,0,No,No,254,Yes,3,No,No,No,Yes,No,No,Yes,M1c,24.3333333333,Partial Response,29.7,0:LIVING,29.7,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient77,,Female,Melanoma,pembrolizumab,Pembrolizumab,PD-1,0,No,No,228,No,0,Yes,Yes,No,Yes,No,No,No,M1c,3.03333333333,Progressive Disease,14.8,1:DECEASED,3.166666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient78,,Female,Melanoma,pembrolizumab,Pembrolizumab,PD-1,1,No,Yes,178,No,0,No,No,No,Yes,No,No,Yes,M1b,1.43333333333,Progressive Disease,11.86666667,1:DECEASED,2.866666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient79,,Female,Melanoma,pembrolizumab,Pembrolizumab,PD-1,1,No,Yes,171,No,0,Yes,No,No,Yes,No,Yes,Yes,M1c,6.73333333333,Progressive Disease,28.3,0:LIVING,2.8,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient8,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,0,No,No,245,No,0,,No,No,Yes,No,No,Yes,M1b,6.36666666667,Stable Disease,33.5,1:DECEASED,31.83333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient80,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,1,Yes,No,140,No,0,No,No,No,Yes,No,Yes,No,M1b,1.13333333333,Progressive Disease,16.73333333,1:DECEASED,2.566666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient82,,Male,Melanoma,Pembro,Pembrolizumab,PD-1,3,Yes,Yes,1195,Yes,1,No,Yes,Yes,Yes,No,No,No,M1c,49.2666666667,Progressive Disease,4.366666667,1:DECEASED,2.966666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient83,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,1,Yes,No,496,Yes,1,No,No,No,Yes,No,Yes,No,M1c,6.5,Progressive Disease,2.366666667,1:DECEASED,2.366666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient84,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,247,No,,No,No,Yes,No,No,No,Yes,M1c,1.63333333333,Progressive Disease,5.466666667,1:DECEASED,2.766666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient86,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,No,144,No,,No,No,Yes,No,No,Yes,Yes,M1c,9.23333333333,Stable Disease,44.23333333,0:LIVING,44.23333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient87,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,343,Yes,,No,No,No,No,Yes,Yes,No,M1c,2.9,Partial Response,42.1,0:LIVING,38.06666667,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient88,,Male,Melanoma,MK3475,Pembrolizumab,PD-1,1,Yes,No,510,Yes,,No,No,No,No,No,Yes,Yes,M1c,1.23333333333,Progressive Disease,2.466666667,1:DECEASED,2.3,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient9,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,192,No,0,No,No,No,No,No,Yes,Yes,IIIC,21.8,Progressive Disease,32.1,0:LIVING,0.7,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient94,,Female,Melanoma,MK3475,Pembrolizumab,PD-1,2,Yes,Yes,817,Yes,2,Yes,Yes,Yes,Yes,Yes,Yes,Yes,M1c,8.9,Progressive Disease,1.333333333,1:DECEASED,1.333333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient96,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,174,No,0,No,No,Yes,Yes,No,No,No,M1c,21.4666666667,Complete Response,30.43333333,0:LIVING,30.43333333,0:CENSORED
+mel_dfci_2019,Melanoma (DFCI 2019),Patient98,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,192,No,0,Yes,No,No,Yes,No,Yes,No,M1b,10.0666666667,Progressive Disease,22.76666667,1:DECEASED,2.433333333,1:PROGRESSION
+mel_dfci_2019,Melanoma (DFCI 2019),Patient99,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,0,No,No,355,Yes,0,Yes,No,Yes,Yes,No,Yes,No,M1c,30.2,Partial Response,30.7,0:LIVING,10.63333333,1:PROGRESSION
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10001,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.91,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10003,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.633333333,FALSE,2.86,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10004,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.99,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10005,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10006,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.866666667,FALSE,1.68,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10007,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.4,TRUE,12.71,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10008,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.3,FALSE,7.85,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10010,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.4,FALSE,5.95,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10011,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.53,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10012,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,20.96666667,FALSE,10.41,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10013,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.233333333,FALSE,5.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10014,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.8,FALSE,23.69,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10015,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9,FALSE,6.9,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10016,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10017,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.833333333,FALSE,4.89,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10018,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,11.66,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10019,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.066666667,FALSE,13.3,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10020,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.166666667,,1.81,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10021,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,9.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10022,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.633333333,FALSE,6.27,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10023,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,17.9,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10024,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,25.56666667,FALSE,9.89,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10025,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.633333333,FALSE,15.87,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10026,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.133333333,FALSE,8.02,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10027,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,27.26666667,,18.1,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10028,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.766666667,FALSE,21.58,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10029,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.966666667,TRUE,22.37,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10030,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.466666667,FALSE,14.75,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10031,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,19.19,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10032,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,7.06,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10033,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.1,FALSE,2.63,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10034,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.46666667,FALSE,5.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10035,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.7,FALSE,18.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10036,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.3,FALSE,1.97,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10037,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.633333333,FALSE,7.46,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10038,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,66.3,,18,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10039,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.433333333,,2.89,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10040,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.433333333,FALSE,9,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10041,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.666666667,TRUE,23.26,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10042,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.13333333,TRUE,18.86,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10043,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.066666667,FALSE,13.27,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10044,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,31.6,TRUE,23.16,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10045,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,40.76666667,,1.71,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10046,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.9,FALSE,6.7,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10047,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.4,FALSE,12.42,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10048,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.533333333,FALSE,17.97,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10049,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.5,TRUE,21.22,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10050,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.37,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10051,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,21.65,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10052,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.933333333,FALSE,14.75,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10053,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.666666667,,1.81,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10054,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.733333333,FALSE,1.81,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10055,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15,FALSE,9.76,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10056,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.9,FALSE,10.87,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10057,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.2,,1.71,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10058,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.36666667,TRUE,20.01,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10059,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.366666667,FALSE,5.65,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10060,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.166666667,,0.62,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10061,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.566666667,TRUE,23.52,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10062,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.4,TRUE,17.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10063,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.8,FALSE,6.73,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10064,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.766666667,FALSE,20.76,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10065,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.53333333,FALSE,20.63,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10066,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.433333333,FALSE,2.53,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10068,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.19,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10069,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.966666667,FALSE,2.66,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10070,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.6,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10071,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.2,FALSE,2.56,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10072,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,1.71,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10073,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.433333333,TRUE,11.4,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10074,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.7,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10076,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.866666667,FALSE,6.11,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10077,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,15.6,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10078,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.733333333,FALSE,7.39,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10079,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.633333333,,2.69,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10080,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.1,FALSE,2.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10081,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.7,FALSE,2.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10082,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.133333333,FALSE,1.18,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10083,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.2,FALSE,8.25,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10084,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.766666667,FALSE,15.8,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10085,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.73333333,FALSE,4.53,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10086,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,5.85,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10087,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.833333333,FALSE,14.75,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10088,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.666666667,FALSE,19.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10089,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,20.36666667,FALSE,19.28,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10090,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,28.86666667,TRUE,20.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10091,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.87,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10092,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,0.56,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10093,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.633333333,TRUE,16.85,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10095,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.666666667,FALSE,6.01,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10096,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.4,TRUE,20.01,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10097,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.1,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10098,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.166666667,FALSE,5.85,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10099,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,8.08,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10100,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.866666667,FALSE,23.32,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10101,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.6,,0.43,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10102,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.133333333,,2.69,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10103,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,5.65,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10104,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.966666667,FALSE,9.56,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10105,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.166666667,FALSE,1.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10106,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.766666667,FALSE,3.61,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10107,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.2,FALSE,2.6,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10108,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,18.3,FALSE,1.74,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10109,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,7.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10110,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.066666667,,2.83,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10111,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.6,FALSE,10.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10112,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,1.94,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10113,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,16.46,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10114,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,81.3,FALSE,2.1,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10115,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.07,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10116,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.933333333,FALSE,11.1,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10117,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,13,TRUE,21.06,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10118,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.433333333,FALSE,7.95,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10119,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,0.2,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10120,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.6,FALSE,15.64,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10121,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.5,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10122,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.5,TRUE,17.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10123,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,21.25,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10124,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.033333333,TRUE,20.7,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10125,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.4,FALSE,10.55,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10127,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.533333333,FALSE,21.02,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10128,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.36,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10129,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,14.2,FALSE,15.44,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10130,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,22.11,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10131,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.9,FALSE,2.1,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10132,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,42.83333333,FALSE,6.8,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10133,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.766666667,FALSE,17.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10134,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.59,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10135,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.833333333,FALSE,5.72,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10136,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,17.77,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10137,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.62,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10138,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.27,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10139,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,35.66666667,TRUE,21.42,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10140,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.06666667,,20.04,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10141,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.666666667,FALSE,23.82,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10142,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10143,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.22,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10144,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.133333333,FALSE,7.95,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10145,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.1,FALSE,3.45,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10146,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.766666667,FALSE,3.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10147,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.2,FALSE,22.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10148,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.96666667,TRUE,22.08,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10149,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,38.7,TRUE,17.21,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10150,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,24.47,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10151,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.066666667,FALSE,20.57,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10153,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.76666667,,0.62,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10154,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.066666667,FALSE,10.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10155,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.86,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10156,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.233333333,TRUE,23.39,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10157,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,20.43333333,TRUE,19.35,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10159,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,13.26666667,FALSE,2.63,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10160,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,10.18,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10161,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.93333333,FALSE,7.33,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10162,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,19.73333333,TRUE,17.02,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10164,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.466666667,FALSE,15.31,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10165,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,21.3,TRUE,19.42,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10166,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,30.36666667,FALSE,2.5,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10167,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,14.46666667,FALSE,6.24,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10168,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,22.11,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10169,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10170,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,21.19,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10171,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.166666667,FALSE,8.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10172,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.83333333,FALSE,7.72,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10173,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.833333333,FALSE,5.39,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10174,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,13.33333333,TRUE,12.84,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10175,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,16.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10176,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,1.45,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10177,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.89,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10178,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.36666667,FALSE,5.52,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10180,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.633333333,FALSE,5.68,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10181,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.2,FALSE,5.06,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10182,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.1,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10184,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.366666667,FALSE,0.85,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10185,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.7,FALSE,6.96,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10187,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.7,FALSE,5.39,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10188,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.53333333,FALSE,20.27,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10189,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,20.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10190,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.866666667,,1.45,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10191,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.63,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10192,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.46666667,FALSE,16.26,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10193,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10194,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,9.26,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10195,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.733333333,FALSE,15.37,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10196,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.366666667,TRUE,21.62,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10198,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.133333333,,0.76,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10199,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.5,FALSE,15.67,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10200,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,2.46,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10201,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,56.86666667,TRUE,21.58,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10202,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.733333333,TRUE,18.56,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10203,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.533333333,,2.83,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10204,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.97,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10205,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.63333333,TRUE,20.83,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10206,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10207,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.7,FALSE,4.5,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10208,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.91,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10209,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.833333333,FALSE,3.98,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10210,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.1,,18.63,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10211,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.82,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10212,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.36666667,FALSE,19.12,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10213,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,56.53333333,TRUE,15.7,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10215,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,15.41,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10216,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.166666667,FALSE,2.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10217,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.333333333,FALSE,3.48,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10220,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.63,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10221,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.533333333,FALSE,10.48,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10222,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.8,FALSE,3.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10223,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,25.6,FALSE,21.39,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10224,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.4,FALSE,2.07,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10225,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,10.91,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10226,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,32.9,FALSE,21.25,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10227,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.333333333,FALSE,9.86,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10228,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.3,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10229,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,16.03,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10230,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.6,TRUE,24.18,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10232,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,29.9,FALSE,15.64,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10233,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,14.26666667,TRUE,21.58,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10234,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.233333333,TRUE,23.23,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10235,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.86666667,TRUE,16.59,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10236,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.3,FALSE,3.61,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10238,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.666666667,TRUE,21.42,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10239,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.266666667,TRUE,18.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10240,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.833333333,FALSE,3.55,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10241,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.966666667,,2.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10242,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.8,FALSE,7.88,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10243,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,48.63333333,FALSE,20.47,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10244,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.433333333,TRUE,16.46,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10245,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,24.23333333,TRUE,16.59,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10246,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.433333333,FALSE,2.73,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10247,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,7.92,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10248,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,26.93333333,TRUE,16.82,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10249,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,9.03,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10250,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.53,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10251,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.733333333,FALSE,11.27,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10252,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.63333333,,1.68,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10253,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.7,FALSE,10.35,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10254,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.366666667,FALSE,2.89,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10255,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.566666667,,1.58,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10256,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.94,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10257,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.69,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10258,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.4,FALSE,4.37,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10259,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.6,TRUE,20.57,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10260,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.966666667,FALSE,15.83,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10262,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.33333333,FALSE,10.48,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10263,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.06666667,,1.15,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10264,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.433333333,,0.62,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10265,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,27.1,TRUE,22.54,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10266,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,13.27,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10267,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,27.46666667,TRUE,21.45,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10268,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.566666667,FALSE,2.17,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10269,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.2,TRUE,12.81,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10270,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.266666667,FALSE,11.93,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10271,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.833333333,FALSE,8.02,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10272,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,22.11,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10273,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.6,TRUE,21.32,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10274,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,18.17,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10275,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.07,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10277,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.7,FALSE,12.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10279,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.433333333,FALSE,5.39,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10280,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,20.76666667,FALSE,13.4,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10281,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.766666667,FALSE,2.76,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10282,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,18.03333333,,1.05,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10284,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.633333333,FALSE,6.24,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10285,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.2,,0.49,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10286,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,19.4,FALSE,8.9,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10287,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.71,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10289,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,2.04,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10290,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.933333333,FALSE,14.13,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10291,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.7,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10292,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,8.71,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10293,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,22.83,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10294,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.566666667,FALSE,3.55,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10295,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.266666667,FALSE,9.49,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10296,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.5,TRUE,17.12,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10297,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,20.7,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10298,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.966666667,FALSE,13.34,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10299,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,19.1,FALSE,4.27,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10300,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.5,FALSE,14.13,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10301,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.22,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10302,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.45,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10303,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.533333333,FALSE,19.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10304,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.1,FALSE,5.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10305,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.166666667,FALSE,5.39,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10306,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.166666667,FALSE,2.43,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10307,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.83333333,FALSE,2.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10308,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.17,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10309,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.06666667,TRUE,19.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10310,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.966666667,FALSE,2.2,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10311,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.433333333,FALSE,2.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10312,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,2.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10313,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,18.66,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10314,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.933333333,,0.36,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10315,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.41,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10316,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,2.92,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10317,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.333333333,FALSE,5.49,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10319,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,21.16,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10320,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,21.16,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10321,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.13333333,FALSE,10.58,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10323,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.82,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10324,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10325,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,2.366666667,FALSE,3.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10326,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.25,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10327,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,0.82,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10328,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,4.96,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10329,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.33333333,FALSE,8.08,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10330,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.566666667,FALSE,21.85,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10332,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,4.37,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10333,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,6.73,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10334,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.066666667,FALSE,8.28,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10335,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.5,TRUE,23.13,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10336,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,18.06666667,TRUE,20.5,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10337,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,11.37,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10339,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.366666667,FALSE,2.76,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10340,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.433333333,FALSE,3.52,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10341,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,20.07,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10343,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.46666667,TRUE,18.89,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10344,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,22.4,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10345,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,1.933333333,FALSE,12.71,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10346,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.933333333,FALSE,8.77,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10347,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.566666667,FALSE,10.25,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10348,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,1.31,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10349,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.333333333,TRUE,20.57,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10350,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,27,FALSE,17.08,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10351,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.233333333,FALSE,22.5,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10352,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,3.75,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10353,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.033333333,FALSE,2.1,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10354,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.06666667,TRUE,22.14,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10355,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.966666667,TRUE,21.39,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10356,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.7,FALSE,1.02,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10357,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.3,,0.23,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10358,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.5,,0.85,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10359,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.2,FALSE,7.62,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10360,,Female,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,12.84,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10361,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.266666667,FALSE,3.12,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10362,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,1.48,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10363,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,22.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10364,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,15.54,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10365,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.466666667,FALSE,5.52,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10366,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,13.99,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10367,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.3,FALSE,16.46,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10368,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.633333333,TRUE,20.73,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10369,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.8,FALSE,7.06,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10370,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.366666667,FALSE,2.14,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10371,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.2,TRUE,17.28,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10372,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.866666667,FALSE,14.98,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10373,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,18.17,0:LIVING,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10374,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,8.08,1:DECEASED,,
+blca_iatlas_imvigor210_2017,Bladder (IMvigor210 2017),10375,,Male,Bladder Cancer,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.7,FALSE,1.41,1:DECEASED,,
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p00064,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.366666667,,,,1.18,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p01155,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.133333333,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p01316,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,3.78,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p01492,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,29.8,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p03058,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,8.15,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p03170,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,5.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p03363,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p03418,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.22,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p03665,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.866666667,TRUE,,,21.58,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p04168,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p04878,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,,,2.69,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p05096,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,10.81,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p05361,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,62.53333333,FALSE,,,2.86,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p05370,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.75,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p05544,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,60.7,TRUE,,,19.91,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p05746,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.433333333,FALSE,,,1.54,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p06184,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.69,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p07076,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,8.333333333,FALSE,,,19.51,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p07343,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,19.4,TRUE,,,8.31,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p07499,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,15.43333333,FALSE,,,13.99,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p07850,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.966666667,FALSE,,,5.49,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p08100,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,19.38,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p09050,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.63333333,TRUE,,,2.99,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p09186,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,8.733333333,FALSE,,,5.68,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p09246,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,76.7,FALSE,,,12.88,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p09644,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,11.27,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p09862,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,16.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p10447,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.166666667,FALSE,,,2.76,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p10511,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,18.83333333,FALSE,,,3.71,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p10717,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,18.93333333,TRUE,,,20.24,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p11316,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.29,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p12053,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.066666667,FALSE,,,13.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p12281,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,3.68,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p12735,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,20.33333333,TRUE,,,19.42,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p12746,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,7.033333333,TRUE,,,8.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p13588,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,22.67,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14021,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,3.966666667,,,,8.15,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14145,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,15.56666667,FALSE,,,2.92,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14153,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.966666667,FALSE,,,5.55,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14538,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,26.8,FALSE,,,2.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14593,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,19.38,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p14998,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.91,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p15605,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,11.6,FALSE,,,8.71,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p16333,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.56,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p16409,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,16.29,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p16751,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,74.66666667,FALSE,,,5.55,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p17164,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,5.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p17379,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.45,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p17426,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,21.76666667,FALSE,,,2.92,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p17615,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,3.15,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p18226,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.33333333,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p18256,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.4,FALSE,,,2.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p18896,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.6,FALSE,,,3.98,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p19016,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,24.84,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p19478,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,18.92,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p19507,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.83,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p20763,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.766666667,FALSE,,,2.99,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p21222,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.56,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p21389,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,17.53333333,FALSE,,,25.33,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p21589,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,22.4,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p24023,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p24162,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,13.96,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p25390,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,23.26,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p25680,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,7.13,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p25799,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p26304,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.9,TRUE,,,16.26,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p26467,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,56.46666667,FALSE,,,1.41,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p27487,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p27891,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,,,0.03,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p28107,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,8.3,FALSE,,,3.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p28132,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.56,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p28238,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,404.3,FALSE,,,5.62,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p28281,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.92,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p29414,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,16.72,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p30781,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.8,FALSE,,,11.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p31107,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,20.83,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p32412,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,19.45,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p32553,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,,,0.36,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p32845,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.166666667,FALSE,,,2.6,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p32922,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,11.04,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p33581,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,26.36666667,TRUE,,,22.93,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p33602,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,25.1,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p33774,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,7.42,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p34223,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,40.93333333,,,,2.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p34855,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,32.06666667,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p35317,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,27.1,TRUE,,,19.35,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p35813,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,33.08,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p36298,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.7,FALSE,,,2.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p36954,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.933333333,FALSE,,,26.05,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p37011,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.033333333,FALSE,,,7.39,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p37093,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.9,FALSE,,,1.91,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p37173,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.2,TRUE,,,21.68,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p38868,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,8.34,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p40536,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,17.48,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p41186,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.26666667,FALSE,,,2.69,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p42765,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,6.2,FALSE,,,10.32,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p43066,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,6.333333333,FALSE,,,2.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p43682,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.26666667,FALSE,,,5.45,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p43872,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,8.21,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p44376,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.7,TRUE,,,13.9,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p45459,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.63333333,FALSE,,,10.91,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p45849,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,5.3,TRUE,,,21.81,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p45971,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,,,1.28,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p46605,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,19.61,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p47331,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,66.86666667,TRUE,,,17.31,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p47721,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.63,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p48663,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,22.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p48954,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.766666667,FALSE,,,14.09,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p49559,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,19.22,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p49991,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.733333333,TRUE,,,19.28,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p50066,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,6.14,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p50332,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,3.833333333,FALSE,,,9.13,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p50697,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.73333333,TRUE,,,26.61,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p50830,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,18,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p50976,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,5.65,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p51832,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,1.08,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p51984,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.69,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p52272,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.266666667,TRUE,,,19.55,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p52299,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p52494,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,2.9,FALSE,,,4.43,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p52837,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,24.84,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p52932,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,17.96666667,FALSE,,,2.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p53162,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.233333333,FALSE,,,2.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p53431,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,13.5,FALSE,,,2.96,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p53624,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,6.566666667,FALSE,,,2.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p53920,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,9.666666667,,,,18.66,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p54120,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,91.9,TRUE,,,25.92,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p54163,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.466666667,FALSE,,,2.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p54315,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,3.533333333,FALSE,,,5.85,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p54409,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.533333333,TRUE,,,25.07,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p54753,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,16.59,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p55061,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.266666667,FALSE,,,2.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p55264,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.76,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p55684,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,40.46666667,TRUE,,,16.62,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p55787,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.76,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p55814,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,10.76666667,FALSE,,,6.67,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p56237,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6,FALSE,,,2.63,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p56291,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,3.666666667,FALSE,,,7.03,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p56741,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,19.45,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p57764,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.533333333,FALSE,,,1.48,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p57834,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.266666667,TRUE,,,19.32,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p58299,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,23.03,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p58399,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.3,TRUE,,,17.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p59051,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,37.53333333,FALSE,,,5.03,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p59055,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.966666667,FALSE,,,1.58,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p59153,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,5.8,TRUE,,,23.26,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p59257,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.933333333,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p59809,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,10.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p60596,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.6,FALSE,,,1.28,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p60772,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,9.033333333,TRUE,,,8.28,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p60814,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,91.06666667,FALSE,,,2.76,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p60815,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.833333333,FALSE,,,5.75,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p60988,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,18.03333333,FALSE,,,8.28,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p61622,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,565.9,FALSE,,,26.31,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p61632,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.766666667,TRUE,,,24.9,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p61893,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,14.1,TRUE,,,18.43,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p62140,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,70.76666667,FALSE,,,26.41,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p62330,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.633333333,FALSE,,,5.58,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p62920,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,3.466666667,FALSE,,,11.4,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p63636,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.1,TRUE,,,27.6,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p63840,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,8.15,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p64208,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p64398,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p64456,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.89,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p64990,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,5.2,FALSE,,,2.96,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p65110,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,10.7,FALSE,,,22.14,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p65181,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.6,FALSE,,,8.21,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p65353,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,,,,1.25,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p66613,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,27.43,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p67597,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,22.08,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p68239,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.033333333,FALSE,,,1.51,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69089,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,20.06666667,FALSE,,,8.25,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69129,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,12.8,TRUE,,,19.15,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69561,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,7.4,TRUE,,,27.63,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69645,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.56,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69959,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.433333333,TRUE,,,24.97,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p69986,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,31.26666667,FALSE,,,8.54,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71174,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,8.18,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71337,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,3.48,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71382,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,35.93333333,TRUE,,,27.46,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71388,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,15.5,TRUE,,,33.02,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71390,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.7,TRUE,,,28.68,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71514,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,99.7,FALSE,,,8.31,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p71570,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,43.4,,,,11.4,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p72473,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.033333333,FALSE,,,27.63,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p72915,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,,,,0.03,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p73074,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.93333333,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p73444,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.8,TRUE,,,19.25,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p73644,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.4,FALSE,,,1.28,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p74056,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,13.63,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p75429,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.3,FALSE,,,2.63,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p75903,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,20.23333333,FALSE,,,2.07,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p76620,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.166666667,FALSE,,,5.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p76802,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,25.56666667,FALSE,,,2.73,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77021,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,34.4,FALSE,,,2.56,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77103,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,143.3333333,TRUE,,,19.45,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77236,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,16.13333333,FALSE,,,11.3,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77592,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.066666667,TRUE,,,30.42,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77606,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.533333333,FALSE,,,5.35,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77642,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.1,FALSE,,,8.31,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77682,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,11.1,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p77957,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.76,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p78200,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,18.96,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p78532,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,30.8,FALSE,,,2.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p78631,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,23.13333333,FALSE,,,5.49,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p78812,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,37.06666667,FALSE,,,2.96,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p78903,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.633333333,FALSE,,,1.22,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p79175,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,10.63333333,FALSE,,,11.33,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p79951,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,,,,2.33,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p79994,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p80528,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,8.466666667,FALSE,,,2.89,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p80740,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,25.63333333,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p81271,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,14.9,TRUE,,,7.79,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p81830,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.166666667,,,,13.83,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p82037,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,14.65,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p82438,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p82563,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,10.71,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p82773,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.766666667,FALSE,,,9.86,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p82892,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.733333333,FALSE,,,2.89,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p83356,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,6.833333333,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p83425,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.7,FALSE,,,3.02,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p83724,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,5.133333333,TRUE,,,32.65,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84637,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.433333333,FALSE,,,5.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84792,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,3.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84809,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,4.5,FALSE,,,1.61,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84815,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,6,FALSE,,,6.96,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84816,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,16.79,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84835,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,34.83333333,FALSE,,,5.35,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p84878,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,4.17,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p85141,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,6.933333333,,,,8.25,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p86072,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,13.83,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p87325,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,8.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p87381,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.766666667,FALSE,,,11.7,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p87557,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,73.56666667,TRUE,,,5.35,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p87690,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,10.32,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p88355,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,26.68,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p89062,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,,,,0.03,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p89981,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.033333333,TRUE,,,25.36,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p90170,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.333333333,FALSE,,,15.47,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p90215,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,11.3,FALSE,,,2.92,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p90410,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,5.9,FALSE,,,1.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p90681,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.89,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p90969,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,4.6,FALSE,,,2.96,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p91058,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,3.38,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p91392,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,13.63,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p91851,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.366666667,,,,2.23,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p91890,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,TRUE,,,19.35,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p91915,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,5.72,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p92137,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,9.933333333,TRUE,,,19.58,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p92156,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.933333333,FALSE,,,2.73,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p92869,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.86,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p93090,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,8.18,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p93939,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,FALSE,,,2.6,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p94113,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,9.666666667,FALSE,,,1.41,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p96212,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,18.46666667,FALSE,,,5.58,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p96831,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,3.9,TRUE,,,16.46,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p97176,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,,TRUE,,,22.34,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p97280,,,Renal Cell Carcinoma,None,none,Unknown,,,,,,,,,,,,,,,61.9,FALSE,,,5.39,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p97816,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,22.5,TRUE,,,8.11,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p97909,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,2.66,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p98637,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,8.4,FALSE,,,5.42,0:Not_Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p98987,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,5.133333333,FALSE,,,5.55,1:Progressed
+rcc_iatlas_immotion150_2018,RCC (IMmotion150 2018),p99039,,,Renal Cell Carcinoma,Atezolizumab,Atezolizumab,PD-L1,,,,,,,,,,,,,,,,FALSE,,,1.68,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000012,58,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,32.16550372,,,,27.2,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000082,60,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,1.109155301,,,,14.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000208,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,2.218310601,,,,4.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000235,77,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,8.873242405,,,,0.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000299,66,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,7.764087104,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000302,67,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,6.052886665,,,,4.93,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000363,71,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,12.20070831,,,,1.2,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000458,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,6,,,,,,,,,,,,,,1.109155301,,,,1.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000563,42,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,3.327465902,,,,1.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000604,57,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,4.436621202,,,,11.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000670,49,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,5.545776503,,,,2.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000681,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,23.48927274,,,,5.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000689,58,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,6,,,,,,,,,,,,,,2.936159093,,,,2.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000731,73,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,6.654931804,,,,10.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000826,64,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,4.436621202,,,,3.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000894,79,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,5.545776503,,,,5.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000913,58,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,7,,,,,,,,,,,,,,3.91487879,,,,3.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0000978,59,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,8.808477279,,,,2.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001093,65,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,12.20070831,,,,22.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001121,44,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.109155301,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001171,53,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,96.49651115,,,,13.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001340,62,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,6.654931804,,,,5.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001365,71,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,12.20070831,,,,1.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001385,50,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,14.41901891,,,,30.43,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001633,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,4.436621202,,,,0.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001665,48,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,6,,,,,,,,,,,,,,1.109155301,,,,3.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001830,74,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,12.20070831,,,,4.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001836,60,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,23.29226131,,,,1.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001867,70,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,14.41901891,,,,4.2,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001955,31,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,2.218310601,,,,3.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0001977,80,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.982397705,,,,1.3,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002028,64,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,6.654931804,,,,25.03,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002151,71,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,9.982397705,,,,9.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002160,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,13.30986361,,,,1.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002225,71,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,2.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002247,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,21.07395071,,,,2.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002252,73,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,16.63732951,,,,4.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002295,75,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,7,,,,,,,,,,,,,,4.436621202,,,,1.93,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002320,57,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.654931804,,,,1.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002351,74,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,7.764087104,,,,5.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002444,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,16.63732951,,,,2.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002485,43,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,3.327465902,,,,7.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002546,67,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,3.327465902,,,,7.9,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002559,37,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,1.109155301,,,,1.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002637,53,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,18.85564011,,,,27.6,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002639,67,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,12.20070831,,,,8.1,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002731,64,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,15.03,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002751,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,2.218310601,,,,4.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002758,62,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,33.27465902,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002766,66,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.545776503,,,,1.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002794,61,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,15.97,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002806,80,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,4.436621202,,,,8.3,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002826,61,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,14.41901891,,,,1.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002874,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,14.41901891,,,,1.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002890,40,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,6.654931804,,,,0.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002905,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,5.545776503,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002912,22,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,3,,,,,,,,,,,,,,2.218310601,,,,4.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002917,51,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.654931804,,,,2.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002921,73,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,14.41901891,,,,6.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002965,56,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.764087104,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0002969,56,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,22.18310601,,,,0.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003017,81,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,4.436621202,,,,6.13,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003034,80,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,13.70207577,,,,3.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003119,53,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,12.72335607,,,,5.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003132,67,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,34.25518942,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003157,63,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,0.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003229,60,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,6,,,,,,,,,,,,,,47.95726518,,,,19.77,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003275,69,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,5.53,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003322,73,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,4,,,,,,,,,,,,,,2.936159093,,,,4.23,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003347,58,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,14.68079546,,,,6.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003368,57,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,8.808477279,,,,30.47,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003495,92,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,3.91487879,,,,8.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003562,60,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,36.21262881,,,,9.2,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003584,59,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,10.76591667,,,,8.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003735,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,0.978719698,,,,0.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003738,57,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,10.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003782,58,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,3.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003869,66,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,54.80830307,,,,5.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003913,44,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,3.327465902,,,,0.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003964,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,9.982397705,,,,2.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0003970,47,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,1.957439395,,,,5.83,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004020,58,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,4.893598488,,,,5.13,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004054,61,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,13.70207577,,,,3.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004232,75,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,6.851037883,,,,4.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004279,59,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,2.936159093,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004436,75,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004442,62,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,34.25518942,,,,3.3,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004463,82,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.851037883,,,,1.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004472,62,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,13.70207577,,,,4.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004495,40,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,8.808477279,,,,1.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004517,67,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,13.70207577,,,,1.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004588,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,3.91487879,,,,20.2,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004701,52,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,19.57439395,,,,20.0,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004752,86,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,0.978719698,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004759,63,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,0.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004827,58,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.829757581,,,,10.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004890,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004961,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,4.893598488,,,,4.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0004996,54,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,2.936159093,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005048,68,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,3.91487879,,,,15.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005115,55,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005289,67,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,9.787196976,,,,1.23,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005295,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,3.91487879,,,,16.9,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005320,47,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,6.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005510,67,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,5.872318186,,,,21.13,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005629,81,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005721,79,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.851037883,,,,10.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005752,64,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,3.91487879,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005792,59,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,3.23,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005848,81,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,16.63823486,,,,8.63,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005898,71,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,12.53,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005975,81,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0005981,60,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,9.787196976,,,,18.9,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006047,62,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,7.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006071,53,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,17.61695456,,,,4.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006084,62,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,6.851037883,,,,3.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006114,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,3.91487879,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006294,63,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,0.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006312,51,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,15.3,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006330,45,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,5.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006343,60,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006364,63,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,4.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006415,86,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,1.97,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006540,70,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,11.74463637,,,,1.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006642,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,20.55311365,,,,2.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006724,48,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,23.48927274,,,,7.37,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006768,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,12.72335607,,,,4.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006895,65,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,36.21262881,,,,9.37,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006954,66,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,7.829757581,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0006993,68,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,7.829757581,,,,1.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007084,83,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,8.808477279,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007088,42,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,1.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007101,76,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,1.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007121,58,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.829757581,,,,8.77,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007123,66,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,8.808477279,,,,15.9,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007278,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,7.829757581,,,,2.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007418,56,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,16.63823486,,,,12.87,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007420,85,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,2.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007493,76,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,18.59567425,,,,2.07,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007582,82,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,1.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007583,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,13.70207577,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007597,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,15.65951516,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007619,77,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007633,76,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,2.936159093,,,,24.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007757,37,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,8.808477279,,,,6.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007861,76,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,2.936159093,,,,2.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007879,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,12.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007977,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0007978,50,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,2.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008176,71,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,3.91487879,,,,1.93,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008239,74,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,15.65951516,,,,15.13,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008295,57,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,5.872318186,,,,3.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008322,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,2.1,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008370,77,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.851037883,,,,0.9,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008406,67,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,4,,,,,,,,,,,,,,24.46799244,,,,1.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008442,65,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,12.72335607,,,,1.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008715,73,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,18.59567425,,,,9.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008786,64,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,1.87,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008848,76,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.33,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008851,63,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.829757581,,,,1.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008935,74,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,10.76591667,,,,3.07,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008944,46,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,10.76591667,,,,1.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0008976,83,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,22.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009080,74,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009202,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,3.47,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009256,75,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,7.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009274,76,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,1.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009293,80,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,21.53183335,,,,16.57,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009319,62,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,1.957439395,,,,13.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009379,69,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,7.829757581,,,,1.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009419,60,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,1.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009426,64,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,6,,,,,,,,,,,,,,9.787196976,,,,5.53,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009469,32,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,2.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009473,79,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,11.97,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009501,72,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,2.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009505,62,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,2.936159093,,,,2.2,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009521,74,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,2.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009586,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,7.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009655,68,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,1,,,,,,,,,,,,,,2.936159093,,,,8.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009680,59,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,5,,,,,,,,,,,,,,5.872318186,,,,5.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009763,48,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,1.57,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009764,50,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,22.51055305,,,,6.3,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009833,54,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,32.29775002,,,,10.4,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0009959,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,5.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010024,80,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,16.73,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010025,58,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010065,39,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,7.53,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010213,50,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,15.65951516,,,,16.8,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010256,72,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,3.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010636,68,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,5.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010648,73,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,2.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010715,67,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,49.91470458,,,,2.77,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010736,78,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,25.44671214,,,,9.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010760,51,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,5.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010840,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,0.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010891,42,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,3,,,,,,,,,,,,,,0.978719698,,,,1.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0010986,55,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,2.3,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011033,62,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,1.957439395,,,,1.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011036,55,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,1.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011149,58,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.74463637,,,,2.47,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011180,60,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,1.957439395,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011192,74,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,10.76591667,,,,2.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011244,76,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,2.1,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011254,56,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,1.53,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011499,71,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.829757581,,,,2.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011541,77,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,3.91487879,,,,4.2,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0011559,72,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,3.91487879,,,,5.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012076,72,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,4.893598488,,,,3.5,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012192,72,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,13.70207577,,,,12.8,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012373,68,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,39.1487879,,,,1.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012427,66,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.872318186,,,,1.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012629,81,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,2.936159093,,,,4.8,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012729,69,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.851037883,,,,4.27,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012817,54,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,32.29775002,,,,7.2,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012846,59,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,7.829757581,,,,11.3,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012849,57,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,1.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012866,50,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,3,,,,,,,,,,,,,,5.872318186,,,,2.9,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012908,79,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.851037883,,,,3.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0012931,71,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.787196976,,,,2.0,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0013653,69,Female,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,7.829757581,,,,5.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014172,83,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,17.61695456,,,,3.77,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014269,74,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,0.864698095,,,,1.7,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014451,64,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,9.511679045,,,,0.6,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014529,65,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,19.02335809,,,,4.67,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014599,63,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,14.69986761,,,,8.83,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014786,65,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,11.24107523,,,,1.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0014818,83,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,28.53503713,,,,6.03,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015078,69,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,7.782282855,,,,2.37,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015296,67,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,19.88805618,,,,6.43,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015531,53,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.323490475,,,,7.1,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015556,64,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,4.323490475,,,,16.73,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015758,88,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,5.18818857,,,,4.07,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015771,62,Male,Non-Small Cell Lung Cancer,Combination,combination,Unknown,2,,,,,,,,,,,,,,1.72939619,,,,3.43,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015780,51,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,6.052886665,,,,1.83,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015785,56,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,22.48215047,,,,4.17,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0015984,66,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,24.21154666,,,,1.63,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0016033,72,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,28.53503713,,,,5.5,0:Not Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0016046,68,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,2,,,,,,,,,,,,,,5.18818857,,,,2.67,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0016646,76,Male,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,9.511679045,,,,1.87,1:Progressed
+nsclc_pd1_msk_2018,NSCLC (MSK 2018),P-0016809,88,Female,Non-Small Cell Lung Cancer,Monotherapy,monotherapy,Unknown,1,,,,,,,,,,,,,,3.45879238,,,,4.13,0:Not Progressed
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient1,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,3.133333333,FALSE,9.3,1:DECEASED,3.06,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient10,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,3.733333333,TRUE,37.42,1:DECEASED,5.55,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient100,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,4.466666667,TRUE,30.81,1:DECEASED,30.29,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient102,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,8.7,FALSE,25.79,0:LIVING,5.78,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient105,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,5.166666667,FALSE,17.12,1:DECEASED,12.42,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient106,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,8.3,TRUE,25.62,0:LIVING,25.62,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient107,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,5.7,TRUE,1.54,1:DECEASED,1.54,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient108,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,7.733333333,FALSE,5.42,1:DECEASED,2.53,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient11,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,7.533333333,FALSE,5.26,1:DECEASED,2.79,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient112,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,8.366666667,FALSE,17.12,1:DECEASED,2.99,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient116,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,8.066666667,FALSE,3.88,1:DECEASED,2.1,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient117,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,3.7,FALSE,9.69,1:DECEASED,3.29,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient121,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,28.5,TRUE,42.9,0:LIVING,40.34,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient125,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,6.333333333,TRUE,32.13,0:LIVING,32.13,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient126,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,22.23333333,TRUE,32.59,0:LIVING,24.38,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient127,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,17.86666667,TRUE,28.45,0:LIVING,28.45,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient13,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,22.5,FALSE,1.91,1:DECEASED,1.45,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient130,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.96666667,FALSE,6.31,1:DECEASED,4.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient131,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,11.8,TRUE,27.37,0:LIVING,27.37,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient132,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,22.43333333,TRUE,24.28,0:LIVING,12.78,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient133,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,11.76666667,FALSE,12.16,1:DECEASED,2.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient134,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,12.5,FALSE,19.38,1:DECEASED,2.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient135,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,14,TRUE,20.63,0:LIVING,20.63,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient137,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,29.26666667,TRUE,25.36,0:LIVING,25.36,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient14,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.633333333,FALSE,6.11,1:DECEASED,2.5,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient140,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,71.5,FALSE,11.53,1:DECEASED,2.2,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient141,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,2.633333333,TRUE,28.75,0:LIVING,28.75,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient142,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.366666667,FALSE,32.72,0:LIVING,32.72,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient143,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,13.06666667,FALSE,20.7,0:LIVING,5.03,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient144,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,30,TRUE,21.75,0:LIVING,21.75,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient145,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,10.66666667,TRUE,27.37,0:LIVING,27.37,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient146,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,13.86666667,TRUE,20.11,0:LIVING,20.11,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient147,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,18.6,TRUE,31.54,0:LIVING,31.54,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient148,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,11.36666667,TRUE,26.02,0:LIVING,26.02,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient149,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,8.033333333,FALSE,16.33,1:DECEASED,6.9,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient15,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,9.066666667,TRUE,4.89,1:DECEASED,3.45,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient150,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1.666666667,TRUE,22.5,0:LIVING,22.5,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient154,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1,FALSE,20.86,0:LIVING,8.25,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient155,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,9.233333333,FALSE,15.6,0:LIVING,3.71,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient156,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,7,FALSE,2.86,1:DECEASED,2.63,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient158,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,75.3,TRUE,6.37,0:LIVING,5.32,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient159,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.2,FALSE,9.46,0:LIVING,7.1,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient162,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,56.63333333,FALSE,6.6,1:DECEASED,1.74,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient163,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,7.733333333,FALSE,5.68,1:DECEASED,1.58,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient165,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,24.06666667,FALSE,2.46,0:LIVING,0.43,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient166,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.366666667,TRUE,6.73,1:DECEASED,6.73,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient167,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.966666667,FALSE,9.26,1:DECEASED,1.87,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient168,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.8,TRUE,20.47,0:LIVING,19.05,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient169,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,48.6,TRUE,17.84,0:LIVING,17.84,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient17,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,15.36666667,FALSE,22.54,1:DECEASED,6.64,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient170,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.5,FALSE,11.4,0:LIVING,11.4,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient172,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,23.73333333,FALSE,8.94,0:LIVING,8.94,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient173,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,5.8,FALSE,1.38,1:DECEASED,0.53,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient179,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,16.3,TRUE,21.45,0:LIVING,11.04,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient18,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,13.93333333,FALSE,4.27,1:DECEASED,2.83,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient181,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.7,TRUE,15.64,0:LIVING,15.64,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient183,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,12.06666667,FALSE,18.79,1:DECEASED,2.76,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient184,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,71.66666667,TRUE,16.85,0:LIVING,12.22,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient185,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,6.133333333,FALSE,6.67,0:LIVING,6.67,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient187,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,4.9,TRUE,20.27,0:LIVING,20.27,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient188,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1.266666667,FALSE,2.43,1:DECEASED,0.76,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient189,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1.666666667,TRUE,23.59,0:LIVING,13.34,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient191,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,143.1,TRUE,21.62,0:LIVING,21.62,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient192,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,17.3,TRUE,9.53,0:LIVING,8.18,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient193,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,21.76666667,FALSE,21.65,0:LIVING,15.64,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient195,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,66.03333333,TRUE,29.4,0:LIVING,29.4,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient196,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,58.4,FALSE,2.66,1:DECEASED,2.66,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient197,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,2.5,TRUE,31.54,0:LIVING,2.92,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient20,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,16.33333333,FALSE,7.95,1:DECEASED,2.76,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient200,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,25.76666667,FALSE,16.82,1:DECEASED,3.55,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient201,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.833333333,FALSE,5.49,1:DECEASED,2.27,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient203,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,3.1,FALSE,20.57,1:DECEASED,3.25,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient204,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,69.26666667,TRUE,26.91,0:LIVING,20.7,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient205,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,20.5,FALSE,12.88,1:DECEASED,6.24,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient206,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,185.4,FALSE,2.96,1:DECEASED,1.38,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient21,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,9.966666667,TRUE,29.76,0:LIVING,29.76,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient22,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.166666667,FALSE,8.31,1:DECEASED,2.99,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient23,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,7.1,FALSE,32.03,0:LIVING,2.53,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient24,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.93333333,FALSE,4.5,1:DECEASED,1.02,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient25,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,12.56666667,TRUE,36.01,0:LIVING,24.7,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient27,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,7.966666667,FALSE,14.16,1:DECEASED,3.09,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient30,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,22.73333333,FALSE,7,1:DECEASED,4.37,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient31,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,6.5,FALSE,13.99,1:DECEASED,2.79,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient32,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,11.2,FALSE,1.74,1:DECEASED,1.61,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient33,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.966666667,TRUE,55.16,0:LIVING,55.16,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient34,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1.133333333,TRUE,55.55,0:LIVING,7.88,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient35,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.2,FALSE,31.8,1:DECEASED,5.95,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient36,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,6.766666667,FALSE,14.82,1:DECEASED,2.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient37,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,2.866666667,FALSE,9.03,1:DECEASED,2.53,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient38,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,2.6,FALSE,11.27,1:DECEASED,3.22,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient4,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,15.26666667,TRUE,19.71,1:DECEASED,18.86,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient40,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,250.8333333,FALSE,15.37,1:DECEASED,2.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient42,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,17.66666667,TRUE,33.74,0:LIVING,33.74,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient44,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,5.366666667,TRUE,30.29,0:LIVING,30.29,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient45,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.83333333,TRUE,54.73,0:LIVING,54.73,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient47,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,27.9,FALSE,30.78,0:LIVING,2.43,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient48,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,2.733333333,FALSE,1.74,1:DECEASED,1.64,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient51,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,39.36666667,TRUE,50.82,0:LIVING,15.47,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient56,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.966666667,FALSE,4.01,1:DECEASED,2.33,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient58,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.8,FALSE,9.95,1:DECEASED,2.53,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient6,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,39.86666667,FALSE,22.57,1:DECEASED,4.07,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient61,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,70.96666667,FALSE,32.42,0:LIVING,32.42,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient62,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,211.9333333,TRUE,32.88,0:LIVING,32.88,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient63,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.86666667,FALSE,5.85,1:DECEASED,2.92,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient67,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,11.7,FALSE,4.47,1:DECEASED,3.09,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient7,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,7.033333333,FALSE,8.84,1:DECEASED,7.13,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient72,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,5.333333333,FALSE,12.98,0:LIVING,2.2,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient73,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.733333333,FALSE,27.79,1:DECEASED,2.79,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient75,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,24.46666667,TRUE,29.27,0:LIVING,29.27,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient77,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,4.1,FALSE,14.59,1:DECEASED,3.12,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient78,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,1.333333333,FALSE,11.7,1:DECEASED,2.83,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient79,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,6.6,FALSE,27.89,0:LIVING,2.76,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient8,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,11.43333333,FALSE,33.02,1:DECEASED,31.37,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient82,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,61.96666667,FALSE,4.3,1:DECEASED,2.92,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient83,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,8.033333333,FALSE,2.33,1:DECEASED,2.33,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient86,,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,9.7,FALSE,43.59,0:LIVING,43.59,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient87,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,4.3,TRUE,41.49,0:LIVING,37.52,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient9,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,24.66666667,FALSE,31.64,0:LIVING,0.69,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient94,,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,,,,,,,,,,,,,8.866666667,FALSE,1.31,1:DECEASED,1.31,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient96,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,22.36666667,TRUE,29.99,0:LIVING,29.99,0:NOT_PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient98,,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,10.3,FALSE,22.44,1:DECEASED,2.4,1:PROGRESSED
+mel_iatlas_liu_2019,Melanoma (Liu 2019),Patient99,,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,29.76666667,TRUE,30.26,0:LIVING,10.48,1:PROGRESSED
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt1,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,5.26,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt2,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,9.03,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt3,52,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,6.1,TRUE,37.58,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt4,62,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,20.8,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt5,58,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,2.133333333,FALSE,7.29,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt8,40,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.166666667,FALSE,8.51,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt9,46,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,13.16666667,FALSE,3.02,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt10,81,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.066666667,FALSE,8.41,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt11,61,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.6,FALSE,27.5,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt13,67,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,5.766666667,FALSE,9.2,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt16,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt17,48,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.1,FALSE,1.87,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt18,53,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,7.833333333,TRUE,35.25,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt23,53,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,23.9,,1.71,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt24,63,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.866666667,FALSE,4.89,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt26,22,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,3.9,FALSE,31.27,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt27,65,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,6.3,FALSE,15.6,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt28,79,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.566666667,FALSE,24.31,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt29,57,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,13.36666667,FALSE,8.97,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt30,89,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.533333333,TRUE,34.59,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt31,56,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,15.66666667,FALSE,31.57,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt32,34,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,3.75,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt34,71,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.4,TRUE,27.4,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt35,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt36,58,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.2,FALSE,35.51,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt37,63,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.166666667,FALSE,21.22,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt38,54,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,5.49,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt39,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,5.45,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt44,61,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,13.23333333,TRUE,35.91,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt46,79,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,7.233333333,FALSE,7.46,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt47,52,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,23.59,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt48,44,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.3,TRUE,34.36,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt49,52,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,28.2,TRUE,27.17,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt52,45,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,12.93333333,FALSE,15.64,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt58,53,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,44.8,FALSE,16.39,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt59,49,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,15.03333333,FALSE,23.26,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt62,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,15.51,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt65,63,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,87.3,FALSE,22.73,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt66,49,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,4.8,FALSE,17.81,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt67,33,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.4,FALSE,33.9,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt68,69,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,TRUE,27.66,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt69,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt72,43,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,16.83333333,TRUE,25.3,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt76,60,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,8.5,,0.33,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt77,56,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.766666667,FALSE,15.47,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt78,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,2.56,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt79,64,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,7.16,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt80,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt81,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt82,60,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.4,FALSE,14.09,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt84,48,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.6,FALSE,4.96,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt85,66,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,4.233333333,FALSE,29.7,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt87,68,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,32,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt89,56,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,7.133333333,FALSE,27.73,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt90,60,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,23.86666667,FALSE,5.72,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt92,58,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,22,FALSE,10.94,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt93,52,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,13.56666667,FALSE,27.89,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt94,41,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,TRUE,32.23,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt98,74,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.733333333,FALSE,24.54,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt101,47,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,0.466666667,TRUE,27.4,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt103,52,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,1.366666667,FALSE,15.9,0:LIVING,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt105,,,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,,,,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt106,53,Male,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,24.2,FALSE,2.99,1:DECEASED,,
+mel_iatlas_riaz_nivolumab_2017,Melanoma (Riaz Nivolumab 2017),Pt108,37,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,,,,,,,,,,,,,,FALSE,29.99,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt1,66,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1b,63.0,,19.9,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt10,60,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1a,8.26666666667,,12.7,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt11,37,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,8.66666666667,,15.3,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt12,59,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,4.5,,10.7,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt13,53,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,16.5333333333,,30.1,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt14,27,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,40.9,,1.8,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt15,70,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1b,26.7666666667,,32.1,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt16,19,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1b,18.7,,6.1,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt17,67,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1a,22.7,,31.2,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt18,64,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,6.33333333333,,35.4,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt19,45,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,22.5333333333,,34.8,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt2,55,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,68.3666666667,,30.4,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt20,63,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,22.7333333333,,11.0,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt21,60,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1b,3.56666666667,,31.0,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt22,55,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,8.3,,6.0,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt23,63,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,10.4,,3.4,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt24,70,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,12.7333333333,,31.9,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt25,74,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,5.1,,8.6,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt26,71,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,41.7,,43.8,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt27,83,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,37.8666666667,,18.0,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt28,82,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,30.0333333333,,14.4,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt29,84,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,10.0,,8.8,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt3,58,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,27.8,,22.7,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt30,80,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,18.5666666667,,3.3,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt31,47,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,19.1,,23.1,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt32,47,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,5.8,,5.6,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt33,80,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,No,,,,,,,,,,,M1a,23.6333333333,,71.4,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt34,42,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,3.83333333333,,13.7,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt35,65,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,8.03333333333,,14.0,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt36,61,Female,Melanoma,Nivolumab,Nivolumab,PD-1,,,No,,,,,,,,,,,M1a,3.46666666667,,27.4,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt37,70,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,15.7,,11.9,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt38,57,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,4.66666666667,,14.7,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt4,62,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,136.833333333,,31.1,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt5,61,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,11.3333333333,,14.4,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt6,51,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,Yes,,,,,,,,,,,M1c,8.26666666667,,28.9,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt7,55,Female,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1c,41.7,,21.7,1:DECEASED,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt8,69,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M1a,0,,,0:LIVING,,
+mel_ucla_2016,Melanoma (UCLA 2016),Pt9,68,Male,Melanoma,Pembrolizumab,Pembrolizumab,PD-1,,,No,,,,,,,,,,,M0,19.4,,34.6,0:LIVING,,

@@ -1,0 +1,57 @@
+displayName,description,datatype,patientAttribute,priority,clinicalAttributeId,studyId
+Age at Diagnosis,Age at Diagnosis,NUMBER,True,0,AGE_AT_DIAGNOSIS,mel_ucla_2016
+Biopsy Time,Biopsy Time,STRING,False,0,BIOPSY_TIME,mel_ucla_2016
+Cancer Type,Cancer Type,STRING,False,1,CANCER_TYPE,mel_ucla_2016
+Cancer Type Detailed,Cancer Type Detailed,STRING,False,1,CANCER_TYPE_DETAILED,mel_ucla_2016
+CBSET B cells memory,CIBERSORT B cells memory,NUMBER,False,0,CBEST_B_MEM,mel_ucla_2016
+CBSET B cells naive,CIBERSORT B cells naive,NUMBER,False,0,CBEST_B_NAIVE,mel_ucla_2016
+CBSET Dendritic cells activated,CIBERSORT Dendritic cells activated,NUMBER,False,357,CBEST_DENDRITIC_ACT,mel_ucla_2016
+CBSET Dendritic cells resting,CIBERSORT Dendritic cells resting,NUMBER,False,0,CBEST_DENDRITIC_REST,mel_ucla_2016
+CBSET Eosinophils,CIBERSORT Eosinophils,NUMBER,False,0,CBEST_EOSINOPHILS,mel_ucla_2016
+CBSET Macrophages M0,CIBERSORT Macrophages M0,NUMBER,False,359,CBEST_MACRO_M0,mel_ucla_2016
+CBSET Macrophages M1,CIBERSORT Macrophages M1,NUMBER,False,359,CBEST_MACRO_M1,mel_ucla_2016
+CBSET Macrophages M2,CIBERSORT Macrophages M2,NUMBER,False,359,CBEST_MACRO_M2,mel_ucla_2016
+CBSET Mast cells activated,CIBERSORT Mast cells activated,NUMBER,False,0,CBEST_MAST_ACT,mel_ucla_2016
+CBSET Mast cells resting,CIBERSORT Mast cells resting,NUMBER,False,0,CBEST_MAST_REST,mel_ucla_2016
+CBSET Monocytes,CIBERSORT Monocytes,NUMBER,False,0,CBEST_MONO,mel_ucla_2016
+CBSET Neutrophils,CIBERSORT Neutrophils,NUMBER,False,0,CBEST_NEUTROPHILS,mel_ucla_2016
+CBSET NK cells activated,CIBERSORT NK cells activated,NUMBER,False,0,CBEST_NK_ACT,mel_ucla_2016
+CBSET NK cells resting,CIBERSORT NK cells resting,NUMBER,False,0,CBEST_NK_REST,mel_ucla_2016
+CBSET Plasma cells,CIBERSORT Plasma cells,NUMBER,False,0,CBEST_PLASMA,mel_ucla_2016
+CBSET T cells CD4 memory activated,CIBERSORT T cells CD4 memory activated,NUMBER,False,358,CBEST_T_CD4_MEM_ACT,mel_ucla_2016
+CBSET T cells CD4 memory resting,CIBERSORT T cells CD4 memory resting,NUMBER,False,0,CBEST_T_CD4_MEM_REST,mel_ucla_2016
+CBSET T cells CD4 naive,CIBERSORT T cells CD4 naive,NUMBER,False,0,CBEST_T_CD4_NAIVE,mel_ucla_2016
+CBSET T cells CD8,CIBERSORT T cells CD8,NUMBER,False,360,CBEST_T_CD8,mel_ucla_2016
+CBSET T cells follicular helper,CIBERSORT T cells follicular helper,NUMBER,False,0,CBEST_T_FOLLI_HEL,mel_ucla_2016
+CBSET T cells gamma delta,CIBERSORT T cells gamma delta,NUMBER,False,0,CBEST_T_G_D,mel_ucla_2016
+CBSET T cells regulatory (Tregs),CIBERSORT T cells regulatory (Tregs),NUMBER,False,0,CBEST_T_REG,mel_ucla_2016
+CIBERSORT Absolute,CIBERSORT Absolute Immune Score,NUMBER,False,368,CIBERSORT_ABSOLUTE,mel_ucla_2016
+CIBERSORT Correlation,CIBERSORT Correlation,NUMBER,False,0,CIBERSORT_CORRELATION,mel_ucla_2016
+CIBERSORT P-value,CIBERSORT P-value,NUMBER,False,0,CIBERSORT_P,mel_ucla_2016
+CIBERSORT RMSE,CIBERSORT RMSE,NUMBER,False,0,CIBERSORT_RMSE,mel_ucla_2016
+Cytolytic Score,RNA-Seq Cytolytic Score,NUMBER,False,370,CYTOLYTIC_SCORE,mel_ucla_2016
+Durable Clinical Benefit,Durable Clinical Benefit,STRING,True,304,DURABLE_CLINICAL_BENEFIT,mel_ucla_2016
+ESTIMATE Score,ESTIMATE Score by ESTIMATE,NUMBER,False,366,ESTIMATE_SCORE,mel_ucla_2016
+Fraction Genome Altered,Fraction Genome Altered,NUMBER,False,20,FRACTION_GENOME_ALTERED,mel_ucla_2016
+HLA-A,Polysolver HLA-A,STRING,False,320,HLA_A,mel_ucla_2016
+HLA-B,Polysolver HLA-B,STRING,False,319,HLA_B,mel_ucla_2016
+HLA-C,Polysolver HLA-C,STRING,False,318,HLA_C,mel_ucla_2016
+ESTIMATE Immune Score,Immune Score by ESTIMATE,NUMBER,False,369,IMMUNE_SCORE,mel_ucla_2016
+Mutation Count,Mutation Count,NUMBER,False,30,MUTATION_COUNT,mel_ucla_2016
+Mutation Load,Number of non-synonymous mutations,NUMBER,False,390,MUTATION_LOAD,mel_ucla_2016
+M Stage,M Stage,STRING,True,303,M_STAGE,mel_ucla_2016
+Neo-antigen Load,Number of neoepitops per sample,NUMBER,False,380,NEOAGCNT,mel_ucla_2016
+Oncotree Code,Oncotree Code,STRING,False,0,ONCOTREE_CODE,mel_ucla_2016
+Overall Survival (Months),Overall survival in months since initial diagonosis.,NUMBER,True,400,OS_MONTHS,mel_ucla_2016
+Overall Survival Status,Overall patient survival status.,STRING,True,400,OS_STATUS,mel_ucla_2016
+Ploidy,Ploidy,NUMBER,False,1,PLOIDY,mel_ucla_2016
+Previous MAPKi,Previous MAPKi treatment,STRING,True,302,PREVIOUS_MAPKI,mel_ucla_2016
+Primary Tumor Site,Text term to describe the organ sub-division in an individual with cancer.,STRING,False,0,PRIMARY_SITE,mel_ucla_2016
+Purity,Purity,NUMBER,False,1,PURITY,mel_ucla_2016
+Number of Samples Per Patient,Number of Samples Per Patient,STRING,True,1,SAMPLE_COUNT,mel_ucla_2016
+Sex,Sex,STRING,True,301,SEX,mel_ucla_2016
+Somatic Status,Somatic Status,STRING,False,1,SOMATIC_STATUS,mel_ucla_2016
+ESTIMATE Stromal Score,Stromal Score by ESTIMATE,NUMBER,False,367,STROMAL_SCORE,mel_ucla_2016
+TMB (nonsynonymous),TMB (nonsynonymous),NUMBER,False,1,TMB_NONSYNONYMOUS,mel_ucla_2016
+Treatment,Treatment,STRING,True,0,TREATMENT,mel_ucla_2016
+Treatment Response,Treatment Response,STRING,False,1,TREATMENT_RESPONSE,mel_ucla_2016

@@ -13,6 +13,11 @@ datasets/
 │   ├── SDY1733/               (56 HCC patients, 10 on anti-PD-1 — BCLC stage, cirrhosis, HBV/HCV, AFP)
 │   ├── SDY1597/               (30 breast cancer patients — TNM stage, chemo regimens)
 │   └── SDY1658/               (16 GBM tumor samples)
+├── cbioportal/                <- cBioPortal immunotherapy studies (1,218 patients with pre-treatment features + outcomes)
+│   ├── README.md
+│   ├── all_patients_consolidated.csv        (cross-study harmonized table)
+│   └── {7 study folders}      (mel_dfci_2019, blca_iatlas_imvigor210_2017, rcc_iatlas_immotion150_2018,
+│                               nsclc_pd1_msk_2018, mel_iatlas_liu_2019, mel_iatlas_riaz_nivolumab_2017, mel_ucla_2016)
 └── reference/                 <- Reference/lookup tables
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -122,6 +127,33 @@ Downloaded via authenticated ImmPort API on April 15, 2026. Primary purpose: sup
 - **Small sample** — 86 patients total vs 124,982 rows in FAERS
 - See [`immport/README.md`](immport/README.md) for full details
 
+## cBioPortal Data (Cancer Genomics + Clinical Trials)
+
+Downloaded via the public [cBioPortal REST API](https://www.cbioportal.org/api) on April 15, 2026. Primary purpose: supplement FAERS with **pre-treatment clinical features** (LDH, ECOG, TMB, metastasis sites, steroid use, prior therapies) plus **survival and response outcomes** for 1,218 immunotherapy patients across 7 studies.
+
+### Studies (1,218 patients total)
+
+| Study | Cancer | Drug | Patients |
+|-------|--------|------|---------:|
+| `blca_iatlas_imvigor210_2017` | Bladder | Atezolizumab | 347 |
+| `rcc_iatlas_immotion150_2018` | Renal Cell Carcinoma | Atezolizumab ± Bevacizumab | 263 |
+| `nsclc_pd1_msk_2018` | NSCLC | Pembro / Nivo | 240 |
+| `mel_dfci_2019` | Melanoma | anti-PD-1 / anti-CTLA-4 / combo | 144 |
+| `mel_iatlas_liu_2019` | Melanoma | PD-1 | 122 |
+| `mel_iatlas_riaz_nivolumab_2017` | Melanoma | Nivolumab | 64 |
+| `mel_ucla_2016` | Melanoma | Pembrolizumab | 38 |
+
+### Primary File
+
+`cbioportal/all_patients_consolidated.csv` — 1,218 rows × 29 harmonized columns including drug (100%), cancer type (100%), TMB (81%), response (71%), PFS (63%), OS (58%), and melanoma-specific LDH / ECOG / metastasis detail (12%).
+
+### Limitations
+
+- **No adverse-event columns** — cBioPortal records response, not irAEs. Use to enrich features; keep FAERS for severity labels.
+- **LDH / ECOG / metastasis-site detail is concentrated in `mel_dfci_2019`** — treat as optional features with missingness indicators for cross-study models.
+- **Response vocabulary mixes binary (`TRUE`/`FALSE`) and RECIST categories** — normalize before modeling.
+- See [`cbioportal/README.md`](cbioportal/README.md) for full details.
+
 ## Reference Data
 
 ### `ctcae_severity_grades.csv`
@@ -143,7 +175,7 @@ These datasets contain richer patient-level data but require free account regist
 | Dataset | URL | What It Has | Status |
 |---------|-----|-------------|--------|
 | **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments | **Downloaded** (see `immport/` above) |
-| **TCGA via cBioPortal** | [cbioportal.org](https://www.cbioportal.org/) | Cancer genomics + clinical data (age, gender, stage, mutations, treatment) for 10,000+ patients | Free download |
+| **TCGA via cBioPortal** | [cbioportal.org](https://www.cbioportal.org/) | Cancer genomics + clinical data (age, gender, stage, mutations, treatment) for 10,000+ patients | **Downloaded** (7 immunotherapy studies, see `cbioportal/` above) |
 | **GEO (GSE91061)** | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061) | Gene expression for melanoma patients on anti-PD-1 (responders vs non-responders) | Free download |
 | **ClinicalTrials.gov** | [clinicaltrials.gov](https://clinicaltrials.gov/) | Trial results with adverse event rates by therapy | Free search |
 | **VigiBase (WHO)** | [vigiaccess.org](https://www.vigiaccess.org/) | 28M+ global adverse event reports | Free (limited public access) |

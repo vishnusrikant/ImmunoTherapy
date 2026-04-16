@@ -1,0 +1,44 @@
+[
+  {
+    "study_id": "mel_dfci_2019",
+    "patients": 144,
+    "samples": 144,
+    "clinical_attributes": 50
+  },
+  {
+    "study_id": "blca_iatlas_imvigor210_2017",
+    "patients": 347,
+    "samples": 347,
+    "clinical_attributes": 33
+  },
+  {
+    "study_id": "rcc_iatlas_immotion150_2018",
+    "patients": 263,
+    "samples": 263,
+    "clinical_attributes": 32
+  },
+  {
+    "study_id": "nsclc_pd1_msk_2018",
+    "patients": 240,
+    "samples": 240,
+    "clinical_attributes": 21
+  },
+  {
+    "study_id": "mel_iatlas_liu_2019",
+    "patients": 122,
+    "samples": 122,
+    "clinical_attributes": 41
+  },
+  {
+    "study_id": "mel_iatlas_riaz_nivolumab_2017",
+    "patients": 64,
+    "samples": 107,
+    "clinical_attributes": 36
+  },
+  {
+    "study_id": "mel_ucla_2016",
+    "patients": 38,
+    "samples": 38,
+    "clinical_attributes": 56
+  }
+]

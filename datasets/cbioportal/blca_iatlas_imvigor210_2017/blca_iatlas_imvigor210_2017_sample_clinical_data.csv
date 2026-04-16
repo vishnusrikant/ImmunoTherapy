@@ -1,0 +1,348 @@
+sampleId,CANCER_TISSUE,CANCER_TYPE,CANCER_TYPE_DETAILED,METASTASIZED,ONCOTREE_CODE,RESPONSE,SAMPLE_TREATMENT,SAMPLE_TYPE,SOMATIC_STATUS,SPECIMEN_PRESERVATION_TYPE,TIDE_NO_BENEFITS,TIDE_RESPONDER,BIOPSY_SITE,CTA_SELF_NEOANTIGEN,ERV_NEOANTIGEN,FUSION_NEOANTIGEN,INDEL_NEOANTIGEN,MUTATION_COUNT,SNV_NEOANTIGEN,SPLICE_NEOANTIGEN,TMB_NONSYNONYMOUS,VIRUS_NEOANTIGEN
+10001,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10003,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,8,0,2,1,49,23,70,1.633333333,0
+10004,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10005,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10006,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,1,0,2,5,177,62,48,5.866666667,0
+10007,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,6,0,6,6,492,192,56,16.4,0
+10008,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,7,0,4,7,99,31,170,3.3,0
+10010,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,4,0,4,4,343,61,43,11.4,0
+10011,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10012,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,9,1,15,14,631,272,47,20.96666667,0
+10013,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,2,0,7,3,158,43,47,5.233333333,0
+10014,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,19,0,3,3,145,61,200,4.8,0
+10015,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,5,0,2,1,270,155,58,9,0
+10016,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10017,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,5,0,8,3,236,74,13,7.833333333,0
+10018,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10019,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,3,0,1,1,32,1,174,1.066666667,0
+10020,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,3,7,246,94,24,8.166666667,0
+10021,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10022,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,15,0,10,2,259,87,70,8.633333333,0
+10023,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10024,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,2,9,767,436,34,25.56666667,0
+10025,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,0,2,3,109,19,47,3.633333333,0
+10026,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,0,3,3,94,39,55,3.133333333,0
+10027,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,1,8,820,382,69,27.26666667,0
+10028,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,4,0,1,1,143,31,112,4.766666667,0
+10029,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,2,1,2,209,80,203,6.966666667,0
+10030,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,5,0,3,3,284,80,56,9.466666667,0
+10031,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10032,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10033,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,5,2,243,71,107,8.1,0
+10034,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,16,0,6,5,343,113,40,11.46666667,0
+10035,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,2,0,1,3,171,48,92,5.7,0
+10036,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,2,0,3,0,99,24,315,3.3,0
+10037,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,9,0,9,3,229,72,36,7.633333333,0
+10038,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,7,0,0,34,1991,104,27,66.3,0
+10039,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,12,2,3,3,255,147,39,8.433333333,0
+10040,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,5,0,3,0,193,91,19,6.433333333,0
+10041,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,6,0,0,5,140,62,39,4.666666667,0
+10042,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,2,0,8,6,304,111,123,10.13333333,0
+10043,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,0,0,5,2,92,22,52,3.066666667,0
+10044,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,14,0,6,2,949,358,56,31.6,0
+10045,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,0,0,137,1223,420,108,40.76666667,0
+10046,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,12,2,5,8,508,131,42,16.9,0
+10047,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,15,0,8,10,313,241,156,10.4,0
+10048,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,3,2,258,117,26,8.533333333,0
+10049,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,12,0,9,5,345,193,35,11.5,0
+10050,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,,,,,,,,,
+10051,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,,,,,,,,,
+10052,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,8,0,3,0,178,37,42,5.933333333,0
+10053,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,0,4,11,170,64,114,5.666666667,0
+10054,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,4,0,2,8,142,37,93,4.733333333,0
+10055,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,9,0,2,8,451,69,79,15,0
+10056,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,0,2,0,4,57,15,122,1.9,0
+10057,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,10,0,4,5,66,13,89,2.2,0
+10058,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,6,0,5,4,462,124,44,15.36666667,0
+10059,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,8,2,131,73,115,4.366666667,0
+10060,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,0,14,187,57,80,6.166666667,0
+10061,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,14,0,9,4,137,69,94,4.566666667,0
+10062,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,4,1,4,8,253,98,149,8.4,0
+10063,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,7,0,0,1,264,110,88,8.8,0
+10064,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,9,0,1,4,173,45,87,5.766666667,0
+10065,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Stable Disease,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,2,0,6,12,316,119,11,10.53333333,0
+10066,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,4,0,3,3,133,61,90,4.433333333,0
+10068,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10069,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,7,5,150,99,119,4.966666667,0
+10070,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10071,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,1,0,2,9,307,162,53,10.2,0
+10072,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10073,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,8,5,193,46,113,6.433333333,0
+10074,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10076,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Liver,1,0,4,0,57,17,76,1.866666667,0
+10077,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10078,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,2,0,0,2,232,109,7,7.733333333,0
+10079,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,6,0,5,2,109,29,26,3.633333333,0
+10080,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,1,0,1,93,25,46,3.1,0
+10081,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,20,0,10,2,141,73,86,4.7,0
+10082,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,3,0,7,2,124,66,137,4.133333333,0
+10083,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,2,0,3,3,126,37,39,4.2,0
+10084,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,2,0,10,1,144,43,72,4.766666667,0
+10085,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,6,0,5,4,473,117,37,15.73333333,0
+10086,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10087,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,7,9,296,103,11,9.833333333,0
+10088,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Stable Disease,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,5,0,3,1,140,37,55,4.666666667,0
+10089,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,10,1,6,5,611,330,162,20.36666667,0
+10090,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,3,13,870,368,42,28.86666667,0
+10091,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10092,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10093,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,9,0,5,4,290,96,76,9.633333333,0
+10095,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,4,0,171,58,24,5.666666667,0
+10096,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,6,0,4,5,222,121,72,7.4,0
+10097,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10098,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,5,1,3,3,95,70,23,3.166666667,0
+10099,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10100,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Lung,3,0,4,2,177,50,16,5.866666667,0
+10101,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,20,0,0,3,199,76,31,6.6,0
+10102,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,10,3,124,31,20,4.133333333,0
+10103,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10104,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,7,0,10,7,210,65,14,6.966666667,0
+10105,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,11,0,8,2,155,59,257,5.166666667,0
+10106,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,10,0,2,6,174,51,38,5.766666667,0
+10107,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,6,0,4,5,127,34,45,4.2,0
+10108,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,13,3,13,1,549,320,114,18.3,0
+10109,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10110,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,11,0,4,2,92,28,70,3.066666667,0
+10111,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,4,2,288,113,28,9.6,0
+10112,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10113,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10114,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,0,0,4,33,2442,160,33,81.3,0
+10115,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10116,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,2,0,4,0,148,38,94,4.933333333,0
+10117,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,11,0,3,3,391,182,102,13,0
+10118,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,7,0,4,2,73,52,36,2.433333333,0
+10119,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10120,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,0,0,2,5,379,145,70,12.6,0
+10121,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,,,,,,,,,
+10122,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,7,2,13,5,315,169,157,10.5,0
+10123,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10124,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,9,0,6,7,270,88,122,9.033333333,0
+10125,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,5,0,1,1,132,57,89,4.4,0
+10127,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,4,0,1,2,106,21,64,3.533333333,0
+10128,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10129,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,8,0,5,12,427,139,39,14.2,0
+10130,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10131,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,6,0,6,7,297,88,117,9.9,0
+10132,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,2,48,1289,241,112,42.83333333,0
+10133,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,6,0,2,2,203,137,31,6.766666667,0
+10134,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10135,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,2,0,4,3,85,25,57,2.833333333,0
+10136,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10137,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10138,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Complete Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10139,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,6,0,3,8,1071,382,25,35.66666667,0
+10140,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,10,0,2,0,693,281,111,23.06666667,0
+10141,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,2,4,140,67,121,4.666666667,0
+10142,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Liver,,,,,,,,,
+10143,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10144,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,4,0,4,0,124,43,69,4.133333333,0
+10145,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,6,13,333,103,60,11.1,0
+10146,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Progressive Disease,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,4,0,8,0,173,50,53,5.766666667,0
+10147,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,7,0,2,3,246,74,37,8.2,0
+10148,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,8,10,389,162,67,12.96666667,0
+10149,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,4,0,1,137,1161,322,39,38.7,0
+10150,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10151,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,5,0,2,5,93,18,98,3.066666667,0
+10153,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,12,0,9,6,384,101,131,12.76666667,0
+10154,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,1,0,2,0,62,12,179,2.066666667,0
+10155,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10156,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,6,0,6,2,247,116,146,8.233333333,0
+10157,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,4,4,613,337,73,20.43333333,0
+10159,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,11,0,12,2,399,140,43,13.26666667,0
+10160,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10161,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,20,0,1,6,390,155,125,12.93333333,0
+10162,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,7,1,4,4,592,182,22,19.73333333,0
+10164,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,3,0,2,1,164,54,14,5.466666667,0
+10165,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,2,1,639,286,27,21.3,0
+10166,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,22,0,7,4,911,375,60,30.36666667,0
+10167,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,7,0,2,2,435,147,71,14.46666667,0
+10168,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10169,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10170,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10171,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,1,0,4,3,125,50,29,4.166666667,0
+10172,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,2,0,8,3,386,144,93,12.83333333,0
+10173,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,1,1,55,24,236,1.833333333,0
+10174,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,15,0,2,6,400,109,14,13.33333333,0
+10175,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Lung,,,,,,,,,
+10176,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Liver,,,,,,,,,
+10177,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10178,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,10,0,8,5,311,88,65,10.36666667,0
+10180,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,1,0,3,3,170,31,22,5.633333333,0
+10181,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,4,3,306,111,50,10.2,0
+10182,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10184,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Progressive Disease,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,3,0,3,8,132,37,97,4.366666667,0
+10185,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,11,0,5,4,202,60,62,6.7,0
+10187,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,3,0,1,5,52,15,37,1.7,0
+10188,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,5,0,4,2,378,115,52,12.53333333,0
+10189,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10190,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,1,1,297,68,56,9.866666667,0
+10191,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10192,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,3,4,344,83,50,11.46666667,0
+10193,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10194,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10195,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,6,0,4,4,202,93,113,6.733333333,0
+10196,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,16,0,24,5,282,120,105,9.366666667,0
+10198,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,6,1,6,0,184,84,44,6.133333333,0
+10199,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,2,2,225,74,58,7.5,0
+10200,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10201,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,14,0,9,21,1716,846,129,56.86666667,0
+10202,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,5,0,3,0,292,138,49,9.733333333,0
+10203,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,9,0,1,3,47,16,96,1.533333333,0
+10204,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10205,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,9,0,5,12,710,879,138,23.63333333,0
+10206,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10207,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,3,0,9,5,81,30,83,2.7,0
+10208,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10209,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,11,0,6,7,295,204,58,9.833333333,0
+10210,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,1,0,7,8,213,107,20,7.1,0
+10211,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10212,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Stable Disease,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,15,0,3,10,461,146,79,15.36666667,0
+10213,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,10,1,2,137,1697,600,47,56.53333333,0
+10215,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10216,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,9,0,1,0,126,44,53,4.166666667,0
+10217,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,14,0,1,4,220,77,152,7.333333333,0
+10220,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10221,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,1,1,136,43,264,4.533333333,0
+10222,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,1,4,2,204,106,94,6.8,0
+10223,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,17,1,3,6,768,334,76,25.6,0
+10224,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,14,0,6,3,102,42,113,3.4,0
+10225,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10226,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Progressive Disease,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,14,0,2,14,989,268,147,32.9,0
+10227,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,3,0,1,5,160,60,170,5.333333333,0
+10228,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Lung,,,,,,,,,
+10229,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Lung,,,,,,,,,
+10230,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,1,10,471,98,3,15.6,0
+10232,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,2,0,1,4,896,315,28,29.9,0
+10233,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Complete Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,10,2,3,2,429,194,43,14.26666667,0
+10234,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Lung,9,0,5,8,247,66,20,8.233333333,0
+10235,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,3,0,386,124,22,12.86666667,0
+10236,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,2,0,5,8,99,54,183,3.3,0
+10238,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,6,0,3,3,110,27,76,3.666666667,0
+10239,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,4,0,4,1,248,70,144,8.266666667,0
+10240,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,2,0,0,1,175,50,15,5.833333333,0
+10241,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,20,0,9,9,209,113,61,6.966666667,0
+10242,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,2,2,144,80,90,4.8,0
+10243,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,6,0,5,55,1463,83,84,48.63333333,0
+10244,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,5,0,4,4,73,46,35,2.433333333,0
+10245,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,15,0,3,6,727,318,78,24.23333333,0
+10246,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,5,0,0,1,163,40,76,5.433333333,0
+10247,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,,,,,,,,,
+10248,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,0,7,13,812,244,54,26.93333333,0
+10249,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,,,,,,,,,
+10250,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10251,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,11,0,4,11,263,172,83,8.733333333,0
+10252,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,3,0,3,6,468,359,30,15.63333333,0
+10253,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,2,5,112,43,49,3.7,0
+10254,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,16,0,9,1,220,72,21,7.366666667,0
+10255,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,5,0,1,2,167,72,157,5.566666667,0
+10256,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10257,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10258,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,2,4,492,184,105,16.4,0
+10259,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,11,0,8,5,348,98,99,11.6,0
+10260,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Liver,6,0,5,7,209,62,64,6.966666667,0
+10262,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,1,0,0,17,491,249,60,16.33333333,0
+10263,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,1,2,3,483,186,216,16.06666667,0
+10264,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,7,0,164,52,92,5.433333333,0
+10265,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,19,0,0,1,816,353,119,27.1,0
+10266,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10267,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,20,0,3,9,826,471,205,27.46666667,0
+10268,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,10,0,2,4,287,79,160,9.566666667,0
+10269,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,7,0,1,2,216,96,54,7.2,0
+10270,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,0,3,1,128,68,58,4.266666667,0
+10271,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,2,2,86,17,20,2.833333333,0
+10272,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10273,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,4,6,198,92,14,6.6,0
+10274,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10275,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10277,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,13,0,5,1,171,57,73,5.7,0
+10279,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,12,0,5,20,253,105,147,8.433333333,0
+10280,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,2,0,5,5,623,211,35,20.76666667,0
+10281,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,11,1,6,4,173,50,42,5.766666667,0
+10282,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,,Pre,,Matched,FFPE,FALSE,TRUE,Bladder,4,0,2,1,543,243,89,18.03333333,0
+10284,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,2,2,291,122,66,9.633333333,0
+10285,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,7,0,9,2,184,71,37,6.2,0
+10286,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,17,0,16,10,584,387,33,19.4,0
+10287,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10289,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10290,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,5,0,3,5,118,27,144,3.933333333,0
+10291,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10292,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10293,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10294,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,4,0,2,0,77,19,20,2.566666667,0
+10295,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,20,1,4,5,159,65,93,5.266666667,0
+10296,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,2,49,704,247,65,23.5,0
+10297,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10298,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,2,0,2,3,119,36,12,3.966666667,0
+10299,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,13,1,1,4,575,254,8,19.1,0
+10300,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,4,0,3,2,75,59,74,2.5,0
+10301,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Liver,,,,,,,,,
+10302,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,,,,,,,,,
+10303,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,4,0,4,2,136,43,126,4.533333333,0
+10304,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,6,0,17,1,273,80,67,9.1,0
+10305,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,8,2,95,36,45,3.166666667,0
+10306,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,10,0,5,3,156,38,43,5.166666667,0
+10307,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,3,0,6,8,386,104,19,12.83333333,0
+10308,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10309,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Complete Response,Pre,,Matched,FFPE,FALSE,FALSE,,5,0,1,3,303,99,91,10.06666667,0
+10310,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,9,0,2,2,239,80,7,7.966666667,0
+10311,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,4,3,104,31,46,3.433333333,0
+10312,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,,,,,,,,,
+10313,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10314,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,6,0,0,7,239,154,33,7.933333333,0
+10315,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10316,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10317,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Progressive Disease,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,7,0,3,2,280,89,162,9.333333333,0
+10319,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10320,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,,,,,,,,,
+10321,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,15,1,6,3,334,145,30,11.13333333,0
+10323,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,,,,,,,,,
+10324,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10325,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Kidney,2,0,3,5,71,10,66,2.366666667,0
+10326,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Kidney,,,,,,,,,
+10327,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10328,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10329,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,0,1,310,47,27,10.33333333,0
+10330,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,8,0,1,2,108,22,61,3.566666667,0
+10332,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10333,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10334,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,7,0,3,2,183,53,166,6.066666667,0
+10335,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,5,0,2,3,256,118,67,8.5,0
+10336,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,1,2,543,65,63,18.06666667,0
+10337,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10339,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,4,0,2,3,101,35,22,3.366666667,0
+10340,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,0,0,2,5,133,53,20,4.433333333,0
+10341,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10343,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,2,2,344,109,57,11.46666667,0
+10344,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10345,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,1,0,1,3,59,22,25,1.933333333,0
+10346,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,5,0,0,1,178,178,148,5.933333333,0
+10347,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,5,0,3,4,138,36,49,4.566666667,0
+10348,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10349,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Complete Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,12,0,5,4,251,122,19,8.333333333,0
+10350,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,,7,0,1,2,812,248,31,27,0
+10351,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,7,0,10,5,188,46,29,6.233333333,0
+10352,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,,,,,,,,,,
+10353,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,0,11,10,241,176,29,8.033333333,0
+10354,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Complete Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,2,0,3,3,484,135,22,16.06666667,0
+10355,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Complete Response,Pre,,Matched,FFPE,FALSE,FALSE,,12,0,1,5,119,100,245,3.966666667,0
+10356,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,3,0,0,5,172,46,71,5.7,0
+10357,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,,Pre,,Matched,FFPE,FALSE,TRUE,,3,0,6,5,369,117,218,12.3,0
+10358,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,,Pre,Metastasis,Matched,FFPE,TRUE,FALSE,Bladder,5,0,4,4,165,53,69,5.5,0
+10359,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,7,1,4,2,156,62,80,5.2,0
+10360,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Stable Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10361,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,1,5,188,94,51,6.266666667,0
+10362,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10363,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10364,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10365,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,1,0,5,4,104,30,52,3.466666667,0
+10366,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,,,,,,,,,
+10367,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,10,0,7,3,340,237,49,11.3,0
+10368,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Partial Response,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,2,0,5,0,110,37,39,3.633333333,0
+10369,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,7,0,22,6,234,87,144,7.8,0
+10370,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,5,0,5,5,221,63,70,7.366666667,0
+10371,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,,BLCA,Partial Response,Pre,,Matched,FFPE,FALSE,FALSE,Bladder,8,0,4,2,276,94,33,9.2,0
+10372,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Kidney,4,0,8,1,176,74,153,5.866666667,0
+10373,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,TRUE,Bladder,,,,,,,,,
+10374,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,,,,,,,,,,
+10375,Bladder,Bladder Cancer,Bladder Urothelial Carcinoma,TRUE,BLCA,Progressive Disease,Pre,Metastasis,Matched,FFPE,FALSE,FALSE,Bladder,3,0,11,3,172,56,47,5.7,0

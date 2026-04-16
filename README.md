@@ -44,7 +44,7 @@ Build a **classification model** that takes a patient's profile as input and pre
 
 ## Datasets
 
-**124,982 real patient adverse event rows** from FDA FAERS + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + reference tables.
+**124,982 real patient adverse event rows** from FDA FAERS + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + reference tables.
 
 ```
 datasets/
@@ -55,6 +55,9 @@ datasets/
 │   ├── SDY1733/                                        (56 HCC patients, 10 on anti-PD-1 + BCLC stage, cirrhosis, HBV/HCV, AFP)
 │   ├── SDY1597/                                        (30 breast cancer + controls, TNM stages)
 │   └── SDY1658/                                        (16 GBM tumor samples)
+├── cbioportal/                                         <- 7 immunotherapy studies (melanoma / bladder / RCC / NSCLC)
+│   ├── all_patients_consolidated.csv                   (1,218 patients × 29 harmonized columns — LDH, ECOG, TMB, OS/PFS)
+│   └── {7 study folders}                               (mel_dfci_2019, blca_iatlas_imvigor210_2017, etc.)
 └── reference/
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -77,7 +80,7 @@ See [`datasets/README.md`](datasets/README.md) for field descriptions, data qual
 | Dataset | What It Has | Status |
 |---------|-------------|--------|
 | **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — see `datasets/immport/` |
-| **TCGA / cBioPortal** | Cancer genomics + clinical data (10,000+ patients) | [cbioportal.org](https://www.cbioportal.org/) |
+| **TCGA / cBioPortal** | Cancer genomics + clinical data (10,000+ patients) | **Downloaded** — 7 immunotherapy studies (1,218 patients) in `datasets/cbioportal/` |
 | **GEO (GSE91061)** | Gene expression for melanoma patients on anti-PD-1 | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/) |
 | **ClinicalTrials.gov** | Completed trial results with adverse event rates | [clinicaltrials.gov](https://clinicaltrials.gov/) |
 | **FDA FAERS (full)** | Millions of adverse event reports (quarterly dumps) | [fda.gov/faers](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers) |

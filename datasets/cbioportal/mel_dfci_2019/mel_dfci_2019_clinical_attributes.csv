@@ -1,0 +1,51 @@
+displayName,description,datatype,patientAttribute,priority,clinicalAttributeId,studyId
+Alkylating Chemotherapy,Each Value Represents the Estimated Number of Mutations From the Alkylating Chemotherapy Per Sample,NUMBER,True,1,ALKYLATING_CHEMOTHERAPY,mel_dfci_2019
+Biopsy Context,Biopsy Context,STRING,True,1,BIOPSY_CONTEXT,mel_dfci_2019
+Biopsy Site,Biopsy Site,STRING,False,1,BIOPSY_SITE,mel_dfci_2019
+Biopsy Site Category,Biopsy Site Category,STRING,False,1,BIOPSY_SITE_CATEG,mel_dfci_2019
+Best Radiographic Response (RECIST 1.1),Best Radiographic Response (RECIST 1.1),STRING,True,1,BR,mel_dfci_2019
+Cancer Type,Cancer Type,STRING,False,1,CANCER_TYPE,mel_dfci_2019
+Cancer Type Detailed,Cancer Type Detailed,STRING,False,1,CANCER_TYPE_DETAILED,mel_dfci_2019
+CNA Prop,CNA Prop,NUMBER,False,1,CNA_PROP,mel_dfci_2019
+Cosmic 1+5 (Aging_signature),Each Value Represents the Estimated Number of Mutations From the Cosmic (Aging) Mutational Signature,NUMBER,True,1,COSMIC_AGING,mel_dfci_2019
+Cutaneous Subcutaneous Metastasis,Cutaneous Subcutaneous Metastasis,STRING,True,1,CUT_SUBQ_MET,mel_dfci_2019
+Cycles On Therapy,Cycles On Therapy,NUMBER,True,1,CYCLES_ON_THERAPY,mel_dfci_2019
+Heterogeneity,Heterogeneity,NUMBER,False,1,HETEROGENEITY,mel_dfci_2019
+Histology,Histology,STRING,False,1,HISTOLOGY,mel_dfci_2019
+Immunotherapy,Immunotherapy,STRING,True,1,IO_THERAPY,mel_dfci_2019
+LDH Elevated,LDH Elevated,STRING,True,1,LDH_ELEVATED,mel_dfci_2019
+Liver Visceral Metastasis,Liver Visceral Metastasis,STRING,True,1,LIVER_VISC_MET,mel_dfci_2019
+LN Metastasis,LN Metastasis,STRING,True,1,LN_MET,mel_dfci_2019
+Lung Metastasis,Lung Metastasis,STRING,True,1,LUNG_MET,mel_dfci_2019
+Bone Metastasis,Bone Metastasis,STRING,True,1,MET_BONE,mel_dfci_2019
+Brain Metastasis,Brain Metastasis,STRING,True,1,MET_BRAIN,mel_dfci_2019
+Mutation Count,Mutation Count,NUMBER,False,30,MUTATION_COUNT,mel_dfci_2019
+Mutations Clonal,Mutations Clonal,NUMBER,False,1,MUTS_CLONAL,mel_dfci_2019
+Mutations Subclonal,Mutations Subclonal,NUMBER,False,1,MUTS_SUBCLONAL,mel_dfci_2019
+M Stage,M Stage,STRING,True,1,M_STAGE,mel_dfci_2019
+Nonsynonymous Mutation Count,Nonsynonymous Mutation Count,NUMBER,False,1,NONSYNONYMOUS_MUTATION_COUNT,mel_dfci_2019
+Num Prior Therapies,Num Prior Therapies,NUMBER,True,1,NUM_PRIOR_THERAPIES,mel_dfci_2019
+Oncotree Code,Oncotree Code,STRING,False,1,ONCOTREE_CODE,mel_dfci_2019
+Overall Survival (Months),Overall survival in months since first application of anti-PD1 ICB.,NUMBER,True,1,OS_MONTHS,mel_dfci_2019
+Overall Survival Status,Overall patient survival status since first application of anti-PD1 ICB.,STRING,True,9,OS_STATUS,mel_dfci_2019
+Progress Free Survival (Months),Progress Free Survival since first application of anti-PD1 ICB.,NUMBER,True,1,PFS_MONTHS,mel_dfci_2019
+Progression Free Status,Progress Free Status since first application of anti-PD1 ICB.,STRING,True,1,PFS_STATUS,mel_dfci_2019
+Ploidy,Ploidy,NUMBER,False,1,PLOIDY,mel_dfci_2019
+Post Conbined CTLA PD1,Post Conbined CTLA PD1,STRING,True,1,POAR_COMBINED_CTLA_PD1,mel_dfci_2019
+Post CTLA4,Post CTLA4,STRING,True,1,POST_CTLA4,mel_dfci_2019
+Post MAPK Tx,Post MAPK Tx,STRING,True,1,POST_MAPK_TX,mel_dfci_2019
+Primary Type,Primary Type,STRING,False,1,PRIMARY_TYPE,mel_dfci_2019
+Prior CTLA4,Prior CTLA4,STRING,True,1,PRIOR_CTLA4,mel_dfci_2019
+Prior MAPK Tx,Prior MAPK Tx,STRING,True,1,PRIOR_MAPK_TX,mel_dfci_2019
+Purity,Purity,NUMBER,False,1,PURITY,mel_dfci_2019
+Number of Samples Per Patient,Number of Samples Per Patient,STRING,True,1,SAMPLE_COUNT,mel_dfci_2019
+Sex,Sex,STRING,True,1,SEX,mel_dfci_2019
+Somatic Status,Somatic Status,STRING,False,1,SOMATIC_STATUS,mel_dfci_2019
+Steroids > 10mg Daily,Steroids > 10mg Daily,STRING,True,1,STEROIDS_GT_10MG_DAILY,mel_dfci_2019
+Time to Best Radiographic Response (BR),Time to Best Radiographic Response (BR),NUMBER,True,1,TIME_TO_BR,mel_dfci_2019
+TMB (nonsynonymous),TMB (nonsynonymous),NUMBER,False,1,TMB_NONSYNONYMOUS,mel_dfci_2019
+Total Mutations,Total Mutations,NUMBER,False,1,TOTAL_MUTATIONS,mel_dfci_2019
+Total Neoantigen,Total Neoantigen,NUMBER,False,1,TOTAL_NEOANTIGEN,mel_dfci_2019
+ECOG (Treatment Start),ECOG performance status when treatment start,STRING,True,1,TX_START_ECOG,mel_dfci_2019
+LDH (treatment Start),Low lactate dehydrogenase (LDH) when treatment start,NUMBER,True,1,TX_START_LDH,mel_dfci_2019
+UV-Induced Mutations,Each Value Represents the Estimated Number of Mutations From the UV Mutational Signature Per Sample,NUMBER,True,1,UV_INDUCED_MUTATIONS,mel_dfci_2019

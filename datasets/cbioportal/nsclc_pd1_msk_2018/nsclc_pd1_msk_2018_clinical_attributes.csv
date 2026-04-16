@@ -1,0 +1,22 @@
+displayName,description,datatype,patientAttribute,priority,clinicalAttributeId,studyId
+Diagnosis Age,Age at which a condition or disease was first diagnosed.,NUMBER,True,0,AGE,nsclc_pd1_msk_2018
+Cancer Type,Cancer Type,STRING,False,1,CANCER_TYPE,nsclc_pd1_msk_2018
+Cancer Type Detailed,Cancer Type Detailed,STRING,False,1,CANCER_TYPE_DETAILED,nsclc_pd1_msk_2018
+Durable Clinical Benefit,Durable Clinical Benefit,STRING,True,1,DURABLE_CLINICAL_BENEFIT,nsclc_pd1_msk_2018
+FGA,FGA,NUMBER,False,1,FGA,nsclc_pd1_msk_2018
+Fraction Genome Altered,Fraction Genome Altered,NUMBER,False,20,FRACTION_GENOME_ALTERED,nsclc_pd1_msk_2018
+Gene Panel,Gene panel.,STRING,False,1,GENE_PANEL,nsclc_pd1_msk_2018
+IRB,IRB,STRING,True,1,IRB,nsclc_pd1_msk_2018
+Lines of treatment,Lines of treatment,STRING,True,1,LINES_OF_TX,nsclc_pd1_msk_2018
+Mutation Count,Mutation Count,NUMBER,False,30,MUTATION_COUNT,nsclc_pd1_msk_2018
+Mutation Rate,Mutation Rate,NUMBER,False,1,MUTATION_RATE,nsclc_pd1_msk_2018
+Oncotree Code,Oncotree Code,STRING,False,1,ONCOTREE_CODE,nsclc_pd1_msk_2018
+PD-L1 Score (%),PD-L1 Score in percent,NUMBER,False,1,PDL1_SCORE,nsclc_pd1_msk_2018
+Progress Free Survival (Months),Progress Free Survival (Months),NUMBER,True,1,PFS_MONTHS,nsclc_pd1_msk_2018
+Progression Free Status,Progression Free Status,STRING,True,1,PFS_STATUS,nsclc_pd1_msk_2018
+Number of Samples Per Patient,Number of Samples Per Patient,STRING,True,1,SAMPLE_COUNT,nsclc_pd1_msk_2018
+Sex,Sex,STRING,True,1,SEX,nsclc_pd1_msk_2018
+Smoker,Indicates if person is a smoker.,STRING,True,1,SMOKER,nsclc_pd1_msk_2018
+Somatic Status,Somatic Status,STRING,False,1,SOMATIC_STATUS,nsclc_pd1_msk_2018
+TMB (nonsynonymous),TMB (nonsynonymous),NUMBER,False,1,TMB_NONSYNONYMOUS,nsclc_pd1_msk_2018
+Treatment Type,Treatment Type,STRING,True,1,TREATMENT_TYPE,nsclc_pd1_msk_2018

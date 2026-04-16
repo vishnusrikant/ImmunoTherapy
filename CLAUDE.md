@@ -56,6 +56,14 @@ Immunotherapy side effects (irAEs) affect 70-90% of checkpoint-inhibitor patient
 - `datasets/immport/SDY1658/` — 16 GBM tumor samples (no clinical assessments)
 - Downloaded via authenticated ImmPort API (requires registered account)
 
+### Supplementary: cBioPortal (1,218 patients across 7 immunotherapy studies)
+- `datasets/cbioportal/all_patients_consolidated.csv` — cross-study harmonized table, 29 columns
+- Studies: `mel_dfci_2019` (144), `blca_iatlas_imvigor210_2017` (347), `rcc_iatlas_immotion150_2018` (263), `nsclc_pd1_msk_2018` (240), `mel_iatlas_liu_2019` (122), `mel_iatlas_riaz_nivolumab_2017` (64), `mel_ucla_2016` (38)
+- Pre-treatment features: LDH (melanoma DFCI only), ECOG, TMB (81% coverage), metastasis sites, steroid use, prior therapy lines
+- Outcomes: OS / PFS months, response labels (mix of binary TRUE/FALSE and RECIST categories — normalize before modeling)
+- **No adverse-event columns** — use for pre-treatment feature enrichment, keep FAERS for severity labels
+- Downloaded via public cBioPortal REST API (no auth). Scripts in `scripts/cbio_download.py` + `scripts/cbio_consolidate.py`
+
 ### Reference Tables (in `datasets/reference/`)
 - `ctcae_severity_grades.csv` — CTCAE 1-5 → Mild/Medium/Severe mapping
 - `immunotherapy_drugs.csv` — 11 drugs (generic, brand, target, approval year)

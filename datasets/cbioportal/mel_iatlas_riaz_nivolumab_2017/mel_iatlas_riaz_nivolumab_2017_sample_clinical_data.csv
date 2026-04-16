@@ -1,0 +1,108 @@
+sampleId,CANCER_TISSUE,CANCER_TYPE,CANCER_TYPE_DETAILED,LENS_ID,METASTASIZED,ONCOTREE_CODE,PRIOR_ICI_RX,RESPONSE,SAMPLE_TREATMENT,SOMATIC_STATUS,SPECIMEN_PRESERVATION_TYPE,TIDE_NO_BENEFITS,TIDE_RESPONDER,CTA_SELF_NEOANTIGEN,ERV_NEOANTIGEN,FUSION_NEOANTIGEN,INDEL_NEOANTIGEN,MUTATION_COUNT,SNV_NEOANTIGEN,SPLICE_NEOANTIGEN,TMB_NONSYNONYMOUS,VIRUS_NEOANTIGEN
+Pt1_pre,Skin,Melanoma,Melanoma,ar-8813,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt1_on,Skin,Melanoma,Melanoma,ar-8814,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt2_pre,Skin,Melanoma,Melanoma,ar-8815,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt2_on,Skin,Melanoma,Melanoma,ar-8816,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt3_on,Skin,Melanoma,Melanoma,ad-4789+ar-8877+nd-4912+nr-ctrl,,MEL,,Partial Response,On,Matched,False FFPE,FALSE,FALSE,7,0,1,2,183,15,4,6.1,0
+Pt3_pre,Skin,Melanoma,Melanoma,ad-4838+ar-8878+nd-4912+nr-ctrl,,MEL,,Partial Response,Pre,Matched,False FFPE,TRUE,FALSE,5,0,1,3,191,30,3,6.366666667,0
+Pt4_on,Skin,Melanoma,Melanoma,ar-8879,TRUE,MEL,,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt4_pre,Skin,Melanoma,Melanoma,ad-4818+ar-8880+nd-4893+nr-ctrl,TRUE,MEL,,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,6,0,0,2,279,73,3,9.3,0
+Pt5_on,Skin,Melanoma,Melanoma,ad-4916+ar-8882+nd-4809+nr-ctrl,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,TRUE,10,0,5,2,64,17,5,2.133333333,0
+Pt5_pre,Skin,Melanoma,Melanoma,ad-4862+ar-8883+nd-4809+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,1,0,3,1,56,12,34,1.866666667,0
+Pt8_pre,Skin,Melanoma,Melanoma,ad-4777+ar-8914+nd-4787+nr-ctrl,FALSE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,1,0,0,0,96,21,4,3.166666667,0
+Pt8_on,Skin,Melanoma,Melanoma,ad-4771+ar-8915+nd-4787+nr-ctrl,FALSE,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,1,0,0,4,103,27,8,3.4,0
+Pt9_pre,Skin,Melanoma,Melanoma,ad-4839+ar-8885+nd-4805+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,28,0,1,0,396,84,6,13.16666667,0
+Pt9_on,Skin,Melanoma,Melanoma,ad-4868+ar-8886+nd-4805+nr-ctrl,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,TRUE,FALSE,32,0,1,0,398,99,7,13.23333333,0
+Pt10_pre,Skin,Melanoma,Melanoma,ad-4764+ar-8887+nd-4829+nr-ctrl,TRUE,MEL,,Stable Disease,Pre,Matched,False FFPE,TRUE,FALSE,3,0,1,0,92,9,0,3.066666667,0
+Pt10_on,Skin,Melanoma,Melanoma,ad-4751+ar-8888+nd-4829+nr-ctrl,TRUE,MEL,,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,7,0,3,1,77,18,3,2.566666667,0
+Pt11_pre,Skin,Melanoma,Melanoma,ad-4846+ar-8916+nd-4865+nr-ctrl,,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,8,0,0,0,109,14,4,3.6,0
+Pt11_on,Skin,Melanoma,Melanoma,ad-4803+ar-8917+nd-4865+nr-ctrl,,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,TRUE,3,0,0,1,122,18,5,4.033333333,0
+Pt13_on,Skin,Melanoma,Melanoma,ad-4774+ar-8918+nd-4772+nr-ctrl,,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,3,0,1,2,174,21,14,5.766666667,0
+Pt16_on,Skin,Melanoma,Melanoma,ar-8919,,MEL,,,On,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt17_on,Skin,Melanoma,Melanoma,ad-4827+ar-8889+nd-4780+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,1,0,0,2,33,5,5,1.1,0
+Pt17_pre,Skin,Melanoma,Melanoma,ad-4905+ar-8890+nd-4780+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,4,0,1,0,30,4,5,1,0
+Pt18_pre,Skin,Melanoma,Melanoma,ad-4891+ar-8891+nd-4889+nr-ctrl,TRUE,MEL,,Partial Response,Pre,Matched,False FFPE,FALSE,FALSE,16,0,2,1,235,46,9,7.833333333,0
+Pt18_on,Skin,Melanoma,Melanoma,ad-4817+ar-8892+nd-4889+nr-ctrl,TRUE,MEL,,Partial Response,On,Matched,False FFPE,FALSE,FALSE,2,0,1,0,10,0,8,0.333333333,0
+Pt23_on,Skin,Melanoma,Melanoma,ad-4899+ar-8817+nd-4767+nr-ctrl,TRUE,MEL,,,On,Matched,False FFPE,FALSE,FALSE,9,0,1,2,717,143,8,23.9,0
+Pt23_pre,Skin,Melanoma,Melanoma,ad-4770+ar-8818+nd-4767+nr-ctrl,TRUE,MEL,,,Pre,Matched,False FFPE,FALSE,FALSE,10,0,0,0,656,123,6,21.86666667,0
+Pt24_pre,Skin,Melanoma,Melanoma,ad-4799+ar-8906+nd-4768+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,2,0,1,0,26,0,2,0.866666667,0
+Pt26_pre,Skin,Melanoma,Melanoma,ad-4847+ar-8920+nd-4760+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,2,0,1,0,118,23,4,3.9,0
+Pt26_on,Skin,Melanoma,Melanoma,ad-4795+ar-8921+nd-4760+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,4,0,0,0,117,26,3,3.866666667,0
+Pt27_on,Skin,Melanoma,Melanoma,ad-4785+ar-8907+nd-4915+nr-ctrl,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,3,0,1,2,189,29,5,6.3,0
+Pt27_pre,Skin,Melanoma,Melanoma,ad-4917+ar-8908+nd-4915+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,1,0,1,0,195,12,4,6.5,0
+Pt28_pre,Skin,Melanoma,Melanoma,ad-4776+ar-8922+nd-4826+nr-ctrl,,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,6,0,5,2,47,6,13,1.566666667,0
+Pt28_on,Skin,Melanoma,Melanoma,ad-4813+ar-8923+nd-4826+nr-ctrl,,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,8,0,4,1,63,18,12,2.1,0
+Pt29_pre,Skin,Melanoma,Melanoma,ad-4828+ar-8909+nd-4819+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,14,0,0,1,402,89,8,13.36666667,0
+Pt30_on,Skin,Melanoma,Melanoma,ad-4836+ar-8910+nd-4756+nr-ctrl,TRUE,MEL,,Complete Response,On,Matched,False FFPE,FALSE,FALSE,2,0,2,3,16,3,6,0.533333333,0
+Pt30_pre,Skin,Melanoma,Melanoma,ad-4907+ar-8911+nd-4756+nr-ctrl,TRUE,MEL,,Complete Response,Pre,Matched,False FFPE,FALSE,FALSE,27,0,3,1,66,11,5,2.2,0
+Pt31_on,Skin,Melanoma,Melanoma,ad-4807+ar-8912+nd-4885+nr-ctrl,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,19,0,1,2,470,104,18,15.66666667,0
+Pt31_pre,Skin,Melanoma,Melanoma,ad-4867+ar-8913+nd-4885+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,12,0,0,2,462,74,17,15.4,0
+Pt32_on,Skin,Melanoma,Melanoma,ar-8893,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt34_on,Skin,Melanoma,Melanoma,ad-4746+ar-8928+nd-4860+nr-ctrl,TRUE,MEL,Ipilimumab,Partial Response,On,Matched,False FFPE,FALSE,TRUE,1,0,0,0,12,0,4,0.4,0
+Pt34_pre,Skin,Melanoma,Melanoma,ad-4834+ar-8929+nd-4860+nr-ctrl,TRUE,MEL,Ipilimumab,Partial Response,Pre,Matched,False FFPE,FALSE,TRUE,10,0,0,0,232,26,8,7.733333333,0
+Pt35_on,Skin,Melanoma,Melanoma,ar-8930,,MEL,,,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt36_pre,Skin,Melanoma,Melanoma,ad-4849+ar-8898+nd-4763+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,TRUE,FALSE,2,0,2,0,6,0,3,0.2,0
+Pt36_on,Skin,Melanoma,Melanoma,ar-8899,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt37_pre,Skin,Melanoma,Melanoma,ad-4904+ar-8900+nd-4919+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,10,0,2,1,35,4,5,1.166666667,0
+Pt37_on,Skin,Melanoma,Melanoma,ad-4835+ar-8903+nd-4919+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,5,0,2,0,29,2,7,0.966666667,0
+Pt38_on,Skin,Melanoma,Melanoma,ar-8894,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt38_pre,Skin,Melanoma,Melanoma,ad-4786+ar-8895+nd-4769+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,TRUE,FALSE,2,0,0,3,358,136,7,11.86666667,0
+Pt39_pre,Skin,Melanoma,Melanoma,ar-8819,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt44_pre,Skin,Melanoma,Melanoma,ad-4866+ar-8924+nd-4900+nr-ctrl,,MEL,,Partial Response,Pre,Matched,False FFPE,FALSE,TRUE,14,0,3,2,397,123,7,13.23333333,0
+Pt44_on,Skin,Melanoma,Melanoma,ad-4884+ar-8925+nd-4900+nr-ctrl,,MEL,,Partial Response,On,Matched,False FFPE,FALSE,FALSE,4,0,1,0,14,0,5,0.433333333,0
+Pt46_pre,Skin,Melanoma,Melanoma,ad-4793+ar-8904+nd-4832+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,3,0,1,0,217,3,10,7.233333333,0
+Pt46_on,Skin,Melanoma,Melanoma,ar-8905,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt47_pre,Skin,Melanoma,Melanoma,ar-8836,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt47_on,Skin,Melanoma,Melanoma,ad-4879+ar-8837+nd-4788+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,18,0,1,3,1029,214,4,34.26666667,0
+Pt48_on,Skin,Melanoma,Melanoma,ad-4878+ar-8896+nd-4861+nr-ctrl,TRUE,MEL,Ipilimumab,Complete Response,On,Matched,False FFPE,FALSE,TRUE,0,0,1,2,9,2,11,0.3,0
+Pt48_pre,Skin,Melanoma,Melanoma,ad-4802+ar-8897+nd-4861+nr-ctrl,TRUE,MEL,Ipilimumab,Complete Response,Pre,Matched,False FFPE,FALSE,TRUE,6,0,1,1,169,10,22,5.633333333,0
+Pt49_pre,Skin,Melanoma,Melanoma,ad-4833+ar-8824+nd-4823+nr-ctrl,,MEL,Ipilimumab,Partial Response,Pre,Matched,False FFPE,FALSE,FALSE,22,0,3,0,846,85,11,28.2,0
+Pt49_on,Skin,Melanoma,Melanoma,ar-8825,,MEL,Ipilimumab,Partial Response,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt52_on,Skin,Melanoma,Melanoma,ad-4783+ar-8838+nd-4791+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,18,0,0,1,388,75,4,12.93333333,0
+Pt52_pre,Skin,Melanoma,Melanoma,ad-4778+ar-8839+nd-4791+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,13,0,0,1,366,41,4,12.2,0
+Pt58_on,Skin,Melanoma,Melanoma,ad-4859+ar-8820+nd-4798+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,8,0,0,2,1344,306,4,44.8,0
+Pt59_pre,Skin,Melanoma,Melanoma,ad-4848+ar-8821+nd-4821+nr-ctrl,TRUE,MEL,,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,12,0,0,1,452,90,21,15.03333333,1
+Pt62_on,Skin,Melanoma,Melanoma,ar-8855,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt62_pre,Skin,Melanoma,Melanoma,ar-8856,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt65_pre,Skin,Melanoma,Melanoma,ad-4812+ar-8857+nd-4825+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,7,0,11,3,2619,723,13,87.3,0
+Pt65_on,Skin,Melanoma,Melanoma,ar-8858,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt66_pre,Skin,Melanoma,Melanoma,ad-4843+ar-8826+nd-4887+nr-ctrl,,MEL,,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,23,0,1,2,146,27,3,4.8,0
+Pt67_pre,Skin,Melanoma,Melanoma,ad-4864+ar-8840+nd-4898+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,TRUE,3,0,1,0,12,1,27,0.4,0
+Pt67_on,Skin,Melanoma,Melanoma,ad-4853+ar-8841+nd-4898+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,0,0,0,0,17,1,17,0.566666667,0
+Pt68_on,Skin,Melanoma,Melanoma,ar-8859,TRUE,MEL,Ipilimumab,Partial Response,On,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt69_on,Skin,Melanoma,Melanoma,ar-8860,,MEL,,,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt72_pre,Skin,Melanoma,Melanoma,ad-4858+ar-8861+nd-4800+nr-ctrl,TRUE,MEL,,Partial Response,Pre,Matched,False FFPE,TRUE,FALSE,8,0,1,1,505,79,4,16.83333333,0
+Pt76_pre,Skin,Melanoma,Melanoma,ad-4842+ar-8827+nd-4877+nr-ctrl,TRUE,MEL,,,Pre,Matched,False FFPE,TRUE,FALSE,7,0,0,3,255,35,5,8.5,0
+Pt77_pre,Skin,Melanoma,Melanoma,ad-4883+ar-8846+nd-4811+nr-ctrl,TRUE,MEL,,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,4,0,1,0,53,6,26,1.766666667,0
+Pt77_on,Skin,Melanoma,Melanoma,ar-8847,TRUE,MEL,,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt78_on,Skin,Melanoma,Melanoma,ar-8862,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt78_pre,Skin,Melanoma,Melanoma,ar-8864,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt79_on,Skin,Melanoma,Melanoma,ar-8848,,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt79_pre,Skin,Melanoma,Melanoma,ar-8849,,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt80_on,Skin,Melanoma,Melanoma,ar-8865,,MEL,,,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt81_on,Skin,Melanoma,Melanoma,ar-8828,,MEL,,,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt82_pre,Skin,Melanoma,Melanoma,ad-4869+ar-8822+nd-4822+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,2,0,2,2,42,8,5,1.4,0
+Pt82_on,Skin,Melanoma,Melanoma,ad-4881+ar-8823+nd-4822+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,4,0,1,2,42,9,15,1.4,0
+Pt84_pre,Skin,Melanoma,Melanoma,ad-4749+ar-8850+nd-4752+nr-ctrl,TRUE,MEL,,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,1,0,0,2,18,4,3,0.6,0
+Pt84_on,Skin,Melanoma,Melanoma,ar-8851,TRUE,MEL,,Progressive Disease,On,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt85_pre,Skin,Melanoma,Melanoma,ad-4911+ar-8829+nd-4794+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,TRUE,FALSE,2,0,0,0,127,43,7,4.233333333,0
+Pt85_on,Skin,Melanoma,Melanoma,ar-8830,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,TRUE,FALSE,,,,,,,,,
+Pt87_on,Skin,Melanoma,Melanoma,ar-8852,,MEL,,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt89_pre,Skin,Melanoma,Melanoma,ad-4873+ar-8831+nd-4837+nr-ctrl,TRUE,MEL,,Stable Disease,Pre,Matched,False FFPE,TRUE,FALSE,15,0,0,0,214,49,7,7.133333333,1
+Pt89_on,Skin,Melanoma,Melanoma,ad-4872+ar-8832+nd-4837+nr-ctrl,TRUE,MEL,,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,14,0,1,0,207,44,7,6.9,0
+Pt90_pre,Skin,Melanoma,Melanoma,ad-4876+ar-8866+nd-4850+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,14,0,4,2,716,129,27,23.86666667,0
+Pt92_pre,Skin,Melanoma,Melanoma,ad-4871+ar-8867+nd-4874+nr-ctrl,,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,TRUE,11,0,0,0,660,108,5,22,0
+Pt92_on,Skin,Melanoma,Melanoma,ad-4882+ar-8870+nd-4874+nr-ctrl,,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,13,0,2,1,658,80,5,21.93333333,0
+Pt93_on,Skin,Melanoma,Melanoma,ad-4906+ar-8833+nd-4815+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,10,0,1,2,409,68,5,13.56666667,0
+Pt94_on,Skin,Melanoma,Melanoma,ar-8842,TRUE,MEL,,Complete Response,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt94_pre,Skin,Melanoma,Melanoma,ad-4886+ar-8843+nd-4855+nr-ctrl,TRUE,MEL,,Complete Response,Pre,Matched,False FFPE,FALSE,FALSE,6,0,2,1,403,71,9,13.43333333,0
+Pt98_pre,Skin,Melanoma,Melanoma,ad-4856+ar-8853+nd-4892+nr-ctrl,TRUE,MEL,Ipilimumab,Stable Disease,Pre,Matched,False FFPE,FALSE,FALSE,10,0,0,0,23,10,14,0.733333333,0
+Pt98_on,Skin,Melanoma,Melanoma,ar-8854,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,TRUE,,,,,,,,,
+Pt101_pre,Skin,Melanoma,Melanoma,ad-4894+ar-8834+nd-4797+nr-ctrl,TRUE,MEL,Ipilimumab,Partial Response,Pre,Matched,False FFPE,FALSE,TRUE,6,0,0,0,14,1,11,0.466666667,0
+Pt101_on,Skin,Melanoma,Melanoma,ad-4750+ar-8835+nd-4797+nr-ctrl,TRUE,MEL,Ipilimumab,Partial Response,On,Matched,False FFPE,FALSE,TRUE,3,0,0,0,6,0,12,0.2,0
+Pt103_on,Skin,Melanoma,Melanoma,ad-4897+ar-8871+nd-4840+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,TRUE,FALSE,3,0,1,4,41,7,3,1.366666667,0
+Pt103_pre,Skin,Melanoma,Melanoma,ad-4820+ar-8872+nd-4840+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,TRUE,2,0,0,0,22,3,12,0.733333333,0
+Pt105_on,Skin,Melanoma,Melanoma,ar-8844,,MEL,,,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt106_pre,Skin,Melanoma,Melanoma,ad-4830+ar-8926+nd-4814+nr-ctrl,TRUE,MEL,Ipilimumab,Progressive Disease,Pre,Matched,False FFPE,FALSE,FALSE,13,0,1,3,728,118,7,24.2,0
+Pt106_on,Skin,Melanoma,Melanoma,ar-8927,TRUE,MEL,Ipilimumab,Progressive Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
+Pt108_on,Skin,Melanoma,Melanoma,ar-8845,TRUE,MEL,Ipilimumab,Stable Disease,On,Matched,False FFPE,FALSE,FALSE,,,,,,,,,
