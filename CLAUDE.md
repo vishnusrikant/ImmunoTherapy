@@ -86,6 +86,15 @@ Severity label derived from `seriousness_death` / `seriousness_life_threatening`
 - Use for (1) pre-treatment feature enrichment, (2) feature-effect validation against published biomarkers, (3) optional sidecar response model. **Do not train the severity classifier on this.**
 - Downloaded via `scripts/chowell_download.py` (public Nature supplementary, no auth)
 
+### Supplementary: UK Biobank Showcase catalog *(metadata only, added 2026-04-16)*
+- `datasets/ukbiobank_catalog/` — **metadata only, no patient data** — publicly-downloadable UKB Showcase schemas
+- `fields.tsv` (11,822 fields), `encodings.tsv` (859), `categories.tsv` (411), `encoding_values_hierstr.tsv` (46,928 incl. ICD-10), `encoding_values_hierint.tsv` (28,901)
+- Derived: `gap_features_summary.csv` — CRP (Field 30710, 469K participants), IL-6 (Field 30900 Olink, 53K), Autoimmune ICD-10 (Field 41270, 448K)
+- Derived: `autoimmune_icd10_codes.csv` — 304 codes across 24 irAE-relevant autoimmune blocks (M05/M06 RA, M32 SLE, E10 T1D, K50/K51 IBD, L40 psoriasis, G35 MS, etc.)
+- Purpose: cite exact field IDs + coverage in the project's limitations section; NOT used as training data
+- Access: patient-level UK Biobank data still requires institutional application + £500 student fee; catalog pull requires neither
+- Script: `scripts/ukbiobank_catalog_download.py` (public, no auth)
+
 ### Reference Tables (in `datasets/reference/`)
 - `ctcae_severity_grades.csv` — CTCAE 1-5 → Mild/Medium/Severe mapping
 - `immunotherapy_drugs.csv` — 11 drugs (generic, brand, target, approval year)
@@ -110,12 +119,14 @@ ImmunoTherapy/
 │   ├── immport/                                 <- NIH clinical trial data (features FAERS lacks)
 │   ├── cbioportal/                              <- 7 cBioPortal immunotherapy studies (1,218 patients)
 │   ├── chowell_2021/                            <- Chowell 2021 Nat Biotech ICI cohort (1,479 patients, NLR/CBC)
+│   ├── ukbiobank_catalog/                       <- UKB Showcase metadata (no patient data) — gap-feature field refs
 │   └── reference/                               <- CTCAE mapping, drug table, predictive features
 ├── scripts/
 │   ├── faers_quarterly_pull.py                  <- Pull + parse FAERS quarterly dumps
 │   ├── cbio_download.py                         <- cBioPortal REST API puller
 │   ├── cbio_consolidate.py                      <- Build all_patients_consolidated.csv
-│   └── chowell_download.py                      <- Fetch + parse Chowell 2021 Supplementary Data 1
+│   ├── chowell_download.py                      <- Fetch + parse Chowell 2021 Supplementary Data 1
+│   └── ukbiobank_catalog_download.py            <- Pull UKB Showcase schemas + derive gap-feature + autoimmune CSVs
 └── docs/
     └── immunotherapy_side_effects_research.md   <- 8-section research document
 ```

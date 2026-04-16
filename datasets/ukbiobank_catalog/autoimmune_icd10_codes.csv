@@ -1,0 +1,305 @@
+icd10_code,meaning,autoimmune_block,block_label
+D86,D86 Sarcoidosis,D86,Sarcoidosis
+D860,D86.0 Sarcoidosis of lung,D86,Sarcoidosis
+D861,D86.1 Sarcoidosis of lymph nodes,D86,Sarcoidosis
+D862,D86.2 Sarcoidosis of lung with sarcoidosis of lymph nodes,D86,Sarcoidosis
+D863,D86.3 Sarcoidosis of skin,D86,Sarcoidosis
+D868,D86.8 Sarcoidosis of other and combined sites,D86,Sarcoidosis
+D869,"D86.9 Sarcoidosis, unspecified",D86,Sarcoidosis
+E05,E05 Thyrotoxicosis [hyperthyroidism],E05,Graves' disease / thyrotoxicosis
+E050,E05.0 Thyrotoxicosis with diffuse goitre,E05,Graves' disease / thyrotoxicosis
+E051,E05.1 Thyrotoxicosis with toxic single thyroid nodule,E05,Graves' disease / thyrotoxicosis
+E052,E05.2 Thyrotoxicosis with toxic multinodular goitre,E05,Graves' disease / thyrotoxicosis
+E053,E05.3 Thyrotoxicosis from ectopic thyroid tissue,E05,Graves' disease / thyrotoxicosis
+E054,E05.4 Thyrotoxicosis factitia,E05,Graves' disease / thyrotoxicosis
+E055,E05.5 Thyroid crisis or storm,E05,Graves' disease / thyrotoxicosis
+E058,E05.8 Other thyrotoxicosis,E05,Graves' disease / thyrotoxicosis
+E059,"E05.9 Thyrotoxicosis, unspecified",E05,Graves' disease / thyrotoxicosis
+E06,E06 Thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E060,E06.0 Acute thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E061,E06.1 Subacute thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E062,E06.2 Chronic thyroiditis with transient thyrotoxicosis,E06,Thyroiditis (incl. Hashimoto's)
+E063,E06.3 Autoimmune thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E064,E06.4 Drug-induced thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E065,E06.5 Other chronic thyroiditis,E06,Thyroiditis (incl. Hashimoto's)
+E069,"E06.9 Thyroiditis, unspecified",E06,Thyroiditis (incl. Hashimoto's)
+E10,E10 Insulin-dependent diabetes mellitus,E10,Type 1 diabetes mellitus
+E100,E10.0 With coma,E10,Type 1 diabetes mellitus
+E101,E10.1 With ketoacidosis,E10,Type 1 diabetes mellitus
+E102,E10.2 With renal complications,E10,Type 1 diabetes mellitus
+E103,E10.3 With ophthalmic complications,E10,Type 1 diabetes mellitus
+E104,E10.4 With neurological complications,E10,Type 1 diabetes mellitus
+E105,E10.5 With peripheral circulatory complications,E10,Type 1 diabetes mellitus
+E106,E10.6 With other specified complications,E10,Type 1 diabetes mellitus
+E107,E10.7 With multiple complications,E10,Type 1 diabetes mellitus
+E108,E10.8 With unspecified complications,E10,Type 1 diabetes mellitus
+E109,E10.9 Without complications,E10,Type 1 diabetes mellitus
+G35,G35 Multiple sclerosis,G35,Multiple sclerosis
+G61,G61 Inflammatory polyneuropathy,G61,Inflammatory polyneuropathy (incl. Guillain-Barre)
+G610,G61.0 Guillain-Barre syndrome,G61,Inflammatory polyneuropathy (incl. Guillain-Barre)
+G611,G61.1 Serum neuropathy,G61,Inflammatory polyneuropathy (incl. Guillain-Barre)
+G618,G61.8 Other inflammatory polyneuropathies,G61,Inflammatory polyneuropathy (incl. Guillain-Barre)
+G619,"G61.9 Inflammatory polyneuropathy, unspecified",G61,Inflammatory polyneuropathy (incl. Guillain-Barre)
+G70,G70 Myasthenia gravis and other myoneural disorders,G70,Myasthenia gravis and other myoneural disorders
+G700,G70.0 Myasthenia gravis,G70,Myasthenia gravis and other myoneural disorders
+G701,G70.1 Toxic myoneural disorders,G70,Myasthenia gravis and other myoneural disorders
+G702,G70.2 Congenital and developmental myasthenia,G70,Myasthenia gravis and other myoneural disorders
+G708,G70.8 Other specified myoneural disorders,G70,Myasthenia gravis and other myoneural disorders
+G709,"G70.9 Myoneural disorder, unspecified",G70,Myasthenia gravis and other myoneural disorders
+K50,K50 Crohn's disease [regional enteritis],K50,Crohn's disease
+K500,K50.0 Crohn's disease of small intestine,K50,Crohn's disease
+K501,K50.1 Crohn's disease of large intestine,K50,Crohn's disease
+K508,K50.8 Other Crohn's disease,K50,Crohn's disease
+K509,"K50.9 Crohn's disease, unspecified",K50,Crohn's disease
+K51,K51 Ulcerative colitis,K51,Ulcerative colitis
+K510,K51.0 Ulcerative (chronic) enterocolitis,K51,Ulcerative colitis
+K511,K51.1 Ulcerative (chronic) ileocolitis,K51,Ulcerative colitis
+K512,K51.2 Ulcerative (chronic) proctitis,K51,Ulcerative colitis
+K513,K51.3 Ulcerative (chronic) rectosigmoiditis,K51,Ulcerative colitis
+K514,K51.4 Pseudopolyposis of colon,K51,Ulcerative colitis
+K515,K51.5 Mucosal proctocolitis,K51,Ulcerative colitis
+K518,K51.8 Other ulcerative colitis,K51,Ulcerative colitis
+K519,"K51.9 Ulcerative colitis, unspecified",K51,Ulcerative colitis
+K74,K74 Fibrosis and cirrhosis of liver,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K740,K74.0 Hepatic fibrosis,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K741,K74.1 Hepatic sclerosis,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K742,K74.2 Hepatic fibrosis with hepatic sclerosis,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K743,K74.3 Primary biliary cirrhosis,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K744,K74.4 Secondary biliary cirrhosis,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K745,"K74.5 Biliary cirrhosis, unspecified",K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K746,K74.6 Other and unspecified cirrhosis of liver,K74,Fibrosis and cirrhosis of liver (incl. autoimmune hepatitis)
+K75,K75 Other inflammatory liver diseases,K75,Other inflammatory liver diseases
+K750,K75.0 Abscess of liver,K75,Other inflammatory liver diseases
+K751,K75.1 Phlebitis of portal vein,K75,Other inflammatory liver diseases
+K752,K75.2 Nonspecific reactive hepatitis,K75,Other inflammatory liver diseases
+K753,"K75.3 Granulomatous hepatitis, not elsewhere classified",K75,Other inflammatory liver diseases
+K754,K75.4 Autoimmune hepatitis,K75,Other inflammatory liver diseases
+K758,K75.8 Other specified inflammatory liver diseases,K75,Other inflammatory liver diseases
+K759,"K75.9 Inflammatory liver disease, unspecified",K75,Other inflammatory liver diseases
+L10,L10 Pemphigus,L10,Pemphigus
+L100,L10.0 Pemphigus vulgaris,L10,Pemphigus
+L101,L10.1 Pemphigus vegetans,L10,Pemphigus
+L102,L10.2 Pemphigus foliaceus,L10,Pemphigus
+L103,L10.3 Brazilian pemphigus [fogo selvagem],L10,Pemphigus
+L104,L10.4 Pemphigus erythematosus,L10,Pemphigus
+L105,L10.5 Drug-induced pemphigus,L10,Pemphigus
+L108,L10.8 Other pemphigus,L10,Pemphigus
+L109,"L10.9 Pemphigus, unspecified",L10,Pemphigus
+L40,L40 Psoriasis,L40,Psoriasis
+L400,L40.0 Psoriasis vulgaris,L40,Psoriasis
+L401,L40.1 Generalised pustular psoriasis,L40,Psoriasis
+L402,L40.2 Acrodermatitis continua,L40,Psoriasis
+L403,L40.3 Pustulosis palmaris et plantaris,L40,Psoriasis
+L404,L40.4 Guttate psoriasis,L40,Psoriasis
+L405,L40.5 Arthropathic psoriasis,L40,Psoriasis
+L408,L40.8 Other psoriasis,L40,Psoriasis
+L409,"L40.9 Psoriasis, unspecified",L40,Psoriasis
+L63,L63 Alopecia areata,L63,Alopecia areata
+L630,L63.0 Alopecia (capitis) totalis,L63,Alopecia areata
+L631,L63.1 Alopecia universalis,L63,Alopecia areata
+L632,L63.2 Ophiasis,L63,Alopecia areata
+L638,L63.8 Other alopecia areata,L63,Alopecia areata
+L639,"L63.9 Alopecia areata, unspecified",L63,Alopecia areata
+L80,L80 Vitiligo,L80,Vitiligo
+M05,M05 Seropositive rheumatoid arthritis,M05,Seropositive rheumatoid arthritis
+M050,M05.0 Felty's syndrome,M05,Seropositive rheumatoid arthritis
+M0500,M05.00 Felty's syndrome (Multiple sites),M05,Seropositive rheumatoid arthritis
+M0501,M05.01 Felty's syndrome (Shoulder region),M05,Seropositive rheumatoid arthritis
+M0502,M05.02 Felty's syndrome (Upper arm),M05,Seropositive rheumatoid arthritis
+M0503,M05.03 Felty's syndrome (Forearm),M05,Seropositive rheumatoid arthritis
+M0504,M05.04 Felty's syndrome (Hand),M05,Seropositive rheumatoid arthritis
+M0505,M05.05 Felty's syndrome (Pelvic region and thigh),M05,Seropositive rheumatoid arthritis
+M0506,M05.06 Felty's syndrome (Lower leg),M05,Seropositive rheumatoid arthritis
+M0507,M05.07 Felty's syndrome (Ankle and foot),M05,Seropositive rheumatoid arthritis
+M0508,M05.08 Felty's syndrome (Other),M05,Seropositive rheumatoid arthritis
+M0509,M05.09 Felty's syndrome (Site unspecified),M05,Seropositive rheumatoid arthritis
+M051,M05.1 Rheumatoid lung disease,M05,Seropositive rheumatoid arthritis
+M0510,M05.10 Rheumatoid lung disease (Multiple sites),M05,Seropositive rheumatoid arthritis
+M0511,M05.11 Rheumatoid lung disease (Shoulder region),M05,Seropositive rheumatoid arthritis
+M0512,M05.12 Rheumatoid lung disease (Upper arm),M05,Seropositive rheumatoid arthritis
+M0513,M05.13 Rheumatoid lung disease (Forearm),M05,Seropositive rheumatoid arthritis
+M0514,M05.14 Rheumatoid lung disease (Hand),M05,Seropositive rheumatoid arthritis
+M0515,M05.15 Rheumatoid lung disease (Pelvic region and thigh),M05,Seropositive rheumatoid arthritis
+M0516,M05.16 Rheumatoid lung disease (Lower leg),M05,Seropositive rheumatoid arthritis
+M0517,M05.17 Rheumatoid lung disease (Ankle and foot),M05,Seropositive rheumatoid arthritis
+M0518,M05.18 Rheumatoid lung disease (Other),M05,Seropositive rheumatoid arthritis
+M0519,M05.19 Rheumatoid lung disease (Site unspecified),M05,Seropositive rheumatoid arthritis
+M052,M05.2 Rheumatoid vasculitis,M05,Seropositive rheumatoid arthritis
+M0520,M05.20 Rheumatoid vasculitis (Multiple sites),M05,Seropositive rheumatoid arthritis
+M0521,M05.21 Rheumatoid vasculitis (Shoulder region),M05,Seropositive rheumatoid arthritis
+M0522,M05.22 Rheumatoid vasculitis (Upper arm),M05,Seropositive rheumatoid arthritis
+M0523,M05.23 Rheumatoid vasculitis (Forearm),M05,Seropositive rheumatoid arthritis
+M0524,M05.24 Rheumatoid vasculitis (Hand),M05,Seropositive rheumatoid arthritis
+M0525,M05.25 Rheumatoid vasculitis (Pelvic region and thigh),M05,Seropositive rheumatoid arthritis
+M0526,M05.26 Rheumatoid vasculitis (Lower leg),M05,Seropositive rheumatoid arthritis
+M0527,M05.27 Rheumatoid vasculitis (Ankle and foot),M05,Seropositive rheumatoid arthritis
+M0528,M05.28 Rheumatoid vasculitis (Other),M05,Seropositive rheumatoid arthritis
+M0529,M05.29 Rheumatoid vasculitis (Site unspecified),M05,Seropositive rheumatoid arthritis
+M053,M05.3 Rheumatoid arthritis with involvement of other organs and systems,M05,Seropositive rheumatoid arthritis
+M0530,M05.30 Rheumatoid arthritis with involvement of other organs and systems (Multiple sites),M05,Seropositive rheumatoid arthritis
+M0531,M05.31 Rheumatoid arthritis with involvement of other organs and systems (Shoulder region),M05,Seropositive rheumatoid arthritis
+M0532,M05.32 Rheumatoid arthritis with involvement of other organs and systems (Upper arm),M05,Seropositive rheumatoid arthritis
+M0533,M05.33 Rheumatoid arthritis with involvement of other organs and systems (Forearm),M05,Seropositive rheumatoid arthritis
+M0534,M05.34 Rheumatoid arthritis with involvement of other organs and systems (Hand),M05,Seropositive rheumatoid arthritis
+M0535,M05.35 Rheumatoid arthritis with involvement of other organs and systems (Pelvic region and thigh),M05,Seropositive rheumatoid arthritis
+M0536,M05.36 Rheumatoid arthritis with involvement of other organs and systems (Lower leg),M05,Seropositive rheumatoid arthritis
+M0537,M05.37 Rheumatoid arthritis with involvement of other organs and systems (Ankle and foot),M05,Seropositive rheumatoid arthritis
+M0538,M05.38 Rheumatoid arthritis with involvement of other organs and systems (Other),M05,Seropositive rheumatoid arthritis
+M0539,M05.39 Rheumatoid arthritis with involvement of other organs and systems (Site unspecified),M05,Seropositive rheumatoid arthritis
+M058,M05.8 Other seropositive rheumatoid arthritis,M05,Seropositive rheumatoid arthritis
+M0580,M05.80 Other seropositive rheumatoid arthritis (Multiple sites),M05,Seropositive rheumatoid arthritis
+M0581,M05.81 Other seropositive rheumatoid arthritis (Shoulder region),M05,Seropositive rheumatoid arthritis
+M0582,M05.82 Other seropositive rheumatoid arthritis (Upper arm),M05,Seropositive rheumatoid arthritis
+M0583,M05.83 Other seropositive rheumatoid arthritis (Forearm),M05,Seropositive rheumatoid arthritis
+M0584,M05.84 Other seropositive rheumatoid arthritis (Hand),M05,Seropositive rheumatoid arthritis
+M0585,M05.85 Other seropositive rheumatoid arthritis (Pelvic region and thigh),M05,Seropositive rheumatoid arthritis
+M0586,M05.86 Other seropositive rheumatoid arthritis (Lower leg),M05,Seropositive rheumatoid arthritis
+M0587,M05.87 Other seropositive rheumatoid arthritis (Ankle and foot),M05,Seropositive rheumatoid arthritis
+M0588,M05.88 Other seropositive rheumatoid arthritis (Other),M05,Seropositive rheumatoid arthritis
+M0589,M05.89 Other seropositive rheumatoid arthritis (Site unspecified),M05,Seropositive rheumatoid arthritis
+M059,"M05.9 Seropositive rheumatoid arthritis, unspecified",M05,Seropositive rheumatoid arthritis
+M0590,"M05.90 Seropositive rheumatoid arthritis, unspecified (Multiple sites)",M05,Seropositive rheumatoid arthritis
+M0591,"M05.91 Seropositive rheumatoid arthritis, unspecified (Shoulder region)",M05,Seropositive rheumatoid arthritis
+M0592,"M05.92 Seropositive rheumatoid arthritis, unspecified (Upper arm)",M05,Seropositive rheumatoid arthritis
+M0593,"M05.93 Seropositive rheumatoid arthritis, unspecified (Forearm)",M05,Seropositive rheumatoid arthritis
+M0594,"M05.94 Seropositive rheumatoid arthritis, unspecified (Hand)",M05,Seropositive rheumatoid arthritis
+M0595,"M05.95 Seropositive rheumatoid arthritis, unspecified (Pelvic region and thigh)",M05,Seropositive rheumatoid arthritis
+M0596,"M05.96 Seropositive rheumatoid arthritis, unspecified (Lower leg)",M05,Seropositive rheumatoid arthritis
+M0597,"M05.97 Seropositive rheumatoid arthritis, unspecified (Ankle and foot)",M05,Seropositive rheumatoid arthritis
+M0598,"M05.98 Seropositive rheumatoid arthritis, unspecified (Other)",M05,Seropositive rheumatoid arthritis
+M0599,"M05.99 Seropositive rheumatoid arthritis, unspecified (Site unspecified)",M05,Seropositive rheumatoid arthritis
+M06,M06 Other rheumatoid arthritis,M06,Other rheumatoid arthritis
+M060,M06.0 Seronegative rheumatoid arthritis,M06,Other rheumatoid arthritis
+M0600,M06.00 Seronegative rheumatoid arthritis (Multiple sites),M06,Other rheumatoid arthritis
+M0601,M06.01 Seronegative rheumatoid arthritis (Shoulder region),M06,Other rheumatoid arthritis
+M0602,M06.02 Seronegative rheumatoid arthritis (Upper arm),M06,Other rheumatoid arthritis
+M0603,M06.03 Seronegative rheumatoid arthritis (Forearm),M06,Other rheumatoid arthritis
+M0604,M06.04 Seronegative rheumatoid arthritis (Hand),M06,Other rheumatoid arthritis
+M0605,M06.05 Seronegative rheumatoid arthritis (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0606,M06.06 Seronegative rheumatoid arthritis (Lower leg),M06,Other rheumatoid arthritis
+M0607,M06.07 Seronegative rheumatoid arthritis (Ankle and foot),M06,Other rheumatoid arthritis
+M0608,M06.08 Seronegative rheumatoid arthritis (Other),M06,Other rheumatoid arthritis
+M0609,M06.09 Seronegative rheumatoid arthritis (Site unspecified),M06,Other rheumatoid arthritis
+M061,M06.1 Adult-onset Still's disease,M06,Other rheumatoid arthritis
+M0610,M06.10 Adult-onset Still's disease (Multiple sites),M06,Other rheumatoid arthritis
+M0611,M06.11 Adult-onset Still's disease (Shoulder region),M06,Other rheumatoid arthritis
+M0612,M06.12 Adult-onset Still's disease (Upper arm),M06,Other rheumatoid arthritis
+M0613,M06.13 Adult-onset Still's disease (Forearm),M06,Other rheumatoid arthritis
+M0614,M06.14 Adult-onset Still's disease (Hand),M06,Other rheumatoid arthritis
+M0615,M06.15 Adult-onset Still's disease (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0616,M06.16 Adult-onset Still's disease (Lower leg),M06,Other rheumatoid arthritis
+M0617,M06.17 Adult-onset Still's disease (Ankle and foot),M06,Other rheumatoid arthritis
+M0618,M06.18 Adult-onset Still's disease (Other),M06,Other rheumatoid arthritis
+M0619,M06.19 Adult-onset Still's disease (Site unspecified),M06,Other rheumatoid arthritis
+M062,M06.2 Rheumatoid bursitis,M06,Other rheumatoid arthritis
+M0620,M06.20 Rheumatoid bursitis (Multiple sites),M06,Other rheumatoid arthritis
+M0621,M06.21 Rheumatoid bursitis (Shoulder region),M06,Other rheumatoid arthritis
+M0622,M06.22 Rheumatoid bursitis (Upper arm),M06,Other rheumatoid arthritis
+M0623,M06.23 Rheumatoid bursitis (Forearm),M06,Other rheumatoid arthritis
+M0624,M06.24 Rheumatoid bursitis (Hand),M06,Other rheumatoid arthritis
+M0625,M06.25 Rheumatoid bursitis (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0626,M06.26 Rheumatoid bursitis (Lower leg),M06,Other rheumatoid arthritis
+M0627,M06.27 Rheumatoid bursitis (Ankle and foot),M06,Other rheumatoid arthritis
+M0628,M06.28 Rheumatoid bursitis (Other),M06,Other rheumatoid arthritis
+M0629,M06.29 Rheumatoid bursitis (Site unspecified),M06,Other rheumatoid arthritis
+M063,M06.3 Rheumatoid nodule,M06,Other rheumatoid arthritis
+M0630,M06.30 Rheumatoid nodule (Multiple sites),M06,Other rheumatoid arthritis
+M0631,M06.31 Rheumatoid nodule (Shoulder region),M06,Other rheumatoid arthritis
+M0632,M06.32 Rheumatoid nodule (Upper arm),M06,Other rheumatoid arthritis
+M0633,M06.33 Rheumatoid nodule (Forearm),M06,Other rheumatoid arthritis
+M0634,M06.34 Rheumatoid nodule (Hand),M06,Other rheumatoid arthritis
+M0635,M06.35 Rheumatoid nodule (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0636,M06.36 Rheumatoid nodule (Lower leg),M06,Other rheumatoid arthritis
+M0637,M06.37 Rheumatoid nodule (Ankle and foot),M06,Other rheumatoid arthritis
+M0638,M06.38 Rheumatoid nodule (Other),M06,Other rheumatoid arthritis
+M0639,M06.39 Rheumatoid nodule (Site unspecified),M06,Other rheumatoid arthritis
+M064,M06.4 Inflammatory polyarthropathy,M06,Other rheumatoid arthritis
+M0640,M06.40 Inflammatory polyarthropathy (Multiple sites),M06,Other rheumatoid arthritis
+M0641,M06.41 Inflammatory polyarthropathy (Shoulder region),M06,Other rheumatoid arthritis
+M0642,M06.42 Inflammatory polyarthropathy (Upper arm),M06,Other rheumatoid arthritis
+M0643,M06.43 Inflammatory polyarthropathy (Forearm),M06,Other rheumatoid arthritis
+M0644,M06.44 Inflammatory polyarthropathy (Hand),M06,Other rheumatoid arthritis
+M0645,M06.45 Inflammatory polyarthropathy (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0646,M06.46 Inflammatory polyarthropathy (Lower leg),M06,Other rheumatoid arthritis
+M0647,M06.47 Inflammatory polyarthropathy (Ankle and foot),M06,Other rheumatoid arthritis
+M0648,M06.48 Inflammatory polyarthropathy (Other),M06,Other rheumatoid arthritis
+M0649,M06.49 Inflammatory polyarthropathy (Site unspecified),M06,Other rheumatoid arthritis
+M068,M06.8 Other specified rheumatoid arthritis,M06,Other rheumatoid arthritis
+M0680,M06.80 Other specified rheumatoid arthritis (Multiple sites),M06,Other rheumatoid arthritis
+M0681,M06.81 Other specified rheumatoid arthritis (Shoulder region),M06,Other rheumatoid arthritis
+M0682,M06.82 Other specified rheumatoid arthritis (Upper arm),M06,Other rheumatoid arthritis
+M0683,M06.83 Other specified rheumatoid arthritis (Forearm),M06,Other rheumatoid arthritis
+M0684,M06.84 Other specified rheumatoid arthritis (Hand),M06,Other rheumatoid arthritis
+M0685,M06.85 Other specified rheumatoid arthritis (Pelvic region and thigh),M06,Other rheumatoid arthritis
+M0686,M06.86 Other specified rheumatoid arthritis (Lower leg),M06,Other rheumatoid arthritis
+M0687,M06.87 Other specified rheumatoid arthritis (Ankle and foot),M06,Other rheumatoid arthritis
+M0688,M06.88 Other specified rheumatoid arthritis (Other),M06,Other rheumatoid arthritis
+M0689,M06.89 Other specified rheumatoid arthritis (Site unspecified),M06,Other rheumatoid arthritis
+M069,"M06.9 Rheumatoid arthritis, unspecified",M06,Other rheumatoid arthritis
+M0690,"M06.90 Rheumatoid arthritis, unspecified (Multiple sites)",M06,Other rheumatoid arthritis
+M0691,"M06.91 Rheumatoid arthritis, unspecified (Shoulder region)",M06,Other rheumatoid arthritis
+M0692,"M06.92 Rheumatoid arthritis, unspecified (Upper arm)",M06,Other rheumatoid arthritis
+M0693,"M06.93 Rheumatoid arthritis, unspecified (Forearm)",M06,Other rheumatoid arthritis
+M0694,"M06.94 Rheumatoid arthritis, unspecified (Hand)",M06,Other rheumatoid arthritis
+M0695,"M06.95 Rheumatoid arthritis, unspecified (Pelvic region and thigh)",M06,Other rheumatoid arthritis
+M0696,"M06.96 Rheumatoid arthritis, unspecified (Lower leg)",M06,Other rheumatoid arthritis
+M0697,"M06.97 Rheumatoid arthritis, unspecified (Ankle and foot)",M06,Other rheumatoid arthritis
+M0698,"M06.98 Rheumatoid arthritis, unspecified (Other)",M06,Other rheumatoid arthritis
+M0699,"M06.99 Rheumatoid arthritis, unspecified (Site unspecified)",M06,Other rheumatoid arthritis
+M30,M30 Polyarteritis nodosa and related conditions,M30,Polyarteritis nodosa and related conditions
+M300,M30.0 Polyarteritis nodosa,M30,Polyarteritis nodosa and related conditions
+M301,M30.1 Polyarteritis with lung involvement [Churg-Strauss],M30,Polyarteritis nodosa and related conditions
+M302,M30.2 Juvenile polyarteritis,M30,Polyarteritis nodosa and related conditions
+M303,M30.3 Mucocutaneous lymph node syndrome [Kawasaki],M30,Polyarteritis nodosa and related conditions
+M308,M30.8 Other conditions related to polyarteritis nodosa,M30,Polyarteritis nodosa and related conditions
+M31,M31 Other necrotising vasculopathies,M31,Other necrotizing vasculopathies
+M310,M31.0 Hypersensitivity angiitis,M31,Other necrotizing vasculopathies
+M311,M31.1 Thrombotic microangiopathy,M31,Other necrotizing vasculopathies
+M312,M31.2 Lethal midline granuloma,M31,Other necrotizing vasculopathies
+M313,M31.3 Wegener's granulomatosis,M31,Other necrotizing vasculopathies
+M314,M31.4 Aortic arch syndrome [Takayasu],M31,Other necrotizing vasculopathies
+M315,M31.5 Giant cell arteritis with polymyalgia rheumatica,M31,Other necrotizing vasculopathies
+M316,M31.6 Other giant cell arteritis,M31,Other necrotizing vasculopathies
+M317,M31.7 Microscopic polyangiitis,M31,Other necrotizing vasculopathies
+M318,M31.8 Other specified necrotising vasculopathies,M31,Other necrotizing vasculopathies
+M319,"M31.9 Necrotising vasculopathy, unspecified",M31,Other necrotizing vasculopathies
+M32,M32 Systemic lupus erythematosus,M32,Systemic lupus erythematosus
+M320,M32.0 Drug-induced systemic lupus erythematosus,M32,Systemic lupus erythematosus
+M321,M32.1 Systemic lupus erythematosus with organ or system involvement,M32,Systemic lupus erythematosus
+M328,M32.8 Other forms of systemic lupus erythematosus,M32,Systemic lupus erythematosus
+M329,"M32.9 Systemic lupus erythematosus, unspecified",M32,Systemic lupus erythematosus
+M3290,"M32.90 Systemic lupus erythematosus, unspecified, Multiple sites",M32,Systemic lupus erythematosus
+M33,M33 Dermatopolymyositis,M33,Dermatopolymyositis
+M330,M33.0 Juvenile dermatomyositis,M33,Dermatopolymyositis
+M331,M33.1 Other dermatomyositis,M33,Dermatopolymyositis
+M332,M33.2 Polymyositis,M33,Dermatopolymyositis
+M339,"M33.9 Dermatopolymyositis, unspecified",M33,Dermatopolymyositis
+M34,M34 Systemic sclerosis,M34,Systemic sclerosis
+M340,M34.0 Progressive systemic sclerosis,M34,Systemic sclerosis
+M341,M34.1 CR(E)ST syndrome,M34,Systemic sclerosis
+M342,M34.2 Systemic sclerosis induced by drugs and chemicals,M34,Systemic sclerosis
+M348,M34.8 Other forms of systemic sclerosis,M34,Systemic sclerosis
+M349,"M34.9 Systemic sclerosis, unspecified",M34,Systemic sclerosis
+M35,M35 Other systemic involvement of connective tissue,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M350,M35.0 Sicca syndrome [Sjogren],M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M351,M35.1 Other overlap syndromes,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M352,M35.2 Behcet's disease,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M353,M35.3 Polymyalgia rheumatica,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M354,M35.4 Diffuse (eosinophilic) fasciitis,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M355,M35.5 Multifocal fibrosclerosis,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M356,M35.6 Relapsing panniculitis [Weber-Christian],M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M357,M35.7 Hypermobility syndrome,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M358,M35.8 Other specified systemic involvement of connective tissue,M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M359,"M35.9 Systemic involvement of connective tissue, unspecified",M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M3599,"M35.99 Systemic involvement of connective tissue, unspecified, Site unspecified",M35,Other systemic involvement of connective tissue (incl. Sjogren's)
+M45,M45 Ankylosing spondylitis,M45,Ankylosing spondylitis
+M45X0,M45.X0 Ankylosing spondylitis (Multiple sites in spine),M45,Ankylosing spondylitis
+M45X1,M45.X1 Ankylosing spondylitis (Occipito-atlanto-axial region),M45,Ankylosing spondylitis
+M45X2,M45.X2 Ankylosing spondylitis (Cervical region),M45,Ankylosing spondylitis
+M45X3,M45.X3 Ankylosing spondylitis (Cervicothoracic region),M45,Ankylosing spondylitis
+M45X4,M45.X4 Ankylosing spondylitis (Thoracic region),M45,Ankylosing spondylitis
+M45X5,M45.X5 Ankylosing spondylitis (Thoracolumbar region),M45,Ankylosing spondylitis
+M45X6,M45.X6 Ankylosing spondylitis (Lumbar region),M45,Ankylosing spondylitis
+M45X7,M45.X7 Ankylosing spondylitis (Lumbosacral region),M45,Ankylosing spondylitis
+M45X8,M45.X8 Ankylosing spondylitis (Sacral and sacrococcygeal region),M45,Ankylosing spondylitis
+M45X9,M45.X9 Ankylosing spondylitis (Site unspecified),M45,Ankylosing spondylitis

@@ -231,6 +231,28 @@ This gap is genuine, not a failure of exploration. We investigated: FAERS, ImmPo
 2. Cross-validate the feature effects we can test (age, sex, drug class, NLR) against Chowell 2021 to show the learned effects align with published biomarker literature.
 3. In the InspiritAI presentation, explicitly state that CRP/IL-6/autoimmune-history features would require UK Biobank or All of Us access — a legitimate "future work" item, not a handwave.
 
+### UK Biobank — exact fields that would close the gap *(catalog pulled 2026-04-16)*
+
+We downloaded the UK Biobank Data Showcase schemas (public metadata, no login) into `datasets/ukbiobank_catalog/` to make the "future work" claim concrete. The patient-level data is still gated (institutional application + £500 student fee), but the catalog tells us exactly **which fields we would request** and **how many participants have each**.
+
+| Gap feature | UKB entry point | Participants with data | Coverage of ~502K cohort |
+|-------------|-----------------|------------------------|--------------------------|
+| **CRP** | Field **30710** — C-reactive protein (mg/L), blood biochemistry panel | **469,326** | **~93%** |
+| **Autoimmune history** | Field **41270** — ICD-10 diagnoses from Hospital Episode Statistics (filtered to 304 codes across 24 autoimmune blocks: M05/M06 RA, M32 SLE, E10 T1D, K50/K51 IBD, L40 psoriasis, G35 MS, E06 Hashimoto's, E05 Graves', etc. — full list in `datasets/ukbiobank_catalog/autoimmune_icd10_codes.csv`) | **448,651** | **~89%** |
+| **IL-6** | Field **30900** — Olink Explore 3072 proteomics (UKB-PPP sub-study; IL-6 is one of 2,941 assays indexed by Data-Coding 143) | **53,039** | **~11%** (sub-study) |
+| **Albumin** (already in Chowell) | Field **30600** (g/L) | **431,857** | ~86% |
+| **Neutrophil / lymphocyte counts** (NLR inputs, already in Chowell) | Fields **30120** / **30140** | **477,948** | ~95% |
+| **BMI** (already in FAERS-derived + Chowell) | Field **21001** | **499,024** | ~99% |
+
+**Access barrier (confirmed 2026-04-16):**
+- UK Biobank shifted to the cloud-based UKB Research Analysis Platform (UKB-RAP) by default in 2024, with a £1,000 platform credit for new projects through Summer 2026.
+- "Bona fide researcher" eligibility still requires **registration from, and affiliation with, an approved research institute** and a **personal institute email address**.
+- Student rate: **£500 + VAT** — application must come from the student **or their supervisor** at an approved institute.
+- Net effect for this project: the cost barrier fell, but the institutional-affiliation barrier did not. An InspiritAI student would need a sponsoring mentor or university affiliation to pursue this path.
+
+**What this section lets us claim honestly:**
+- "To close the feature gap, we would need UK Biobank Fields 30710, 41270, and 30900, covering 93%, 89%, and 11% of the 502K-participant cohort respectively — a defined and fundable next step rather than a speculative wish."
+
 ---
 
 ## 6. Existing ML Models (Prior Art)

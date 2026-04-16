@@ -1,0 +1,35 @@
+gap_feature,field_id,title,units,num_participants,item_count,main_category,debut
+CRP,30710,C-reactive protein,mg/L,469326,485860,17518,2018-05-17T00:00:00
+CRP,30711,C-reactive protein assay date,,473887,491238,18518,2018-06-01T00:00:00
+CRP,30712,C-reactive protein aliquot,,473678,491017,18518,2018-06-01T00:00:00
+CRP,30713,C-reactive protein correction level,,469326,485860,18518,2018-06-01T00:00:00
+CRP,30714,C-reactive protein correction reason,,469326,485860,18518,2018-06-01T00:00:00
+CRP,30715,C-reactive protein missing reason,,24914,24991,18518,2018-06-01T00:00:00
+CRP,30716,C-reactive protein reportability,,469731,486302,18518,2018-06-01T00:00:00
+Autoimmune ICD-10,41270,Diagnoses - ICD10,,448651,7276575,2002,2019-01-02T00:00:00
+NLR inputs,30120,Lymphocyte count,10^9 cells/Litre,477948,501976,100081,2012-01-05T00:00:00
+NLR inputs,30121,Lymphocyte count freeze-thaw cycles,,473478,473478,9081,2012-01-05T00:00:00
+NLR inputs,30122,Lymphocyte count acquisition time,,477948,501976,9081,2012-01-05T00:00:00
+NLR inputs,30123,Lymphocyte count device ID,,477948,501976,9081,2012-01-05T00:00:00
+NLR inputs,30124,Lymphocyte count acquisition route,,477948,501976,9081,2012-01-05T00:00:00
+Albumin,23479,Albumin,g/l,488455,507892,220,2021-02-26T00:00:00
+Albumin,23779,"Albumin, QC Flag",,4,4,221,2021-02-26T00:00:00
+Albumin,30500,Microalbumin in urine,mg/L,156451,159256,100083,2016-10-10T00:00:00
+Albumin,30502,Microalbumin in urine acquisition time,,484394,503058,148,2016-10-23T00:00:00
+Albumin,30503,Microalbumin in urine device ID,,484394,503058,148,2016-10-23T00:00:00
+Albumin,30505,Microalbumin in urine result flag,,333643,343802,100083,2016-10-23T00:00:00
+Albumin,30600,Albumin,g/L,431857,445276,17518,2018-05-17T00:00:00
+Albumin,30601,Albumin assay date,,474244,491612,18518,2018-06-01T00:00:00
+Albumin,30602,Albumin aliquot,,474035,491391,18518,2018-06-01T00:00:00
+Albumin,30603,Albumin correction level,,431857,445276,18518,2018-06-01T00:00:00
+Albumin,30604,Albumin correction reason,,431857,445276,18518,2018-06-01T00:00:00
+Albumin,30605,Albumin missing reason,,65113,65575,18518,2018-06-01T00:00:00
+Albumin,30606,Albumin reportability,,431872,445292,18518,2018-06-01T00:00:00
+BMI,21001,Body mass index (BMI),Kg/m2,499024,639668,100010,2012-01-11T00:00:00
+BMI,23104,Body mass index (BMI),Kg/m2,492605,572606,100009,2012-01-10T00:00:00
+BMI,26216,Standard PRS for body mass index (BMI),relative risk,485717,485717,301,2022-03-30T00:00:00
+BMI,26217,Enhanced PRS for body mass index (BMI),relative risk,148765,148765,302,2022-03-30T00:00:00
+IL-6 (Olink panel),30900,Number of proteins measured,number of proteins,53039,55290,1839,2023-01-12T00:00:00
+IL-6 (Olink panel),30901,Plate used for sample run,,53039,55290,1839,2023-01-12T00:00:00
+IL-6 (Olink panel),30902,Well used for sample run,,53039,55290,1839,2023-01-12T00:00:00
+IL-6 (Olink panel),30903,UKB-PPP Consortium selected participant,,6230,6263,1839,2023-09-15T00:00:00
