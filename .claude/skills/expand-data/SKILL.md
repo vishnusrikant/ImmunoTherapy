@@ -112,15 +112,35 @@ Edit `datasets/reference/immunotherapy_drugs.csv` and re-run the openFDA pull sc
 - **Valero et al. 2021 Nat Comm** — 1,714 MSK ICI patients with NLR + TMB + **ECOG PS** (Chowell doesn't have ECOG). Supp data at [10.1038/s41467-021-20935-9](https://www.nature.com/articles/s41467-021-20935-9). Overlaps with Chowell test set — deduplicate on SAMPLE_ID if merging.
 - **LORIS Zenodo release** — `zenodo.org/records/11186449`. Repo has scripts + some cohort data; raw MSK1/MSK2 is institutional.
 
-## The Core Public-Data Feature Gap (confirmed 2026-04-16)
+## Khan et al. JITC 2025 (downloaded 2026-04-17) — closes the IL-6 + irAE-label gap
 
-Three validated irAE-severity predictors are **not obtainable at patient level from any public dataset with paired irAE labels**:
+**Already downloaded.** Pulled from Zenodo deposit 17943391 (CC BY 4.0) via `scripts/khan_jitc_2025_download.py`.
 
-- **CRP** — SCORPIO (Nat Med 2024) uses it, but dataset is institutional-only
-- **IL-6** — always prospective collection under institutional DUA
-- **Autoimmune history** — UK Biobank has ICD codes but requires formal application + affiliation
+- `datasets/khan_jitc_2025/khan_patients_consolidated.csv` — 162 patients × 54 cols (primary modeling file)
+- 146/162 with baseline 40-cytokine panel: IL-6, IFN-γ, TNF-α, IL-1β, IL-2, IL-4, IL-8, IL-10, IL-16 + 32 chemokines
+- 162/162 with **irAE binary (Grade 0-1 vs 2+) + CTCAE grade (0-3) + organ system** — paired with the cytokines in the same patient rows
+- Drug class: PD-1 (108), PD-L1 (26), combo (24), CTLA-4 mono (1). No CAR-T.
+- Source: Khan et al. *J Immunother Cancer* 2025 [DOI 10.1136/jitc-2025-012414](https://doi.org/10.1136/jitc-2025-012414)
 
-**Do NOT keep re-exploring these.** Confirmed across FAERS, ImmPort, cBioPortal, Chowell, Valero, LORIS, GEO, irAExplorer, ClinicalTrials.gov, VigiBase. If the user asks, the honest answer is: documented in the project's limitations section; future work needs UK Biobank / All of Us / prospective trial access.
+**Appropriate uses:**
+- Train a baseline-cytokine → "any irAE" binary classifier (n=146)
+- Cross-validate demographic + drug-class feature effects against FAERS
+- Limitations-section grounding: shows exactly which gap features ARE accessible
+
+**Do NOT use for training the FAERS severity classifier as-is** — different label vocabulary (Grade 0-1/2+ vs Mild/Medium/Severe), different patient population (single institution, n=162). Train it as a parallel sidecar model.
+
+**Critical caveat:** the Zenodo file column for grade has two spaces — `Highest grade  of irAE` — the script renames it to `highest_grade_iraE`. Don't re-introduce the typo.
+
+## The Remaining Public-Data Feature Gap (post-Khan 2025)
+
+After Khan JITC 2025, two of the three originally-flagged predictors are still not obtainable at patient level with paired irAE labels:
+
+- **CRP** — SCORPIO (Nat Med 2024) uses it, but dataset is institutional-only. Khan does NOT include CRP.
+- **Autoimmune history (ICD-10 codes)** — UK Biobank has them but requires formal application + affiliation. Khan includes ANA titer for 65/162 patients as a partial autoimmune-tendency surrogate, not the gold-standard ICD list.
+
+**IL-6 is now closed** by Khan JITC 2025 (146 patients). Do NOT re-search for IL-6 + irAE label datasets.
+
+**Do NOT keep re-exploring CRP and autoimmune-history.** Confirmed across FAERS, ImmPort, cBioPortal, Chowell, Valero, LORIS, GEO, irAExplorer, ClinicalTrials.gov, VigiBase, plus the round of Zenodo/Figshare/Mendeley/PhysioNet/Project Data Sphere/Vivli scanning that produced Khan. If the user asks, the honest answer is: documented in the project's limitations section; future work needs UK Biobank / All of Us / prospective trial access.
 
 ## TCGA / cBioPortal — Cancer Genomics
 
@@ -236,4 +256,4 @@ If user asks "what's the best next data source?":
 4. **cBioPortal** — already broad; adding more studies has diminishing returns
 5. **New ImmPort studies** — diminishing returns beyond SDY1733
 
-**Do NOT pursue (already evaluated, dead-end):** GEO, irAExplorer, VigiBase/VigiAccess, UK Biobank/SCORPIO/LORIS raw data (all institutional-only).
+**Do NOT pursue (already evaluated, dead-end):** GEO, irAExplorer, VigiBase/VigiAccess, UK Biobank/SCORPIO/LORIS raw data (all institutional-only). Also already pulled / no second pass needed: Khan JITC 2025 (the cytokines + irAE labels cohort).

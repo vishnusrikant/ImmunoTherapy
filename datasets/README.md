@@ -28,6 +28,13 @@ datasets/
 │   ├── chowell_training.csv                 (1,184 rows — multi-institution training)
 │   ├── chowell_test_msk.csv                 (295 rows — MSK held-out test)
 │   └── supplementary_source.xlsx            (original Nat Biotech Supp Data 1)
+├── khan_jitc_2025/            <- Khan et al. JITC 2025 — first cohort with cytokines AND irAE labels (162 patients)
+│   ├── README.md
+│   ├── khan_patients_consolidated.csv       (162 rows × 54 cols — primary modeling file)
+│   ├── khan_metadata.csv                    (162 rows — demographics, ICI drug, irAE binary + grade + organ)
+│   ├── khan_cytokine_long.csv               (292 rows — 146 patients × BL + 6-8wk timepoints, 40 cytokines)
+│   ├── khan_ana_long.csv                    (181 rows — ANA autoantibody titers)
+│   └── supplementary_*.xlsx                 (raw Zenodo downloads)
 └── reference/                 <- Reference/lookup tables
     ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
     ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
@@ -205,17 +212,19 @@ Downloaded via `scripts/chowell_download.py` on 2026-04-16 from Supplementary Da
 
 Chowell does **not** contain CTCAE grades or irAE severity labels. This cohort fills the *pre-treatment feature* gap (NLR + albumin + CBC) but does **not** by itself enable training a severity classifier. FAERS remains the severity-label source.
 
-### Public-data feature gap (documented, not yet closable)
+### Public-data feature gap — partial closure (updated 2026-04-17)
 
-Even with Chowell + FAERS combined, three clinically validated predictors from the literature are **not obtainable** from any public dataset at patient level with paired irAE labels:
+**Khan et al. JITC 2025** (added 2026-04-17, see [`khan_jitc_2025/README.md`](khan_jitc_2025/README.md)) closes the IL-6 + cytokine half of this gap: 162 ICI patients with a 40-cytokine baseline panel **paired with binary irAE occurrence + CTCAE grade**. Two predictors remain unobtainable at patient level:
 
 | Feature | Public source? | Why unavailable |
 |---------|----------------|-----------------|
+| ~~**IL-6**~~ | **Khan 2025 — 146 patients with paired BL + 6-8wk values + irAE labels** | **Closed** |
 | **CRP** | None with irAE labels | Studied in many institutional cohorts but none release patient-level data |
-| **IL-6** | None | Always prospective collection under DUA |
-| **Autoimmune history** | UK Biobank (ICD codes) | Requires formal institutional application — not in FAERS/ImmPort/cBioPortal |
+| **Autoimmune history (ICD codes)** | UK Biobank | Requires formal institutional application — not in FAERS/ImmPort/cBioPortal/Khan |
 
-This gap is a legitimate research finding and is called out in the model's limitations rather than hidden. See `docs/immunotherapy_side_effects_research.md` and [`chowell_2021/README.md`](chowell_2021/README.md) for details.
+(Khan does include ANA autoantibody titer for 65/162 patients as an autoimmune-tendency surrogate, but ICD-10 history is the gold standard.)
+
+This gap is a legitimate research finding and is called out in the model's limitations rather than hidden. See `docs/immunotherapy_side_effects_research.md`, [`chowell_2021/README.md`](chowell_2021/README.md), and [`khan_jitc_2025/README.md`](khan_jitc_2025/README.md) for details.
 
 ## Reference Data
 
@@ -240,6 +249,7 @@ Sources we evaluated beyond FAERS / ImmPort / cBioPortal / Chowell. Some are dow
 | **ImmPort** | [immport.org/shared](https://www.immport.org/shared/) | Patient-level clinical trial data: demographics, labs, assessments (free registration) | **Downloaded** — 86 patients, 3 studies (see `immport/`) |
 | **TCGA via cBioPortal** | [cbioportal.org/api](https://www.cbioportal.org/api) | Cancer genomics + clinical data (10,000+ patients across 33 cancer types, no auth) | **Downloaded** — 7 ICI studies, 1,218 patients (see `cbioportal/`) |
 | **Chowell 2021 (Nat Biotech)** | [doi.org/10.1038/s41587-021-01070-8](https://www.nature.com/articles/s41587-021-01070-8) | 1,479 pan-cancer ICI patients with NLR + Albumin + Platelets + HGB + BMI + TMB + response/survival (no auth — Supp Data 1) | **Downloaded 2026-04-16** — 1,479 patients, 100% coverage on all labs (see `chowell_2021/`) |
+| **Khan et al. JITC 2025** | [doi.org/10.1136/jitc-2025-012414](https://doi.org/10.1136/jitc-2025-012414) · Zenodo [10.5281/zenodo.17943391](https://zenodo.org/records/17943391) | 162 ICI patients with 40-cytokine baseline panel (incl. IL-6, IFN-γ, TNF-α) **paired with irAE binary + CTCAE grade + organ system**. CC BY 4.0, anonymous direct download | **Downloaded 2026-04-17** — 162 patients (146 with paired BL + 6-8wk cytokines), see `khan_jitc_2025/` |
 | **FDA FAERS Quarterly Dumps** | [fis.fda.gov/extensions/FPD-QDE-FAERS](https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html) | Raw pipe-delimited FAERS tables by quarter (no API cap, no auth) | **Downloaded** — 2024 Q1 through 2025 Q4 (see `faers_quarterly/`) |
 | **GEO (GSE91061)** | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE91061) | Gene expression / RNA-seq for ICI-treated patients | **Explored 2026-04-15 — skipped.** No AE coverage; GSE91061 is the same cohort as cBioPortal `mel_iatlas_riaz_nivolumab_2017` |
 | **irAExplorer** | [irae.tanlab.org](https://irae.tanlab.org/) | Aggregated ICI AE rates from 343 trials (71,087 patients) | **Explored 2026-04-15 — no download.** Authors aggregate per-trial only; no patient-level data, no API |

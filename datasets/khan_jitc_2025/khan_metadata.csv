@@ -1,0 +1,163 @@
+patient_id,gender,ethnicity,race,cancer_type,ici_drug,iraE_organ_affected,highest_grade_iraE,iraE_occurrence,assay_scrnaseq,assay_cytof,assay_cytokine,assay_ana
+NM1,Female,NOT Hispanic or Latino,White,Adenocarcinoma of the Rectum,ipilimumab+nivolumab,"Pneumonitis, hypothyroidism, hyperthyroidism",3,Grade 2+,X,X,X,
+NM2,Male,NOT Hispanic or Latino,White,Adenocarcinoma of the Rectum,pembrolizumab,"Pneumonitis, rash, hepatitis",3,Grade 2+,,X,X,
+NM3,Female,NOT Hispanic or Latino,White,Breast,ipilimumab+nivolumab,"Hypophysitis, hypothyroidism, hyperthyroidism",3,Grade 2+,,X,X,X
+NM4,Female,NOT Hispanic or Latino,White,Cholangiocarcinoma,ipilimumab+nivolumab,"Primary Adrenal Insufficiency, colitis, hypothyroidism*, hepatitis",3,Grade 2+,X,,X,X
+NM5,Female,NOT Hispanic or Latino,White,Cholangiocarcinoma,nivolumab,,0,Grade 0-1,,X,X,X
+NM6,Male,NOT Hispanic or Latino,White,Cutaneous Squamous Cell Cancer,Cemiplimab,"Hypo/hyperthyroidism, dermatitis",2,Grade 2+,,,X,
+NM7,Female,NOT Hispanic or Latino,White,Glioblastoma,nivolumab,,0,Grade 0-1,,,X,X
+NM8,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,pembrolizumab,Hypothyrodism,2,Grade 2+,X,,X,
+NM9,Male,Unknown / Not Reported,Unknown / Not Reported,Head and Neck Squamous Cell Cancer,Cemiplimab,,0,Grade 0-1,X,,X,
+NM10,Female,Hispanic or Latino,Unknown / Not Reported,Head and Neck Squamous Cell Cancer,pembrolizumab,"Hypothyroidism, hyperthyroidism hepatitis",2,Grade 2+,,X,X,X
+NM11,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,nivolumab,"Hypothyroidism, hepatitis",2,Grade 2+,,,X,X
+NM12,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,nivolumab,"Rash, hypothyroidism",0,Grade 0-1,,,X,
+NM13,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,pembrolizumab,Hypophysitis,0,Grade 0-1,,,X,
+NM14,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,nivolumab,Hypothyroidism,2,Grade 2+,,X,,
+NM15,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,pembrolizumab,Colitis,2,Grade 2+,,X,X,X
+NM16,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,Cemiplimab,,0,Grade 0-1,,,,X
+NM17,Male,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,nivolumab,,0,Grade 0-1,,,X,
+NM18,Female,NOT Hispanic or Latino,White,Head and Neck Squamous Cell Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM19,Male,Hispanic or Latino,Unknown / Not Reported,Hepatocellular Carcinoma,durvalumab+monalizumab,,0,Grade 0-1,,,X,
+NM20,Male,NOT Hispanic or Latino,White,Hepatocellular Carcinoma,pembrolizumab,,0,Grade 0-1,,X,X,
+NM21,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Pneumonitis, rash, hypophysitis, hepatitis, hypothyroidism",3,Grade 2+,X,,X,
+NM22,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Hypothyroidism, Hyperthyroidism*, hepatitis",2,Grade 2+,X,,X,
+NM23,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Colitis, dermatitis, arthralgia",3,Grade 2+,X,,X,X
+NM24,Male,NOT Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,"Hepatitis, colitis, pancreatitis",3,Grade 2+,X,,X,X
+NM25,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,"Hepatitis, Hypothyroidism, Hyperthyroidism, dermatitis, myalgia",2,Grade 2+,X,X,X,X
+NM26,Male,Unknown / Not Reported,Unknown / Not Reported,Melanoma,nivolumab,,0,Grade 0-1,X,X,X,
+NM27,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,Colitis*,2,Grade 2+,X,,X,
+NM28,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,"Colitis, Dermatitis, hepatitis",2,Grade 2+,X,X,X,
+NM29,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,,0,Grade 0-1,X,X,X,
+NM30,Male,NOT Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,"Colitis, dermatitis, hyperthyroidism",3,Grade 2+,X,X,X,
+NM31,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Hypothyroidism, hyperthyroidism",2,Grade 2+,X,X,,
+NM32,Male,Unknown / Not Reported,White,Melanoma,nivolumab,Hypothyroidism,2,Grade 2+,X,X,X,
+NM33,Female,Unknown / Not Reported,Unknown / Not Reported,Melanoma,ipilimumab+nivolumab,"Colitis, pancreatitis, hepatitis, hypophytitis, nephritis",3,Grade 2+,X,X,,X
+NM34,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,Pneumonitis,2,Grade 2+,X,X,X,
+NM35,Female,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,"Hypo/hyperthyroidism, colitis, dermatitis, pneumonitis",2,Grade 2+,X,X,X,
+NM36,Female,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Hypothyroidism, arthralgia",2,Grade 2+,X,X,,
+NM37,Female,Unknown / Not Reported,Black or African American,Melanoma,pembrolizumab,"Hypophysitis, hepatitis",2,Grade 2+,,,X,
+NM38,Female,Hispanic or Latino,White,Melanoma,ipilimumab,"Hepatitis, myalgia, hypothyroidism",3,Grade 2+,,,X,X
+NM39,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,Myocarditis,3,Grade 2+,,,X,X
+NM40,Female,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Colitis, Pancreatitis, hepatitis",2,Grade 2+,,X,X,
+NM41,Male,Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,"Anthralgia, Hypothyroidism, pneumonitis, rash",2,Grade 2+,,X,X,
+NM42,Female,NOT Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,,0,Grade 0-1,,X,X,
+NM43,Female,Unknown / Not Reported,Unknown / Not Reported,Melanoma,pembrolizumab,"Dermatitis*, hepatitis, arthralgia",2,Grade 2+,,,X,
+NM44,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Myopathy, Arthralgia, myalgia, rash",2,Grade 2+,,,X,
+NM45,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,Hypothyroidism,0,Grade 0-1,,,X,
+NM46,Male,NOT Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,"Hypothyroidism, hepatitis, pneumonitis",2,Grade 2+,,,X,
+NM47,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Dermatitis, hepatitis, arthralgia, hypothyroidism, nephritis",2,Grade 2+,,,X,
+NM48,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,,0,Grade 0-1,,X,X,
+NM49,Female,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,,0,Grade 0-1,,X,X,
+NM50,Female,NOT Hispanic or Latino,White,Melanoma,nivolumab,Colitis,3,Grade 2+,,,X,
+NM51,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,"Colitis, pancreatitis, hepatitis",2,Grade 2+,,X,X,
+NM52,Male,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,"Hypothyroidism, arthralgia",2,Grade 2+,,,X,
+NM53,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Colitis, dermatitis, hypothyroidism, arthralgia",2,Grade 2+,,,X,X
+NM54,Male,NOT Hispanic or Latino,White,Melanoma,ipilimumab+nivolumab,"Colitis, gastritis, pneumonitis",2,Grade 2+,,X,X,X
+NM55,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,"Primary Adrenal Insufficiency,  dermatitis",3,Grade 2+,,X,X,X
+NM56,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,,0,Grade 0-1,,,X,
+NM57,Female,NOT Hispanic or Latino,White,Melanoma,pembrolizumab,Hepatitis,3,Grade 2+,,,X,
+NM58,Male,NOT Hispanic or Latino,White,Melanoma,nivolumab,Hepatitis,3,Grade 2+,,,X,
+NM59,Male,NOT Hispanic or Latino,Unknown / Not Reported,Mesothelioma,pembrolizumab,,0,Grade 0-1,X,,X,X
+NM60,Male,Hispanic or Latino,White,Mesothelioma,ipilimumab+nivolumab,Hepatitis,2,Grade 2+,,,X,X
+NM61,Male,NOT Hispanic or Latino,White,Mesothelioma,pembrolizumab,,0,Grade 0-1,,X,X,
+NM62,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,Pneumonitis,2,Grade 2+,X,,,X
+NM63,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumabH3:H34,Pneumonitis,2,Grade 2+,X,X,X,X
+NM64,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab+FPA008,"Pneumonitis, blepharitis, hepatitis",3,Grade 2+,X,,X,X
+NM65,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,X,X,X,X
+NM66,Male,NOT Hispanic or Latino,Asian,Non-small cell Lung Cancer,pembrolizumab,Pneumonitis,2,Grade 2+,X,X,X,X
+NM67,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,X,,X,
+NM68,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,X,X,X,
+NM69,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,X
+NM70,Male,Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,
+NM71,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,Pneumonitis,0,Grade 0-1,,,X,
+NM72,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Hypothyroidism, pneumonitis",2,Grade 2+,,,X,X
+NM73,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,ipilimumab+nivolumab,"Hypophysitis, blepharitis, arthralgia, hypothyroidism, colitis, pneumonitis, dermatitis, hepatitis",2,Grade 2+,,,,X
+NM74,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,Hypophysitis,0,Grade 0-1,,,X,
+NM75,Male,Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,X
+NM76,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Colitis, pneumonitis",2,Grade 2+,,,X,
+NM77,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,"Pneumonitis, Hypothyroidism",2,Grade 2+,,,,X
+NM78,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,
+NM79,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,,,X,X
+NM80,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"T1DM, hepatitis, hypophysitis, Cushing's, hypothyroidism",3,Grade 2+,,X,,X
+NM81,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,"Hypothyroidism, rash",0,Grade 0-1,,,X,
+NM82,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Dermatitis, anthralgia, hypothyroidism",2,Grade 2+,,,X,X
+NM83,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM84,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Hypophysitis, hypo/hyperthyroidism, hepatitis",0,Grade 0-1,,,X,
+NM85,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Colitis, hepatitis",2,Grade 2+,,,,X
+NM86,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Dermatitis, colitis, hyperthyroidism",3,Grade 2+,,,X,
+NM87,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,
+NM88,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,,,X,
+NM89,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,X
+NM90,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,"Colitis, lupus, hypothyroidism",3,Grade 2+,,,,X
+NM91,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,,,X,X
+NM92,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Dermatitis, hypophysitis, pneumonitis",2,Grade 2+,,,X,X
+NM93,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,nivolumab,"Gastritis, Hepatitis, myositis, rash, pneumonitis",2,Grade 2+,,,X,X
+NM94,Female,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,atezolizumab,"Hepatitis, pneumonitis",0,Grade 0-1,,,X,
+NM95,Female,Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,,,X,X
+NM96,Female,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM97,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,ipilimumab+nivolumab,,0,Grade 0-1,,,,X
+NM98,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,,0,Grade 0-1,,,X,
+NM99,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM100,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM101,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,durvalumab,"Pneumonitis, myositis ",0,Grade 0-1,,,X,X
+NM102,Female,Unknown / Not Reported,White,Non-small cell Lung Cancer,pembrolizumab,"Optic neuritis, pneumonitis",2,Grade 2+,,X,X,X
+NM103,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,avelumab,"Pneumonitis, arthralgia, myalgia",3,Grade 2+,,X,X,
+NM104,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,ipilimumab+nivolumab,,1,Grade 0-1,,,X,
+NM105,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,avelumab+PF-05082566,Rash,0,Grade 0-1,,,X,
+NM106,Male,Hispanic or Latino,White,Non-small cell Lung Cancer,atezolizumab,"Hypothyroidism, colitis",2,Grade 2+,,,X,
+NM107,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,ipilimumab+nivolumab,"Hypothyroidism, pneumonitis",1,Grade 0-1,,,X,
+NM108,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,avelumab,"Hypothyroidism, Hyperthyroidism, hepatitis",3,Grade 2+,,X,X,X
+NM109,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM110,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM111,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM112,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Dermatitis, pneumonitis",2,Grade 2+,,X,X,
+NM113,Male,NOT Hispanic or Latino,Asian,Non-small cell Lung Cancer,avelumab,"Hypothyroidism, pneumonitis, hepatitis",2,Grade 2+,,,X,
+NM114,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,durvalumab,"Hypothyroidism, hepatitis, hyperthyroidism, dermatitis, nephritis",2,Grade 2+,,X,X,X
+NM115,Female,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,durvalumab,Pneumonitis,0,Grade 0-1,,,X,
+NM116,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,nivolumab,Pneumonitis,0,Grade 0-1,,,X,
+NM117,Male,NOT Hispanic or Latino,Asian,Non-small cell Lung Cancer,durvalumab,"Myasthenia gravis, myocarditis, myositis, hypothyroidism",3,Grade 2+,,X,,
+NM118,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Pneumonitis, hypophysitis",3,Grade 2+,,X,X,
+NM119,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,Hypophysitis,0,Grade 0-1,,,X,
+NM120,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,pembrolizumab,"Hyperthyroidism, hepatitis",0,Grade 0-1,,,X,
+NM121,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Anthralgia, Primary Adrenal Insufficiency",2,Grade 2+,,,X,
+NM122,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Hypothyroidism, rash, pneumonitis, arthralgia",2,Grade 2+,,X,X,
+NM123,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM124,Male,Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM125,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Hypothyroidism, hepatitis, nephritis",2,Grade 2+,,,X,
+NM126,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Pneumonitis, colitis, arthralgia",2,Grade 2+,,X,X,
+NM127,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,Pancreatitis*,2,Grade 2+,,X,X,
+NM128,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,X,X,
+NM129,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Hepatitis, nephritis",2,Grade 2+,,,X,X
+NM130,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Hyperthyroidism, Hypothyroidism, pneumonitis",3,Grade 2+,,X,X,X
+NM131,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,nivolumab,"Colitis, dermatitis",3,Grade 2+,,X,X,
+NM132,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,"Hepatitis, dermatitis",3,Grade 2+,,,X,X
+NM133,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,durvalumab,Dermatitis,2,Grade 2+,,,X,X
+NM134,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,X
+NM135,Female,Unknown / Not Reported,Unknown / Not Reported,Non-small cell Lung Cancer,durvalumab,,0,Grade 0-1,,,X,X
+NM136,Female,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,nivolumab,"Myositis, dermatitis",2,Grade 2+,,X,X,
+NM137,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,durvalumab,Dermatitis,2,Grade 2+,,,X,X
+NM138,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM139,Male,NOT Hispanic or Latino,Black or African American,Non-small cell Lung Cancer,durvalumab,Pneumonitis,3,Grade 2+,,X,X,X
+NM140,Female,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM141,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,,0,Grade 0-1,,,X,
+NM142,Male,NOT Hispanic or Latino,White,Non-small cell Lung Cancer,pembrolizumab,Colitis,3,Grade 2+,,X,X,
+NM143,Male,NOT Hispanic or Latino,Black or African American,Pancreatic cancer,nivolumab+Cabiralizumab,"Myocarditis, hepatitis",3,Grade 2+,,X,X,X
+NM144,Male,NOT Hispanic or Latino,White,Pancreatic cancer,nivolumab+Cabiralizumab,"Hepatitis, dermatitis, hypothyroidism",3,Grade 2+,,X,X,X
+NM145,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,nivolumab,"Pneumonitis, hypothyroidism",3,Grade 2+,X,,X,
+NM146,Female,NOT Hispanic or Latino,White,Renal Cell Carcinoma,atezolizumab,"Colitis, pneumonitis, hepatitis ",3,Grade 2+,X,,X,X
+NM147,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,ipilimumab+nivolumab,Hypothyroidism,0,Grade 0-1,,,X,
+NM148,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,nivolumab,,0,Grade 0-1,,,X,X
+NM149,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,nivolumab,"Colitis, Rash, pancreatitis",2,Grade 2+,,,X,
+NM150,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,nivolumab,Arthralgia,0,Grade 0-1,,,X,
+NM151,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,ipilimumab+nivolumab,"Anthralgia, myalgia",3,Grade 2+,,X,X,X
+NM152,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,ipilimumab+nivolumab,"Colitis, dermatitis, arthralgia, hepatitis",3,Grade 2+,,,X,
+NM153,Male,NOT Hispanic or Latino,White,Renal Cell Carcinoma,pembrolizumab,Hepatitis,2,Grade 2+,,,X,
+NM154,Male,Hispanic or Latino,White,Sarcoma,pembrolizumab,"Dermatitis, Pneumonitis",2,Grade 2+,,,,X
+NM155,Male,NOT Hispanic or Latino,White,Small Cell Lung Cancer,atezolizumab,Pneumonitis,3,Grade 2+,X,X,,
+NM156,Male,NOT Hispanic or Latino,White,Small Cell Lung Cancer,nivolumab,,0,Grade 0-1,,,X,
+NM157,Female,NOT Hispanic or Latino,White,Small Cell Lung Cancer,ipilimumab+nivolumab,"Colitis, hyperthyroidism",3,Grade 2+,,X,X,X
+NM158,Female,NOT Hispanic or Latino,Asian,Small Cell Lung Cancer,ipilimumab+nivolumab,Rash,0,Grade 0-1,,,X,
+NM159,Female,NOT Hispanic or Latino,White,Small Cell Lung Cancer,ipilimumab+nivolumab,,1,Grade 0-1,,,X,
+NM160,Male,Hispanic or Latino,White,Small Cell Lung Cancer,atezolizumab,Anthralgia,1,Grade 0-1,,X,,
+NM161,Female,NOT Hispanic or Latino,White,Urothelial tract / Bladder Cancer,atezolizumab,Pneumonitis,2,Grade 2+,X,,X,
+NM162,Female,NOT Hispanic or Latino,White,Urothelial tract / Bladder Cancer,pembrolizumab,,0,Grade 0-1,,,X,X

@@ -36,7 +36,8 @@ Immunotherapy side effects (irAEs) affect 70-90% of checkpoint-inhibitor patient
 | Family history of autoimmunity | Not in any public dataset — would need survey (see Feature Gap below) |
 | Inflammatory markers: NLR | **Chowell 2021 (100% coverage)** — use for cross-study validation of effects |
 | Inflammatory markers: Albumin, Platelets, HGB | **Chowell 2021 (100% coverage)** |
-| Inflammatory markers: CRP, IL-6 | **Not obtainable** at patient level from any public dataset with paired irAE labels (see Feature Gap below) |
+| Inflammatory markers: IL-6 + 39 other cytokines/chemokines | **Khan JITC 2025 (146/162 patients, baseline + 6-8wk, paired with irAE labels)** |
+| Inflammatory markers: CRP | **Not obtainable** at patient level from any public dataset with paired irAE labels (see Feature Gap below) |
 | Prior / simultaneous treatments | FAERS partial; ImmPort `intervention` (SDY1733 has this); Chowell `Chemo_before_IO` |
 | Cancer stage | ImmPort SDY1733 (BCLC A/C), SDY1597 (TNM), Chowell `Stage` + `Stage at IO start` |
 | Cirrhosis / comorbidity | ImmPort SDY1733 |
@@ -86,6 +87,17 @@ Severity label derived from `seriousness_death` / `seriousness_life_threatening`
 - Use for (1) pre-treatment feature enrichment, (2) feature-effect validation against published biomarkers, (3) optional sidecar response model. **Do not train the severity classifier on this.**
 - Downloaded via `scripts/chowell_download.py` (public Nature supplementary, no auth)
 
+### Supplementary: Khan et al. JITC 2025 (162 ICI patients with cytokines AND irAE labels — added 2026-04-17)
+
+- `datasets/khan_jitc_2025/khan_patients_consolidated.csv` — 162 patients × 54 columns (primary modeling file)
+- 40-marker baseline cytokine panel (146/162 patients with BL data): IL-6, IFN-γ, TNF-α, IL-1β, IL-2, IL-4, IL-8, IL-10, IL-16, plus 32 chemokines (CCL/CXCL families, fractalkine, MIF, GM-CSF)
+- **irAE labels: binary (Grade 0-1 vs Grade 2+), CTCAE grade 0/1/2/3, organ system (free text)** — paired with the same patient IDs as the cytokines
+- ICI drug class covers all four: PD-1 (108), PD-L1 (26), CTLA-4 mono (1), combo (24)
+- No CAR-T, no CRP, no CBC/CMP, no albumin
+- Source: Khan et al. *J Immunother Cancer* 2025 [DOI 10.1136/jitc-2025-012414](https://doi.org/10.1136/jitc-2025-012414); data on Zenodo [10.5281/zenodo.17943391](https://zenodo.org/records/17943391); CC BY 4.0
+- Pull script: `scripts/khan_jitc_2025_download.py` (uses curl — Zenodo blocks urllib's default UA)
+- **Why it matters:** This is the only public dataset with patient-level cytokines paired with irAE outcomes. Closes the IL-6 + irAE-label half of the documented public-data gap. Use for: (1) baseline cytokine → irAE classifier (n=146), (2) cross-validation of FAERS-derived demographic feature effects, (3) limitations-section grounding showing exactly which gap features ARE accessible.
+
 ### Supplementary: UK Biobank Showcase catalog *(metadata only, added 2026-04-16)*
 - `datasets/ukbiobank_catalog/` — **metadata only, no patient data** — publicly-downloadable UKB Showcase schemas
 - `fields.tsv` (11,822 fields), `encodings.tsv` (859), `categories.tsv` (411), `encoding_values_hierstr.tsv` (46,928 incl. ICD-10), `encoding_values_hierint.tsv` (28,901)
@@ -119,6 +131,7 @@ ImmunoTherapy/
 │   ├── immport/                                 <- NIH clinical trial data (features FAERS lacks)
 │   ├── cbioportal/                              <- 7 cBioPortal immunotherapy studies (1,218 patients)
 │   ├── chowell_2021/                            <- Chowell 2021 Nat Biotech ICI cohort (1,479 patients, NLR/CBC)
+│   ├── khan_jitc_2025/                          <- Khan JITC 2025 (162 patients with cytokines + irAE labels)
 │   ├── ukbiobank_catalog/                       <- UKB Showcase metadata (no patient data) — gap-feature field refs
 │   └── reference/                               <- CTCAE mapping, drug table, predictive features
 ├── scripts/
@@ -126,6 +139,7 @@ ImmunoTherapy/
 │   ├── cbio_download.py                         <- cBioPortal REST API puller
 │   ├── cbio_consolidate.py                      <- Build all_patients_consolidated.csv
 │   ├── chowell_download.py                      <- Fetch + parse Chowell 2021 Supplementary Data 1
+│   ├── khan_jitc_2025_download.py               <- Fetch + parse Khan JITC 2025 Zenodo deposit
 │   └── ukbiobank_catalog_download.py            <- Pull UKB Showcase schemas + derive gap-feature + autoimmune CSVs
 └── docs/
     └── immunotherapy_side_effects_research.md   <- 8-section research document
@@ -202,19 +216,20 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 
 See `.claude/skills/expand-data/SKILL.md` for detailed evaluation notes.
 
-## Public-Data Feature Gap (Acknowledged Limitation)
+## Public-Data Feature Gap (Partial Closure 2026-04-17)
 
-Three clinically validated irAE-severity predictors from the literature are **not obtainable at patient level from any public dataset with paired irAE labels**:
+Originally three clinically validated irAE-severity predictors were not obtainable at patient level with paired irAE labels. Khan et al. JITC 2025 closes the IL-6 (and broader cytokine) half of the gap:
 
 | Feature | Evidence | Public patient-level source? |
 |---------|----------|------------------------------|
+| ~~**IL-6** (Interleukin-6)~~ | Predicts severe CRS/ICANS in CAR-T (Bone Marrow Transplant 2025) | **Khan JITC 2025 — 146 patients with paired BL + 6-8wk values + irAE labels (CC BY 4.0)** |
 | **CRP** (C-reactive protein) | Nat Med 2024 ICI response predictor; elevated CRP associated with severe irAEs | None with irAE labels |
-| **IL-6** (Interleukin-6) | Predicts severe CRS/ICANS in CAR-T (Bone Marrow Transplant 2025) | None — always prospective institutional collection |
-| **Autoimmune history** | OR 2.09 for Grade 3+ irAEs (Frontiers Immunology 2025, n=3,795) | UK Biobank has ICD codes but requires DUA |
+| **Autoimmune history** | OR 2.09 for Grade 3+ irAEs (Frontiers Immunology 2025, n=3,795) | UK Biobank has ICD codes but requires DUA. Khan JITC 2025 has ANA titer (65/162) as a partial proxy |
 
-**This is documented as a known limitation of the model** rather than hidden. The project's approach:
-1. Train the FAERS severity model on what IS available (demographics, drug, indication, outcome flags).
-2. Use Chowell 2021 (NLR + albumin) for cross-validation of feature effects on tumor response.
-3. Clearly state in the InspiritAI presentation that CRP / IL-6 / autoimmune-history features would require institutional data access (UK Biobank, All of Us, prospective cohort studies) — a legitimate future-work statement.
+**The remaining limitation is documented honestly, not hidden.** The project's approach:
+1. Train the FAERS severity model on what IS available there (demographics, drug, indication, outcome flags).
+2. Use Chowell 2021 (NLR + albumin, no irAE labels) for cross-validation of demographic + drug-class feature effects.
+3. **New:** train a parallel "any irAE" classifier on Khan JITC 2025 (n=146) using the cytokine panel including IL-6 — a complementary pre-treatment prediction task. Cross-validate demographic effects against FAERS.
+4. State in the InspiritAI presentation that CRP and ICD-coded autoimmune history would still require institutional data access (UK Biobank, All of Us, prospective cohort studies) — a defined and tractable future-work statement, not a generic handwave.
 
 Model performance should be interpreted accordingly: an irAE severity model trained only on FAERS is an honest prototype, not a clinical tool.
