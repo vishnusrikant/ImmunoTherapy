@@ -176,6 +176,13 @@ Tools: Python, Google Colab, scikit-learn, pandas, matplotlib, XGBoost
 - **Date-stamp research** — current conventions assume 2026-04-15 baseline; Chowell 2021 + public-data-gap documentation added 2026-04-16
 - **Preserve user's README structure** — the user wrote the original feature list; enhancements go around it, not over it
 
+## Available MCP Tools
+
+User-scope MCPs are installed and available in every session — prefer these over generic web search for biomedical questions.
+
+- **`pubmed`** — search 36M+ biomedical articles, retrieve abstracts / PMC full text / MeSH terms. Use for: irAE mechanism literature, IL-6 / cytokine biology, citing claims in the research doc and limitations section, validating effect-size numbers in the Key Research Findings table.
+- **`ctgov`** — query ClinicalTrials.gov v2 (500K+ trials, no auth). Use for: per-trial MedDRA AE rates as model-evaluation benchmarks (the "Optional" item under Future Work), validating cancer-type / drug enrollment criteria, finding prospective cohorts that pair our gap features (CRP / autoimmune history) with irAE labels for the Future Work section.
+
 ## Key Terminology
 
 | Term | Definition |
