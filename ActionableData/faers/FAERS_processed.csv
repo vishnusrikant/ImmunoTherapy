@@ -10,10 +10,10 @@ PEMBROLIZUMAB,Checkpoint Inhibitor,39,801,Female,89,MALIGNANT MELANOMA,Oesophagi
 PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,81.6,,Colitis,Recovered,Serious,20141031,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,81.6,,Colitis,Recovered,Serious,20141031,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,91,,Generalised oedema,Recovered,Serious,20150707,US,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Hypothyroidism,Not Recovered,Non-Serious,20150409,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Not Recovered,Non-Serious,20150409,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Diarrhoea,Recovered,Non-Serious,20150409,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Pruritus,Recovering,Non-Serious,20150409,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Hypothyroidism,Not Recovered,Non-Serious,20150409,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Not Recovered,Non-Serious,20150409,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Diarrhoea,Recovered,Non-Serious,20150409,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,83,801,Male,,METASTATIC MALIGNANT MELANOMA,Pruritus,Recovering,Non-Serious,20150409,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,90,,Adrenal insufficiency,Recovered,Serious,20160215,NL,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,90,,Peripheral motor neuropathy,Recovered,Serious,20160215,NL,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,65,801,Male,73,MALIGNANT MELANOMA,Hypopituitarism,Not Recovered,Serious,20160215,DE,3
@@ -25,8 +25,8 @@ PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,89,MALIGNANT MELANOMA,Autoimmun
 PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,89,MALIGNANT MELANOMA,Iritis,Recovered,Serious,20190312,DE,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,71,NEOPLASM MALIGNANT,Autoimmune haemolytic anaemia,Recovering,Serious,20150714,IT,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,71,NEOPLASM MALIGNANT,Malignant neoplasm progression,Fatal,Serious,20150714,IT,5
-PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,,Pneumonitis,Recovered,Non-Serious,20141003,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,,Pyrexia,Recovered,Non-Serious,20141003,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,,Pneumonitis,Recovered,Non-Serious,20141003,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,47,801,Male,,,Pyrexia,Recovered,Non-Serious,20141003,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Male,88.6,MALIGNANT MELANOMA,Hypopituitarism,Recovered with Sequelae,Serious,20160215,AU,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,121.2,,Osteolysis,Recovered,Serious,20150720,DE,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,121.2,,Lichenoid keratosis,Not Recovered,Serious,20150720,DE,3
@@ -38,38 +38,38 @@ PEMBROLIZUMAB,Checkpoint Inhibitor,55,801,Female,50.2,BREAST CANCER,Meningitis a
 PEMBROLIZUMAB,Checkpoint Inhibitor,53,801,Female,80,NON-SMALL CELL LUNG CANCER,Pneumonitis chemical,Not Recovered,Serious,20151008,DK,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,70,NON-SMALL CELL LUNG CANCER,Autoimmune haemolytic anaemia,Recovered,Serious,20150915,CA,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,43,801,Male,64.8,MALIGNANT MELANOMA,Hepatic function abnormal,Recovering,Serious,20141203,ES,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Recovered,Non-Serious,20141022,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Not Recovered,Non-Serious,20141022,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Recovered,Non-Serious,20141022,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,73,801,Male,,METASTATIC MALIGNANT MELANOMA,Fatigue,Not Recovered,Non-Serious,20141022,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,77,801,Male,60.2,,Death,Fatal,Serious,20150205,KR,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Female,59.6,MALIGNANT MELANOMA,Dehydration,Recovered,Serious,20141029,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Female,59.6,MALIGNANT MELANOMA,Large intestine perforation,Recovered,Serious,20141029,US,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Arthralgia,Recovered,Non-Serious,20141003,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Rash,Recovered,Non-Serious,20141003,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Alanine aminotransferase increased,Not Recovered,Non-Serious,20141003,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Arthralgia,Recovered,Non-Serious,20141003,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Rash,Recovered,Non-Serious,20141003,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,32,801,Male,,,Alanine aminotransferase increased,Not Recovered,Non-Serious,20141003,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,59,801,Male,106,NON-SMALL CELL LUNG CANCER,Muscle necrosis,Recovered,Serious,20150128,ES,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,94,,Small intestinal perforation,Recovered,Serious,20160616,IL,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,56,801,Female,94,,Colitis,Recovered,Serious,20160616,IL,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,MALIGNANT MELANOMA,Sepsis,Recovered,Serious,20150316,GB,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,MALIGNANT MELANOMA,Hyponatraemia,Recovered,Serious,20150316,GB,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,77.4,MALIGNANT MELANOMA,Rash,Recovered,Serious,20150316,GB,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,METASTATIC MALIGNANT MELANOMA,Rash,Not Recovered,Non-Serious,20140926,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,METASTATIC MALIGNANT MELANOMA,Pruritus,Not Recovered,Non-Serious,20140926,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,METASTATIC MALIGNANT MELANOMA,Rash,Not Recovered,Non-Serious,20140926,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,,METASTATIC MALIGNANT MELANOMA,Pruritus,Not Recovered,Non-Serious,20140926,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,70,801,Male,87.3,NON-SMALL CELL LUNG CANCER,Dyspnoea,Recovered,Serious,20140917,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,NON-SMALL CELL LUNG CANCER,Interstitial lung disease,Fatal,Serious,20150813,JP,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,NON-SMALL CELL LUNG CANCER,Pneumonia aspiration,Not Recovered,Serious,20150813,JP,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,61,801,Male,70.2,NON-SMALL CELL LUNG CANCER,Pneumonia aspiration,Not Recovered,Serious,20150813,JP,5
-PEMBROLIZUMAB,Checkpoint Inhibitor,50,801,Male,124,RENAL CELL CARCINOMA,Aspartate aminotransferase increased,Recovering,Serious,20141021,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,50,801,Male,124,RENAL CELL CARCINOMA,Aspartate aminotransferase increased,Recovering,Serious,20141021,US,2
 PEMBROLIZUMAB,Checkpoint Inhibitor,75,801,Male,58.3,LUNG NEOPLASM MALIGNANT,Lung infiltration,Recovered,Serious,20140925,GB,4
 PEMBROLIZUMAB,Checkpoint Inhibitor,75,801,Male,58.3,LUNG NEOPLASM MALIGNANT,Cholecystitis,Recovering,Serious,20140925,GB,4
 PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,57,,Sepsis,Fatal,Serious,20150716,TW,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,54,801,Male,57,,Pneumonitis,Recovered,Serious,20150716,TW,5
-PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,NEOPLASM MALIGNANT,Thrombosis,Not Recovered,Serious,20150127,NL,
-PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,NEOPLASM MALIGNANT,Thrombocytopenia,Not Recovered,Serious,20150127,NL,
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,NEOPLASM MALIGNANT,Thrombosis,Not Recovered,Serious,20150127,NL,2
+PEMBROLIZUMAB,Checkpoint Inhibitor,67,801,Male,65.5,NEOPLASM MALIGNANT,Thrombocytopenia,Not Recovered,Serious,20150127,NL,2
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,METASTATIC MALIGNANT MELANOMA,Dehydration,Recovered,Serious,20141021,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,METASTATIC MALIGNANT MELANOMA,Decreased appetite,Recovered,Serious,20141021,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,METASTATIC MALIGNANT MELANOMA,Diarrhoea,Recovered,Serious,20141021,US,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,74,801,Male,,METASTATIC MALIGNANT MELANOMA,Acute kidney injury,Recovered,Serious,20141021,US,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,44,801,Male,,MALIGNANT MELANOMA,Arthralgia,Recovering,Non-Serious,20150120,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,44,801,Male,,MALIGNANT MELANOMA,Arthralgia,Recovering,Non-Serious,20150120,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,METASTATIC MALIGNANT MELANOMA,Asthenia,Not Recovered,Serious,20141021,US,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,METASTATIC MALIGNANT MELANOMA,Liver function test abnormal,Not Recovered,Serious,20141021,US,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,48,801,Female,,METASTATIC MALIGNANT MELANOMA,Occult blood positive,Not Recovered,Serious,20141021,US,5
@@ -87,8 +87,8 @@ PEMBROLIZUMAB,Checkpoint Inhibitor,78,801,Male,70,,Adrenal insufficiency,Not Rec
 PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,103.2,NON-SMALL CELL LUNG CANCER,Pneumonia,Fatal,Serious,20160129,GB,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,72,801,Male,103.2,NON-SMALL CELL LUNG CANCER,Lower respiratory tract infection,Recovered,Serious,20160129,GB,5
 PEMBROLIZUMAB,Checkpoint Inhibitor,76,801,Male,73,MALIGNANT MELANOMA,Tubulointerstitial nephritis,Recovered,Serious,20150316,IL,3
-PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,,METASTATIC MALIGNANT MELANOMA,Diarrhoea,Recovering,Non-Serious,20141001,US,
-PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Male,,METASTATIC MALIGNANT MELANOMA,Pyrexia,Recovered,Non-Serious,20150203,US,
+PEMBROLIZUMAB,Checkpoint Inhibitor,58,801,Male,,METASTATIC MALIGNANT MELANOMA,Diarrhoea,Recovering,Non-Serious,20141001,US,0-1
+PEMBROLIZUMAB,Checkpoint Inhibitor,45,801,Male,,METASTATIC MALIGNANT MELANOMA,Pyrexia,Recovered,Non-Serious,20150203,US,0-1
 PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,65.7,,Alanine aminotransferase increased,Recovering,Serious,20140929,GB,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,71,801,Male,65.7,,Aspartate aminotransferase increased,Recovering,Serious,20140929,GB,3
 PEMBROLIZUMAB,Checkpoint Inhibitor,52,801,Male,91,,Generalised oedema,Not Recovered,Serious,20150310,FR,3
