@@ -6,7 +6,7 @@ import os
 import json
 from collections import defaultdict, Counter
 
-ROOT = '/home/vishnusrikant/ImmunoTherapy/datasets/cbioportal'
+ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datasets', 'cbioportal')
 
 STUDIES = {
     'mel_dfci_2019': 'Melanoma (DFCI 2019)',

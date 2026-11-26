@@ -60,7 +60,7 @@ FILES = [
     ('JITC%20ANA%20Submit.xlsx',     'supplementary_ana.xlsx'),
 ]
 
-OUT_DIR = '/home/vishnusrikant/ImmunoTherapy/datasets/khan_jitc_2025'
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datasets', 'khan_jitc_2025')
 
 
 def download_all():

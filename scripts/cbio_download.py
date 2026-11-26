@@ -8,7 +8,7 @@ import os
 import time
 
 BASE = 'https://www.cbioportal.org/api'
-OUT_DIR = '/home/vishnusrikant/ImmunoTherapy/datasets/cbioportal'
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datasets', 'cbioportal')
 os.makedirs(OUT_DIR, exist_ok=True)
 
 STUDIES = [

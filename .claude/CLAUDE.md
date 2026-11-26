@@ -1,3 +1,8 @@
+> **Status (Nov 2026):** this file is the original working plan for the AI coding assistant.
+> The project later focused on predicting irAE occurrence from the Khan JITC 2025 cytokine
+> cohort; see the top-level README.md for the current pipeline and results. The FAERS
+> severity plan below is kept for history.
+
 # ImmunoTherapy — Project Context
 
 ## Project Overview

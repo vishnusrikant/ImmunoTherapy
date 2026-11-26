@@ -1,0 +1,11 @@
+# Versions printed by notebooks/irAE_04_feature_analysis.ipynb (Google Colab, Nov 2026)
+numpy==2.4.6
+scipy==1.16.3
+scikit-learn==1.6.1
+statsmodels==0.15.0
+# Also used (versions not recorded in the notebooks)
+pandas
+matplotlib
+seaborn
+xgboost
+lightgbm

@@ -22,7 +22,7 @@ QUARTERS = [
     ('2025', '1'), ('2025', '2'), ('2025', '3'), ('2025', '4'),
 ]
 WORK_DIR = '/tmp/faers_quarterly'
-OUT_DIR = '/home/vishnusrikant/ImmunoTherapy/datasets/faers_quarterly'
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datasets', 'faers_quarterly')
 
 # Drug name substrings to match (case-insensitive) against DRUG.drugname or DRUG.prod_ai.
 # Each tuple: (canonical_name, drug_class, targets_to_match)

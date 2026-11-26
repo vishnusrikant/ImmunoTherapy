@@ -30,7 +30,7 @@ URL = (
     '41587_2021_1070_MOESM3_ESM.xlsx'
 )
 
-OUT_DIR = '/home/vishnusrikant/ImmunoTherapy/datasets/chowell_2021'
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'datasets', 'chowell_2021')
 XLSX_PATH = os.path.join(OUT_DIR, 'supplementary_source.xlsx')
 
 
