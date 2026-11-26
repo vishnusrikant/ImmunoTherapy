@@ -1,5 +1,10 @@
 # ImmPort Data
 
+> **Note (Nov 2026):** the ImmPort study files listed below were removed from this public
+> repository, because ImmPort data are downloaded under a registered-user agreement. They were
+> not used in the current analysis. To reproduce them, register at ImmPort and download studies
+> SDY1597, SDY1658 and SDY1733 through the ImmPort Shared Data API.
+
 Patient-level clinical data from NIH/NIAID-funded immunology studies, downloaded via the [ImmPort Shared Data API](https://docs.immport.org/apidocumentation/) on April 15, 2026.
 
 ## What's Here
