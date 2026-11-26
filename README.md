@@ -1,132 +1,125 @@
-# ImmunoTherapy — Predicting Side Effect Severity with AI
+# Predicting Immune-Related Adverse Events from Baseline Cytokines
 
-## TLDR
+High school research project by **Vishnu Srikant** (Ridge High School, Basking Ridge, NJ),
+mentored through Inspirit AI.
 
-Using AI to predict the **severity of immunotherapy side effects** (Mild / Medium / Severe) for cancer patients, based on patient bio data. Covers both **PD-1/PD-L1 checkpoint inhibitors** and **CAR-T cell therapy**.
+**Question.** Checkpoint inhibitors cause immune-related adverse events (irAEs) in many patients.
+Can a patient's **baseline serum cytokine profile**, plus basic clinical metadata, predict who
+will develop a **Grade 2+ irAE** before treatment starts?
 
-### The Problem
+**Short answer.** Partly. A PLS + regularized logistic regression model reaches a nested
+cross-validated ROC AUC of **0.730 ± 0.113** on 146 patients. That is a real but modest signal
+that needs external validation.
 
-Immunotherapy has revolutionized cancer treatment, but side effects (immune-related adverse events) affect **70-90% of checkpoint inhibitor patients** and **50-93% of CAR-T recipients**. Severity ranges from mild rash to life-threatening organ failure. Predicting severity before treatment could help doctors prepare and personalize care.
+---
 
-### The Approach
+## Data
 
-Build a **classification model** that takes a patient's profile as input and predicts side effect severity:
+- **Source:** Khan et al., *J Immunother Cancer* 2025
+  ([doi:10.1136/jitc-2025-012414](https://doi.org/10.1136/jitc-2025-012414)); data on Zenodo
+  ([10.5281/zenodo.17943391](https://zenodo.org/records/17943391), CC BY 4.0). Public, de-identified.
+- **Modeling file:** [`ActionableData/Khan_workable.csv`](ActionableData/Khan_workable.csv):
+  146 checkpoint-inhibitor patients × 40 baseline cytokines/chemokines, baseline ANA titer
+  (+ missingness flag), gender, ethnicity, race, cancer type, drug.
+- **Target:** `iraE_occurrence`. Grade 2+ irAE: 79 patients; Grade 0-1: 67.
 
-| Input (Patient Features) | Output (Prediction) |
-|--------------------------|---------------------|
-| Cancer type | **Mild** — Grade 1-2, outpatient management |
-| Age, Gender, BMI | **Medium** — Grade 3, hospitalization needed |
-| Previous autoimmune conditions * | **Severe** — Grade 4-5, life-threatening or fatal |
-| Family history of autoimmunity * | |
-| Inflammatory markers (NLR, CRP*, IL-6*) | |
-| Prior / simultaneous treatments | |
+## Pipeline
 
-\* **Feature availability note:** NLR (+ Albumin, Platelets, HGB) is available from the Chowell 2021 cohort (1,479 ICI patients, 100% coverage). **IL-6 paired with irAE labels** is available from Khan et al. JITC 2025 (162 patients, 40-cytokine panel + CTCAE grade). **CRP, autoimmune history, and family history** remain unobtainable at patient level from any public dataset with paired irAE labels — they require institutional DUA access (UK Biobank, SCORPIO, prospective trials). This is acknowledged in the model's documented limitations.
+Run the notebooks in this order. Each one is self-contained and asks for `Khan_workable.csv`
+when it starts.
 
-### Key Findings from Research
-
-| Feature | Impact on Severity |
-|---------|-------------------|
-| **Age >= 60** | 1.49x higher odds of severe side effects |
-| **Pre-existing autoimmune disease** | 2.09x higher odds of severe side effects |
-| **Combination therapy (PD-1 + CTLA-4)** | Side effect rates jump from ~70% to ~90% |
-| **CAR-T product type** | Neurotoxicity varies: Yescarta 33% vs Breyanzi 16% |
-| **Female sex** | Higher overall side effect incidence |
-
-### Two Therapy Types
-
-| | Checkpoint Inhibitors | CAR-T Therapy |
+| Step | Notebook | What it does |
 |---|---|---|
-| **How it works** | Blocks PD-1/CTLA-4 to "release brakes" on immune system | Patient's T-cells engineered to target cancer |
-| **Key drugs** | Keytruda, Opdivo, Yervoy, Tecentriq | Yescarta, Kymriah, Breyanzi, Abecma |
-| **Main side effects** | Organ inflammation (skin, gut, liver, lungs, thyroid) | Cytokine Release Syndrome, Neurotoxicity |
-| **Side effect rate** | 70-90% (any grade) | 50-93% (CRS) |
+| 1. Preprocessing | [`scripts/khan_jitc_2025_download.py`](scripts/khan_jitc_2025_download.py), commit history of `Khan_workable.csv` | Download the cohort, parse below-detection tokens, encode the target, drop 16 patients without the cytokine panel (162 → 146) |
+| 2. Baseline | [`notebooks/InspiritModeling_baseline.ipynb`](notebooks/InspiritModeling_baseline.ipynb) | L2 logistic regression in a leakage-free pipeline, a from-scratch reimplementation as a check, then log-scaled cytokines, elastic net and gradient boosting |
+| 3. Model panel | [`notebooks/irAE_01_model_panel.ipynb`](notebooks/irAE_01_model_panel.ipynb) | 21 classifier families under one locked preprocessing and CV protocol |
+| 4. Logistic variations | [`notebooks/irAE_02_logistic_variations.ipynb`](notebooks/irAE_02_logistic_variations.ipynb) | Grid of 4 cytokine strategies (RAW / COMPOSITE / PLS / COMPOSITE+PLS) × 2 transforms × 4 regularizations |
+| 5. Nested CV | [`notebooks/irAE_03_nested_cv_finalists.ipynb`](notebooks/irAE_03_nested_cv_finalists.ipynb) | Honest evaluation of the finalists with tuning inside the inner loop, plus a bootstrap CI for the winner |
+| 6. Feature analysis | [`notebooks/irAE_04_feature_analysis.ipynb`](notebooks/irAE_04_feature_analysis.ipynb) | What the final model uses: PLS weights and their stability, permutation importance, univariate tests |
+| 7. PLS stability | [`notebooks/irAE_04_pls_stability.ipynb`](notebooks/irAE_04_pls_stability.ipynb) | Stability of PLS components across resamples (outputs not saved in this copy) |
 
----
+Notebooks 1-3 are generated by the scripts in [`scripts/modeling/`](scripts/modeling/)
+(`build_irAE_01/02/03.py`); `irAE_04_pls_stability.py` is the script version of step 7.
+Exported tables are in [`results/`](results/).
 
-## Datasets
+## Results
 
-**413,161 real patient adverse event rows** from FDA FAERS (124,982 via openFDA API + **288,179 from the 2024-2025 Quarterly Data Extract dumps**) + **86 patient-level records** from NIH ImmPort (cancer stage, comorbidities, tumor markers) + **1,218 immunotherapy patients** from cBioPortal (LDH, ECOG, TMB, metastasis sites, survival) + **1,479 pan-cancer ICI patients** from Chowell 2021 Nat Biotech (NLR, Albumin, Platelets, HGB, BMI, TMB — 100% coverage) + **162 ICI patients** from Khan et al. JITC 2025 (40-cytokine panel including IL-6 **paired with irAE occurrence + grade labels**) + reference tables.
+All numbers below are copied from the saved notebook outputs.
 
-```
-datasets/
-├── faers/                                              <- FDA post-marketing data via openFDA API (initial pull)
-│   ├── checkpoint_inhibitor_adverse_events.csv         (62,106 rows — 25,000 reports, 5 drugs)
-│   └── cart_therapy_adverse_events.csv                 (62,876 rows — 17,469 reports, 6 CAR-T products)
-├── faers_quarterly/                                    <- FDA Quarterly Data Extract dumps, 2024-2025 (full)
-│   ├── checkpoint_inhibitor_adverse_events_2024_2025.csv   (253,366 rows — 82,507 reports, 9 drugs)
-│   └── cart_therapy_adverse_events_2024_2025.csv           (34,813 rows — 11,110 reports, 6 CAR-T products)
-├── immport/                                            <- NIH clinical trial data (small, rich features)
-│   ├── SDY1733/                                        (56 HCC patients, 10 on anti-PD-1 + BCLC stage, cirrhosis, HBV/HCV, AFP)
-│   ├── SDY1597/                                        (30 breast cancer + controls, TNM stages)
-│   └── SDY1658/                                        (16 GBM tumor samples)
-├── cbioportal/                                         <- 7 immunotherapy studies (melanoma / bladder / RCC / NSCLC)
-│   ├── all_patients_consolidated.csv                   (1,218 patients × 29 harmonized columns — LDH, ECOG, TMB, OS/PFS)
-│   └── {7 study folders}                               (mel_dfci_2019, blca_iatlas_imvigor210_2017, etc.)
-├── chowell_2021/                                       <- Chowell 2021 Nat Biotech pan-cancer ICI cohort
-│   ├── chowell_all.csv                                 (1,479 patients × 29 cols — NLR, Albumin, Platelets, HGB, BMI, TMB, Response, OS/PFS)
-│   ├── chowell_training.csv                            (1,184 multi-institution)
-│   └── chowell_test_msk.csv                            (295 MSK held-out)
-├── khan_jitc_2025/                                     <- Khan et al. JITC 2025 — first cohort with cytokines AND irAE labels
-│   ├── khan_patients_consolidated.csv                  (162 patients × 54 cols — 40 baseline cytokines incl. IL-6, irAE binary + grade + organ)
-│   ├── khan_metadata.csv                               (162 patient-level rows: demographics, cancer, ICI drug, irAE labels)
-│   ├── khan_cytokine_long.csv                          (292 rows = 146 patients × BL + 6-8wks)
-│   └── khan_ana_long.csv                               (181 ANA autoantibody titer rows)
-└── reference/
-    ├── ctcae_severity_grades.csv        (CTCAE Grade 1-5 → Mild/Medium/Severe mapping)
-    ├── immunotherapy_drugs.csv          (11 drugs — names, targets, approvals)
-    ├── common_iraes_by_therapy.csv      (21 adverse events with incidence rates)
-    └── predictive_features.csv          (19 validated predictive patient features)
-```
+**Baseline (step 2)**, 5-fold × 10-repeat stratified CV:
 
-### Severity Distribution (derived from FAERS seriousness flags)
+| Model | ROC AUC |
+|---|---|
+| L2 logistic regression, raw cytokines | 0.610 ± 0.086 |
+| Same, log-scaled cytokines | 0.688 ± 0.077 |
+| Elastic net (nested) | 0.685 ± 0.078 |
+| HistGradientBoosting | 0.622 ± 0.100 |
+| Tuned HistGradientBoosting + SelectK (nested) | 0.636 ± 0.096 |
 
-Combined across both FAERS sources (openFDA API + 2024-2025 quarterly dumps):
+For reference, predicting the majority class gives accuracy 0.541.
 
-| | Checkpoint Inhibitors | CAR-T | Combined |
+**Model panel (step 3):** the saved copy of this notebook has no outputs, so its results table
+is not reproduced here. Re-run it to regenerate the ranking.
+
+**Logistic variations (step 4):** best configurations by CV AUC:
+
+| Strategy | Transform | Regularization | AUC |
 |---|---|---|---|
-| **Mild** | 125,325 (40%) | 38,373 (39%) | 163,698 (40%) |
-| **Medium** | 100,981 (32%) | 23,854 (24%) | 124,835 (30%) |
-| **Severe** | 89,166 (28%) | 35,462 (36%) | 124,628 (30%) |
+| COMPOSITE+PLS | log1p | L2, C=0.1 | 0.720 ± 0.093 |
+| PLS | log1p | L2, C=0.1 | 0.719 ± 0.093 |
+| RAW | log1p | L2, C=0.1 | 0.705 ± 0.083 |
+| COMPOSITE | log1p | L2, C=0.1 | 0.687 ± 0.081 |
 
-See [`datasets/README.md`](datasets/README.md) for field descriptions, data quality stats, and how to expand the dataset.
+L1 on composite scores collapsed (AUC 0.475 ± 0.054).
 
-### Additional Datasets
+**Nested CV (step 5):** C tuned in the inner loop; 5 outer folds:
 
-| Dataset | What It Has | Status |
-|---------|-------------|--------|
-| **ImmPort** | Patient-level trial data (demographics, labs, assessments) | **Downloaded** — 86 patients across 3 studies in `datasets/immport/` |
-| **TCGA / cBioPortal** | Cancer genomics + pre-treatment clinical features + survival outcomes | **Downloaded** — 7 immunotherapy studies (1,218 patients) in `datasets/cbioportal/` |
-| **Chowell 2021 (Nat Biotech)** | Pan-cancer ICI: NLR + Albumin + Platelets + HGB + BMI + TMB + outcomes | **Downloaded 2026-04-16** — 1,479 patients in `datasets/chowell_2021/` (100% lab coverage) |
-| **Khan et al. JITC 2025** | ICI cohort with 40-cytokine panel (incl. IL-6) **paired with irAE occurrence + CTCAE grade** | **Downloaded 2026-04-17** — 162 patients in `datasets/khan_jitc_2025/`. Closes the IL-6 + irAE-label half of the public-data gap |
-| **GEO (GSE91061 et al.)** | Gene expression / RNA-seq from ICI-treated patients | **Explored — skipped.** Zero AE coverage; same Riaz cohort already in cBioPortal |
-| **irAExplorer** | Aggregate ICI AE rates across 343 trials (71,087 patients) | **Explored — no download.** Per-trial aggregates only, no API |
-| **ClinicalTrials.gov v2 API** | Per-trial MedDRA-coded AE tables (JSON) | Available — candidate for benchmark/validation data (aggregate, not patient-level) |
-| **FDA FAERS Quarterly Dumps** | Millions of adverse event reports without API cap | **Downloaded** — 2024 Q1 through 2025 Q4 (8 quarters) in `datasets/faers_quarterly/` |
-| **UK Biobank / SCORPIO / LORIS raw** | CRP, IL-6, autoimmune ICD codes | **Not accessible** — institutional DUA / formal application required |
+| Strategy | Nested AUC |
+|---|---|
+| PLS (3 components) | 0.730 ± 0.113 |
+| COMPOSITE+PLS | 0.729 ± 0.118 |
+| RAW | 0.711 ± 0.110 |
+| COMPOSITE | 0.710 ± 0.102 |
 
-See [`.claude/skills/expand-data/SKILL.md`](.claude/skills/expand-data/SKILL.md) for full source-by-source notes including what was evaluated and why.
+Winner (PLS, n=3): pooled out-of-fold AUC 0.716, bootstrap 95% CI [0.629, 0.796].
 
----
+**Feature analysis (step 6)**, across 20 fits (held-out AUC 0.713 ± 0.095):
+- PLS component 1 carries the signal: coefficient +0.470 ± 0.074, positive in 20/20 fits,
+  with 20 of 40 cytokine weights sign-stable.
+- Largest component-1 weights: Eotaxin-2/CCL24 +0.378 (higher level → higher risk),
+  IL-8/CXCL8 −0.353 and IL-6 −0.253 (lower level → higher risk), MCP-1/CCL2 +0.246.
+- Permutation importance (mean drop in held-out AUC): IL-8/CXCL8 0.0474, Eotaxin-2/CCL24 0.0263,
+  cancer group 0.0221, GCP-2/CXCL6 0.0195, IL-2 0.0166, baseline ANA titer 0.0159, IL-6 0.0149.
+- Univariate tests: only IL-8/CXCL8 passes the Bonferroni threshold (p < 0.00125). Its median is
+  7.03 in irAE patients vs 10.35 without irAE (p = 0.0002).
 
-## Research
+## Limitations
 
-Full analysis in [`docs/immunotherapy_side_effects_research.md`](docs/immunotherapy_side_effects_research.md) covering:
+- **Small cohort:** 146 patients, so every estimate is wide. Fold-to-fold AUC standard
+  deviations range from 0.077 to 0.132, larger than the gaps between the top models.
+- **No external validation:** all results are internal cross-validation on a single public
+  dataset; cohort quirks (site, assay batch, case mix) can't be separated from real signal.
+- **Retrospective and observational:** associations are not causal, and baseline cytokines
+  are one snapshot.
+- **Missing data:** the notebooks note that ANA titer is missing for about 62% of patients
+  (median-imputed, with a missingness flag).
+- **Not a clinical tool:** this is a student research prototype.
 
-1. What is cancer immunotherapy (checkpoint inhibitors vs CAR-T)
-2. Side effects — what happens and why (irAEs, CRS, ICANS)
-3. Severity grading (CTCAE scale → Mild/Medium/Severe mapping)
-4. What patient features predict severity (19 validated features, with public-data availability notes)
-5. Available public datasets (FAERS, ImmPort, cBioPortal, Chowell 2021, GEO, ClinicalTrials.gov, VigiBase) and documented public-data feature gap (CRP / IL-6 / autoimmune history)
-6. Existing ML models and prior art (AUC up to 0.99)
-7. Proposed model design (Random Forest + XGBoost; Chowell cross-validation; honest limitations slide)
-8. Medical terms glossary
+## Repository layout
 
----
+```
+ActionableData/    modeling-ready data (Khan_workable.csv) and dataset figures
+notebooks/         analysis notebooks, steps 2-7
+scripts/           data download scripts; scripts/modeling/ builds notebooks 1-3
+results/           exported tables (permutation importance, PLS loadings)
+datasets/          other public datasets assembled for future work (FAERS, cBioPortal, Chowell 2021)
+docs/              project background and the original research plan
+```
 
-## Project Context
+The original project plan (an irAE severity model using FDA FAERS reports) is in
+[`docs/project_background.md`](docs/project_background.md).
 
-- **Program:** InspiritAI
-- **Tools:** Python, Google Colab, scikit-learn, pandas, matplotlib
-- **Data:** Real patient data from public datasets (FDA FAERS primary)
-- **Model:** Classification — Mild / Medium / Severe side effect severity
+## Data citation
+
+Khan et al. *J Immunother Cancer* 2025. doi:10.1136/jitc-2025-012414. Data:
+doi:10.5281/zenodo.17943391 (CC BY 4.0).
