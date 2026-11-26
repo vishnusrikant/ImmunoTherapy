@@ -58,8 +58,35 @@ All numbers below are copied from the saved notebook outputs.
 
 For reference, predicting the majority class gives accuracy 0.541.
 
-**Model panel (step 3):** the saved copy of this notebook has no outputs, so its results table
-is not reproduced here. Re-run it to regenerate the ranking.
+**Model panel (step 3):** 21 classifiers (including a stratified dummy baseline) under one
+locked pipeline, 5-fold × 10-repeat stratified CV; ranked by CV AUC as saved in the notebook:
+
+| Model | AUC (CV mean ± std) | Accuracy (CV mean) | AUC (pooled out-of-fold) |
+|---|---|---|---|
+| Ridge-strong LR (C=0.01) | 0.695 ± 0.082 | 0.633 | 0.678 |
+| Logistic Regression (elastic net) | 0.683 ± 0.083 | 0.628 | 0.653 |
+| LDA (shrinkage) | 0.675 ± 0.081 | 0.623 | 0.670 |
+| Logistic Regression (L2, C=1.0) | 0.675 ± 0.078 | 0.617 | 0.687 |
+| Linear SVM (C=0.1) | 0.665 ± 0.080 | 0.614 | 0.661 |
+| Bagged Trees | 0.659 ± 0.088 | 0.633 | 0.650 |
+| Random Forest | 0.656 ± 0.087 | 0.627 | 0.640 |
+| Logistic Regression (L1, C=0.1) | 0.653 ± 0.088 | 0.612 | 0.622 |
+| LightGBM | 0.649 ± 0.106 | 0.617 | 0.618 |
+| RBF SVM (C=1.0) | 0.647 ± 0.096 | 0.604 | 0.580 |
+| XGBoost | 0.641 ± 0.095 | 0.608 | 0.645 |
+| AdaBoost | 0.637 ± 0.094 | 0.597 | 0.596 |
+| Extra Trees | 0.632 ± 0.083 | 0.594 | 0.638 |
+| MLP (32 units) | 0.629 ± 0.089 | 0.594 | 0.643 |
+| Gradient Boosting | 0.629 ± 0.096 | 0.594 | 0.621 |
+| HistGradientBoosting | 0.622 ± 0.093 | 0.601 | 0.601 |
+| k-NN (k=15) | 0.604 ± 0.089 | 0.594 | 0.578 |
+| Decision Tree (depth 4) | 0.579 ± 0.091 | 0.589 | 0.608 |
+| Gaussian Naive Bayes | 0.575 ± 0.098 | 0.549 | 0.581 |
+| Dummy (stratified) | 0.489 ± 0.091 | 0.499 | 0.497 |
+| PLS-DA (2 components) | NaN ± NaN | 0.617 | 0.678 |
+
+PLS-DA's per-fold AUC came out as NaN in the saved run, so it has only an accuracy and a pooled
+out-of-fold AUC. Regularized linear models lead the panel; tree ensembles and boosting are lower.
 
 **Logistic variations (step 4):** best configurations by CV AUC:
 
