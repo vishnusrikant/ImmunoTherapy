@@ -1,3 +1,8 @@
+> **Status (Nov 2026):** these are public datasets assembled early in the project. The current
+> analysis uses only the Khan JITC 2025 cohort (`ActionableData/Khan_workable.csv`); see the
+> top-level [README](../README.md). The FAERS, cBioPortal, ImmPort, Chowell and UK Biobank
+> material is kept for future work.
+
 # Datasets
 
 ## Organization

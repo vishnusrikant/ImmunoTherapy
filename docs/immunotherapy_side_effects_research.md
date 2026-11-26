@@ -1,3 +1,9 @@
+> **Status (Nov 2026):** background literature notes written while planning the project. They are
+> not part of the current analysis; see the top-level [README](../README.md).
+> Citations were checked against PubMed and the original sources in Nov 2026 and corrected;
+> the line-by-line check is in [citation_check.md](citation_check.md). Some headline figures
+> (e.g. the 70-90% and 50-93% incidence ranges and the organ-incidence table) are not yet sourced.
+
 # Immunotherapy Side Effects — Research & Analysis
 
 ## Executive Summary
@@ -53,7 +59,7 @@ CAR-T has its own distinctive toxicity profile:
 | **Cytopenias** | Low blood cell counts (neutropenia, thrombocytopenia, anemia) — can be prolonged for months | 30-60% | Mild → life-threatening infections |
 | **Infections** | Due to immune suppression and low blood counts | 20-40% | Mild → sepsis |
 
-**Key pattern:** CRS typically starts **1-14 days** after CAR-T infusion. Severity varies dramatically by CAR-T product — ICANS rates: Yescarta 33% vs Kymriah 22% vs Breyanzi 16%.
+**Key pattern:** CRS typically starts **1-14 days** after CAR-T infusion. Severity varies dramatically by CAR-T product — ICANS rates in ICD-coded inpatient data for DLBCL: Yescarta 33% vs Kymriah 22% vs Breyanzi 16% (Blood 2025;146(Suppl 1):8012, ASH abstract).
 
 ---
 
@@ -82,27 +88,27 @@ For the AI classification model:
 
 Published research has identified these features as predictive of irAE severity:
 
-### Strong Evidence (validated in multiple studies)
+### Stronger Evidence (published studies; see sources in each row)
 
 | Feature | Effect | Evidence |
 |---------|--------|----------|
 | **Age ≥ 60 years** | 1.49x higher odds of Grade 3+ irAEs | Frontiers in Immunology, 2025 (n=3,795) |
 | **Pre-existing autoimmune disease** | 2.09x higher odds of Grade 3+ irAEs | Frontiers in Immunology, 2025 (n=3,795) |
-| **Combination therapy (PD-1 + CTLA-4)** | irAE rates jump from ~70% to ~90% | ASCO Clinical Practice Guideline |
-| **Cancer type** | irAE profiles vary significantly across cancers | npj Precision Oncology, 2021 (n=85.97M claims) |
-| **CAR-T product type** | ICANS: Yescarta 33% > Kymriah 22% > Breyanzi 16% | ASH Blood, 2024 |
-| **IL-6 level (day 3 post CAR-T)** | Early IL-6 peak predicts severe CRS and ICANS | Bone Marrow Transplantation, 2025 |
+| **Combination therapy (PD-1 + CTLA-4)** | Higher irAE rates than monotherapy; OR 1.87 for any-grade irAEs | Fang et al., Front Immunol 2025 (n=3,795) |
+| **Cancer type** | irAE profiles vary significantly across cancers | npj Precision Oncology, 2021 (claims database of 85.97M enrollees; 92,858 patients analysed) |
+| **CAR-T product type** | ICANS (ICD-coded inpatient data, DLBCL): Yescarta 33% vs Kymriah 22% vs Breyanzi 16% | Blood 2025;146(Suppl 1):8012 (ASH 2025 abstract) |
+| **IL-6 level (day 3 post CAR-T)** | IL-6 at day 3 post-infusion is one of four variables in a model predicting any-grade ICANS (AUC 0.83; n=101 CD19 CAR-T patients) | Bone Marrow Transplantation, 2025 |
 
 ### Moderate Evidence
 
 | Feature | Effect | Evidence |
 |---------|--------|----------|
-| **Female sex** | Higher irAE incidence overall | Multiple studies |
-| **BMI** | Predictive of irAE severity | Multiple studies |
-| **Baseline NLR** (neutrophil-to-lymphocyte ratio) | Higher NLR → worse irAEs | Frontiers in Immunology, 2025 |
-| **Baseline CRP** (C-reactive protein) | Elevated CRP predicts severe irAEs | Multiple studies |
+| **Female sex** | Higher any-grade irAE incidence (OR 1.37, multivariate) | Fang et al., Front Immunol 2025 |
+| **BMI** | BMI ≥ 25 associated with irAEs in univariate analysis only (OR 1.19) | Fang et al., Front Immunol 2025 |
+| **Baseline NLR** (neutrophil-to-lymphocyte ratio) | Proposed marker; source not yet verified for irAEs | Not yet sourced |
+| **Baseline CRP** (C-reactive protein) | Proposed marker | Not yet sourced |
 | **Pre-infusion D-dimer** | Part of ICANS prediction model (AUC = 0.83) | Bone Marrow Transplantation, 2025 |
-| **Number of prior treatments** | More prior therapies → different irAE profile | Multiple studies |
+| **Number of prior treatments** | May change irAE profile | Not yet sourced |
 | **Antibiotic use** | Associated with higher irAE incidence | Frontiers in Immunology, 2025 |
 | **Cirrhosis / liver disease** | Independent risk factor for irAEs | Frontiers in Immunology, 2025 |
 
@@ -171,7 +177,7 @@ Published research has identified these features as predictive of irAE severity:
 |--------|--------|
 | **What** | Supplementary Data 1 from Chowell et al. *Nature Biotechnology* 2021 — pan-cancer ICB-treated cohort used to train a 16-feature Random Forest (`RF16_prob` in the file) |
 | **Citation** | Chowell et al. "Improved prediction of immune checkpoint blockade efficacy across multiple cancer types." *Nat Biotech* 2021. [DOI 10.1038/s41587-021-01070-8](https://www.nature.com/articles/s41587-021-01070-8) |
-| **Size** | **1,479 patients** (1,184 training, multi-institution + 295 MSK held-out test) |
+| **Size** | **1,479 MSK patients**, split at random 80/20: 1,184 training + 295 test |
 | **Access** | Free public — direct xlsx download from Nature supplementary, no auth. Script: `scripts/chowell_download.py` |
 | **Strengths** | **100% feature coverage on every clinical + lab field:** NLR, Albumin, Platelets, HGB, BMI, exact Age, Sex, TMB, MSI, FCNA, HED, HLA_LOH, Cancer_Type, Drug_class, Response, OS/PFS |
 | **Limitations** | **No irAE labels** — outcomes are tumor response (28% responders) and survival, not side-effect severity. Does NOT join to cBioPortal (MSK uses different de-identification schemes). Dominantly PD1/PDL1 (1,221), with only 253 Combo and 5 CTLA4. |
@@ -219,10 +225,10 @@ Three clinically validated irAE-severity predictors from the literature are **no
 
 | Feature | Literature evidence | Why we can't get it |
 |---------|---------------------|---------------------|
-| **CRP (C-reactive protein)** | Elevated CRP correlates with severe irAEs; baseline + dynamic change both predictive (Nat Med 2024 SCORPIO, multiple institutional cohorts) | SCORPIO (9,745 pts, CMP+CBC incl. CRP-like markers) is institutional-only; no supplementary download |
-| **IL-6 (Interleukin-6)** | Predicts severe CRS/ICANS in CAR-T by day 3 post-infusion (Bone Marrow Transplant 2025) | Always prospective collection under institutional DUA; never released at patient level |
+| **CRP (C-reactive protein)** | Proposed irAE marker; not yet sourced | SCORPIO (Nat Med 2025; 9,745 patients; CBC + CMP; efficacy outcomes, no irAE labels) is institutional-only |
+| **IL-6 (Interleukin-6)** | IL-6 at day 3 is part of an any-grade ICANS prediction model in CD19 CAR-T (Bone Marrow Transplant 2025, n=101) | Always prospective collection under institutional DUA; never released at patient level |
 | **Autoimmune history** | OR 2.09 for Grade 3+ irAEs (Frontiers Immunology 2025, n=3,795) | Requires ICD-10 coded history — exists in UK Biobank but behind formal application + affiliation requirement; not in FAERS/ImmPort/cBioPortal/Chowell |
-| **Family history of autoimmunity** | Consistent but smaller effect in several studies | Not in any public oncology dataset at all |
+| **Family history of autoimmunity** | Not studied in the literature we reviewed | Not in any public oncology dataset at all |
 
 This gap is genuine, not a failure of exploration. We investigated: FAERS, ImmPort, cBioPortal (7 ICI studies), Chowell 2021, Valero 2021, LORIS, SCORPIO (not public), GEO, irAExplorer, ClinicalTrials.gov, VigiBase. The features above are recorded in institutional EHRs and prospective trials but are not part of any dataset that also ships with patient-level irAE severity grades.
 
@@ -239,7 +245,7 @@ We downloaded the UK Biobank Data Showcase schemas (public metadata, no login) i
 |-------------|-----------------|------------------------|--------------------------|
 | **CRP** | Field **30710** — C-reactive protein (mg/L), blood biochemistry panel | **469,326** | **~93%** |
 | **Autoimmune history** | Field **41270** — ICD-10 diagnoses from Hospital Episode Statistics (filtered to 304 codes across 24 autoimmune blocks: M05/M06 RA, M32 SLE, E10 T1D, K50/K51 IBD, L40 psoriasis, G35 MS, E06 Hashimoto's, E05 Graves', etc. — full list in `datasets/ukbiobank_catalog/autoimmune_icd10_codes.csv`) | **448,651** | **~89%** |
-| **IL-6** | Field **30900** — Olink Explore 3072 proteomics (UKB-PPP sub-study; IL-6 is one of 2,941 assays indexed by Data-Coding 143) | **53,039** | **~11%** (sub-study) |
+| **IL-6** | Field **30900** (Olink proteomics sub-study, "Number of proteins measured"; IL-6 is one assay in that panel) | **53,039** | **~11%** (sub-study) |
 | **Albumin** (already in Chowell) | Field **30600** (g/L) | **431,857** | ~86% |
 | **Neutrophil / lymphocyte counts** (NLR inputs, already in Chowell) | Fields **30120** / **30140** | **477,948** | ~95% |
 | **BMI** (already in FAERS-derived + Chowell) | Field **21001** | **499,024** | ~99% |
@@ -262,7 +268,7 @@ We downloaded the UK Biobank Data Showcase schemas (public metadata, no login) i
 | **ePRO + ML for irAE prediction** (BMC Med Inform, 2021) | Extreme gradient boosting on patient-reported outcomes | 34 patients, 820 questionnaires | Accuracy 0.97, AUC 0.99 |
 | **ICANS prediction model** (Bone Marrow Transplant, 2025) | Multivariate logistic regression using cytokine + clinical features | CD19 CAR-T patients | AUC 0.83 (any ICANS), AUC 0.80 (Grade 2-4) |
 | **irAE severity predictors** (Frontiers in Immunology, 2025) | Multivariate logistic regression | 3,795 cancer patients | Age ≥60 OR=1.49, Autoimmune OR=2.09 |
-| **90-day acute care prediction** (JCO CCI, 2022) | ML on structured EHR data | Routine clinical data | Robust interpretable predictions |
+| **90-day acute care prediction** (Lu et al., JCO CCI 2023) | ML on structured EHR data | EHR data, 7,960 ICI patients | XGBoost AUROC 0.70 |
 | **Pharmacovigilance toxicity** (Nature Comp Sci, 2024) | Population-scale modeling on FAERS | FAERS database | Predicted population toxicity profiles |
 
 ---
@@ -290,7 +296,7 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 |-------|-----------|-----|
 | **Logistic Regression** | Low | Interpretable baseline; good for understanding feature importance |
 | **Random Forest** | Medium | Handles mixed feature types; feature importance built-in |
-| **XGBoost** | Medium-High | Best published results for irAE prediction (AUC 0.99 in prior study) |
+| **XGBoost** | Medium-High | AUC 0.99 for detecting irAEs from patient-reported symptoms in a 34-patient pilot (Iivanainen 2021); larger EHR studies report AUC ~0.70-0.76 (Lu 2023; Lippenszky 2024) |
 | **Neural Network (simple)** | High | If dataset is large enough; useful for learning non-linear patterns |
 
 ### Recommended Approach
@@ -336,15 +342,16 @@ Mild    = everything else (Non-Serious OR Serious but recovered without hospital
 - [BMC Med Inform — ePRO + ML for irAE Prediction (2021)](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01564-0)
 - [Bone Marrow Transplantation — ICANS Risk Model in CD19 CAR-T (2025)](https://www.nature.com/articles/s41409-025-02679-y)
 - [Nature Computational Science — Pharmacovigilance Toxicity Profiles (2024)](https://www.nature.com/articles/s43588-024-00748-8)
-- [JCO CCI — Prediction of ICI Effectiveness and Toxicities (2023)](https://ascopubs.org/doi/10.1200/CCI.23.00207)
-- [ASH Blood — CRS and ICANS Incidence Across CAR-T Products (2024)](https://ashpublications.org/blood/article/146/Supplement%201/8012/552391/)
+- [JCO CCI — Prediction of ICI Effectiveness and Toxicities (Lippenszky et al., 2024)](https://ascopubs.org/doi/10.1200/CCI.23.00207)
+- [JCO CCI — ML Predictions of 90-Day Acute Care Use for Immunotherapy Patients (Lu et al., 2023)](https://doi.org/10.1200/CCI.22.00123)
+- [ASH Blood — CRS and ICANS Incidence Across CAR-T Products (2025 ASH abstract)](https://ashpublications.org/blood/article/146/Supplement%201/8012/552391/)
 - [FDA FAERS — openFDA API](https://open.fda.gov/data/faers/)
 - [ImmPort — Shared Immunology Data](https://www.immport.org/shared/)
 - [cBioPortal — Cancer Genomics REST API](https://www.cbioportal.org/api)
 - [Chowell et al. — Nature Biotechnology 2021 pan-cancer ICI cohort](https://www.nature.com/articles/s41587-021-01070-8)
 - [Valero et al. — Nature Communications 2021 NLR + TMB MSK cohort](https://www.nature.com/articles/s41467-021-20935-9)
 - [LORIS — Nature Cancer 2024 (clinical + genomic ICB response model)](https://www.nature.com/articles/s43018-024-00772-7)
-- [SCORPIO — Nature Medicine 2024 (routine blood tests for ICI prediction)](https://www.nature.com/articles/s41591-024-03398-5)
+- [SCORPIO — Nature Medicine 2025 (routine blood tests for ICI prediction)](https://www.nature.com/articles/s41591-024-03398-5)
 - [ClinicalTrials.gov v2 JSON API](https://clinicaltrials.gov/api/v2/studies)
 - [NCBI GEO — E-Utilities API](https://www.ncbi.nlm.nih.gov/geo/info/geo_paccess.html) *(explored, skipped — no AE data)*
 - [irAExplorer — Pan-cancer ICI AE portal (Tan Lab)](https://irae.tanlab.org/) *(explored, no patient-level download)*

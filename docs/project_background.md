@@ -1,3 +1,9 @@
+> **Status (Nov 2026):** this is the project's original plan (a Mild/Medium/Severe severity model
+> on FAERS reports). The project later focused on predicting Grade 2+ irAE occurrence from
+> baseline cytokines; see the top-level [README](../README.md) for the current work.
+> Figures quoted here were corrected after a Nov 2026 citation check ([citation_check.md](citation_check.md));
+> the 70-90% and 50-93% incidence ranges are not yet sourced.
+
 # ImmunoTherapy — Predicting Side Effect Severity with AI
 
 ## TLDR
@@ -29,7 +35,7 @@ Build a **classification model** that takes a patient's profile as input and pre
 |---------|-------------------|
 | **Age >= 60** | 1.49x higher odds of severe side effects |
 | **Pre-existing autoimmune disease** | 2.09x higher odds of severe side effects |
-| **Combination therapy (PD-1 + CTLA-4)** | Side effect rates jump from ~70% to ~90% |
+| **Combination therapy (PD-1 + CTLA-4)** | Higher irAE rates than monotherapy (OR 1.87 for any-grade irAEs; Fang et al., Front Immunol 2025) |
 | **CAR-T product type** | Neurotoxicity varies: Yescarta 33% vs Breyanzi 16% |
 | **Female sex** | Higher overall side effect incidence |
 
@@ -65,9 +71,9 @@ datasets/
 │   └── {7 study folders}                               (mel_dfci_2019, blca_iatlas_imvigor210_2017, etc.)
 ├── chowell_2021/                                       <- Chowell 2021 Nat Biotech pan-cancer ICI cohort
 │   ├── chowell_all.csv                                 (1,479 patients × 29 cols — NLR, Albumin, Platelets, HGB, BMI, TMB, Response, OS/PFS)
-│   ├── chowell_training.csv                            (1,184 multi-institution)
+│   ├── chowell_training.csv                            (1,184 training; random 80/20 split of one MSK cohort)
 │   └── chowell_test_msk.csv                            (295 MSK held-out)
-├── khan_jitc_2025/                                     <- Khan et al. JITC 2025 — first cohort with cytokines AND irAE labels
+├── khan_jitc_2025/                                     <- Khan et al. JITC 2025 — public cohort with baseline cytokines and irAE labels
 │   ├── khan_patients_consolidated.csv                  (162 patients × 54 cols — 40 baseline cytokines incl. IL-6, irAE binary + grade + organ)
 │   ├── khan_metadata.csv                               (162 patient-level rows: demographics, cancer, ICI drug, irAE labels)
 │   ├── khan_cytokine_long.csv                          (292 rows = 146 patients × BL + 6-8wks)
@@ -118,7 +124,7 @@ Full analysis in [`docs/immunotherapy_side_effects_research.md`](docs/immunother
 3. Severity grading (CTCAE scale → Mild/Medium/Severe mapping)
 4. What patient features predict severity (19 validated features, with public-data availability notes)
 5. Available public datasets (FAERS, ImmPort, cBioPortal, Chowell 2021, GEO, ClinicalTrials.gov, VigiBase) and documented public-data feature gap (CRP / IL-6 / autoimmune history)
-6. Existing ML models and prior art (AUC up to 0.99)
+6. Existing ML models and prior art
 7. Proposed model design (Random Forest + XGBoost; Chowell cross-validation; honest limitations slide)
 8. Medical terms glossary
 

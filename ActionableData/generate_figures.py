@@ -36,8 +36,8 @@ def save(fig, name):
 # FAERS
 # ---------------------------------------------------------------------------
 print("Loading FAERS...")
-ci = pd.read_csv(ROOT / "faers" / "checkpoint_inhibitor_adverse_events_2024_2025.csv", low_memory=False)
-ct = pd.read_csv(ROOT / "faers" / "cart_therapy_adverse_events_2024_2025.csv", low_memory=False)
+ci = pd.read_csv(ROOT.parent / "datasets" / "faers_quarterly" / "checkpoint_inhibitor_adverse_events_2024_2025.csv", low_memory=False)
+ct = pd.read_csv(ROOT.parent / "datasets" / "faers_quarterly" / "cart_therapy_adverse_events_2024_2025.csv", low_memory=False)
 faers = pd.concat([ci, ct], ignore_index=True)
 print(f"  combined: {len(faers):,} rows / {faers['caseid'].nunique():,} unique reports")
 

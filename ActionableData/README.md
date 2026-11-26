@@ -1,3 +1,8 @@
+> **Status (Nov 2026):** this folder and README describe the project's original two-dataset plan
+> (a FAERS severity model plus the Khan cytokine cohort). The analysis that was carried through
+> uses only `Khan_workable.csv`; see the top-level [README](../README.md) for the current
+> pipeline and results.
+
 # ActionableData
 
 This folder is the **modeling-ready slice** of the ImmunoTherapy project: the two
@@ -10,8 +15,8 @@ feed into a notebook.
 ```
 ActionableData/
 ├── faers/                                            FDA adverse-event reports
-│   ├── checkpoint_inhibitor_adverse_events_2024_2025.csv   (36 MB, 9 drugs)
-│   └── cart_therapy_adverse_events_2024_2025.csv           (5 MB,  6 products)
+│   └── FAERS_processed.csv                           (the full 2024-2025 extracts live in
+│                                                      ../datasets/faers_quarterly/)
 ├── khan_jitc_2025/                                   Cytokines + irAE labels
 │   ├── khan_patients_consolidated.csv                Primary modeling file (162×54)
 │   ├── khan_metadata.csv                             Demographics + irAE labels (162×13)
