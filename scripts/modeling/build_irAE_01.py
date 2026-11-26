@@ -13,10 +13,10 @@ def code(src):
 # ---------------------------------------------------------------- title
 md("""# irAE Prediction — Model Panel Benchmark
 
-**Purpose.** Benchmark 21 classifier families for predicting immune-related adverse event
+**Purpose.** Benchmark 20 classifier families plus a dummy baseline for predicting immune-related adverse event
 (irAE) occurrence, all under one locked preprocessing pipeline and one evaluation protocol, so
 that differences in the final table reflect the model family — not the plumbing. This is
-notebook 1 of 3 (2: logistic-regression variations; 3: nested-CV final evaluation).
+notebook 1 of 4 (2: logistic-regression variations; 3: nested-CV final evaluation; 4: feature analysis).
 
 **Dataset.** `Khan_workable.csv`: 146 immune-checkpoint-inhibitor patients. Target:
 `iraE_occurrence` (binary, ~79/67 split). Features: ~40 baseline cytokine concentrations
@@ -299,7 +299,7 @@ summary.round(3)""")
 
 md("""### Combined ROC curves (pooled out-of-fold)
 
-All 21 models are plotted. The **top 5 by CV AUC** are highlighted and labeled; the remaining
+All 20 models plus the dummy baseline are plotted. The **top 5 by CV AUC** are highlighted and labeled; the remaining
 models are the gray curves (their exact numbers are in the table above).""")
 
 code("""order = summary["Model"].tolist()          # ranked by repeated-CV AUC

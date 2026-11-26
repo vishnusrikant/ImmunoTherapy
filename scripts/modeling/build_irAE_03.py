@@ -13,10 +13,10 @@ def code(src):
 # ---------------------------------------------------------------- title
 md("""# irAE Prediction — Nested CV, Final Evaluation
 
-**Purpose.** Rigorous final evaluation (notebook 3 of 3) of the four cytokine feature
+**Purpose.** Rigorous final evaluation (notebook 3 of 4) of the four cytokine feature
 strategies from notebook 2 — **RAW, COMPOSITE, PLS (3 components), COMPOSITE+PLS** — each with
 the locked preprocessing (log1p) + mechanism/histology bucketing, and an **L2 logistic
-regression whose C is tuned by nested cross-validation** so the reported AUC is honest. Ends
+regression whose C is tuned by nested cross-validation** so tuning C cannot inflate the reported AUC. Ends
 with the winning model's ROC curve and a bootstrap 95% CI for its AUC.
 
 **Dataset.** `Khan_workable.csv`: 146 immune-checkpoint-inhibitor patients. Target:
@@ -152,7 +152,7 @@ biased upward: C was chosen *because* it looked good on exactly those folds, so 
 apparent skill is luck we selected for. Nested CV separates the two jobs — an **inner loop**
 (5-fold, `random_state=1`) picks C via `GridSearchCV`, and an **outer loop** (5-fold,
 `random_state=42`) scores that whole tuning procedure on folds the tuner never saw. The outer
-score is an honest estimate of "fit + tune, then apply to new patients."
+score estimates "fit + tune C, then apply to new patients" (the other choices were made on the full data; see Caveats).
 
 - Inner: `GridSearchCV` over `clf__C ∈ [0.003, 0.01, 0.03, 0.1, 0.3, 1.0]`, scoring ROC AUC.
 - Outer: `cross_val_score` of the GridSearchCV object itself.""")
@@ -220,7 +220,7 @@ Two views:
 
 1. **Honest view (nested):** let the inner GridSearch tune the component count
    (`n ∈ [2,3,4,5,6]`) alongside C. If tuning n mattered, this would beat the fixed-n=3 row
-   above. It doesn't — the honest AUC is ~0.72 either way, and fixing n=3 gives a tighter
+   above. It doesn't — the nested AUC is ~0.72 either way, and fixing n=3 gives a tighter
    estimate (one fewer knob for the inner loop to overfit).
 2. **Provisional screen (below):** AUC per fixed n at C=0.1 under repeated CV. This is the
    *peeking* view nested CV protects against — use it only to see the shape: AUC peaks at
@@ -309,9 +309,10 @@ md("""## Bottom line
   outer-fold std ≈ **0.11**.
 - At n=146 these strategies are **not statistically distinguishable** — the ranking is
   directional. The bootstrap CI on the winner makes the same point.
-- Against the original ~**0.695** baseline, the honest (nested) improvement to ~0.73 is real
-  but modest: the cytokine panel carries a weak, diffuse irAE signal that supervised
-  compression (PLS) exploits slightly better than raw features or hand-built composites.""")
+- The winner's bootstrap 95% CI [0.629, 0.796] excludes 0.5, so the cytokine panel carries a
+  signal above chance. It is weak and diffuse. Whether PLS improves on the ~**0.695** baseline
+  or on raw features is **not established** at this sample size; the gaps are smaller than the
+  fold-to-fold variation.""")
 
 md("""## Caveats
 

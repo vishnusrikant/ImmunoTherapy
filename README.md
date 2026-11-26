@@ -33,7 +33,7 @@ Run the notebooks in this order. Each one is self-contained: notebooks 01-03 ask
 | Step | Notebook | What it does |
 |---|---|---|
 | 1. Preprocessing | [`scripts/khan_jitc_2025_download.py`](scripts/khan_jitc_2025_download.py), commit history of `Khan_workable.csv` | Download the cohort, parse below-detection tokens, encode the target, drop 16 patients without the cytokine panel (162 → 146) |
-| 2. Baseline | [`notebooks/InspiritModeling_baseline.ipynb`](notebooks/InspiritModeling_baseline.ipynb) | L2 logistic regression in a leakage-free pipeline, a from-scratch reimplementation as a check, then log-scaled cytokines, elastic net and gradient boosting |
+| 2. Baseline | [`notebooks/irAE_00_baseline.ipynb`](notebooks/irAE_00_baseline.ipynb) | L2 logistic regression in a leakage-free pipeline, a from-scratch reimplementation as a check, then log-scaled cytokines, elastic net and gradient boosting |
 | 3. Model panel | [`notebooks/irAE_01_model_panel.ipynb`](notebooks/irAE_01_model_panel.ipynb) | 20 classifier families plus a dummy baseline under one locked preprocessing and CV protocol |
 | 4. Logistic variations | [`notebooks/irAE_02_logistic_variations.ipynb`](notebooks/irAE_02_logistic_variations.ipynb) | Grid of 4 cytokine strategies (RAW / COMPOSITE / PLS / COMPOSITE+PLS) × 2 transforms × 4 regularizations |
 | 5. Nested CV | [`notebooks/irAE_03_nested_cv_finalists.ipynb`](notebooks/irAE_03_nested_cv_finalists.ipynb) | Evaluation of the four finalists with the regularization strength tuned in an inner loop, plus a bootstrap CI for the winner |

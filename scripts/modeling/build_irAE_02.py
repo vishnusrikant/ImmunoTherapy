@@ -14,7 +14,7 @@ def code(src):
 md("""# irAE Prediction — Logistic Regression Variations
 
 **Purpose.** Notebook 1 of this series showed regularized linear models leading the irAE model
-panel. This notebook (2 of 3) drills into **logistic regression only**, varying three axes to
+panel. This notebook (2 of 4) drills into **logistic regression only**, varying three axes to
 find the best linear recipe:
 
 - **(a) Cytokine feature strategy:** RAW / COMPOSITE / PLS / COMPOSITE+PLS
@@ -103,7 +103,7 @@ print(f"{len(cytokine_cols)} cytokines | mechanism: {df['ici_mechanism'].value_c
 # ---------------------------------------------------------------- composite groups
 md("""## Composite cytokine groups
 
-Five biologically-motivated groups; each composite score = mean of the group's **transformed,
+Five biologically-motivated groups were defined; the Th17 group matched no cytokines in this panel and was dropped, leaving four; each composite score = mean of the group's **transformed,
 z-scored** members (mu/sd learned on the train fold only, inside the pipeline). Members are
 matched against the CSV's actual column names — check the printout below.""")
 
@@ -294,7 +294,7 @@ md("""## Findings
 
 - **log1p beats Yeo-Johnson.** YJ estimates a per-feature power parameter on each train fold —
   at n=146 that extra flexibility overfits.
-- **L2 beats L1 / elastic net.** With a weak, diffuse signal, sparsity hurts; L1 on the 5
+- **L2 beats L1 / elastic net.** With a weak, diffuse signal, sparsity hurts; L1 on the 4
   composite scores collapses toward AUC ≈ 0.50 once it zeroes the few features available.
 - **PLS-based strategies rank highest (~0.72)**, RAW ≈ 0.70, COMPOSITE-alone lowest (≈ 0.69):
   supervised latent directions compress the panel better than either raw features or
@@ -309,7 +309,7 @@ md("""## Caveats
 - **Retrospective, single-dataset:** cohort-specific quirks (assay batch, site, case mix)
   cannot be separated from real signal.
 
-Treat the grid ranking as **directional**; the honest comparison of the surviving strategies is
+Treat the grid ranking as **directional**; the nested comparison of the surviving strategies is
 notebook 3's nested CV.""")
 
 nb = {
