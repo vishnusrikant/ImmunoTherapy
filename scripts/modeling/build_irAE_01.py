@@ -178,7 +178,7 @@ SECTIONS = [
  "Partial least squares regression on the 0/1 label with **2 latent components**, thresholded "
  "at 0.5 for class labels. **AUC uses the continuous PLS score** (clipped to [0,1] as a "
  "pseudo-probability), not the thresholded 0/1 prediction.",
- '''class PLSDAClassifier(BaseEstimator, ClassifierMixin):
+ '''class PLSDAClassifier(ClassifierMixin, BaseEstimator):
     """PLSRegression on the binary label; continuous score doubles as the ranking score."""
     def __init__(self, n_components=2):
         self.n_components = n_components

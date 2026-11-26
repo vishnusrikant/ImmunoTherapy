@@ -65,6 +65,7 @@ locked pipeline, 5-fold × 10-repeat stratified CV; ranked by CV AUC as saved in
 |---|---|---|---|
 | Ridge-strong LR (C=0.01) | 0.695 ± 0.082 | 0.633 | 0.678 |
 | Logistic Regression (elastic net) | 0.683 ± 0.083 | 0.628 | 0.653 |
+| PLS-DA (2 components) | 0.679 ± 0.079 | 0.617 | 0.678 |
 | LDA (shrinkage) | 0.675 ± 0.081 | 0.623 | 0.670 |
 | Logistic Regression (L2, C=1.0) | 0.675 ± 0.078 | 0.617 | 0.687 |
 | Linear SVM (C=0.1) | 0.665 ± 0.080 | 0.614 | 0.661 |
@@ -83,10 +84,8 @@ locked pipeline, 5-fold × 10-repeat stratified CV; ranked by CV AUC as saved in
 | Decision Tree (depth 4) | 0.579 ± 0.091 | 0.589 | 0.608 |
 | Gaussian Naive Bayes | 0.575 ± 0.098 | 0.549 | 0.581 |
 | Dummy (stratified) | 0.489 ± 0.091 | 0.499 | 0.497 |
-| PLS-DA (2 components) | NaN ± NaN | 0.617 | 0.678 |
 
-PLS-DA's per-fold AUC came out as NaN in the saved run, so it has only an accuracy and a pooled
-out-of-fold AUC. Regularized linear models lead the panel; tree ensembles and boosting are lower.
+Regularized linear and latent-variable models lead the panel; tree ensembles and boosting are lower.
 
 **Logistic variations (step 4):** best configurations by CV AUC:
 
